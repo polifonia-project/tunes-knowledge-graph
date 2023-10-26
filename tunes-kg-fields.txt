@@ -4,7 +4,7 @@
 "song_description_url" (str)
 "song_title" (str)
 "song_title_in_source" (str)
-"song_types" (list) {'vocal', 'instrumental', 'reel', 'jig', 'hornpipe'}
+"song_types" (list) {'vocal', 'instrumental', 'reel', 'jig', 'hornpipe', ...}
 "composers" (list of dict)
 - "composer_id" (str)
 - "composer_iri" (str)

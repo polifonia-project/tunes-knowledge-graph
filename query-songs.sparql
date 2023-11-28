@@ -36,27 +36,31 @@ CONSTRUCT {
         core:id ?song_id ;  # add to ontology PVK: This is the ID of the song in the collection.
         rdfs:label ?song_title ;
         core:title ?song_title ;
-        mm:hasComposer ?composer_iri_validated ;
+        # mm:hasComposer ?composer_iri_validated ;
         core:description ?song_description_url ; # PVK: This is a url to a webpage for the song. is core:description the right predicate?
         core:isMemberOf ?tunefamily_iri ;
-        core:hasPart ?abstractScoreUri ;
-        core:hasPart ?instrumentationUri ;
-        core:hasPart ?textUri ;
-        mm:isRealisedBy ?musical_performance_iri ;
-        mm:isRecordedBy ?recording_process_iri ;
+        # core:hasPart ?abstractScoreUri ;
+        # core:hasPart ?instrumentationUri ;
+        # core:hasPart ?textUri ;
+        # mm:isRealisedBy ?musical_performance_iri ;
+        # mm:isRecordedBy ?recording_process_iri ;
         core:isInvolvedIn [
             a tunes:CollectionMembership ;
             core:hasMembershipStrength ?tunefamily_confidence ;
             core:hasMember ?tunefamily_iri ;
         ] .
 
-    # ?tunefamily_iri a core:Collection, tunes:TuneFamily ;
-    #     core:isDefinedBy ?tune_collection_concept_iri ;
-    #     core:id ?tunefamily_id ;  # add to ontology
-    #     core:name ?tunefamily_name ;
-    #     core:description ?tunefamily_description_url ;
-    #     core:hasMember ?song_iri .
+    # Tune family
 
+    ?tunefamily_iri a core:Collection, tunes:TuneFamily ;
+        core:isDefinedBy ?tune_collection_concept_iri ;
+        core:id ?tunefamily_id ;  # add to ontology
+        core:name ?tunefamily_name ;
+        core:description ?tunefamily_description_url ;
+        core:hasMember ?song_iri .
+
+    ?tune_collection_concept_iri a core:CollectionConcept ;
+        core:hasMember ?tunefamily_iri .  # add here more triples?
 
     # ?composer_iri_validated a mm:MusicArtist, mm:Musician ;
     #     rdfs:label ?composer_name ;
@@ -145,8 +149,6 @@ CONSTRUCT {
     # ?song_textfamily_iri a tunes:TextFamily ;
     #     core:isDefinedBy ?text_collection_concept .
 
-    # ?tune_collection_concept_iri a core:CollectionConcept ;
-    #     core:hasMember ?tunefamily_iri .  # add here more triples?
 
     # ?text_collection_concept a core:CollectionConcept ;
     #     core:hasMember ?song_textfamily_iri .  # add here more triples?
@@ -222,7 +224,7 @@ WHERE {
         OPTIONAL { ?tune_base xyz:song_textfamily_iri ?song_textfamily_iri . }
         OPTIONAL { ?tune_base xyz:song_lyrics_first_line ?song_lyrics_first_line . }
         OPTIONAL { ?tune_base xyz:tunefamily_id ?tunefamily_id . }
-        OPTIONAL { ?tune_base xyz:tunefamily_iri ?tunefamily_iri . }
+        OPTIONAL { ?tune_base xyz:tunefamily_iri ?tunefamily_iri_temp . }
         OPTIONAL { ?tune_base xyz:tunefamily_name ?tunefamily_name . }
         OPTIONAL { ?tune_base xyz:tunefamily_description_url ?tunefamily_description_url . }
         OPTIONAL { ?tune_base xyz:tunefamily_confidence ?tunefamily_confidence . }
@@ -233,6 +235,12 @@ WHERE {
         OPTIONAL { ?tune_base xyz:song_comment ?song_comment . }
 
         BIND (IRI(?song_iri_temp) AS ?song_iri)
+
+        # Tune family
+
+        BIND(IRI(concat(str(pon-resource:), "TuneFamilyConcept")) as ?tune_collection_concept_iri)
+
+        BIND(IF(BOUND(?tunefamily_iri_temp), IRI(?tunefamily_iri_temp), ?nothing) AS ?tunefamily_iri)
 
         # #######################
         # # NESTED

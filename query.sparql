@@ -14,11 +14,16 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
 # UNMATCHED FIELDS:
     # - song_stanza_number: what does stanza refer to?
+    #   PVK: The stanza of the song of which the melody is a transcription
     # - song_voice_number: what does voice refer to?
+    #   PVK: The voice (or: part) (melody, bass)
     # - song_formatted_source: what does formatted source refer to?
+    #   PVK: string with formatted reference to the source.
     # SOURCE
     # - all the "source" attributes, such as source_publisher: do they refer to the mm:Score class? If so, we need to add a bunch of classes to the Tunes Ontology
+    #   PVK: No, they refer to the source (book, recording, leaflet, etc) of the melody
     # - source_id and tunefamily_id: what is the difference between the two?
+    #   PVK: source_id is an unique identifier for a source, tunefamily_id is unique identifier for a tune family.
 
 # TODOs
     # - split dates into start and end dates
@@ -26,15 +31,6 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
 
 CONSTRUCT {
-    ?composer_iri_validated a mm:MusicArtist, mm:Musician ;
-        rdfs:label ?composer_name ;
-        core:name ?composer_name ;
-        core:id ?composer_id ;  # add to ontology
-        core:activityStartDate ?composer_start_date ;
-        core:activityEndDate ?composer_end_date ;
-        core:hasAgentRole ?composer_role ;  # add to ontology
-        mm:creates ?song_iri .
-
     ?song_iri a mm:MusicEntity ;
         core:id ?song_id ;  # add to ontology
         rdfs:label ?song_title ;
@@ -50,8 +46,17 @@ CONSTRUCT {
         core:isInvolvedIn [
             a tunes:CollectionMembership ;
             core:hasMembershipStrength ?tunefamily_confidence ;
-            core:hasMember ?tunefamily_iri ] ;
+            core:hasMember ?tunefamily_iri ;
         ]
+
+    ?composer_iri_validated a mm:MusicArtist, mm:Musician ;
+        rdfs:label ?composer_name ;
+        core:name ?composer_name ;
+        core:id ?composer_id ;  # add to ontology
+        core:activityStartDate ?composer_start_date ;
+        core:activityEndDate ?composer_end_date ;
+        core:hasAgentRole ?composer_role ;  # add to ontology
+        mm:creates ?song_iri .
 
     ?tunefamily_iri a core:Collection, tunes:TuneFamily ;
         core:isDefinedBy ?tune_collection_concept_iri ;

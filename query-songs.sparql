@@ -81,7 +81,7 @@ CONSTRUCT {
     #     mm:hasScore ?score_uri ;
     #     mm:isRealisedIn ?score_part_iri .
 
-    # ?source_iri a mm:Score, mm:MusicSheet ;
+    # ?source_iri a mm:Score, mm:MusicSheet ; #PVK: The source is not a score. The score (or recording) is IN a source.
     #     core:id ?source_id ;  # add to ontology
     #     core:title ?source_title ;  # add to ontology
     #     core:description ?source_description_url ;  # add to ontology

@@ -1,0 +1,102 @@
+@prefix core:         <http://w3id.org/polifonia/ontology/core/> .
+@prefix fx:           <http://sparql.xyz/facade-x/ns/> .
+@prefix mm:           <http://w3id.org/polifonia/ontology/music-meta/> .
+@prefix mp:           <http://w3id.org/polifonia/ontology/music-projection/> .
+@prefix mr:           <http://w3id.org/polifonia/ontology/music-representation/> .
+@prefix owl:          <http://www.w3.org/2002/07/owl#> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/tunes/> .
+@prefix prov:         <http://www.w3.org/ns/prov#> .
+@prefix rdf:          <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:         <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tunes:        <http://w3id.org/polifonia/ontology/tunes/> .
+@prefix xsd:          <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:          <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg/MusicEntity/0900300001>
+        rdf:type           mm:MusicEntity ;
+        rdfs:label         "Hej nam hej, hej nam hej" ;
+        core:id            "0900300001" ;
+        core:isInvolvedIn  [ rdf:type  tunes:CollectionMembership ] ;
+        core:title         "Hej nam hej, hej nam hej" .
+
+<http://w3id.org/polifonia/resource/tunes/thesession/MusicEntity/38079>
+        rdf:type           mm:MusicEntity ;
+        rdfs:label         "101 To Dublin" ;
+        core:id            "38079" ;
+        core:isInvolvedIn  [ rdf:type        tunes:CollectionMembership ;
+                             core:hasMember  <http://w3id.org/polifonia/resource/tunes/thesession/TuneFamily/19336>
+                           ] ;
+        core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/thesession/TuneFamily/19336> ;
+        core:title         "101 To Dublin" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/TuneFamily/12044_0>
+        rdf:type          tunes:TuneFamily , core:Collection ;
+        core:description  "https://www.liederenbank.nl/resultaatlijst.php?zoek=12044&actie=melodienorm&sorteer=jaar&lan=en" ;
+        core:hasMember    <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/MusicEntity/NLB126357_01> ;
+        core:id           "12044_0" ;
+        core:isDefinedBy  pon-resource:TuneFamilyConcept ;
+        core:name         "Sehnsucht nach dem Frühling" .
+
+<http://w3id.org/polifonia/resource/tunes/essen/MusicEntity/A0245>
+        rdf:type           mm:MusicEntity ;
+        rdfs:label         "Rautenstraeuchlein oder Traum eines Ehemannes" ;
+        core:id            "A0245" ;
+        core:isInvolvedIn  [ rdf:type  tunes:CollectionMembership ] ;
+        core:title         "Rautenstraeuchlein oder Traum eines Ehemannes" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/MusicEntity/NLB070996_01>
+        rdf:type           mm:MusicEntity ;
+        rdfs:label         "Er reed er eens een ruiter al door het woud  [...]" ;
+        core:description   "https://www.liederenbank.nl/liedpresentatie.php?zoek=70996&lan=en" ;
+        core:id            "NLB070996_01" ;
+        core:isInvolvedIn  [ rdf:type                    tunes:CollectionMembership ;
+                             core:hasMember              <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/TuneFamily/9744_1> ;
+                             core:hasMembershipStrength  "neutral"
+                           ] ;
+        core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/TuneFamily/9744_1> ;
+        core:title         "Er reed er eens een ruiter al door het woud  [...]" .
+
+<http://w3id.org/polifonia/resource/tunes/thesession/TuneFamily/19336>
+        rdf:type          tunes:TuneFamily , core:Collection ;
+        core:description  "https://thesession.org/tunes/19336" ;
+        core:hasMember    <http://w3id.org/polifonia/resource/tunes/thesession/MusicEntity/38079> ;
+        core:id           "19336" ;
+        core:isDefinedBy  pon-resource:TuneFamilyConcept ;
+        core:name         "101 To Dublin" .
+
+<http://w3id.org/polifonia/resource/tunes/rism/MusicEntity/453012267>
+        rdf:type           mm:MusicEntity ;
+        rdfs:label         "Si bona suscepimus" ;
+        core:id            "453012267" ;
+        core:isInvolvedIn  [ rdf:type  tunes:CollectionMembership ] ;
+        core:title         "Si bona suscepimus" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/MusicEntity/NLB126357_01>
+        rdf:type           mm:MusicEntity ;
+        rdfs:label         "No 36" ;
+        core:description   "https://www.liederenbank.nl/liedpresentatie.php?zoek=126357&lan=en" ;
+        core:id            "NLB126357_01" ;
+        core:isInvolvedIn  [ rdf:type                    tunes:CollectionMembership ;
+                             core:hasMember              <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/TuneFamily/12044_0> ;
+                             core:hasMembershipStrength  "neutral"
+                           ] ;
+        core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/TuneFamily/12044_0> ;
+        core:title         "No 36" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/TuneFamily/9744_1>
+        rdf:type          tunes:TuneFamily , core:Collection ;
+        core:description  "https://www.liederenbank.nl/resultaatlijst.php?zoek=9744&actie=melodienorm&sorteer=jaar&lan=en" ;
+        core:hasMember    <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/MusicEntity/NLB070996_01> ;
+        core:id           "9744_1" ;
+        core:isDefinedBy  pon-resource:TuneFamilyConcept .
+
+<http://w3id.org/polifonia/resource/tunes/cre/MusicEntity/cre.1_019bonny_k_Or>
+        rdf:type           mm:MusicEntity ;
+        rdfs:label         "Bonnie Kate (original version) (reel)" ;
+        core:id            "cre.1_019bonny_k_Or" ;
+        core:isInvolvedIn  [ rdf:type  tunes:CollectionMembership ] ;
+        core:title         "Bonnie Kate (original version) (reel)" .
+
+pon-resource:TuneFamilyConcept
+        rdf:type        core:CollectionConcept ;
+        core:hasMember  <http://w3id.org/polifonia/resource/tunes/thesession/TuneFamily/19336> , <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/TuneFamily/9744_1> , <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/TuneFamily/12044_0> .

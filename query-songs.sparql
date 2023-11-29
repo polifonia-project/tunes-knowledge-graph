@@ -55,14 +55,15 @@ CONSTRUCT {
     # Tune family
 
     ?tunefamily_iri a core:Collection, tunes:TuneFamily ;
-        core:isDefinedBy ?tune_collection_concept_iri ;
+        #core:isDefinedBy ?tune_collection_concept_iri ;
         core:id ?tunefamily_id ;  # add to ontology
         core:name ?tunefamily_name ;
         core:description ?tunefamily_description_url ;
         core:hasMember ?song_iri .
 
-    ?tune_collection_concept_iri a core:CollectionConcept ;
-        core:hasMember ?tunefamily_iri .  # add here more triples?
+    # Not use for now
+    # ?tune_collection_concept_iri a core:CollectionConcept ;
+    #     core:hasMember ?tunefamily_iri .  # add here more triples?
 
     # ?composer_iri_validated a mm:MusicArtist, mm:Musician ;
     #     rdfs:label ?composer_name ;

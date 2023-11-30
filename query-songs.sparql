@@ -9,6 +9,7 @@ PREFIX mp:  <http://w3id.org/polifonia/ontology/music-projection/>
 PREFIX mr:  <http://w3id.org/polifonia/ontology/music-representation/>
 PREFIX core:  <http://w3id.org/polifonia/ontology/core/>
 PREFIX tunes:  <http://w3id.org/polifonia/ontology/tunes/>
+PREFIX src: <http://w3id.org/polifonia/ontology/source/>
 PREFIX pon-resource: <http://w3id.org/polifonia/resource/tunes/>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -46,6 +47,13 @@ CONSTRUCT {
         # core:hasPart ?textUri ;
         # mm:isRealisedBy ?musical_performance_iri ;
         # mm:isRecordedBy ?recording_process_iri ;
+        src:hasSource ?source_iri ;
+        # new blank node SourceSituation (reification)
+        tunes:hasSourceIdentifiers [
+            a tunes:SourceIdentifier ;
+            tunes:hasSourceId ?song_serial_number_in_source ;
+            tunes:pageInSource ?song_page_number_in_source .
+        ]
         core:isInvolvedIn [
             a tunes:CollectionMembership ;
             core:hasMembershipStrength ?tunefamily_confidence ;
@@ -84,27 +92,72 @@ CONSTRUCT {
     #     mm:hasScore ?score_uri ;
     #     mm:isRealisedIn ?score_part_iri .
 
-    # ?source_iri a mm:Score, mm:MusicSheet ; #PVK: The source is not a score. The score (or recording) is IN a source.
-    #     core:id ?source_id ;  # add to ontology
-    #     core:title ?source_title ;  # add to ontology
-    #     core:description ?source_description_url ;  # add to ontology
-    #     mm:hasScan ?source_scan_url ;  # add to ontology
-    #     mm:hasLibrarySiglum ?source_library_siglum ;  # add to ontology
-    #     mm:hasCurrentOwner ?source_current_owner_iri ;  # add to ontology
-    #     mm:hasScorePart ?score_part_iri ;
-    #     mm:hasPubblicationSituation [
-    #         a mm:PublicationSituation ;
-    #         core:hasPlace [
-    #             a core:Place ;
-    #             core:name ?source_place_of_publishing ] ;
-    #         core:hasTimeInterval [
-    #             a core:TimeInterval ;
-    #             core:startDate ?source_date ;  # TODO: split dates into start and end dates
-    #             core:endDate ?source_date ] ;  # TODO: split dates into start and end dates
-    #         mm:hasPublisher ?source_publisher_iri ;
-    #     ] ;
-    #     core:hasType ?source_type ;  # add to ontology
-    #     mm:hasScribe ?source_scribe_iri .
+    ?score_uri a mm:Score ;
+        core:id ?score_id ;  # add to ontology
+        core:title ?score_title ;  # add to ontology
+        core:description ?score_description_url ;  # add to ontology
+        mm:hasScorePart ?score_part_iri ;
+        mm:hasPubblicationSituation [
+            a mm:PublicationSituation ;
+            core:hasPlace [
+                a core:Place ;
+                core:name ?source_place_of_publishing ] ;
+            core:hasTimeInterval [
+                a core:TimeInterval ;
+                core:startDate ?source_date ;  # TODO: split dates into start and end dates
+                core:endDate ?source_date ] ;  # TODO: split dates into start and end dates
+            mm:hasPublisher ?source_publisher_iri ;
+        ] .
+    
+    ?stanza_iri a mm:CompositionPart, mm:Stanza ;
+        core:hasTextFragment ?text_fragment_iri ;
+        mm:isRealisedIn ?score_iri ;
+        core:isPartOf ?abstractScoreUri .
+
+    ?source_iri a src:Source ; 
+        src:hasType ?source_type_iri ;  
+        src:hasSubject ?song_iri ;
+        core:title ?source_title ;  # add to ontology
+        core:description ?source_description_url ;  # add to ontology
+        src:hasScan ?source_scan_url ;  # add to ontology
+        # owners (past and present) can be modelled this way. In this case, in ther WHERE clause (or directly in the JSON), it has to be specified the owner state (e.g. current, former)
+        src:hasOwner [  # add to ontology
+            a core:Agent ;
+            src:ownershipState ?source_ownership_state ;
+            core:id ?source_current_owner_id ;  # add to ontology
+            core:name ?source_current_owner_name ] ;  # add to ontology
+        mm:hasPubblicationSituation [
+            a mm:PublicationSituation ;
+            core:hasPlace [
+                a core:Place ;
+                core:name ?source_place_of_publishing ] ;
+            mm:hasPublisher ?source_publisher_iri ;
+            core:hasTimeInterval [
+                a core:TimeInterval ;
+                core:startDate ?source_date ;  # TODO: split dates into start and end dates
+                core:endDate ?source_date ] ;  # TODO: split dates into start and end dates
+        ] ;
+        core:hasTimeInterval [
+            a core:TimeInterval ;
+            core:startDate ?source_date ;  # TODO: split dates into start and end dates
+            core:endDate ?source_date ] ;  # TODO: split dates into start and end dates
+        core:hasAgentRole [
+            a core:AgentRole ;
+            core:hasRole pon-resource:Scriber ;
+            core:hasAgent ?source_scribe_iri ] ;
+
+        # identifiers can be described using this reification pattern 
+        # in this case, both the ?source_id and the ?source_library_siglum are treated the same way and are disambiguated by the ?source_identifier_type and ?source_id_issuer_iri
+        src:hasIdentifier [  # add to ontology
+            a src:Identifier ;
+            src:hasIdentifierType ?source_identifier_type ;  # e.g. pon-resource:Siglum 
+            src:hasIdentifierValue ?source_id ;  # or ?source_library_siglum ;
+            src:identifierIssuedBy ?source_id_issuer_iri ;  # e.g. pon-resource:Ratsbücherei, Lüneburg
+        ] . 
+        
+
+    ?source_type_iri a src:SourceType ;  # source_type_iri is gonna be something like CONCAT(pon-resource:SourceType, "/", ?source_type)
+        rdfs:label ?source_type .
 
     # ?source_publisher_iri a core:Agent ;
     #     core:id ?source_publisher_id ;  # add to ontology

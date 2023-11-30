@@ -1,6 +1,6 @@
 from argparse import ArgumentParser
 from pathlib import Path
-from subprocess import check_output, CalledProcessError
+from subprocess import CalledProcessError, check_output
 from typing import Union
 
 from rdflib import Graph, Namespace
@@ -132,6 +132,6 @@ def main() -> None:
 if __name__ == '__main__':
     # Test case
     json2rdf('data/sample_data_tunes_metadata.json', 'data/test.ttl',
-             './query.sparql',
+             './query-songs.sparql',
              './sparql-anything-0.8.2.jar')
     # main()

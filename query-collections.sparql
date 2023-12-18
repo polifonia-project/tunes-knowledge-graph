@@ -1,0 +1,51 @@
+# Testing: fx -q query-songs.sparql -values filepath="./sample_data_tunes_metadata_sparse.json" > sample_data_tunes.ttl
+
+PREFIX xyz: <http://sparql.xyz/facade-x/data/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX fx: <http://sparql.xyz/facade-x/ns/>
+PREFIX mm:  <http://w3id.org/polifonia/ontology/music-meta/>
+PREFIX core:  <http://w3id.org/polifonia/ontology/core/>
+PREFIX tunes:  <http://w3id.org/polifonia/ontology/tunes/>
+PREFIX pon-resource: <http://w3id.org/polifonia/resource/tunes/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+CONSTRUCT {
+    ?collection_iri a core:collection ;
+        core:isDefinedBy <pon-resource:CollectionConcept/ElectronicCollection> ;
+        core:name ?collection_name ;
+        core:id ?collection_id ;
+        core:description ?collection_url ;
+        core:comment ?collection_description ;
+        core:hasVersion ?collection_version .
+
+    <pon-resource:CollectionConcept/ElectronicCollection> a core:CollectionConcept ;
+        rdfs:label "Electronic collection of digitally encoded melodies and metadata" ; #how to do this properly?
+        core:hasMember ?collection_iri .  
+
+}
+
+
+WHERE {
+    SERVICE <x-sparql-anything:> {
+
+        fx:properties fx:location ?_filepath ;
+            fx:media-type  "application/json" .
+
+        ?base_root a fx:root ;
+            ?collection_slot ?collection_base .
+
+        ?collection_base 
+            xyz:id ?collection_id ;
+            xyz:name ?collection_name ;
+            xyz:iri ?collection_iri_temp ;
+            xyz:description ?collection_description ;
+            xyz:url ?collection_url ;
+            xyz:version ?collection_version .
+
+        BIND(IRI(?collection_iri_temp) as ?collection_iri)
+
+
+    }
+}

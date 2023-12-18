@@ -1,0 +1,1634 @@
+@prefix core:         <http://w3id.org/polifonia/ontology/core/> .
+@prefix fx:           <http://sparql.xyz/facade-x/ns/> .
+@prefix mm:           <http://w3id.org/polifonia/ontology/music-meta/> .
+@prefix owl:          <http://www.w3.org/2002/07/owl#> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/tunes/> .
+@prefix rdf:          <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:         <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tunes:        <http://w3id.org/polifonia/ontology/tunes/> .
+@prefix xsd:          <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:          <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Art_dealer>
+        rdf:type    core:Role ;
+        rdfs:label  "Art dealer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Stage_director>
+        rdf:type    core:Role ;
+        rdfs:label  "Stage director" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Ethnologist>
+        rdf:type    core:Role ;
+        rdfs:label  "Ethnologist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Psalmodist>
+        rdf:type    core:Role ;
+        rdfs:label  "Psalmodist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Archaeologist>
+        rdf:type    core:Role ;
+        rdfs:label  "Archaeologist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Biographer>
+        rdf:type    core:Role ;
+        rdfs:label  "Biographer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Saxophonist>
+        rdf:type    core:Role ;
+        rdfs:label  "Saxophonist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Soprano>
+        rdf:type    core:Role ;
+        rdfs:label  "Soprano" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Zither_player>
+        rdf:type    core:Role ;
+        rdfs:label  "Zither player" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Ophthalmologist>
+        rdf:type    core:Role ;
+        rdfs:label  "Ophthalmologist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Documentation_center>
+        rdf:type    core:Role ;
+        rdfs:label  "Documentation center" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Music_historian>
+        rdf:type    core:Role ;
+        rdfs:label  "Music historian" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Bagpiper>
+        rdf:type    core:Role ;
+        rdfs:label  "Bagpiper" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Servant>
+        rdf:type    core:Role ;
+        rdfs:label  "Servant" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Horn_player>
+        rdf:type    core:Role ;
+        rdfs:label  "Horn player" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Violin_teacher>
+        rdf:type    core:Role ;
+        rdfs:label  "Violin teacher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Geologist>
+        rdf:type    core:Role ;
+        rdfs:label  "Geologist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Wind_player>
+        rdf:type    core:Role ;
+        rdfs:label  "Wind player" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Art_historian>
+        rdf:type    core:Role ;
+        rdfs:label  "Art historian" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Preceptor>
+        rdf:type    core:Role ;
+        rdfs:label  "Preceptor" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Accountant>
+        rdf:type    core:Role ;
+        rdfs:label  "Accountant" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Bass_Baritone>
+        rdf:type    core:Role ;
+        rdfs:label  "Bass-Baritone" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Barkeeper>
+        rdf:type    core:Role ;
+        rdfs:label  "Barkeeper" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Kapellmastare>
+        rdf:type    core:Role ;
+        rdfs:label  "Kapellmästare" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Bookbinder>
+        rdf:type    core:Role ;
+        rdfs:label  "Bookbinder" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Art_collector>
+        rdf:type    core:Role ;
+        rdfs:label  "Art collector" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Viol_teacher>
+        rdf:type    core:Role ;
+        rdfs:label  "Viol teacher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Performer>
+        rdf:type    core:Role ;
+        rdfs:label  "Performer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Bass_viol_player>
+        rdf:type    core:Role ;
+        rdfs:label  "Bass viol player" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Promoter>
+        rdf:type    core:Role ;
+        rdfs:label  "Promoter" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Bassoon_teacher>
+        rdf:type    core:Role ;
+        rdfs:label  "Bassoon teacher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Music_prefect>
+        rdf:type    core:Role ;
+        rdfs:label  "Music prefect" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Choral_conductor>
+        rdf:type    core:Role ;
+        rdfs:label  "Choral conductor" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Journalist>
+        rdf:type    core:Role ;
+        rdfs:label  "Journalist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Castrato>
+        rdf:type    core:Role ;
+        rdfs:label  "Castrato" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Playwright>
+        rdf:type    core:Role ;
+        rdfs:label  "Playwright" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Laird>
+        rdf:type    core:Role ;
+        rdfs:label  "Laird" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Jurist>
+        rdf:type    core:Role ;
+        rdfs:label  "Jurist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Statesman>
+        rdf:type    core:Role ;
+        rdfs:label  "Statesman" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Organist>
+        rdf:type    core:Role ;
+        rdfs:label  "Organist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Adventurer>
+        rdf:type    core:Role ;
+        rdfs:label  "Adventurer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Naturalist>
+        rdf:type    core:Role ;
+        rdfs:label  "Naturalist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Lyra_viol_player>
+        rdf:type    core:Role ;
+        rdfs:label  "Lyra viol player" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Museum>
+        rdf:type    core:Role ;
+        rdfs:label  "Museum" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Botanist>
+        rdf:type    core:Role ;
+        rdfs:label  "Botanist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Publisher>
+        rdf:type    core:Role ;
+        rdfs:label  "Publisher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Limer>
+        rdf:type    core:Role ;
+        rdfs:label  "Limer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Clarinettist>
+        rdf:type    core:Role ;
+        rdfs:label  "Clarinettist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Orientalist>
+        rdf:type    core:Role ;
+        rdfs:label  "Orientalist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Collector_of_folksongs>
+        rdf:type    core:Role ;
+        rdfs:label  "Collector of folksongs" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Zangmeester>
+        rdf:type    core:Role ;
+        rdfs:label  "Zangmeester" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Trumpeter>
+        rdf:type    core:Role ;
+        rdfs:label  "Trumpeter" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Clockmaker>
+        rdf:type    core:Role ;
+        rdfs:label  "Clockmaker" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Capitular>
+        rdf:type    core:Role ;
+        rdfs:label  "Capitular" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Deacon>
+        rdf:type    core:Role ;
+        rdfs:label  "Deacon" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Physharmonika_player>
+        rdf:type    core:Role ;
+        rdfs:label  "Physharmonika player" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Bishop>
+        rdf:type    core:Role ;
+        rdfs:label  "Bishop" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Tenor>
+        rdf:type    core:Role ;
+        rdfs:label  "Tenor" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Cornett_player>
+        rdf:type    core:Role ;
+        rdfs:label  "Cornett player" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Secretary>
+        rdf:type    core:Role ;
+        rdfs:label  "Secretary" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Benefactor>
+        rdf:type    core:Role ;
+        rdfs:label  "Benefactor" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Banker>
+        rdf:type    core:Role ;
+        rdfs:label  "Banker" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Merchant>
+        rdf:type    core:Role ;
+        rdfs:label  "Merchant" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Songwriter>
+        rdf:type    core:Role ;
+        rdfs:label  "Songwriter" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Kapelnik>
+        rdf:type    core:Role ;
+        rdfs:label  "Kapelník" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Business_educator>
+        rdf:type    core:Role ;
+        rdfs:label  "Business educator" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Kapelmistrz>
+        rdf:type    core:Role ;
+        rdfs:label  "Kapelmistrz" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Violist>
+        rdf:type    core:Role ;
+        rdfs:label  "Violist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Singing_master>
+        rdf:type    core:Role ;
+        rdfs:label  "Singing master" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Actor>
+        rdf:type    core:Role ;
+        rdfs:label  "Actor" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Bass>
+        rdf:type    core:Role ;
+        rdfs:label  "Bass" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Horticulturist>
+        rdf:type    core:Role ;
+        rdfs:label  "Horticulturist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Clarinet_maker>
+        rdf:type    core:Role ;
+        rdfs:label  "Clarinet maker" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Soprano_castrato>
+        rdf:type    core:Role ;
+        rdfs:label  "Soprano castrato" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Provost>
+        rdf:type    core:Role ;
+        rdfs:label  "Provost" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Custos>
+        rdf:type    core:Role ;
+        rdfs:label  "Custos" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Library>
+        rdf:type    core:Role ;
+        rdfs:label  "Library" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Military_man>
+        rdf:type    core:Role ;
+        rdfs:label  "Military man" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Matron>
+        rdf:type    core:Role ;
+        rdfs:label  "Matron" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Impresario>
+        rdf:type    core:Role ;
+        rdfs:label  "Impresario" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Unionist>
+        rdf:type    core:Role ;
+        rdfs:label  "Unionist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Theologian>
+        rdf:type    core:Role ;
+        rdfs:label  "Theologian" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Builder>
+        rdf:type    core:Role ;
+        rdfs:label  "Builder" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Librettist>
+        rdf:type    core:Role ;
+        rdfs:label  "Librettist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Historian>
+        rdf:type    core:Role ;
+        rdfs:label  "Historian" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Possessor>
+        rdf:type    core:Role ;
+        rdfs:label  "Possessor" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Opera_director>
+        rdf:type    core:Role ;
+        rdfs:label  "Opera director" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Literary_historian>
+        rdf:type    core:Role ;
+        rdfs:label  "Literary historian" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Beekeeper>
+        rdf:type    core:Role ;
+        rdfs:label  "Beekeeper" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Judge>
+        rdf:type    core:Role ;
+        rdfs:label  "Judge" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Schoolmaster>
+        rdf:type    core:Role ;
+        rdfs:label  "Schoolmaster" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Cabaret_artist>
+        rdf:type    core:Role ;
+        rdfs:label  "Cabaret artist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Countertenor>
+        rdf:type    core:Role ;
+        rdfs:label  "Countertenor" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Wine_dealer>
+        rdf:type    core:Role ;
+        rdfs:label  "Wine dealer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Cardinal>
+        rdf:type    core:Role ;
+        rdfs:label  "Cardinal" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Warder>
+        rdf:type    core:Role ;
+        rdfs:label  "Warder" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Optician>
+        rdf:type    core:Role ;
+        rdfs:label  "Optician" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Music_seller>
+        rdf:type    core:Role ;
+        rdfs:label  "Music seller" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Proofreader>
+        rdf:type    core:Role ;
+        rdfs:label  "Proofreader" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Dean>
+        rdf:type    core:Role ;
+        rdfs:label  "Dean" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Hymn_writer>
+        rdf:type    core:Role ;
+        rdfs:label  "Hymn writer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Policeman>
+        rdf:type    core:Role ;
+        rdfs:label  "Policeman" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Sakristan>
+        rdf:type    core:Role ;
+        rdfs:label  "Sakristan" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Bandmaster>
+        rdf:type    core:Role ;
+        rdfs:label  "Bandmaster" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Church_reformer>
+        rdf:type    core:Role ;
+        rdfs:label  "Church reformer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Missionary>
+        rdf:type    core:Role ;
+        rdfs:label  "Missionary" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Recorder_player>
+        rdf:type    core:Role ;
+        rdfs:label  "Recorder player" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Butler>
+        rdf:type    core:Role ;
+        rdfs:label  "Butler" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Genealogist>
+        rdf:type    core:Role ;
+        rdfs:label  "Genealogist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Governor>
+        rdf:type    core:Role ;
+        rdfs:label  "Governor" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Cinema_bandmaster>
+        rdf:type    core:Role ;
+        rdfs:label  "Cinema bandmaster" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Chronicler>
+        rdf:type    core:Role ;
+        rdfs:label  "Chronicler" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Confectioner>
+        rdf:type    core:Role ;
+        rdfs:label  "Confectioner" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Music_collector>
+        rdf:type    core:Role ;
+        rdfs:label  "Music collector" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Uhlan>
+        rdf:type    core:Role ;
+        rdfs:label  "Uhlan" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Humanist>
+        rdf:type    core:Role ;
+        rdfs:label  "Humanist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Actuary>
+        rdf:type    core:Role ;
+        rdfs:label  "Actuary" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Music_director>
+        rdf:type    core:Role ;
+        rdfs:label  "Music director" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Singer>
+        rdf:type    core:Role ;
+        rdfs:label  "Singer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Librarian>
+        rdf:type    core:Role ;
+        rdfs:label  "Librarian" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Woodwind_player>
+        rdf:type    core:Role ;
+        rdfs:label  "Woodwind player" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Singing_teacher>
+        rdf:type    core:Role ;
+        rdfs:label  "Singing teacher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Kapelmeester>
+        rdf:type    core:Role ;
+        rdfs:label  "Kapelmeester" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Artistic_director>
+        rdf:type    core:Role ;
+        rdfs:label  "Artistic director" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Writer_on_music>
+        rdf:type    core:Role ;
+        rdfs:label  "Writer on music" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Nurseryman>
+        rdf:type    core:Role ;
+        rdfs:label  "Nurseryman" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Cartographer>
+        rdf:type    core:Role ;
+        rdfs:label  "Cartographer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Physician>
+        rdf:type    core:Role ;
+        rdfs:label  "Physician" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Forest_superintendent>
+        rdf:type    core:Role ;
+        rdfs:label  "Forest superintendent" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Farmer>
+        rdf:type    core:Role ;
+        rdfs:label  "Farmer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Sacristan>
+        rdf:type    core:Role ;
+        rdfs:label  "Sacristan" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Dancing_master>
+        rdf:type    core:Role ;
+        rdfs:label  "Dancing-master" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Baker>
+        rdf:type    core:Role ;
+        rdfs:label  "Baker" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Chamberlain>
+        rdf:type    core:Role ;
+        rdfs:label  "Chamberlain" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Glass_painter>
+        rdf:type    core:Role ;
+        rdfs:label  "Glass painter" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Clerk>
+        rdf:type    core:Role ;
+        rdfs:label  "Clerk" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Mestre_de_capela>
+        rdf:type    core:Role ;
+        rdfs:label  "Mestre de capela" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Teacher>
+        rdf:type    core:Role ;
+        rdfs:label  "Teacher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Traveller>
+        rdf:type    core:Role ;
+        rdfs:label  "Traveller" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Horn_teacher>
+        rdf:type    core:Role ;
+        rdfs:label  "Horn teacher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Calligrapher>
+        rdf:type    core:Role ;
+        rdfs:label  "Calligrapher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Trombonist>
+        rdf:type    core:Role ;
+        rdfs:label  "Trombonist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Philosopher>
+        rdf:type    core:Role ;
+        rdfs:label  "Philosopher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Page>
+        rdf:type    core:Role ;
+        rdfs:label  "Page" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Dramatist>
+        rdf:type    core:Role ;
+        rdfs:label  "Dramatist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Music_printer>
+        rdf:type    core:Role ;
+        rdfs:label  "Music printer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Pianist>
+        rdf:type    core:Role ;
+        rdfs:label  "Pianist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Csakan_player>
+        rdf:type    core:Role ;
+        rdfs:label  "Csakan player" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Flageolet_teacher>
+        rdf:type    core:Role ;
+        rdfs:label  "Flageolet teacher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Surveyor>
+        rdf:type    core:Role ;
+        rdfs:label  "Surveyor" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Physicist>
+        rdf:type    core:Role ;
+        rdfs:label  "Physicist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Lecturer>
+        rdf:type    core:Role ;
+        rdfs:label  "Lecturer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Abbot>
+        rdf:type    core:Role ;
+        rdfs:label  "Abbot" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Pope>
+        rdf:type    core:Role ;
+        rdfs:label  "Pope" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Music_educator>
+        rdf:type    core:Role ;
+        rdfs:label  "Music educator" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Piano_tuner>
+        rdf:type    core:Role ;
+        rdfs:label  "Piano tuner" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Subprior>
+        rdf:type    core:Role ;
+        rdfs:label  "Subprior" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Virginalist>
+        rdf:type    core:Role ;
+        rdfs:label  "Virginalist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Instrumentalist>
+        rdf:type    core:Role ;
+        rdfs:label  "Instrumentalist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Writer>
+        rdf:type    core:Role ;
+        rdfs:label  "Writer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Paper_maker>
+        rdf:type    core:Role ;
+        rdfs:label  "Paper maker" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Miller>
+        rdf:type    core:Role ;
+        rdfs:label  "Miller" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Sangspruchdichter>
+        rdf:type    core:Role ;
+        rdfs:label  "Sangspruchdichter" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Director>
+        rdf:type    core:Role ;
+        rdfs:label  "Director" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Mezzo_soprano>
+        rdf:type    core:Role ;
+        rdfs:label  "Mezzo-soprano" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Entomologist>
+        rdf:type    core:Role ;
+        rdfs:label  "Entomologist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Music_pedagogue>
+        rdf:type    core:Role ;
+        rdfs:label  "Music pedagogue" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Archivist>
+        rdf:type    core:Role ;
+        rdfs:label  "Archivist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Flageolet_player>
+        rdf:type    core:Role ;
+        rdfs:label  "Flageolet player" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Music_critic>
+        rdf:type    core:Role ;
+        rdfs:label  "Music critic" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Courtier>
+        rdf:type    core:Role ;
+        rdfs:label  "Courtier" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Barrister>
+        rdf:type    core:Role ;
+        rdfs:label  "Barrister" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Tailor>
+        rdf:type    core:Role ;
+        rdfs:label  "Tailor" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Court_official>
+        rdf:type    core:Role ;
+        rdfs:label  "Court official" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Scholar>
+        rdf:type    core:Role ;
+        rdfs:label  "Scholar" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Historiographer>
+        rdf:type    core:Role ;
+        rdfs:label  "Historiographer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Timpanist>
+        rdf:type    core:Role ;
+        rdfs:label  "Timpanist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Cello_teacher>
+        rdf:type    core:Role ;
+        rdfs:label  "Cello teacher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Anatomist>
+        rdf:type    core:Role ;
+        rdfs:label  "Anatomist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Monk>
+        rdf:type    core:Role ;
+        rdfs:label  "Monk" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Flute_maker>
+        rdf:type    core:Role ;
+        rdfs:label  "Flute maker" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Astronomer>
+        rdf:type    core:Role ;
+        rdfs:label  "Astronomer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Guitar_maker>
+        rdf:type    core:Role ;
+        rdfs:label  "Guitar maker" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Lawyer>
+        rdf:type    core:Role ;
+        rdfs:label  "Lawyer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Institution>
+        rdf:type    core:Role ;
+        rdfs:label  "Institution" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Organ_builder>
+        rdf:type    core:Role ;
+        rdfs:label  "Organ builder" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Stage_designer>
+        rdf:type    core:Role ;
+        rdfs:label  "Stage designer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Geometer>
+        rdf:type    core:Role ;
+        rdfs:label  "Geometer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Master_of_ceremonies>
+        rdf:type    core:Role ;
+        rdfs:label  "Master of ceremonies" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Lutenist>
+        rdf:type    core:Role ;
+        rdfs:label  "Lutenist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Repetiteur>
+        rdf:type    core:Role ;
+        rdfs:label  "Repetiteur" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Cartoonist>
+        rdf:type    core:Role ;
+        rdfs:label  "Cartoonist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Collector>
+        rdf:type    core:Role ;
+        rdfs:label  "Collector" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Court_lady>
+        rdf:type    core:Role ;
+        rdfs:label  "Court lady" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Presbyter>
+        rdf:type    core:Role ;
+        rdfs:label  "Presbyter" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Numismatic>
+        rdf:type    core:Role ;
+        rdfs:label  "Numismatic" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Folk_music_collector>
+        rdf:type    core:Role ;
+        rdfs:label  "Folk music collector" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Copyist>
+        rdf:type    core:Role ;
+        rdfs:label  "Copyist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Ethnomusicologist>
+        rdf:type    core:Role ;
+        rdfs:label  "Ethnomusicologist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Archdeacon>
+        rdf:type    core:Role ;
+        rdfs:label  "Archdeacon" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Bassoonist>
+        rdf:type    core:Role ;
+        rdfs:label  "Bassoonist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Notary>
+        rdf:type    core:Role ;
+        rdfs:label  "Notary" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Church_warden>
+        rdf:type    core:Role ;
+        rdfs:label  "Church warden" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Archbishop>
+        rdf:type    core:Role ;
+        rdfs:label  "Archbishop" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Vihuelist>
+        rdf:type    core:Role ;
+        rdfs:label  "Vihuelist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Lay_clerk>
+        rdf:type    core:Role ;
+        rdfs:label  "Lay clerk" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Music_engraver>
+        rdf:type    core:Role ;
+        rdfs:label  "Music engraver" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Curator>
+        rdf:type    core:Role ;
+        rdfs:label  "Curator" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Cimbalist>
+        rdf:type    core:Role ;
+        rdfs:label  "Cimbalist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Mandolin_player>
+        rdf:type    core:Role ;
+        rdfs:label  "Mandolin player" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Bassist>
+        rdf:type    core:Role ;
+        rdfs:label  "Bassist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Veterinary>
+        rdf:type    core:Role ;
+        rdfs:label  "Veterinary" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Vicar>
+        rdf:type    core:Role ;
+        rdfs:label  "Vicar" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Mason>
+        rdf:type    core:Role ;
+        rdfs:label  "Mason" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Lexicographer>
+        rdf:type    core:Role ;
+        rdfs:label  "Lexicographer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Hymnologist>
+        rdf:type    core:Role ;
+        rdfs:label  "Hymnologist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Drummer>
+        rdf:type    core:Role ;
+        rdfs:label  "Drummer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Bibliographer>
+        rdf:type    core:Role ;
+        rdfs:label  "Bibliographer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Music_editor>
+        rdf:type    core:Role ;
+        rdfs:label  "Music editor" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Chaplain>
+        rdf:type    core:Role ;
+        rdfs:label  "Chaplain" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Critic>
+        rdf:type    core:Role ;
+        rdfs:label  "Critic" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Philanthropist>
+        rdf:type    core:Role ;
+        rdfs:label  "Philanthropist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Kantor>
+        rdf:type    core:Role ;
+        rdfs:label  "Kantor" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Minnesanger>
+        rdf:type    core:Role ;
+        rdfs:label  "Minnesänger" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Research_institute>
+        rdf:type    core:Role ;
+        rdfs:label  "Research institute" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Author>
+        rdf:type    core:Role ;
+        rdfs:label  "Author" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Other>
+        rdf:type    core:Role ;
+        rdfs:label  "Other" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Piano_maker>
+        rdf:type    core:Role ;
+        rdfs:label  "Piano maker" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Stadtpfeifer>
+        rdf:type    core:Role ;
+        rdfs:label  "Stadtpfeifer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Musicologist>
+        rdf:type    core:Role ;
+        rdfs:label  "Musicologist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Dramaturge>
+        rdf:type    core:Role ;
+        rdfs:label  "Dramaturge" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Palaeontologist>
+        rdf:type    core:Role ;
+        rdfs:label  "Palaeontologist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Spinet_player>
+        rdf:type    core:Role ;
+        rdfs:label  "Spinet player" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Butcher>
+        rdf:type    core:Role ;
+        rdfs:label  "Butcher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Regens_chori>
+        rdf:type    core:Role ;
+        rdfs:label  "Regens chori" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Gallery_owner>
+        rdf:type    core:Role ;
+        rdfs:label  "Gallery owner" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Trouvere>
+        rdf:type    core:Role ;
+        rdfs:label  "Trouvère" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Harpsichord_teacher>
+        rdf:type    core:Role ;
+        rdfs:label  "Harpsichord teacher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Folklorist>
+        rdf:type    core:Role ;
+        rdfs:label  "Folklorist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Antiquarian>
+        rdf:type    core:Role ;
+        rdfs:label  "Antiquarian" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Official>
+        rdf:type    core:Role ;
+        rdfs:label  "Official" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Lute_teacher>
+        rdf:type    core:Role ;
+        rdfs:label  "Lute teacher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Music_scholar>
+        rdf:type    core:Role ;
+        rdfs:label  "Music scholar" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Councillor>
+        rdf:type    core:Role ;
+        rdfs:label  "Councillor" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Theatre_manager>
+        rdf:type    core:Role ;
+        rdfs:label  "Theatre manager" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Essayist>
+        rdf:type    core:Role ;
+        rdfs:label  "Essayist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Autograph_dealer>
+        rdf:type    core:Role ;
+        rdfs:label  "Autograph dealer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Violin_maker>
+        rdf:type    core:Role ;
+        rdfs:label  "Violin maker" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Choirmaster>
+        rdf:type    core:Role ;
+        rdfs:label  "Choirmaster" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Pedagogue>
+        rdf:type    core:Role ;
+        rdfs:label  "Pedagogue" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Nun>
+        rdf:type    core:Role ;
+        rdfs:label  "Nun" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Pater_Ecclesiae>
+        rdf:type    core:Role ;
+        rdfs:label  "Pater Ecclesiae" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Explorer>
+        rdf:type    core:Role ;
+        rdfs:label  "Explorer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Harp_maker>
+        rdf:type    core:Role ;
+        rdfs:label  "Harp maker" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Inventor>
+        rdf:type    core:Role ;
+        rdfs:label  "Inventor" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Alto>
+        rdf:type    core:Role ;
+        rdfs:label  "Alto" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Weaver>
+        rdf:type    core:Role ;
+        rdfs:label  "Weaver" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Maitre_de_ballet>
+        rdf:type    core:Role ;
+        rdfs:label  "Maître de ballet" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Engraver>
+        rdf:type    core:Role ;
+        rdfs:label  "Engraver" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Sackbut_player>
+        rdf:type    core:Role ;
+        rdfs:label  "Sackbut player" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Politician>
+        rdf:type    core:Role ;
+        rdfs:label  "Politician" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Flute_teacher>
+        rdf:type    core:Role ;
+        rdfs:label  "Flute teacher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Zither_teacher>
+        rdf:type    core:Role ;
+        rdfs:label  "Zither teacher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Succentor>
+        rdf:type    core:Role ;
+        rdfs:label  "Succentor" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Brass_instrument_maker>
+        rdf:type    core:Role ;
+        rdfs:label  "Brass instrument maker" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Editor>
+        rdf:type    core:Role ;
+        rdfs:label  "Editor" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Linguist>
+        rdf:type    core:Role ;
+        rdfs:label  "Linguist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Patron>
+        rdf:type    core:Role ;
+        rdfs:label  "Patron" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Senator>
+        rdf:type    core:Role ;
+        rdfs:label  "Senator" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Diplomat>
+        rdf:type    core:Role ;
+        rdfs:label  "Diplomat" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Landlord>
+        rdf:type    core:Role ;
+        rdfs:label  "Landlord" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Clarinet_teacher>
+        rdf:type    core:Role ;
+        rdfs:label  "Clarinet teacher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Archive>
+        rdf:type    core:Role ;
+        rdfs:label  "Archive" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Businessman>
+        rdf:type    core:Role ;
+        rdfs:label  "Businessman" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Photographer>
+        rdf:type    core:Role ;
+        rdfs:label  "Photographer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Classical_scholar>
+        rdf:type    core:Role ;
+        rdfs:label  "Classical scholar" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Postmaster>
+        rdf:type    core:Role ;
+        rdfs:label  "Postmaster" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Dictator>
+        rdf:type    core:Role ;
+        rdfs:label  "Dictator" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Music_publisher>
+        rdf:type    core:Role ;
+        rdfs:label  "Music publisher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Prefect>
+        rdf:type    core:Role ;
+        rdfs:label  "Prefect" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Novelist>
+        rdf:type    core:Role ;
+        rdfs:label  "Novelist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Scientist>
+        rdf:type    core:Role ;
+        rdfs:label  "Scientist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Oboist>
+        rdf:type    core:Role ;
+        rdfs:label  "Oboist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Double_bass_player>
+        rdf:type    core:Role ;
+        rdfs:label  "Double bass player" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Lay_vicar>
+        rdf:type    core:Role ;
+        rdfs:label  "Lay-vicar" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Maitre_de_chapelle>
+        rdf:type    core:Role ;
+        rdfs:label  "Maître de chapelle" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Aesthetician>
+        rdf:type    core:Role ;
+        rdfs:label  "Aesthetician" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Sexton>
+        rdf:type    core:Role ;
+        rdfs:label  "Sexton" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Arranger>
+        rdf:type    core:Role ;
+        rdfs:label  "Arranger" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Magister_puerorum>
+        rdf:type    core:Role ;
+        rdfs:label  "Magister puerorum" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Carillonneur>
+        rdf:type    core:Role ;
+        rdfs:label  "Carillonneur" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Literary_academic>
+        rdf:type    core:Role ;
+        rdfs:label  "Literary academic" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Collector_of_musical_instruments>
+        rdf:type    core:Role ;
+        rdfs:label  "Collector of musical instruments" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Glass_harmonica_player>
+        rdf:type    core:Role ;
+        rdfs:label  "Glass harmonica player" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Pastor>
+        rdf:type    core:Role ;
+        rdfs:label  "Pastor" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Owner>
+        rdf:type    core:Role ;
+        rdfs:label  "Owner" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Dedicatee>
+        rdf:type    core:Role ;
+        rdfs:label  "Dedicatee" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Tinsmith>
+        rdf:type    core:Role ;
+        rdfs:label  "Tinsmith" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Theatre_director>
+        rdf:type    core:Role ;
+        rdfs:label  "Theatre director" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Mayor>
+        rdf:type    core:Role ;
+        rdfs:label  "Mayor" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Forester>
+        rdf:type    core:Role ;
+        rdfs:label  "Forester" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Smith>
+        rdf:type    core:Role ;
+        rdfs:label  "Smith" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Music_theorist>
+        rdf:type    core:Role ;
+        rdfs:label  "Music theorist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Shoemaker>
+        rdf:type    core:Role ;
+        rdfs:label  "Shoemaker" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Illustrator>
+        rdf:type    core:Role ;
+        rdfs:label  "Illustrator" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Peer>
+        rdf:type    core:Role ;
+        rdfs:label  "Peer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Fabricant>
+        rdf:type    core:Role ;
+        rdfs:label  "Fabricant" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Scribe>
+        rdf:type    core:Role ;
+        rdfs:label  "Scribe" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Mineralogist>
+        rdf:type    core:Role ;
+        rdfs:label  "Mineralogist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Civil_servant>
+        rdf:type    core:Role ;
+        rdfs:label  "Civil servant" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Basset_horn_player>
+        rdf:type    core:Role ;
+        rdfs:label  "Basset-horn player" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Translator>
+        rdf:type    core:Role ;
+        rdfs:label  "Translator" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Instrument_maker>
+        rdf:type    core:Role ;
+        rdfs:label  "Instrument maker" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Administrator>
+        rdf:type    core:Role ;
+        rdfs:label  "Administrator" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Carpenter>
+        rdf:type    core:Role ;
+        rdfs:label  "Carpenter" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Plainchant_scribe>
+        rdf:type    core:Role ;
+        rdfs:label  "Plainchant scribe" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Musician>
+        rdf:type    core:Role ;
+        rdfs:label  "Musician" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Clergyman>
+        rdf:type    core:Role ;
+        rdfs:label  "Clergyman" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Music_teacher>
+        rdf:type    core:Role ;
+        rdfs:label  "Music teacher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Military_bandsman>
+        rdf:type    core:Role ;
+        rdfs:label  "Military bandsman" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Flautist>
+        rdf:type    core:Role ;
+        rdfs:label  "Flautist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Theorbo_player>
+        rdf:type    core:Role ;
+        rdfs:label  "Theorbo player" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Troubadour>
+        rdf:type    core:Role ;
+        rdfs:label  "Troubadour" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Brewer>
+        rdf:type    core:Role ;
+        rdfs:label  "Brewer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Baritone>
+        rdf:type    core:Role ;
+        rdfs:label  "Baritone" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Maestro_de_capilla>
+        rdf:type    core:Role ;
+        rdfs:label  "Maestro de capilla" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Engineer>
+        rdf:type    core:Role ;
+        rdfs:label  "Engineer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Philologist>
+        rdf:type    core:Role ;
+        rdfs:label  "Philologist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Dentist>
+        rdf:type    core:Role ;
+        rdfs:label  "Dentist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Hofpfeifer>
+        rdf:type    core:Role ;
+        rdfs:label  "Hofpfeifer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Cellist>
+        rdf:type    core:Role ;
+        rdfs:label  "Cellist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Squire>
+        rdf:type    core:Role ;
+        rdfs:label  "Squire" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Lithographer>
+        rdf:type    core:Role ;
+        rdfs:label  "Lithographer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Chemist>
+        rdf:type    core:Role ;
+        rdfs:label  "Chemist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Sculptor>
+        rdf:type    core:Role ;
+        rdfs:label  "Sculptor" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Writing_master>
+        rdf:type    core:Role ;
+        rdfs:label  "Writing master" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Mathematician>
+        rdf:type    core:Role ;
+        rdfs:label  "Mathematician" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Guitarist>
+        rdf:type    core:Role ;
+        rdfs:label  "Guitarist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Respondent>
+        rdf:type    core:Role ;
+        rdfs:label  "Respondent" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Tune_book_compiler>
+        rdf:type    core:Role ;
+        rdfs:label  "Tune book compiler" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Prelate>
+        rdf:type    core:Role ;
+        rdfs:label  "Prelate" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Poet>
+        rdf:type    core:Role ;
+        rdfs:label  "Poet" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Artist>
+        rdf:type    core:Role ;
+        rdfs:label  "Artist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Canon>
+        rdf:type    core:Role ;
+        rdfs:label  "Canon" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Dancing_teacher>
+        rdf:type    core:Role ;
+        rdfs:label  "Dancing teacher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Zoologist>
+        rdf:type    core:Role ;
+        rdfs:label  "Zoologist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Alto_castrato>
+        rdf:type    core:Role ;
+        rdfs:label  "Alto castrato" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Biologist>
+        rdf:type    core:Role ;
+        rdfs:label  "Biologist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Organ_teacher>
+        rdf:type    core:Role ;
+        rdfs:label  "Organ teacher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Kapellmeister>
+        rdf:type    core:Role ;
+        rdfs:label  "Kapellmeister" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Costume_designer>
+        rdf:type    core:Role ;
+        rdfs:label  "Costume designer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Keyboard_player>
+        rdf:type    core:Role ;
+        rdfs:label  "Keyboard player" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Saint>
+        rdf:type    core:Role ;
+        rdfs:label  "Saint" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Industrialist>
+        rdf:type    core:Role ;
+        rdfs:label  "Industrialist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Biochemist>
+        rdf:type    core:Role ;
+        rdfs:label  "Biochemist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Literary_critic>
+        rdf:type    core:Role ;
+        rdfs:label  "Literary critic" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Harp_teacher>
+        rdf:type    core:Role ;
+        rdfs:label  "Harp teacher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Composer>
+        rdf:type    core:Role ;
+        rdfs:label  "Composer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Maestro_di_cappella>
+        rdf:type    core:Role ;
+        rdfs:label  "Maestro di cappella" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Anthologist>
+        rdf:type    core:Role ;
+        rdfs:label  "Anthologist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Architect>
+        rdf:type    core:Role ;
+        rdfs:label  "Architect" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Employee>
+        rdf:type    core:Role ;
+        rdfs:label  "Employee" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Potter>
+        rdf:type    core:Role ;
+        rdfs:label  "Potter" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Concert_director>
+        rdf:type    core:Role ;
+        rdfs:label  "Concert director" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Designer>
+        rdf:type    core:Role ;
+        rdfs:label  "Designer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Painter>
+        rdf:type    core:Role ;
+        rdfs:label  "Painter" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Wind_instrument_maker>
+        rdf:type    core:Role ;
+        rdfs:label  "Wind instrument maker" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Forger>
+        rdf:type    core:Role ;
+        rdfs:label  "Forger" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Prompter>
+        rdf:type    core:Role ;
+        rdfs:label  "Prompter" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Harpsichordist>
+        rdf:type    core:Role ;
+        rdfs:label  "Harpsichordist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Harpist>
+        rdf:type    core:Role ;
+        rdfs:label  "Harpist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Piano_teacher>
+        rdf:type    core:Role ;
+        rdfs:label  "Piano teacher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Headmaster>
+        rdf:type    core:Role ;
+        rdfs:label  "Headmaster" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Conductor_of_military_band>
+        rdf:type    core:Role ;
+        rdfs:label  "Conductor of military band" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Chansonnier>
+        rdf:type    core:Role ;
+        rdfs:label  "Chansonnier" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Editio_Medicea>
+        rdf:type    core:Role ;
+        rdfs:label  "Editio Medicea" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Conductor>
+        rdf:type    core:Role ;
+        rdfs:label  "Conductor" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Cooper>
+        rdf:type    core:Role ;
+        rdfs:label  "Cooper" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Concertmaster>
+        rdf:type    core:Role ;
+        rdfs:label  "Concertmaster" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Violinist>
+        rdf:type    core:Role ;
+        rdfs:label  "Violinist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Valet>
+        rdf:type    core:Role ;
+        rdfs:label  "Valet" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Preacher>
+        rdf:type    core:Role ;
+        rdfs:label  "Preacher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Fiddler>
+        rdf:type    core:Role ;
+        rdfs:label  "Fiddler" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Pharmacist>
+        rdf:type    core:Role ;
+        rdfs:label  "Pharmacist" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Viola_player>
+        rdf:type    core:Role ;
+        rdfs:label  "Viola player" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Compiler>
+        rdf:type    core:Role ;
+        rdfs:label  "Compiler" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Bookseller>
+        rdf:type    core:Role ;
+        rdfs:label  "Bookseller" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Dancer>
+        rdf:type    core:Role ;
+        rdfs:label  "Dancer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Jew_s_harp_player>
+        rdf:type    core:Role ;
+        rdfs:label  "Jew's harp player" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Geographer>
+        rdf:type    core:Role ;
+        rdfs:label  "Geographer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Harpsichord_maker>
+        rdf:type    core:Role ;
+        rdfs:label  "Harpsichord maker" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Choreographer>
+        rdf:type    core:Role ;
+        rdfs:label  "Choreographer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Oboe_teacher>
+        rdf:type    core:Role ;
+        rdfs:label  "Oboe teacher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Freemason>
+        rdf:type    core:Role ;
+        rdfs:label  "Freemason" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Founder>
+        rdf:type    core:Role ;
+        rdfs:label  "Founder" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Guitar_teacher>
+        rdf:type    core:Role ;
+        rdfs:label  "Guitar teacher" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Printer>
+        rdf:type    core:Role ;
+        rdfs:label  "Printer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Gleeman>
+        rdf:type    core:Role ;
+        rdfs:label  "Gleeman" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Jeweler>
+        rdf:type    core:Role ;
+        rdfs:label  "Jeweler" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Prior>
+        rdf:type    core:Role ;
+        rdfs:label  "Prior" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/String_player>
+        rdf:type    core:Role ;
+        rdfs:label  "String player" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Editor_of_folksongs>
+        rdf:type    core:Role ;
+        rdfs:label  "Editor of folksongs" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Ruler>
+        rdf:type    core:Role ;
+        rdfs:label  "Ruler" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Priest>
+        rdf:type    core:Role ;
+        rdfs:label  "Priest" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Viol_player>
+        rdf:type    core:Role ;
+        rdfs:label  "Viol player" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Keyboard_maker>
+        rdf:type    core:Role ;
+        rdfs:label  "Keyboard maker" .

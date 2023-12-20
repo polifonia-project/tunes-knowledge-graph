@@ -13,6 +13,14 @@
         rdf:type    core:Role ;
         rdfs:label  "Composer" .
 
+<http://w3id.org/polifonia/resource/tunes/Role/Author>
+        rdf:type    core:Role ;
+        rdfs:label  "Author" .
+
 <http://w3id.org/polifonia/resource/tunes/Role/Singer>
         rdf:type    core:Role ;
         rdfs:label  "Singer" .
+
+<http://w3id.org/polifonia/resource/tunes/Role/Publisher>
+        rdf:type    core:Role ;
+        rdfs:label  "Publisher" .

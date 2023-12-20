@@ -1,0 +1,2666 @@
+@prefix core:         <http://w3id.org/polifonia/ontology/core/> .
+@prefix fx:           <http://sparql.xyz/facade-x/ns/> .
+@prefix mm:           <http://w3id.org/polifonia/ontology/music-meta/> .
+@prefix mp:           <http://w3id.org/polifonia/ontology/music-projection/> .
+@prefix mr:           <http://w3id.org/polifonia/ontology/music-representation/> .
+@prefix owl:          <http://www.w3.org/2002/07/owl#> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/tunes/> .
+@prefix prov:         <http://www.w3.org/ns/prov#> .
+@prefix rdf:          <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:         <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix src:          <http://w3id.org/polifonia/ontology/source/> .
+@prefix tunes:        <http://w3id.org/polifonia/ontology/tunes/> .
+@prefix xsd:          <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:          <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1006058>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1006058&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1006058" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag KB: Lbl KB Wouters 20029a"
+                           ] ;
+        src:hasScan        "http://schoolmuseum.uba.uva.nl/view?docId=LCSM_205789/ocr.xml;query=lied*;brand=default#page/3/mode/2up" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001807>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001807&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001807" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002024>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002024&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1002024" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001994>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001994&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001994" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam MI: Afschriften NVA (afschriften van origineel)"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1006481>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1006481&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1006481" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag KB: Lbl KB Wouters 25012"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016017>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016017&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016017" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: 4 G 88"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4G88.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1017386>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1017386&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1017386" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Londen BL: A.328 (incompl.)"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001723>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001723&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001723" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008423>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008423&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1008423" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Facsimile (Amsterdam Toonkunst: 212 D 22)"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001795>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001795&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001795" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam TB: 212 D 21"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016271>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016271&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016271" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Groninger Archieven: 581-40"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016452>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016452&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016452" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam UB: Toonkunst 206-E-16"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/div/IIF11.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016241>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016241&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016241" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: 21 K 17"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/div/21K17.html " ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1011201>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1011201&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1011201" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001681>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001681&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001681" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1000861>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1000861&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1000861" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Utrecht Centraal Museum: Saletkamer (inv 5000-68)"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016283>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016283&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016283" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: 4 G 83"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4G83.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016072>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016072&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016072" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: 4 G 85"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4G85.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001928>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001928&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001928" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasScan        "http://resolver.kb.nl/resolve?urn=MMKB05:000030887" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008417>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008417&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1008417" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Facsimile (Amsterdam Toonkunst: 212 D 22)"
+                           ] ;
+        src:hasScan        "http://books.google.nl/books?id=KhtZAAAAcAAJ&pg=PP1#v=onepage&q&f=false" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016012>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016012&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016012" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "facsimile edition 1979"
+                           ] ;
+        src:hasScan        "http://objects.library.uu.nl/reader/index.php?obj=1874-36348" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1000240>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1000240&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1000240" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Utrecht UB: D oct. 1297 (in facsimile)"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001759>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001759&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001759" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam MI: 3978 1 c14 19e Chants"
+                           ] ;
+        src:hasScan        "http://www.archive.org/details/chantspopulaires00loot" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002031>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002031&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1002031" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam TB: 205 F 38/39"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001434>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001434&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001434" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam MI: 3978 Gesloten Kast: E 1"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016277>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016277&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016277" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: 4 N 45"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4N45.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1015668>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1015668&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1015668" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Utrecht UB: LB-MUZ Rar MSo-13"
+                           ] ;
+        src:hasScan        "http://objects.library.uu.nl/reader/index.php?obj=1874-44870" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004311>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004311&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1004311" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016458>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016458&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016458" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam UB: Toonkunst 212-D-15:4"
+                           ] ;
+        src:hasScan        "https://books.google.nl/books?id=yw5dAAAAcAAJ&pg=PT4#v=onepage&q&f=false" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001615>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001615&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001615" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1019727>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1019727&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1019727" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Utrecht UB: Hs. 20 A 14"
+                           ] ;
+        src:hasScan        "http://objects.library.uu.nl/reader/index.php?obj=1874-322999" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008019>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008019&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1008019" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1012128>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1012128&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1012128" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008568>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008568&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1008568" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/SourceType/print>
+        rdf:type    src:SourceType ;
+        rdfs:label  "print" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1015946>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1015946&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1015946" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Norrköping SB"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008412>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008412&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1008412" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Facsimile (Amsterdam Toonkunst: 212 D 22)"
+                           ] ;
+        src:hasScan        "http://books.google.nl/books?id=CxtZAAAAcAAJ&pg=PA3#v=onepage&q&f=false" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008020>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008020&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1008020" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1015705>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1015705&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1015705" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: 4 G 79"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4G79.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001699>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001699&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001699" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam MI: 3978 1 c 19e Heije"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1019685>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1019685&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1019685" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Antwerpen Artesis Plantijn Hogeschool - Koninklijk Conservatorium: S-SV-ANONI-oud-1"
+                           ] ;
+        src:hasScan        "http://anet.be/digital/opacanet/artkc/o:lvd:3079256/N" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1010375>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1010375&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1010375" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1010164>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1010164&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1010164" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001609>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001609&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001609" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1010019>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1010019&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1010019" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001851>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001851&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001851" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001555>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001555&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001555" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam MI: afschriften Ned. Volksliedarchief"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001821>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001821&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001821" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam UB: Toonkunst 206-E-16"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/div/IIF11.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1011177>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1011177&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1011177" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Uppsala UB: Leufsta mus. tr. 81"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016453>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016453&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016453" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam UB: Toonkunst 206-E-16"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/div/IIF11.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001610>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001610&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001610" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1000047>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1000047&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1000047" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam UB: Ned. Inc. 478 (in facsimile)"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001917>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001917&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001917" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: A-263c-croeb/ 001-003 // Amsterdam TB: 208-G-16 (alleen dl. 1 en 2)"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/div/A-263c-croeb-001.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016242>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016242&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016242" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: 4 E 59 (1-2)"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4E59-1.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002049>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002049&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1002049" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001706>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001706&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001706" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: NMI II C 26"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/div/IIC26.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016815>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016815&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016815" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Gent UB: BIB.ACC.011701"
+                           ] ;
+        src:hasScan        "http://books.google.nl/books?id=ub5bAAAAQAAJ&pg=PT6#v=onepage&q&f=false" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001682>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001682&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001682" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Antwerpen Hogeschool Conservatorium: S-MS-DEGRU-andante-1 (olim Ms. 17761)"
+                           ] ;
+        src:hasScan        "http://anet.be/digital/opacdkvc/artkc/o:lvd:2679564/N" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016338>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016338&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016338" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: Kluis D 17"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/div/KluisD17.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016284>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016284&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016284" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Groningen GA: Familiearchief Van Bolhuis (493) 201"
+                           ] ;
+        src:hasScan        "http://www.archieven.nl/nl/zoeken?miview=inv2&mivast=0&mizig=210&miadt=5&miaet=1&micode=493&minr=1130875&milang=nl&mialg=" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001748>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001748&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001748" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1000717>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1000717&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1000717" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam TB: 207 G 40:1"
+                           ] ;
+        src:hasScan        "http://books.google.nl/books?id=HxE8AQAAIAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008418>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008418&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1008418" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Facsimile (Amsterdam Toonkunst: 212 D 22)"
+                           ] ;
+        src:hasScan        "http://books.google.nl/books?id=MhtZAAAAcAAJ&pg=PP1#v=onepage&q&f=false" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001115>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001115&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001115" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam MI: 3978 Gesloten Kast: A 45"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1000663>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1000663&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1000663" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag KB: 5 A 2"
+                           ] ;
+        src:hasScan        "http://gateway.proquest.com/openurl?url_ver=Z39.88-2004&res_dat=xri:eurobo:&rft_dat=xri:eurobo:rec:ned-kbn-all-00000283-001" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004245>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004245&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1004245" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016266>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016266&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016266" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: 4 G 89"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4G89.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1000814>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1000814&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1000814" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam UB: P.C. Hoofthuis"
+                           ] ;
+        src:hasScan        "http://gateway.proquest.com/openurl?url_ver=Z39.88-2004&res_dat=xri:eurobo:&rft_dat=xri:eurobo:rec:ned-kbn-all-00000237-001" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002032>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002032&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1002032" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004300>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004300&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1004300" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam MI: 3978 3.2 c 19e Wenk"
+                           ] ;
+        src:hasScan        "http://schoolmuseum.uba.uva.nl/bookid/LCSM_202999" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1017364>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1017364&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1017364" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Brussel KB: Hs I 19561"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001701>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001701&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001701" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016459>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016459&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016459" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam UB: Toonkunst 212-D-15:5"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001984>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001984&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001984" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1006018>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1006018&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1006018" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: 4 G 87 (1-2)"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4G87-2.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016194>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016194&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016194" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag KB: 8 C 32"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016460>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016460&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016460" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam UB: Toonkunst 212-D-15:6"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1005355>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1005355&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1005355" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Leeuwarden Tresoar: hs 1400"
+                           ] ;
+        src:hasScan        "http://digicollectie.tresoar.nl/object.php?object=48&zveld=&volg=49" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001839>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001839&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001839" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008021>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008021&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1008021" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008413>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008413&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1008413" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Facsimile (Amsterdam Toonkunst: 212 D 22)"
+                           ] ;
+        src:hasScan        "http://books.google.nl/books?id=FhtZAAAAcAAJ&pg=PA4#v=onepage&q&f=false" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1017612>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1017612&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1017612" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Berkeley Jean Gray Hargrove Music Library (University of California): MS 890"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001809>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001809&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001809" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004270>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004270&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1004270" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001574>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001574&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001574" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Facsimile (Amsterdam Toonkunst: 212 D 22)"
+                           ] ;
+        src:hasScan        "http://books.google.nl/books?id=CBtZAAAAcAAJ&pg=PT1#v=onepage&q&f=false" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016019>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016019&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016019" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: 4 G 95"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4G95.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1010979>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1010979&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1010979" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Utrecht UB: MAG: Z QU 167"
+                           ] ;
+        src:hasScan        "http://objects.library.uu.nl/reader/index.php?obj=1874-36096" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016261>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016261&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016261" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: 4 G 90"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4G90.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016050>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016050&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016050" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: 4 G 82"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4G82.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016020>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016020&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016020" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: 4 G 80"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4G80.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001641>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001641&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001641" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "onbekend (Gent of Den Haag)"
+                           ] ;
+        src:hasScan        "https://books.google.nl/books?id=dCBbAAAAQAAJ&hl=nl&pg=PA9#v=onepage&q&f=false" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016273>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016273&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016273" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: 4 G 84"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4G84.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016454>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016454&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016454" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam UB: Toonkunst 206-E-16"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/div/IIF11.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1000048>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1000048&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1000048" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag KB: 3 B 1"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1010093>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1010093&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1010093" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016309>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016309&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016309" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Leiden INL"
+                           ] ;
+        src:hasScan        "http://books.google.nl/books?id=sIRWAAAAcAAJ&pg=PR6#v=onepage&q&f=false" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1017075>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1017075&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1017075" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Leiden UB: BPL 2973 (deel 1)"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1010159>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1010159&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1010159" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002021>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002021&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1002021" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Norrköping, Stadsbibliotheek, Finspongbibliotheek collectie MS "
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001804>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001804&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001804" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008419>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008419&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1008419" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Facsimile (Amsterdam Toonkunst: 212 D 22)"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016406>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016406&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016406" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag KB: 10 G 4:1:3"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001720>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001720&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001720" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001901>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001901&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001901" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Norrköping SB"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008420>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008420&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1008420" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Facsimile (Amsterdam Toonkunst: 212 D 22)"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1010256>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1010256&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1010256" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1015658>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1015658&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1015658" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Utrecht UB: Hs. 20 A 6"
+                           ] ;
+        src:hasScan        "http://objects.library.uu.nl/reader/index.php?obj=1874-44864" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016533>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016533&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016533" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Utrecht Het Utrechts Archief: collectie '183 Huis Amerongen: muziekbibliotheek', 183"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004301>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004301&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1004301" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002003>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002003&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1002003" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam TB: 207G39"
+                           ] ;
+        src:hasScan        "http://books.google.nl/books?id=HxE8AQAAIAAJ&pg=PT244#v=onepage&q&f=false" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001732>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001732&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001732" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1017365>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1017365&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1017365" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Brussel KB: [I]19558"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001617>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001617&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001617" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag KB: 133 K 26"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1000013>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1000013&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1000013" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam UB: 1998 C 11"
+                           ] ;
+        src:hasScan        "http://www.dbnl.org/tekst/_deu004deuc01_01/" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1019729>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1019729&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1019729" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Harvard Musical Association Library: C.2.F67"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001985>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001985&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001985" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016491>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016491&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016491" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag KB: 8 C 32 [2]"
+                           ] ;
+        src:hasScan        "http://gateway.proquest.com/openurl?url_ver=Z39.88-2004&res_dat=xri:eurobo:&rft_dat=xri:eurobo:thumbnails:ned-kbn-all-00000541-002" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1000140>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1000140&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1000140" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag KB: 1704 B 12"
+                           ] ;
+        src:hasScan        "http://anet.ua.ac.be/digital/opacehc/ehc/o:lvd:1143408/N" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016461>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016461&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016461" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam UB: Toonkunst 212-D-15:7"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001659>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001659&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001659" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1019730>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1019730&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1019730" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Harvard Musical Association Library: C.2.F67"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1006020>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1006020&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1006020" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Utrecht UB: LB-MUZ MSo-14"
+                           ] ;
+        src:hasScan        "http://objects.library.uu.nl/reader/index.php?obj=1874-44867" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004325>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004325&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1004325" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Leeuwarden Tresoar: Hs 709"
+                           ] ;
+        src:hasScan        "http://digicollectie.tresoar.nl/object.php?object=47" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008414>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008414&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1008414" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Facsimile (Amsterdam Toonkunst: 212 D 22)"
+                           ] ;
+        src:hasScan        "http://books.google.nl/books?id=GxtZAAAAcAAJ&pg=PP2#v=onepage&q&f=false" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001997>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001997&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001997" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008963>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008963&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1008963" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam MI: Lbl Moormann G071"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001575>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001575&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001575" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam MI: 3978 1 c14 20e Bols"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001545>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001545&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001545" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001068>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001068&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001068" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1005900>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1005900&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1005900" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: 4 N 48 (3)"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4N48-3.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001907>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001907&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001907" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam MI: 3978 1 c14 19e Oude"
+                           ] ;
+        src:hasScan        "http://books.google.nl/books?id=FCUPAAAAQAAJ&pg=PP5#v=onepage&q&f=false" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002039>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002039&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1002039" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001883>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001883&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001883" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004307>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004307&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1004307" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002009>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002009&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1002009" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam UB: Toonkunstbibl. 212 D 20 "
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1011179>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1011179&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1011179" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam MI: OPN OGL"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/audio> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016455>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016455&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016455" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam UB: Toonkunst 206-E-16"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016244>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016244&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016244" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: 21 K 16"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/div/21K16.html " ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001895>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001895&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001895" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasScan        "http://archive.org/stream/nederlandscheli01goog#page/n7/mode/2up" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016159>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016159&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016159" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: 4 G 86"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4G86.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1005899>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1005899&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1005899" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: 4 N 48 (2)"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4N48-2.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/SourceType/manuscript>
+        rdf:type    src:SourceType ;
+        rdfs:label  "manuscript" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1011204>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1011204&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1011204" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001569>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001569&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001569" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1017734>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1017734&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1017734" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Wolfenbüttel HAB: Cod. Guelf. 267 Mus. Hdschr."
+                           ] ;
+        src:hasScan        "http://diglib.hab.de/?db=mss&list=ms&id=267-mus-hdschr" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001992>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001992&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001992" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001781>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001781&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001781" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam MI: 3978 3.1 c11 20e Voort"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008421>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008421&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1008421" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Facsimile (Amsterdam Toonkunst: 212 D 22)"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016238>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016238&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016238" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: 4 N 52"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4N52.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002004>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002004&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1002004" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1003343>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1003343&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1003343" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag KB: Lbl KB Wouters 06141"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001715>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001715&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001715" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004326>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004326&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1004326" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: 4 N 48 (1)"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4N48-1.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008415>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008415&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1008415" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Facsimile (Amsterdam Toonkunst: 212 D 22)"
+                           ] ;
+        src:hasScan        "http://books.google.nl/books?id=JBtZAAAAcAAJ&pg=PP2#v=onepage&q&f=false" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1017348>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1017348&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1017348" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Utrecht UB: Hs. 20 A 7"
+                           ] ;
+        src:hasScan        "http://objects.library.uu.nl/reader/index.php?obj=1874-44868" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001872>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001872&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001872" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001787>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001787&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001787" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004272>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004272&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1004272" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Leeuwarden Tresoar: hs 1400"
+                           ] ;
+        src:hasScan        "http://digicollectie.tresoar.nl/object.php?object=48" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1005901>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1005901&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1005901" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: 4 N 48 (4)"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4N48-4.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016022>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016022&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016022" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: 4 G 92"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4G92.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004308>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004308&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1004308" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001588>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001588&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001588" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag KB: 133 K 27"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1015509>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1015509&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1015509" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001854>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001854&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001854" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001613>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001613&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001613" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016456>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016456&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016456" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam UB: Toonkunst 212-D-15:2"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1010119>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1010119&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1010119" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001740>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001740&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001740" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001993>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001993&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001993" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001571>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001571&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001571" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam MI: NVA 5941-15185 [=afschriften]"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1000751>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1000751&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1000751" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam MI: 3978 11.1 c 20e Heijermans"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008422>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008422&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1008422" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Facsimile (Amsterdam Toonkunst: 212 D 22)"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001903>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001903&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001903" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002005>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002005&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1002005" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1019665>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1019665&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1019665" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Harvard Musical Association Library: C.2.F67"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016451>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016451&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016451" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam UB: Toonkunst 206-E-16"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/div/IIF11.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002047>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002047&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1002047" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004315>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004315&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1004315" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001680>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001680&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001680" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016306>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016306&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016306" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Utrecht UB: Hs. 20 A 9"
+                           ] ;
+        src:hasScan        "http://objects.library.uu.nl/reader/index.php?obj=1874-44869" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001565>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001565&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001565" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam MI: 3978 8.6 c 20e Blijde"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001927>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001927&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001927" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1017349>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1017349&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1017349" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Utrecht UB: Hs. 20 A 21"
+                           ] ;
+        src:hasScan        "http://objects.library.uu.nl/reader/index.php?obj=1874-44866" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008416>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008416&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1008416" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Facsimile (Amsterdam Toonkunst: 212 D 22)"
+                           ] ;
+        src:hasScan        "http://books.google.nl/books?id=KRtZAAAAcAAJ&pg=PP1#v=onepage&q&f=false" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001113>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001113&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001113" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam MI: 3978 Gesloten Kast: A 44 "
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002029>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002029&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1002029" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016222>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016222&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016222" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4N42.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1011001>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1011001&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1011001" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam TB: 212 B 31"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001999>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001999&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001999" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam MI: 3978 3.1 c 19e Vloten"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/SourceType/audio>
+        rdf:type    src:SourceType ;
+        rdfs:label  "audio" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001577>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001577&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001577" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1000968>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1000968&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1000968" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Groningen, UB: A 6123 (in facsimile)"
+                           ] ;
+        src:hasScan        "http://books.google.nl/books?id=wxxKAAAAcAAJ&pg=PP7#v=onepage&q&f=false" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1017350>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1017350&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1017350" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Växjö SB: 1500-1600 nr 18: 3,1 [fol. 144v-156v]"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001421>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001421&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001421" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Privé-collectie"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008428>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008428&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1008428" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Facsimile (Den Haag KB: 10 G 30)"
+                           ] ;
+        src:hasScan        "http://books.google.nl/books?id=QNlWAAAAcAAJ&pg=PT4#v=onepage&q&f=false" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002000>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002000&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1002000" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam MI: 3978 1 c ME Willems"
+                           ] ;
+        src:hasScan        "http://books.google.nl/books?id=mrA5UWES8fEC&pg=PP15#v=onepage&q&f=false" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004309>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004309&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1004309" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008585>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008585&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1008585" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag KB: Lbl KB Wouters 01096"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016119>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016119&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016119" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Den Haag NMI: 4 G 93"
+                           ] ;
+        src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4G93.html" ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004310>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004310&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1004310" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016457>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016457&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1016457" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam UB: Toonkunst 212-D-15:3"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1011110>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1011110&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1011110" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1000317>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1000317&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1000317" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Kraków Bibliotheka Jagielónska (in facsimile)"
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001897>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001897&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001897" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:LibrarySiglum ;
+                             src:hasIdentifierValue  "Amsterdam UB: Toonkunst 212 D 15:1 "
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008018>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008018&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1008018" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001867>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001867&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1001867" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002054>
+        rdf:type           src:Source ;
+        core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002054&lan=en" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   pon-resource:ID-in-Collection ;
+                             src:hasIdentifierValue  "1002054" ;
+                             src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
+                           ] ;
+        src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/print> .

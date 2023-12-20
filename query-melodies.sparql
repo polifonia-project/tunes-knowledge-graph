@@ -15,38 +15,23 @@ PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
-# UNMATCHED FIELDS:
-    # - song_stanza_number: what does stanza refer to?
-    #   PVK: The stanza of the song of which the melody is a transcription
-    # - song_voice_number: what does voice refer to?
-    #   PVK: The voice (or: part) (melody, bass)
-    # - song_formatted_source: what does formatted source refer to?
-    #   PVK: string with formatted reference to the source.
-    # - song_title_in_source # This is the verbatim title of the song in its source (could only be a serial number).
-    # SOURCE
-    # - all the "source" attributes, such as source_publisher: do they refer to the mm:Score class? If so, we need to add a bunch of classes to the Tunes Ontology
-    #   PVK: No, they refer to the source (book, recording, leaflet, etc) of the melody
-    # - source_id and tunefamily_id: what is the difference between the two?
-    #   PVK: source_id is an unique identifier for a source, tunefamily_id is unique identifier for a tune family.
-
 # TODOs
     # - split dates into start and end dates
     # - clean data (e.g. remove trailing 'c') so that they can be converted into integers/dates datatypes
 
-
 CONSTRUCT {
     ?song_iri a mm:MusicEntity ;
-        core:id ?song_id ;  # add to ontology PVK: This is the ID of the song in the collection.
+        core:id ?song_id ;  # add to ontology PVK: This is the ID of the song _in the collection_.
         rdfs:label ?song_title ;
-        core:title ?song_title ;
-        # mm:hasComposer ?composer_iri_validated ;
-        core:description ?song_description_url ; # PVK: This is a url to a webpage for the song. is core:description the right predicate?
-        core:isMemberOf ?tunefamily_iri ;
-        # core:hasPart ?abstractScoreUri ;
+        core:title ?song_title_in_source ;
+        mm:hasComposer ?composer_iri ;
+        core:description ?song_description_url ; 
+        core:isMemberOf ?tunefamily_iri, ?collection_iri ;
+        core:hasPart ?abstract_score_iri .
         # core:hasPart ?instrumentationUri ;
         # core:hasPart ?textUri ;
         # mm:isRealisedBy ?musical_performance_iri ;
-        # mm:isRecordedBy ?recording_process_iri ;
+        mm:isRecordedBy ?recording_process_iri ;
         src:hasSource ?source_iri ;
         # new blank node SourceSituation (reification)
         tunes:hasSourceIdentifiers [
@@ -73,50 +58,56 @@ CONSTRUCT {
     # ?tune_collection_concept_iri a core:CollectionConcept ;
     #     core:hasMember ?tunefamily_iri .  # add here more triples?
 
-    # ?composer_iri_validated a mm:MusicArtist, mm:Musician ;
-    #     rdfs:label ?composer_name ;
-    #     core:name ?composer_name ;
-    #     core:id ?composer_id ;  # add to ontology
-    #     core:activityStartDate ?composer_start_date ;
-    #     core:activityEndDate ?composer_end_date ;
-    #     core:hasAgentRole ?composer_role ;  # add to ontology
-    #     mm:creates ?song_iri .
+    ?composer_iri a mm:MusicArtist, mm:Musician ;
+        rdfs:label ?composer_name ;
+        core:name ?composer_name ;
+        core:id ?composer_id ;  # add to ontology
+        # Here something for dating (dating string. e.g. 'fl. 1420')
+        core:activityStartDate ?composer_birth_date ;
+        core:activityEndDate ?composer_death_date ;
+        core:hasAgentRole ?composer_role ;  # add to ontology
+        mm:creates ?song_iri .
 
-    # # ?abstractScoreUri a mm:AbstractScore ;
-    # #     mm:hasText ?textUri ;
-    # #     core:hasPart ?ANYTHING_GOES_HERE? ;  # TODO: check if anything fits this class. In the example diagram we have movements or sections
-    # #     mm:hasFormType ?ANYTHING_GOES_HERE? ;  # TODO: check if anything fits this class. In the example diagram we have "sonatas" or "concertos"
-    # #     mm:orderNumber ?ANYTHING_GOES_HERE? .  # TODO: check if anything fits this class. It takes a string as value (datatype)
+    ?abstract_score_iri a mm:AbstractScore ;
+        # mm:hasText ?textUri ;
+        # core:hasPart ?stanza_iri ;
+        mm:isRealisedIn ?score_iri .
 
-    # ?instrumentationUri a mm:Instrumentation ;
-    #     mm:hasScore ?score_uri ;
-    #     mm:isRealisedIn ?score_part_iri .
+    ?score_iri a mm:Score ; 
+        # core:id ?score_id ;  # add to ontology
+        # core:title ?score_title ;  # add to ontology
+        # core:description ?score_description_url ;  # add to ontology
+        # mm:hasScorePart ?score_part_iri ;
+        mm:hasPublicationSituation ?publication_iri . 
 
-    ?score_uri a mm:Score ;
-        core:id ?score_id ;  # add to ontology
-        core:title ?score_title ;  # add to ontology
-        core:description ?score_description_url ;  # add to ontology
-        mm:hasScorePart ?score_part_iri ;
-        mm:hasPubblicationSituation [
-            a mm:PublicationSituation ;
-            core:hasPlace [
-                a core:Place ;
-                core:name ?source_place_of_publishing ] ;
-            core:hasTimeInterval [
-                a core:TimeInterval ;
-                core:startDate ?source_date ;  # TODO: split dates into start and end dates
-                core:endDate ?source_date ] ;  # TODO: split dates into start and end dates
-            mm:hasPublisher ?source_publisher_iri ;
-        ] .
-    
+    ?publication_iri
+        a mm:PublicationSituation ;
+        core:hasPlace ?blank_publication_place ;
+        core:hasTimeInterval ?blank_publication_time_interval ;
+        mm:hasPublisher ?score_publisher_iri .
+
+    ?blank_publication_place a core:Place ;
+            core:name ?source_place_of_publishing .
+
+    ?blank_publication_time_interval a core:TimeInterval ;
+            core:startDate ?score_date ;
+            core:endDate ?score_date .
+
+    ?score_publisher_iri a mm:Publisher, core:Agent ;
+        core:name ?publisher_name .
+        core:hasPlace [
+            a core:Place ;
+            core:name ?source_place_of_publishing ] .
+
     ?stanza_iri a mm:CompositionPart, mm:Stanza ;
         core:hasTextFragment ?text_fragment_iri ;
-        mm:isRealisedIn ?score_iri ;
+        mm:isRealisedIn ?score_iri ; 
         core:isPartOf ?abstractScoreUri .
 
     ?source_iri a src:Source ; 
         src:hasType ?source_type_iri ;  
-        src:hasSubject ?song_iri ;
+        src:hasSubject ?song_iri ; <--------------------------------------------- KEEP THIS FOR SONG QUERY
+        src:hasReference ?song_formatted_reference ;
         core:title ?source_title ;  # add to ontology
         core:description ?source_description_url ;  # add to ontology
         src:hasScan ?source_scan_url ;  # add to ontology
@@ -126,17 +117,7 @@ CONSTRUCT {
             src:ownershipState ?source_ownership_state ;
             core:id ?source_current_owner_id ;  # add to ontology
             core:name ?source_current_owner_name ] ;  # add to ontology
-        mm:hasPubblicationSituation [
-            a mm:PublicationSituation ;
-            core:hasPlace [
-                a core:Place ;
-                core:name ?source_place_of_publishing ] ;
-            mm:hasPublisher ?source_publisher_iri ;
-            core:hasTimeInterval [
-                a core:TimeInterval ;
-                core:startDate ?source_date ;  # TODO: split dates into start and end dates
-                core:endDate ?source_date ] ;  # TODO: split dates into start and end dates
-        ] ;
+        mm:hasPubblicationSituation ?publication_iri ;
         core:hasTimeInterval [
             a core:TimeInterval ;
             core:startDate ?source_date ;  # TODO: split dates into start and end dates
@@ -150,8 +131,8 @@ CONSTRUCT {
         # in this case, both the ?source_id and the ?source_library_siglum are treated the same way and are disambiguated by the ?source_identifier_type and ?source_id_issuer_iri
         src:hasIdentifier [  # add to ontology
             a src:Identifier ;
-            src:hasIdentifierType ?source_identifier_type ;  # e.g. pon-resource:Siglum 
-            src:hasIdentifierValue ?source_id ;  # or ?source_library_siglum ;
+            src:hasIdentifierType ?source_identifier_type ;  # e.g. pon-resource:Siglum PVK: ?source_type_iri?
+            src:hasIdentifierValue ?source_library_siglum ;  # or ?source_library_siglum ; PVK: Yes, source_library_siglum
             src:identifierIssuedBy ?source_id_issuer_iri ;  # e.g. pon-resource:Ratsbücherei, Lüneburg
         ] . 
         
@@ -159,71 +140,75 @@ CONSTRUCT {
     ?source_type_iri a src:SourceType ;  # source_type_iri is gonna be something like CONCAT(pon-resource:SourceType, "/", ?source_type)
         rdfs:label ?source_type .
 
-    # ?source_publisher_iri a core:Agent ;
-    #     core:id ?source_publisher_id ;  # add to ontology
-    #     core:name ?source_publisher .        
+    ?source_publisher_iri a core:Agent ;
+        core:id ?source_publisher_id ;  # add to ontology
+        core:name ?source_publisher .        
 
-    # ?source_scribe_iri a core:Agent ;  
-    #     core:id ?source_scribe_id ;  # add to ontology
-    #     core:name ?source_scribe_name ;
-    #     core:activityStartDate ?source_scribe_year_of_birth ;
-    #     core:activityEndDate ?source_scribe_year_of_birth ;
-    #     core:placeOfBirth ?source_scribe_place_of_birth_name ;
-    #     core:placeOfBirthLatitude ?source_scribe_place_of_birth_latitude ;
-    #     core:placeOfBirthLongitude ?source_scribe_place_of_birth_longitude .
+    ?source_scribe_iri a core:Agent ;  
+        core:id ?source_scribe_id ;  # add to ontology
+        core:name ?source_scribe_name ;
+        core:activityStartDate ?source_scribe_year_of_birth ;
+        core:activityEndDate ?source_scribe_year_of_death ;
+        core:placeOfBirth ?source_scribe_place_of_birth_name ;
+        core:placeOfBirthLatitude ?source_scribe_place_of_birth_latitude ;
+        core:placeOfBirthLongitude ?source_scribe_place_of_birth_longitude .
 
-    # ?score_part_iri a mm:ScorePart .
+    ?score_part_iri a mm:ScorePart ;
+        rdfs:label ?part_type . # 'bass', 'melody', 'upper voice'
 
-    # ?source_current_owner_iri a core:Agent ;
-    #     core:id ?source_current_owner_id ;  # add to ontology
-    #     core:name ?source_current_owner_name .
+    ?source_current_owner_iri a core:Agent ;
+        core:id ?source_current_owner_id ;  # add to ontology
+        core:name ?source_current_owner_name .
 
-    # ?textUri a mm:Text, mm:Lyrics ;
-    #     core:hasText [ a mm:TextFragment ;
-    #         core:text ?song_lyrics_first_line ] ;
-    #     core:isMemberOf ?song_textfamily_iri .  
+    ?textUri a mm:Text, mm:Lyrics ;
+        core:hasText [ a mm:TextFragment ;
+            core:text ?song_lyrics_first_line ] ;
+        core:isMemberOf ?song_textfamily_iri .  
 
-    # ?musical_performance_iri a mm:MusicalPerformance, core:InformationRealization ;
-    #     mm:isPerformedBy ?song_singer_iri .
+    ?musical_performance_iri a mm:MusicalPerformance, core:InformationRealization ;
+        mm:isPerformedBy ?song_singer_iri .
 
-    # ?recording_process_iri a mm:RecordingProcess ;
-    #     mm:producesRecording ?recording_uri ;
-    #     core:hasPlace [
-    #         a core:Place ;
-    #         core:name ?song_place_of_recording_name ;
-    #         core:latitude ?song_place_of_recording_latitude ;
-    #         core:longitude ?song_place_of_recording_longitude ] ;
-    #     core:hasTimeInterval [
-    #         a core:TimeInterval ;
-    #         core:startDate ?song_date_of_recording_start ;  # TODO: split dates into start and end dates
-    #         core:endDate ?song_date_of_recording_end ] .  # TODO: split dates into start and end dates
-        
+    ?recording_process_iri a mm:RecordingProcess ;
+        mm:producesRecording ?recording_uri ;
+        core:hasPlace [
+            a core:Place ;
+            core:name ?song_place_of_recording_name ;
+            core:latitude ?song_place_of_recording_latitude ;
+            core:longitude ?song_place_of_recording_longitude ] ;
+        core:hasTimeInterval [
+            a core:TimeInterval ;
+            core:startDate ?song_date_of_recording_start ;  # TODO: split dates into start and end dates
+            core:endDate ?song_date_of_recording_end ] .  # TODO: split dates into start and end dates
 
-    # ?recording_uri a mm:Recording ;
-    #     core:url ?song_audio_url .
+    ?recording_uri a mm:Recording ;
+        core:url ?song_audio_url .
 
-    # ?song_textfamily_iri a tunes:TextFamily ;
-    #     core:isDefinedBy ?text_collection_concept .
+    ?song_textfamily_iri a tunes:TextFamily ;
+        core:isDefinedBy ?text_collection_concept .
 
-
+    # # Do not use for now
     # ?text_collection_concept a core:CollectionConcept ;
     #     core:hasMember ?song_textfamily_iri .  # add here more triples?
 
+    ?song_singer_iri a mm:MusicArtist ;  # not working, check
+        rdfs:label ?song_singer_name ;
+        rdfs:label ?song_singer_name ;
+        core:name ?song_singer_name ;
+        mm:isMemberOf ?music_ensemble_iri ;
+        core:artistId ?song_singer_id ;  # add to ontology
+        core:activityStartDate ?song_singer_year_of_birth ;
+        core:activityEndDate ?song_singer_year_of_birth ;
+        core:placeOfBirth ?song_singer_place_of_birth_name ;
+        core:placeOfBirthLatitude ?song_singer_place_of_birth_latitude ;
+        core:placeOfBirthLongitude ?song_singer_place_of_birth_longitude ;
+        core:hasAgentRole ?performer_role ; # <- only if known
+        mm:isPerformerOf ?song_iri .  # add to ontology
 
-    # ?song_singer_iri a mm:MusicArtist, mm:Musician ;  # not working, check
-    #     rdfs:label ?song_singer_name ;
-    #     rdfs:label ?song_singer_name ;
-    #     core:name ?song_singer_name ;
-    #     core:artistId ?song_singer_id ;  # add to ontology
-    #     core:activityStartDate ?song_singer_year_of_birth ;
-    #     core:activityEndDate ?song_singer_year_of_birth ;
-    #     core:placeOfBirth ?song_singer_place_of_birth_name ;
-    #     core:placeOfBirthLatitude ?song_singer_place_of_birth_latitude ;
-    #     core:placeOfBirthLongitude ?song_singer_place_of_birth_longitude ;
-    #     core:hasAgentRole ?performer_role ;
-    #     mm:isPerformerOf ?song_iri .  # add to ontology
+    ?music_ensemble_iri a mm:MusicArtist, mm:MusicEnsemble ;
+        mm:hasMember ?song_singer_iri .
 
 }
+
 
 WHERE {
     SERVICE <x-sparql-anything:> {
@@ -244,15 +229,15 @@ WHERE {
             xyz:song_title ?song_title .
 
         OPTIONAL { ?tune_base xyz:song_id ?song_id . }
-        OPTIONAL { ?tune_base xyz:collection ?collection . }
+        OPTIONAL { ?tune_base xyz:collection ?collection . } #required
         OPTIONAL { ?tune_base xyz:song_description_url ?song_description_url . }
         OPTIONAL { ?tune_base xyz:song_title_in_source ?song_title_in_source . }
         OPTIONAL { ?tune_base xyz:song_types ?song_types . }  # list
-        OPTIONAL { ?tune_base xyz:composers ?composers . } # list
+        # composers -> list
         OPTIONAL { ?tune_base xyz:arrangement ?arrangement . } 
         OPTIONAL { ?tune_base xyz:song_stanza_number ?song_stanza_number . }
         OPTIONAL { ?tune_base xyz:song_voice_number ?song_voice_number . }
-        OPTIONAL { ?tune_base xyz:song_formatted_source ?song_formatted_source . }
+        OPTIONAL { ?tune_base xyz:song_formatted_reference ?song_formatted_reference . }
         OPTIONAL { ?tune_base xyz:source_id ?source_id . }
         OPTIONAL { ?tune_base xyz:source_iri ?source_iri . }
         OPTIONAL { ?tune_base xyz:source_title ?source_title . }
@@ -292,27 +277,38 @@ WHERE {
 
         BIND (IRI(?song_iri_temp) AS ?song_iri)
 
+        #######################
         # Tune family
 
         BIND(IRI(concat(str(pon-resource:), "TuneFamilyConcept")) as ?tune_collection_concept_iri)
-
         BIND(IF(BOUND(?tunefamily_iri_temp), IRI(?tunefamily_iri_temp), ?nothing) AS ?tunefamily_iri)
 
-        # #######################
-        # # NESTED
-        # #######################
+        #######################
+        # Composers
+        OPTIONAL {
+            ?tune_base xyz:composers ?composers_base .
+            ?composers_base fx:anySlot ?composer_base .
+            ?composer_base xyz:composer_iri ?composer_iri_temp . # this must be present
+        }
+        OPTIONAL {?composer_base xyz:composer_id ?composer_id . }
+        OPTIONAL {?composer_base xyz:composer_name ?composer_name . }
+        OPTIONAL {?composer_base xyz:composer_dating ?composer_dating . }
+        OPTIONAL {?composer_base xyz:composer_birth_date ?composer_birth_date .}
+        OPTIONAL {?composer_base xyz:composer_death_date ?composer_death_date .}
 
-        # # COMPOSERS
-        # ?composers fx:anySlot ?composer_list .
-        # ?composer_list xyz:composer_id ?composer_id ;
-        #     xyz:composer_iri ?composer_iri_temp ;
-        #     xyz:composer_name ?composer_name ;
-        #     xyz:composer_dates ?composer_dates .
+        BIND(IF(BOUND(?composer_iri_temp), IRI(?composer_iri_temp), ?nothing) AS ?composer_iri)
+        BIND(IF(BOUND(?composer_iri_temp), IRI(str("pon-resource:AgentRole/Composer")), ?nothing) AS ?composer_role)
 
-        # # if composer_iri does not exist, generate one
-        # BIND (IF((?composer_iri_temp != ""), IRI(?composer_iri_temp), IRI(CONCAT(STR(pon-resource:MusicArtist), "/", SHA1(CONCAT(?composer_name))))) AS ?composer_iri_validated)    # IRI generation not stable
-        # BIND ((STRBEFORE(STR(?composer_dates), "-")) AS ?composer_start_date)
-        # BIND ((STRAFTER(STR(?composer_dates), "-")) AS ?composer_end_date)
+        #######################
+        # Score
+
+        # AbstractScore
+        BIND(IF(BOUND(?source_iri), iri(concat(str(pon-resource:), ?collection, "/AbstractScore/", ?song_id)), ?nothing) as ?abstract_score_iri)
+        BIND(IF(BOUND(?source_iri), iri(concat(str(pon-resource:), ?collection, "/Score/", ?song_id)), ?nothing) as ?score_iri)        
+        BIND(IF(BOUND(?source_iri), iri(concat(str(pon-resource:), ?collection, "/PublicationSituation/", ?song_id)), ?nothing) as ?publication_iri)        
+
+        # Publication place
+        BIND(IF(BOUND(?source_place_of_publishing), fx:bnode(concat(?collection, ?song_id, "pubplace")), ?nothing) as ?blank_publication_place) 
 
         # # SOURCE SCRIBES
         # ?source_scribes fx:anySlot ?source_scribe_list .

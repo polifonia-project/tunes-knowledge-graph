@@ -28,3 +28,10 @@ do
 done
 
 # Melodies
+fx -q query-melodies.sparql -values filepath="../tunes-dataset/output/kg/tunes-mtc-melodies.json" > kg/tunes-mtc-melodies.ttl
+# RISM goes in portions
+for source in ../tunes-dataset/output/kg/tunes-rism-melodies*.json
+do
+    basename=`echo $source:t | sed -e 's/.json//'`
+    fx -q query-melodies.sparql -values filepath=$source > kg/$basename.ttl
+done

@@ -1,5 +1,3 @@
-# Testing: fx -q query-songs.sparql -values filepath="./sample_data_tunes_metadata_sparse.json" > sample_data_tunes.ttl
-
 PREFIX xyz: <http://sparql.xyz/facade-x/data/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX fx: <http://sparql.xyz/facade-x/ns/>
@@ -12,20 +10,16 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
 
 CONSTRUCT {
-    ?collection_iri a core:collection ;
-        core:isDefinedBy <pon-resource:CollectionConcept/ElectronicCollection> ;
+    ?collection_iri a core:Collection ;
+        core:isDefinedBy ?collection_concept_iri ;
         core:name ?collection_name ;
         core:id ?collection_id ;
         core:description ?collection_url ;
         core:comment ?collection_description ;
+        core:comment ?collection_comment ;
         core:hasVersion ?collection_version .
 
-    <pon-resource:CollectionConcept/ElectronicCollection> a core:CollectionConcept ;
-        rdfs:label "Electronic collection of digitally encoded melodies and metadata" ; #how to do this properly?
-        core:hasMember ?collection_iri .  
-
 }
-
 
 WHERE {
     SERVICE <x-sparql-anything:> {
@@ -37,15 +31,18 @@ WHERE {
             ?collection_slot ?collection_base .
 
         ?collection_base 
-            xyz:id ?collection_id ;
-            xyz:name ?collection_name ;
-            xyz:iri ?collection_iri_temp ;
-            xyz:description ?collection_description ;
-            xyz:url ?collection_url ;
-            xyz:version ?collection_version .
+            xyz:iri_local ?collection_iri_local ;
+            xyz:collectionconcept_iri_local ?collectionconcept_iri_local ;
 
-        BIND(IRI(?collection_iri_temp) as ?collection_iri)
+        BIND(IRI(concat(str(pon-resource:), ?collection_iri_local)) AS ?collection_iri)
+        BIND(IRI(concat(str(pon-resource:), ?collectionconcept_iri_local)) AS ?collection_concept_iri)
 
+        OPTIONAL { ?collection_base xyz:id ?collection_id . }
+        OPTIONAL { ?collection_base xyz:name ?collection_name . }
+        OPTIONAL { ?collection_base xyz:description ?collection_description . }
+        OPTIONAL { ?collection_base xyz:url ?collection_url . }
+        OPTIONAL { ?collection_base xyz:version ?collection_version . }
+        OPTIONAL { ?collection_base xyz:comment ?collection_comment . }
 
     }
 }

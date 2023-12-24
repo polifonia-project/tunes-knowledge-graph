@@ -67,7 +67,7 @@ WHERE {
             ?agent_slot ?agent_base .
 
         ?agent_base 
-            xyz:agent_iri ?agent_iri_temp .
+            xyz:agent_iri_local ?agent_iri_local .
 
         OPTIONAL { ?agent_base xyz:agent_id ?agent_id . }
         OPTIONAL { ?agent_base xyz:agent_name ?agent_name . }
@@ -99,7 +99,7 @@ WHERE {
         #OPTIONAL { ?agent_base xyz:agent_GND_ID ?agent_GND_ID . }
 
         #Agent IRI
-        BIND (IRI(?agent_iri_temp) AS ?agent_iri)
+        BIND (IRI(concat(str(pon-resource:), ?agent_iri_local)) AS ?agent_iri)
         #Agent classes
         BIND(IF(BOUND(?agent_class_iri_temp), IRI(?agent_class_iri_temp), ?nothing) AS ?agent_class)
         BIND(IF(BOUND(?normalized_agent_role), IRI(CONCAT(str(pon-resource:),"Role/",?normalized_agent_role)), ?nothing) AS ?agent_role_iri)

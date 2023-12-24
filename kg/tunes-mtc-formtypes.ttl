@@ -1,0 +1,13 @@
+@prefix core:         <http://w3id.org/polifonia/ontology/core/> .
+@prefix fx:           <http://sparql.xyz/facade-x/ns/> .
+@prefix mm:           <http://w3id.org/polifonia/ontology/music-meta/> .
+@prefix owl:          <http://www.w3.org/2002/07/owl#> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/tunes/> .
+@prefix rdfs:         <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tunes:        <http://w3id.org/polifonia/ontology/tunes/> .
+@prefix xsd:          <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:          <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/FormType/>
+        a          mm:FormType ;
+        core:name  "Songs" , "instrumental" , "vocal" .

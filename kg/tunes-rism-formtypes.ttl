@@ -1,0 +1,2269 @@
+@prefix core:         <http://w3id.org/polifonia/ontology/core/> .
+@prefix fx:           <http://sparql.xyz/facade-x/ns/> .
+@prefix mm:           <http://w3id.org/polifonia/ontology/music-meta/> .
+@prefix owl:          <http://www.w3.org/2002/07/owl#> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/tunes/> .
+@prefix rdfs:         <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tunes:        <http://w3id.org/polifonia/ontology/tunes/> .
+@prefix xsd:          <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:          <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Dedications>
+        a          mm:FormType ;
+        core:name  "Dedications" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Orchestral_pieces>
+        a          mm:FormType ;
+        core:name  "Orchestral pieces" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Piano_music>
+        a          mm:FormType ;
+        core:name  "Piano music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Treatises>
+        a          mm:FormType ;
+        core:name  "Treatises" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Completoria>
+        a          mm:FormType ;
+        core:name  "Completoria" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Symbola>
+        a          mm:FormType ;
+        core:name  "Symbola" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Intermezzos__stage_>
+        a          mm:FormType ;
+        core:name  "Intermezzos (stage)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Airs__inst__>
+        a          mm:FormType ;
+        core:name  "Airs (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Sonatas>
+        a          mm:FormType ;
+        core:name  "Sonatas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Giromettas>
+        a          mm:FormType ;
+        core:name  "Giromettas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Berceuses>
+        a          mm:FormType ;
+        core:name  "Berceuses" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Quodlibets>
+        a          mm:FormType ;
+        core:name  "Quodlibets" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Songs>
+        a          mm:FormType ;
+        core:name  "Songs" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Musicals>
+        a          mm:FormType ;
+        core:name  "Musicals" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Meditationes__Jesuit_theater_>
+        a          mm:FormType ;
+        core:name  "Meditationes (Jesuit theater)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Doxologies>
+        a          mm:FormType ;
+        core:name  "Doxologies" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Ragtimes>
+        a          mm:FormType ;
+        core:name  "Ragtimes" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Letters>
+        a          mm:FormType ;
+        core:name  "Letters" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Misterios>
+        a          mm:FormType ;
+        core:name  "Misterios" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Rondenas>
+        a          mm:FormType ;
+        core:name  "Rondeñas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Minuets>
+        a          mm:FormType ;
+        core:name  "Minuets" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Fourth_editions>
+        a          mm:FormType ;
+        core:name  "Fourth editions" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Chorale_arrangements>
+        a          mm:FormType ;
+        core:name  "Chorale arrangements" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Introits>
+        a          mm:FormType ;
+        core:name  "Introits" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Marian_antiphons>
+        a          mm:FormType ;
+        core:name  "Marian antiphons" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Ballets>
+        a          mm:FormType ;
+        core:name  "Ballets" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Prefaces>
+        a          mm:FormType ;
+        core:name  "Prefaces" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Organ_accompaniment>
+        a          mm:FormType ;
+        core:name  "Organ accompaniment" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Quintets__voc__>
+        a          mm:FormType ;
+        core:name  "Quintets (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Cadences__inst__>
+        a          mm:FormType ;
+        core:name  "Cadences (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Romances__voc__>
+        a          mm:FormType ;
+        core:name  "Romances (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Finales>
+        a          mm:FormType ;
+        core:name  "Finales" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Hopser>
+        a          mm:FormType ;
+        core:name  "Hopser" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Serenatas>
+        a          mm:FormType ;
+        core:name  "Serenatas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Zamacuecas>
+        a          mm:FormType ;
+        core:name  "Zamacuecas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Benedictions>
+        a          mm:FormType ;
+        core:name  "Benedictions" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Airs_varies>
+        a          mm:FormType ;
+        core:name  "Airs variés" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Ejaculations>
+        a          mm:FormType ;
+        core:name  "Ejaculations" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Exercises_in_harmony>
+        a          mm:FormType ;
+        core:name  "Exercises in harmony" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Tracts>
+        a          mm:FormType ;
+        core:name  "Tracts" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Gigues>
+        a          mm:FormType ;
+        core:name  "Gigues" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Sarabandes>
+        a          mm:FormType ;
+        core:name  "Sarabandes" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Pastoral_plays>
+        a          mm:FormType ;
+        core:name  "Pastoral plays" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Anthems>
+        a          mm:FormType ;
+        core:name  "Anthems" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Marian_hymns>
+        a          mm:FormType ;
+        core:name  "Marian hymns" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Quartets__voc__>
+        a          mm:FormType ;
+        core:name  "Quartets (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Ouverture__Sinfonie>
+        a          mm:FormType ;
+        core:name  "Ouvertüre; Sinfonie" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Tragedies_lyriques>
+        a          mm:FormType ;
+        core:name  "Tragédies lyriques" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Strathspeys>
+        a          mm:FormType ;
+        core:name  "Strathspeys" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Chorale_partitas>
+        a          mm:FormType ;
+        core:name  "Chorale partitas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Octets__inst__>
+        a          mm:FormType ;
+        core:name  "Octets (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Opera_ballets>
+        a          mm:FormType ;
+        core:name  "Opéra-ballets" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Rheinlander>
+        a          mm:FormType ;
+        core:name  "Rheinländer" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Letrillas>
+        a          mm:FormType ;
+        core:name  "Letrillas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Chansonniers>
+        a          mm:FormType ;
+        core:name  "Chansonniers" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Second_issues>
+        a          mm:FormType ;
+        core:name  "Second issues" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Brunettes__voc__>
+        a          mm:FormType ;
+        core:name  "Brunettes (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Chormusik>
+        a          mm:FormType ;
+        core:name  "Chormusik" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Tambourins>
+        a          mm:FormType ;
+        core:name  "Tambourins" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Semi_operas>
+        a          mm:FormType ;
+        core:name  "Semi-operas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Quintets__inst__>
+        a          mm:FormType ;
+        core:name  "Quintets (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Sixth_editions>
+        a          mm:FormType ;
+        core:name  "Sixth editions" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Ballets_de_cour>
+        a          mm:FormType ;
+        core:name  "Ballets de cour" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Ricercares__inst__>
+        a          mm:FormType ;
+        core:name  "Ricercares (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Preludes>
+        a          mm:FormType ;
+        core:name  "Preludes" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Boleros>
+        a          mm:FormType ;
+        core:name  "Boleros" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Corrected_issues>
+        a          mm:FormType ;
+        core:name  "Corrected issues" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Drinking_songs>
+        a          mm:FormType ;
+        core:name  "Drinking songs" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Ballads__voc__>
+        a          mm:FormType ;
+        core:name  "Ballads (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Schrammelmusik>
+        a          mm:FormType ;
+        core:name  "Schrammelmusik" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Reels>
+        a          mm:FormType ;
+        core:name  "Reels" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Passepieds>
+        a          mm:FormType ;
+        core:name  "Passepieds" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Orchestral_music>
+        a          mm:FormType ;
+        core:name  "Orchestral music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Games>
+        a          mm:FormType ;
+        core:name  "Games" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Romances__inst__>
+        a          mm:FormType ;
+        core:name  "Romances (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Melodies>
+        a          mm:FormType ;
+        core:name  "Mélodies" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Saltarellos>
+        a          mm:FormType ;
+        core:name  "Saltarellos" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Solos__voc__>
+        a          mm:FormType ;
+        core:name  "Solos (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Masonic_music>
+        a          mm:FormType ;
+        core:name  "Masonic music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Transcriptions>
+        a          mm:FormType ;
+        core:name  "Transcriptions" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Liturgical_music>
+        a          mm:FormType ;
+        core:name  "Liturgical music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Swing>
+        a          mm:FormType ;
+        core:name  "Swing" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Folk_songs>
+        a          mm:FormType ;
+        core:name  "Folk songs" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Intonazione__inst__>
+        a          mm:FormType ;
+        core:name  "Intonazione (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Album_leaves>
+        a          mm:FormType ;
+        core:name  "Album leaves" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Pastorales__voc__>
+        a          mm:FormType ;
+        core:name  "Pastorales (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Contraddanze>
+        a          mm:FormType ;
+        core:name  "Contraddanze" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Symphonies_concertantes>
+        a          mm:FormType ;
+        core:name  "Symphonies concertantes" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Sequences>
+        a          mm:FormType ;
+        core:name  "Sequences" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Entrees>
+        a          mm:FormType ;
+        core:name  "Entrées" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Methods>
+        a          mm:FormType ;
+        core:name  "Methods" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Postcommunions>
+        a          mm:FormType ;
+        core:name  "Postcommunions" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Fifth_editions>
+        a          mm:FormType ;
+        core:name  "Fifth editions" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Divisions>
+        a          mm:FormType ;
+        core:name  "Divisions" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Two_steps>
+        a          mm:FormType ;
+        core:name  "Two-steps" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Exercises__inst__>
+        a          mm:FormType ;
+        core:name  "Exercises (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Notturni__voc__>
+        a          mm:FormType ;
+        core:name  "Notturni (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Contredanses>
+        a          mm:FormType ;
+        core:name  "Contredanses" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Byzantine_chants>
+        a          mm:FormType ;
+        core:name  "Byzantine chants" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Rondos__inst__>
+        a          mm:FormType ;
+        core:name  "Rondos (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Spruche>
+        a          mm:FormType ;
+        core:name  "Sprüche" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Pasticcios>
+        a          mm:FormType ;
+        core:name  "Pasticcios" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Spagnolettas>
+        a          mm:FormType ;
+        core:name  "Spagnolettas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Improperia>
+        a          mm:FormType ;
+        core:name  "Improperia" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Capriccios__inst__>
+        a          mm:FormType ;
+        core:name  "Capriccios (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Tonos>
+        a          mm:FormType ;
+        core:name  "Tonos" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Folias>
+        a          mm:FormType ;
+        core:name  "Folias" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Passacaglias__dances_>
+        a          mm:FormType ;
+        core:name  "Passacaglias (dances)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Fandangos>
+        a          mm:FormType ;
+        core:name  "Fandangos" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Byzantine_music>
+        a          mm:FormType ;
+        core:name  "Byzantine music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Instrumental_pieces>
+        a          mm:FormType ;
+        core:name  "Instrumental pieces" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Requiems>
+        a          mm:FormType ;
+        core:name  "Requiems" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Musique_revolutionnaire>
+        a          mm:FormType ;
+        core:name  "Musique révolutionnaire" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Schottische>
+        a          mm:FormType ;
+        core:name  "Schottische" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Pasodobles>
+        a          mm:FormType ;
+        core:name  "Pasodobles" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Tasche>
+        a          mm:FormType ;
+        core:name  "Tasche" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Sicilianas__voc__>
+        a          mm:FormType ;
+        core:name  "Sicilianas (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Second_editions>
+        a          mm:FormType ;
+        core:name  "Second editions" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Canticles>
+        a          mm:FormType ;
+        core:name  "Canticles" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Inventions>
+        a          mm:FormType ;
+        core:name  "Inventions" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Actes_de_ballet>
+        a          mm:FormType ;
+        core:name  "Actes de ballet" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Intermedes__stage_>
+        a          mm:FormType ;
+        core:name  "Intermèdes (stage)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Planctus>
+        a          mm:FormType ;
+        core:name  "Planctus" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Viol_music>
+        a          mm:FormType ;
+        core:name  "Viol music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Compilations>
+        a          mm:FormType ;
+        core:name  "Compilations" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Messe>
+        a          mm:FormType ;
+        core:name  "Messe" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Polkas>
+        a          mm:FormType ;
+        core:name  "Polkas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Paraphrases>
+        a          mm:FormType ;
+        core:name  "Paraphrases" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Moravian_Church_liturgy>
+        a          mm:FormType ;
+        core:name  "Moravian Church liturgy" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Concerti_grossi>
+        a          mm:FormType ;
+        core:name  "Concerti grossi" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Barcarolles__voc__>
+        a          mm:FormType ;
+        core:name  "Barcarolles (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Deutsche_Tanze>
+        a          mm:FormType ;
+        core:name  "Deutsche Tänze" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Patriotic_music>
+        a          mm:FormType ;
+        core:name  "Patriotic music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Kimigayo__Jun_kaDai_>
+        a          mm:FormType ;
+        core:name  "Kimigayo  君か代" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Theory_of_harmony>
+        a          mm:FormType ;
+        core:name  "Theory of harmony" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Airs__dances_>
+        a          mm:FormType ;
+        core:name  "Airs (dances)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Ensemble>
+        a          mm:FormType ;
+        core:name  "Ensemble" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Springtanze>
+        a          mm:FormType ;
+        core:name  "Springtänze" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Tutors__inst__>
+        a          mm:FormType ;
+        core:name  "Tutors (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Calendas>
+        a          mm:FormType ;
+        core:name  "Calendas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Concertos>
+        a          mm:FormType ;
+        core:name  "Concertos" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Megalynaria>
+        a          mm:FormType ;
+        core:name  "Megalynaria" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Jazz>
+        a          mm:FormType ;
+        core:name  "Jazz" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Masques>
+        a          mm:FormType ;
+        core:name  "Masques" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Mazurs>
+        a          mm:FormType ;
+        core:name  "Mazurs" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Dicta>
+        a          mm:FormType ;
+        core:name  "Dicta" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Afterpieces>
+        a          mm:FormType ;
+        core:name  "Afterpieces" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Tropes>
+        a          mm:FormType ;
+        core:name  "Tropes" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Short_comic_stage_music>
+        a          mm:FormType ;
+        core:name  "Short comic stage music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Prologues__stage_>
+        a          mm:FormType ;
+        core:name  "Prologues (stage)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Rounds__voc__>
+        a          mm:FormType ;
+        core:name  "Rounds (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Toccatas>
+        a          mm:FormType ;
+        core:name  "Toccatas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Vaudevilles>
+        a          mm:FormType ;
+        core:name  "Vaudevilles" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Festive_music>
+        a          mm:FormType ;
+        core:name  "Festive music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Laude>
+        a          mm:FormType ;
+        core:name  "Laude" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Pavans>
+        a          mm:FormType ;
+        core:name  "Pavans" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Possen>
+        a          mm:FormType ;
+        core:name  "Possen" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Cadenzas__inst__>
+        a          mm:FormType ;
+        core:name  "Cadenzas (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Choreae>
+        a          mm:FormType ;
+        core:name  "Choreae" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Symphonic_poems>
+        a          mm:FormType ;
+        core:name  "Symphonic poems" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Wind_music>
+        a          mm:FormType ;
+        core:name  "Wind music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Catches>
+        a          mm:FormType ;
+        core:name  "Catches" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Frottolas>
+        a          mm:FormType ;
+        core:name  "Frottolas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Dreher>
+        a          mm:FormType ;
+        core:name  "Dreher" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Atti_di_contrizione>
+        a          mm:FormType ;
+        core:name  "Atti di contrizione" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Nocturnes__voc__>
+        a          mm:FormType ;
+        core:name  "Nocturnes (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Lieder>
+        a          mm:FormType ;
+        core:name  "Lieder" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Hornpipes>
+        a          mm:FormType ;
+        core:name  "Hornpipes" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Minnesang>
+        a          mm:FormType ;
+        core:name  "Minnesang" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Recitatives>
+        a          mm:FormType ;
+        core:name  "Recitatives" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Rundgesange>
+        a          mm:FormType ;
+        core:name  "Rundgesänge" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Exercises__voc__>
+        a          mm:FormType ;
+        core:name  "Exercises (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Correnti>
+        a          mm:FormType ;
+        core:name  "Correnti" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/First_critically_reviewed_complete_editions>
+        a          mm:FormType ;
+        core:name  "First critically reviewed complete editions" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Courantes>
+        a          mm:FormType ;
+        core:name  "Courantes" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Sicilianas__dances_inst__>
+        a          mm:FormType ;
+        core:name  "Sicilianas (dances/inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Sambas>
+        a          mm:FormType ;
+        core:name  "Sambas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Funeral_music>
+        a          mm:FormType ;
+        core:name  "Funeral music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Banda_de_musica>
+        a          mm:FormType ;
+        core:name  "Banda de música" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Grounds>
+        a          mm:FormType ;
+        core:name  "Grounds" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Scherzo_comico>
+        a          mm:FormType ;
+        core:name  "Scherzo comico" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Rondos__voc__>
+        a          mm:FormType ;
+        core:name  "Rondos (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Rasgos>
+        a          mm:FormType ;
+        core:name  "Rasgos" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Contrapuntal_studies__inst__voc__>
+        a          mm:FormType ;
+        core:name  "Contrapuntal studies (inst./voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Singspiele>
+        a          mm:FormType ;
+        core:name  "Singspiele" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Canzonas__inst__>
+        a          mm:FormType ;
+        core:name  "Canzonas (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Facsimiles>
+        a          mm:FormType ;
+        core:name  "Facsimiles" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Rants>
+        a          mm:FormType ;
+        core:name  "Rants" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Lais>
+        a          mm:FormType ;
+        core:name  "Lais" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Tiranas>
+        a          mm:FormType ;
+        core:name  "Tiranas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Schuldramen>
+        a          mm:FormType ;
+        core:name  "Schuldramen" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Ballatas__voc__>
+        a          mm:FormType ;
+        core:name  "Ballatas (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Tarantellas>
+        a          mm:FormType ;
+        core:name  "Tarantellas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Jodler>
+        a          mm:FormType ;
+        core:name  "Jodler" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Ricercares__voc__>
+        a          mm:FormType ;
+        core:name  "Ricercares (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Military_music>
+        a          mm:FormType ;
+        core:name  "Military music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Responsory_verses>
+        a          mm:FormType ;
+        core:name  "Responsory verses" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Canzonettas>
+        a          mm:FormType ;
+        core:name  "Canzonettas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Sextets__inst__>
+        a          mm:FormType ;
+        core:name  "Sextets (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Lamentos>
+        a          mm:FormType ;
+        core:name  "Lamentos" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Pastorales__inst__>
+        a          mm:FormType ;
+        core:name  "Pastorales (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Services>
+        a          mm:FormType ;
+        core:name  "Services" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Dancing_songs>
+        a          mm:FormType ;
+        core:name  "Dancing songs" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Studies>
+        a          mm:FormType ;
+        core:name  "Studies" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Zortzikos>
+        a          mm:FormType ;
+        core:name  "Zortzikos" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Revues>
+        a          mm:FormType ;
+        core:name  "Revues" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Instrumentalmusik>
+        a          mm:FormType ;
+        core:name  "Instrumentalmusik" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Carillon_music>
+        a          mm:FormType ;
+        core:name  "Carillon music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Overtures>
+        a          mm:FormType ;
+        core:name  "Overtures" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Historical_chants>
+        a          mm:FormType ;
+        core:name  "Historical chants" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Cakewalks>
+        a          mm:FormType ;
+        core:name  "Cakewalks" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Insertions>
+        a          mm:FormType ;
+        core:name  "Insertions" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Children_s_songs>
+        a          mm:FormType ;
+        core:name  "Children's songs" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Elevations>
+        a          mm:FormType ;
+        core:name  "Elevations" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Besedas>
+        a          mm:FormType ;
+        core:name  "Besedas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Murkies>
+        a          mm:FormType ;
+        core:name  "Murkies" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Comedie_ballets>
+        a          mm:FormType ;
+        core:name  "Comédie-ballets" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Burlettas>
+        a          mm:FormType ;
+        core:name  "Burlettas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Writings>
+        a          mm:FormType ;
+        core:name  "Writings" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/In_Nomine__inst__>
+        a          mm:FormType ;
+        core:name  "In Nomine (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Muneiras>
+        a          mm:FormType ;
+        core:name  "Muñeiras" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Monferrinas>
+        a          mm:FormType ;
+        core:name  "Monferrinas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Wedding_music>
+        a          mm:FormType ;
+        core:name  "Wedding music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Pivas>
+        a          mm:FormType ;
+        core:name  "Pivas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Hauer>
+        a          mm:FormType ;
+        core:name  "Hauer" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Stage_music>
+        a          mm:FormType ;
+        core:name  "Stage music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Lections>
+        a          mm:FormType ;
+        core:name  "Lections" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Intonations__voc__>
+        a          mm:FormType ;
+        core:name  "Intonations (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Stornellos>
+        a          mm:FormType ;
+        core:name  "Stornellos" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Modulations>
+        a          mm:FormType ;
+        core:name  "Modulations" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Branles>
+        a          mm:FormType ;
+        core:name  "Branles" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Dumkas>
+        a          mm:FormType ;
+        core:name  "Dumkas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Paduanas>
+        a          mm:FormType ;
+        core:name  "Paduanas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/After_dances>
+        a          mm:FormType ;
+        core:name  "After-dances" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Echoes>
+        a          mm:FormType ;
+        core:name  "Echoes" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Atti_di_desiderio>
+        a          mm:FormType ;
+        core:name  "Atti di desiderio" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Improvisations>
+        a          mm:FormType ;
+        core:name  "Improvisations" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Chorlied>
+        a          mm:FormType ;
+        core:name  "Chorlied" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Chang_ga__Chang_Ge__>
+        a          mm:FormType ;
+        core:name  "Chang'ga (唱歌)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Galliards>
+        a          mm:FormType ;
+        core:name  "Galliards" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Sinfonie>
+        a          mm:FormType ;
+        core:name  "Sinfonie" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Herrnhut_chorales>
+        a          mm:FormType ;
+        core:name  "Herrnhut chorales" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Harp_music>
+        a          mm:FormType ;
+        core:name  "Harp music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Langaus>
+        a          mm:FormType ;
+        core:name  "Langaus" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Melodramas>
+        a          mm:FormType ;
+        core:name  "Melodramas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Etudes__inst__>
+        a          mm:FormType ;
+        core:name  "Etudes (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Incidental_music>
+        a          mm:FormType ;
+        core:name  "Incidental music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Antiphons>
+        a          mm:FormType ;
+        core:name  "Antiphons" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Lessons>
+        a          mm:FormType ;
+        core:name  "Lessons" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Mascarades>
+        a          mm:FormType ;
+        core:name  "Mascarades" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Chaconnes>
+        a          mm:FormType ;
+        core:name  "Chaconnes" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Partitas>
+        a          mm:FormType ;
+        core:name  "Partitas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/School_songs>
+        a          mm:FormType ;
+        core:name  "School songs" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Pantomimes>
+        a          mm:FormType ;
+        core:name  "Pantomimes" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Arias__voc__>
+        a          mm:FormType ;
+        core:name  "Arias (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Sacred_concerts__voc__>
+        a          mm:FormType ;
+        core:name  "Sacred concerts (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Plays__theatre_>
+        a          mm:FormType ;
+        core:name  "Plays (theatre)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Vocalises>
+        a          mm:FormType ;
+        core:name  "Vocalises" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Balitaos>
+        a          mm:FormType ;
+        core:name  "Balitaos" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Terzets__voc__>
+        a          mm:FormType ;
+        core:name  "Terzets (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/One_steps>
+        a          mm:FormType ;
+        core:name  "One-steps" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Burlesques>
+        a          mm:FormType ;
+        core:name  "Burlesques" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Instrumental_music>
+        a          mm:FormType ;
+        core:name  "Instrumental music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Passamezzos>
+        a          mm:FormType ;
+        core:name  "Passamezzos" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Film_music>
+        a          mm:FormType ;
+        core:name  "Film music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Verbunkos>
+        a          mm:FormType ;
+        core:name  "Verbunkos" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Christmas_music>
+        a          mm:FormType ;
+        core:name  "Christmas music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Dialogues>
+        a          mm:FormType ;
+        core:name  "Dialogues" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Virelais__forme_fixe_>
+        a          mm:FormType ;
+        core:name  "Virelais (forme fixe)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Atti_di_speranza>
+        a          mm:FormType ;
+        core:name  "Atti di speranza" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Lute_music>
+        a          mm:FormType ;
+        core:name  "Lute music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Scherzos__inst__>
+        a          mm:FormType ;
+        core:name  "Scherzos (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Volkslied>
+        a          mm:FormType ;
+        core:name  "Volkslied" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Barcarolles__inst__>
+        a          mm:FormType ;
+        core:name  "Barcarolles (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Lamentations>
+        a          mm:FormType ;
+        core:name  "Lamentations" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Chants>
+        a          mm:FormType ;
+        core:name  "Chants" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Chamber_music>
+        a          mm:FormType ;
+        core:name  "Chamber music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Mannerchor>
+        a          mm:FormType ;
+        core:name  "Männerchor" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Canons__inst__>
+        a          mm:FormType ;
+        core:name  "Canons (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Solos__inst__>
+        a          mm:FormType ;
+        core:name  "Solos (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Marches>
+        a          mm:FormType ;
+        core:name  "Marches" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Csardas>
+        a          mm:FormType ;
+        core:name  "Csárdás" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Sacred_music>
+        a          mm:FormType ;
+        core:name  "Sacred music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Chiarentane>
+        a          mm:FormType ;
+        core:name  "Chiarentane" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Motets>
+        a          mm:FormType ;
+        core:name  "Motets" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Schlager>
+        a          mm:FormType ;
+        core:name  "Schlager" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Interludes>
+        a          mm:FormType ;
+        core:name  "Interludes" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Marian_songs>
+        a          mm:FormType ;
+        core:name  "Marian songs" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Operettas>
+        a          mm:FormType ;
+        core:name  "Operettas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Bostons>
+        a          mm:FormType ;
+        core:name  "Bostons" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Landler>
+        a          mm:FormType ;
+        core:name  "Ländler" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Benediktinerdramen>
+        a          mm:FormType ;
+        core:name  "Benediktinerdramen" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Canaries>
+        a          mm:FormType ;
+        core:name  "Canaries" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Krakowiaks>
+        a          mm:FormType ;
+        core:name  "Krakowiaks" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Ariettes>
+        a          mm:FormType ;
+        core:name  "Ariettes" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Impromptus>
+        a          mm:FormType ;
+        core:name  "Impromptus" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Organ_pieces>
+        a          mm:FormType ;
+        core:name  "Organ pieces" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Loures>
+        a          mm:FormType ;
+        core:name  "Loures" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Musettes>
+        a          mm:FormType ;
+        core:name  "Musettes" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Kyriale>
+        a          mm:FormType ;
+        core:name  "Kyriale" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Canons__voc__>
+        a          mm:FormType ;
+        core:name  "Canons (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Choruses>
+        a          mm:FormType ;
+        core:name  "Choruses" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Ballettos__voc__>
+        a          mm:FormType ;
+        core:name  "Ballettos (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Jotas>
+        a          mm:FormType ;
+        core:name  "Jotas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Morescas>
+        a          mm:FormType ;
+        core:name  "Morescas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Postludes>
+        a          mm:FormType ;
+        core:name  "Postludes" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Serenades>
+        a          mm:FormType ;
+        core:name  "Serenades" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Sousedskas>
+        a          mm:FormType ;
+        core:name  "Sousedskás" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Seguidillas>
+        a          mm:FormType ;
+        core:name  "Seguidillas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Battle_music__inst__>
+        a          mm:FormType ;
+        core:name  "Battle music (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Voltas>
+        a          mm:FormType ;
+        core:name  "Voltas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Bergerettes__voc__>
+        a          mm:FormType ;
+        core:name  "Bergerettes (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Lied>
+        a          mm:FormType ;
+        core:name  "Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Keyboard_pieces>
+        a          mm:FormType ;
+        core:name  "Keyboard pieces" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Vespers>
+        a          mm:FormType ;
+        core:name  "Vespers" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Foxtrots>
+        a          mm:FormType ;
+        core:name  "Foxtrots" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Airs__voc__>
+        a          mm:FormType ;
+        core:name  "Airs (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Pastorales_heroiques>
+        a          mm:FormType ;
+        core:name  "Pastorales héroïques" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Vocal_pieces>
+        a          mm:FormType ;
+        core:name  "Vocal pieces" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Arrangements>
+        a          mm:FormType ;
+        core:name  "Arrangements" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Historias>
+        a          mm:FormType ;
+        core:name  "Historias" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Falsi_bordoni>
+        a          mm:FormType ;
+        core:name  "Falsi bordoni" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Harpsichord_Music>
+        a          mm:FormType ;
+        core:name  "Harpsichord Music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Melodram>
+        a          mm:FormType ;
+        core:name  "Melodram" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Revue_musicals>
+        a          mm:FormType ;
+        core:name  "Revue musicals" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Ballades__inst__>
+        a          mm:FormType ;
+        core:name  "Ballades (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Janissary_music>
+        a          mm:FormType ;
+        core:name  "Janissary music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Piano_pieces>
+        a          mm:FormType ;
+        core:name  "Piano pieces" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Passacaglias>
+        a          mm:FormType ;
+        core:name  "Passacaglias" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Liederspiele>
+        a          mm:FormType ;
+        core:name  "Liederspiele" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Ecossaises>
+        a          mm:FormType ;
+        core:name  "Écossaises" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Flotenkompositionen>
+        a          mm:FormType ;
+        core:name  "Flötenkompositionen" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Masses__cantus_firmus___paraphrase___parody_masses_>
+        a          mm:FormType ;
+        core:name  "Masses (cantus firmus-, paraphrase-, parody masses)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Wienerlieder>
+        a          mm:FormType ;
+        core:name  "Wienerlieder" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Cotillions>
+        a          mm:FormType ;
+        core:name  "Cotillions" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Contradanzas>
+        a          mm:FormType ;
+        core:name  "Contradanzas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Bagatelles>
+        a          mm:FormType ;
+        core:name  "Bagatelles" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Words_of_consecration>
+        a          mm:FormType ;
+        core:name  "Words of consecration" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Corrected_reprints>
+        a          mm:FormType ;
+        core:name  "Corrected reprints" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Oper>
+        a          mm:FormType ;
+        core:name  "Oper" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Retiradas>
+        a          mm:FormType ;
+        core:name  "Retiradas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Modinhas>
+        a          mm:FormType ;
+        core:name  "Modinhas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Septets__inst__>
+        a          mm:FormType ;
+        core:name  "Septets (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Rounds__dances_>
+        a          mm:FormType ;
+        core:name  "Rounds (dances)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Kortanc>
+        a          mm:FormType ;
+        core:name  "Körtánc" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Church_music>
+        a          mm:FormType ;
+        core:name  "Church music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Programme_music>
+        a          mm:FormType ;
+        core:name  "Programme music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Litanies>
+        a          mm:FormType ;
+        core:name  "Litanies" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Morris_dances>
+        a          mm:FormType ;
+        core:name  "Morris dances" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Versi__voc__>
+        a          mm:FormType ;
+        core:name  "Versi (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Third_issues>
+        a          mm:FormType ;
+        core:name  "Third issues" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Cantadas>
+        a          mm:FormType ;
+        core:name  "Cantadas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Cancans>
+        a          mm:FormType ;
+        core:name  "Cancans" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Polish_folk_dances>
+        a          mm:FormType ;
+        core:name  "Polish folk dances" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Scales__inst__voc__>
+        a          mm:FormType ;
+        core:name  "Scales (inst./voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Arabesques>
+        a          mm:FormType ;
+        core:name  "Arabesques" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Rhapsodies__voc__>
+        a          mm:FormType ;
+        core:name  "Rhapsodies (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Tangos>
+        a          mm:FormType ;
+        core:name  "Tangos" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Solo>
+        a          mm:FormType ;
+        core:name  "Solo" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Trezzas>
+        a          mm:FormType ;
+        core:name  "Trezzas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Partimentos>
+        a          mm:FormType ;
+        core:name  "Partimentos" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Intermedi>
+        a          mm:FormType ;
+        core:name  "Intermedi" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Continuo_tutors>
+        a          mm:FormType ;
+        core:name  "Continuo tutors" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Sacred_vocal_music>
+        a          mm:FormType ;
+        core:name  "Sacred vocal music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Graduals>
+        a          mm:FormType ;
+        core:name  "Graduals" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Reprints>
+        a          mm:FormType ;
+        core:name  "Reprints" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Malaguenas>
+        a          mm:FormType ;
+        core:name  "Malagueñas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Zapateados>
+        a          mm:FormType ;
+        core:name  "Zapateados" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Lezginkas>
+        a          mm:FormType ;
+        core:name  "Lezginkas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Partsongs>
+        a          mm:FormType ;
+        core:name  "Partsongs" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Nonets__inst__>
+        a          mm:FormType ;
+        core:name  "Nonets (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Hours_of_the_Office>
+        a          mm:FormType ;
+        core:name  "Hours of the Office" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Rhapsodies__inst__>
+        a          mm:FormType ;
+        core:name  "Rhapsodies (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Kirchenmusik>
+        a          mm:FormType ;
+        core:name  "Kirchenmusik" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Salves>
+        a          mm:FormType ;
+        core:name  "Salves" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Ballades__forme_fixe_>
+        a          mm:FormType ;
+        core:name  "Ballades (forme fixe)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Dances>
+        a          mm:FormType ;
+        core:name  "Dances" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Parodies>
+        a          mm:FormType ;
+        core:name  "Parodies" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Mazurkas>
+        a          mm:FormType ;
+        core:name  "Mazurkas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Passions>
+        a          mm:FormType ;
+        core:name  "Passions" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Histoires_sacrees>
+        a          mm:FormType ;
+        core:name  "Histoires sacrées" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Contrafacta>
+        a          mm:FormType ;
+        core:name  "Contrafacta" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Battle_music__voc__>
+        a          mm:FormType ;
+        core:name  "Battle music (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Pieces>
+        a          mm:FormType ;
+        core:name  "Pieces" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Obereks>
+        a          mm:FormType ;
+        core:name  "Obereks" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Soundart>
+        a          mm:FormType ;
+        core:name  "Soundart" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Communions>
+        a          mm:FormType ;
+        core:name  "Communions" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Couplets>
+        a          mm:FormType ;
+        core:name  "Couplets" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Humoresken>
+        a          mm:FormType ;
+        core:name  "Humoresken" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Fugues__inst__>
+        a          mm:FormType ;
+        core:name  "Fugues (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Epiphany_hymns>
+        a          mm:FormType ;
+        core:name  "Epiphany hymns" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Character_pieces>
+        a          mm:FormType ;
+        core:name  "Character pieces" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Declamations_with_music>
+        a          mm:FormType ;
+        core:name  "Declamations with music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Schnadahupfln>
+        a          mm:FormType ;
+        core:name  "Schnadahüpfln" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Hannakisch>
+        a          mm:FormType ;
+        core:name  "Hannakisch" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Suites>
+        a          mm:FormType ;
+        core:name  "Suites" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Coronation_music>
+        a          mm:FormType ;
+        core:name  "Coronation music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Septets__voc__>
+        a          mm:FormType ;
+        core:name  "Septets (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Music_theory>
+        a          mm:FormType ;
+        core:name  "Music theory" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Orthros__Music_>
+        a          mm:FormType ;
+        core:name  "Orthros (Music)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Canzoni__voc__>
+        a          mm:FormType ;
+        core:name  "Canzoni (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Psalms>
+        a          mm:FormType ;
+        core:name  "Psalms" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Allemandes>
+        a          mm:FormType ;
+        core:name  "Allemandes" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Furiants>
+        a          mm:FormType ;
+        core:name  "Furiants" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Patriotic_songs>
+        a          mm:FormType ;
+        core:name  "Patriotic songs" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Standchen>
+        a          mm:FormType ;
+        core:name  "Ständchen" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Divertimentos>
+        a          mm:FormType ;
+        core:name  "Divertimentos" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Dumps>
+        a          mm:FormType ;
+        core:name  "Dumps" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Trisagium>
+        a          mm:FormType ;
+        core:name  "Trisagium" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Sketches>
+        a          mm:FormType ;
+        core:name  "Sketches" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Consorts>
+        a          mm:FormType ;
+        core:name  "Consorts" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Guitar_music>
+        a          mm:FormType ;
+        core:name  "Guitar music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Bicinia>
+        a          mm:FormType ;
+        core:name  "Bicinia" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Third_editions>
+        a          mm:FormType ;
+        core:name  "Third editions" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Scherzi__voc__>
+        a          mm:FormType ;
+        core:name  "Scherzi (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Potpourris>
+        a          mm:FormType ;
+        core:name  "Potpourris" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Chansons>
+        a          mm:FormType ;
+        core:name  "Chansons" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Duets__voc__>
+        a          mm:FormType ;
+        core:name  "Duets (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Versets__inst__>
+        a          mm:FormType ;
+        core:name  "Versets (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Francaises>
+        a          mm:FormType ;
+        core:name  "Françaises" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Solfeggios__inst__voc__>
+        a          mm:FormType ;
+        core:name  "Solfeggios (inst./voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Drabants>
+        a          mm:FormType ;
+        core:name  "Drabants" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Cabalettas>
+        a          mm:FormType ;
+        core:name  "Cabalettas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Duets__inst__>
+        a          mm:FormType ;
+        core:name  "Duets (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Composition_exercises>
+        a          mm:FormType ;
+        core:name  "Composition exercises" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Polonaises>
+        a          mm:FormType ;
+        core:name  "Polonaises" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Arpeggios__inst__>
+        a          mm:FormType ;
+        core:name  "Arpeggios (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Waltzes>
+        a          mm:FormType ;
+        core:name  "Waltzes" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Cavatinas>
+        a          mm:FormType ;
+        core:name  "Cavatinas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Capriccios__voc__>
+        a          mm:FormType ;
+        core:name  "Capriccios (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Contemporary_serious_music>
+        a          mm:FormType ;
+        core:name  "Contemporary serious music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Voluntaries>
+        a          mm:FormType ;
+        core:name  "Voluntaries" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Variations>
+        a          mm:FormType ;
+        core:name  "Variations" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Shimmies>
+        a          mm:FormType ;
+        core:name  "Shimmies" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Chaconnes__dances_>
+        a          mm:FormType ;
+        core:name  "Chaconnes (dances)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Tricinia>
+        a          mm:FormType ;
+        core:name  "Tricinia" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Sih_jo__Shi_Diao__>
+        a          mm:FormType ;
+        core:name  "Sih-jo (時調)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Occasional_print>
+        a          mm:FormType ;
+        core:name  "Occasional print" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Tutors__voc__>
+        a          mm:FormType ;
+        core:name  "Tutors (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Masses>
+        a          mm:FormType ;
+        core:name  "Masses" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Zambas>
+        a          mm:FormType ;
+        core:name  "Zambas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Kuhreihen>
+        a          mm:FormType ;
+        core:name  "Kuhreihen" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Chants_revolutionnaires>
+        a          mm:FormType ;
+        core:name  "Chants révolutionnaires" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Farandoles>
+        a          mm:FormType ;
+        core:name  "Farandoles" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Gavottes>
+        a          mm:FormType ;
+        core:name  "Gavottes" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Responsories>
+        a          mm:FormType ;
+        core:name  "Responsories" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Alabanzas>
+        a          mm:FormType ;
+        core:name  "Alabanzas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Glees>
+        a          mm:FormType ;
+        core:name  "Glees" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Keyboard_music>
+        a          mm:FormType ;
+        core:name  "Keyboard music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Madrigals>
+        a          mm:FormType ;
+        core:name  "Madrigals" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Sextets__voc__>
+        a          mm:FormType ;
+        core:name  "Sextets (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Scenes>
+        a          mm:FormType ;
+        core:name  "Scenes" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Toys>
+        a          mm:FormType ;
+        core:name  "Toys" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Gambenmusik>
+        a          mm:FormType ;
+        core:name  "Gambenmusik" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Calatas>
+        a          mm:FormType ;
+        core:name  "Calatas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/National_anthems>
+        a          mm:FormType ;
+        core:name  "National anthems" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Cantatas>
+        a          mm:FormType ;
+        core:name  "Cantatas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Solos_with_bc>
+        a          mm:FormType ;
+        core:name  "Solos with bc" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Anglaises>
+        a          mm:FormType ;
+        core:name  "Anglaises" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Textsammlung>
+        a          mm:FormType ;
+        core:name  "Textsammlung" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Early_editions>
+        a          mm:FormType ;
+        core:name  "Early editions" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Military_songs>
+        a          mm:FormType ;
+        core:name  "Military songs" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Tonadillas>
+        a          mm:FormType ;
+        core:name  "Tonadillas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Villancicos>
+        a          mm:FormType ;
+        core:name  "Villancicos" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Country_dances>
+        a          mm:FormType ;
+        core:name  "Country dances" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Operas>
+        a          mm:FormType ;
+        core:name  "Operas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/First_editions>
+        a          mm:FormType ;
+        core:name  "First editions" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Kolos>
+        a          mm:FormType ;
+        core:name  "Kolos" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Librettos>
+        a          mm:FormType ;
+        core:name  "Librettos" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/First_issues>
+        a          mm:FormType ;
+        core:name  "First issues" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Fantasies>
+        a          mm:FormType ;
+        core:name  "Fantasies" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Shanties>
+        a          mm:FormType ;
+        core:name  "Shanties" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Rosarios>
+        a          mm:FormType ;
+        core:name  "Rosarios" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Boleras>
+        a          mm:FormType ;
+        core:name  "Boleras" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Later_editions>
+        a          mm:FormType ;
+        core:name  "Later editions" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Habaneras>
+        a          mm:FormType ;
+        core:name  "Habaneras" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Part_books>
+        a          mm:FormType ;
+        core:name  "Part books" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Konzertstucke>
+        a          mm:FormType ;
+        core:name  "Konzertstücke" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Brass_music>
+        a          mm:FormType ;
+        core:name  "Brass music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Titelauflagen>
+        a          mm:FormType ;
+        core:name  "Titelauflagen" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/March_songs>
+        a          mm:FormType ;
+        core:name  "March songs" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Hymns>
+        a          mm:FormType ;
+        core:name  "Hymns" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Strambottos>
+        a          mm:FormType ;
+        core:name  "Strambottos" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Threnodies>
+        a          mm:FormType ;
+        core:name  "Threnodies" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Quadrilles>
+        a          mm:FormType ;
+        core:name  "Quadrilles" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Vocal_music>
+        a          mm:FormType ;
+        core:name  "Vocal music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Bergamascas>
+        a          mm:FormType ;
+        core:name  "Bergamascas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Intradas>
+        a          mm:FormType ;
+        core:name  "Intradas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Lauds>
+        a          mm:FormType ;
+        core:name  "Lauds" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Moravian_music>
+        a          mm:FormType ;
+        core:name  "Moravian music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Exsequiae>
+        a          mm:FormType ;
+        core:name  "Exsequiae" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Offertories>
+        a          mm:FormType ;
+        core:name  "Offertories" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Christmas_carols>
+        a          mm:FormType ;
+        core:name  "Christmas carols" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Versus_alleluiatici>
+        a          mm:FormType ;
+        core:name  "Versus alleluiatici" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Villanelle>
+        a          mm:FormType ;
+        core:name  "Villanelle" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Odes>
+        a          mm:FormType ;
+        core:name  "Odes" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Tombeaux>
+        a          mm:FormType ;
+        core:name  "Tombeaux" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Pop_songs>
+        a          mm:FormType ;
+        core:name  "Pop songs" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Ga_gok__Ge_Qu__>
+        a          mm:FormType ;
+        core:name  "Ga'gok (歌曲)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Violin_music>
+        a          mm:FormType ;
+        core:name  "Violin music" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Ballad_operas>
+        a          mm:FormType ;
+        core:name  "Ballad operas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Polskas>
+        a          mm:FormType ;
+        core:name  "Polskas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Radio_plays>
+        a          mm:FormType ;
+        core:name  "Radio plays" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Capitula>
+        a          mm:FormType ;
+        core:name  "Capitula" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Autographe>
+        a          mm:FormType ;
+        core:name  "Autographe" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Invitatories>
+        a          mm:FormType ;
+        core:name  "Invitatories" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Boogie_woogies>
+        a          mm:FormType ;
+        core:name  "Boogie-woogies" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Jeux>
+        a          mm:FormType ;
+        core:name  "Jeux" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Prayers>
+        a          mm:FormType ;
+        core:name  "Prayers" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Cadenzas__voc__>
+        a          mm:FormType ;
+        core:name  "Cadenzas (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Farse>
+        a          mm:FormType ;
+        core:name  "Farse" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Ensembles__voc__>
+        a          mm:FormType ;
+        core:name  "Ensembles (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Nocturnes__inst__>
+        a          mm:FormType ;
+        core:name  "Nocturnes (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Chorales>
+        a          mm:FormType ;
+        core:name  "Chorales" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Bourrees>
+        a          mm:FormType ;
+        core:name  "Bourrées" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Cachuchas>
+        a          mm:FormType ;
+        core:name  "Cachuchas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Fugues__voc__>
+        a          mm:FormType ;
+        core:name  "Fugues (voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Rumbas>
+        a          mm:FormType ;
+        core:name  "Rumbas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Quartets__inst__>
+        a          mm:FormType ;
+        core:name  "Quartets (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Movements>
+        a          mm:FormType ;
+        core:name  "Movements" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Blasmusik>
+        a          mm:FormType ;
+        core:name  "Blasmusik" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Slovankas>
+        a          mm:FormType ;
+        core:name  "Slovankas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Piano_method_books>
+        a          mm:FormType ;
+        core:name  "Piano method books" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Fanfares>
+        a          mm:FormType ;
+        core:name  "Fanfares" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Music_magazine>
+        a          mm:FormType ;
+        core:name  "Music magazine" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Galops>
+        a          mm:FormType ;
+        core:name  "Galops" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Tenorlieder>
+        a          mm:FormType ;
+        core:name  "Tenorlieder" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Salon_pieces>
+        a          mm:FormType ;
+        core:name  "Salon pieces" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Entr_actes>
+        a          mm:FormType ;
+        core:name  "Entr'actes" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Table_entertainments>
+        a          mm:FormType ;
+        core:name  "Table entertainments" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Doxastika_ton_Ainon>
+        a          mm:FormType ;
+        core:name  "Doxastika tōn Ainōn" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Orgelchoral>
+        a          mm:FormType ;
+        core:name  "Orgelchoral" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/First_critically_reviewed__editions>
+        a          mm:FormType ;
+        core:name  "First critically reviewed  editions" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Kozaki>
+        a          mm:FormType ;
+        core:name  "Kozaki" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Sauteuses>
+        a          mm:FormType ;
+        core:name  "Sauteuses" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Zarzuelas>
+        a          mm:FormType ;
+        core:name  "Zarzuelas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Intermezzos__inst__>
+        a          mm:FormType ;
+        core:name  "Intermezzos (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Kozachoks>
+        a          mm:FormType ;
+        core:name  "Kozachoks" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Gozos>
+        a          mm:FormType ;
+        core:name  "Gozos" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Blues>
+        a          mm:FormType ;
+        core:name  "Blues" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Sacred_songs>
+        a          mm:FormType ;
+        core:name  "Sacred songs" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Basse_danses>
+        a          mm:FormType ;
+        core:name  "Basse danses" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Applausi_musici>
+        a          mm:FormType ;
+        core:name  "Applausi musici" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Moments_musicaux>
+        a          mm:FormType ;
+        core:name  "Moments musicaux" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Trio_sonatas>
+        a          mm:FormType ;
+        core:name  "Trio sonatas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Lundums>
+        a          mm:FormType ;
+        core:name  "Lundums" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Kujawiaks>
+        a          mm:FormType ;
+        core:name  "Kujawiaks" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Rondeaux__forme_fixe_>
+        a          mm:FormType ;
+        core:name  "Rondeaux (forme fixe)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Elegies__inst__voc__>
+        a          mm:FormType ;
+        core:name  "Elegies (inst./voc.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Atti_di_carita>
+        a          mm:FormType ;
+        core:name  "Atti di carità" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/min_yo__Min_Yao__>
+        a          mm:FormType ;
+        core:name  "min'yo (民謠)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Double_quartets>
+        a          mm:FormType ;
+        core:name  "Double quartets" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Schleifer>
+        a          mm:FormType ;
+        core:name  "Schleifer" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Rigaudons>
+        a          mm:FormType ;
+        core:name  "Rigaudons" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Joropos>
+        a          mm:FormType ;
+        core:name  "Joropos" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Forlanas>
+        a          mm:FormType ;
+        core:name  "Forlanas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Musical_revues>
+        a          mm:FormType ;
+        core:name  "Musical revues" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Oratorios>
+        a          mm:FormType ;
+        core:name  "Oratorios" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Orchesterlieder>
+        a          mm:FormType ;
+        core:name  "Orchesterlieder" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Polish_national_songs>
+        a          mm:FormType ;
+        core:name  "Polish national songs" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Polish_dances>
+        a          mm:FormType ;
+        core:name  "Polish dances" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Trios__inst__>
+        a          mm:FormType ;
+        core:name  "Trios (inst.)" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Redowas>
+        a          mm:FormType ;
+        core:name  "Redowas" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Symphonies>
+        a          mm:FormType ;
+        core:name  "Symphonies" .
+
+<http://w3id.org/polifonia/resource/tunes/rism230419/TypeForm/Flamencos>
+        a          mm:FormType ;
+        core:name  "Flamencos" .

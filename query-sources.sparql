@@ -123,7 +123,7 @@ WHERE {
 
         # Identifier in collection
         OPTIONAL { ?source_base xyz:source_id ?source_id_in_collection . }
-        BIND(IF(BOUND(?source_id_in_collection), iri(concat(str(pon-resource:), "Collection/rism230419")), ?nothing) AS ?source_id_issuer_iri)
+        BIND(IF(BOUND(?source_id_in_collection), IF(BOUND(?collection_iri), ?collection_iri, ?nothing), ?nothing) AS ?source_id_issuer_iri)
         BIND(IF(BOUND(?source_id_in_collection), fx:bnode(concat(str(?source_iri), "si")), ?nothing) AS ?blank_identifier_in_collection)
         BIND(IF(BOUND(?source_id_in_collection), IRI(concat(str(pon-resource:), "IdentifierType/IDInCollection")), ?nothing) AS ?id_in_collection_identifier_type_iri)
     
@@ -201,6 +201,19 @@ WHERE {
         # Current owner
         OPTIONAL { ?source_base xyz:source_current_owner_iri_local ?source_current_owner_iri_local . } 
         # TODO
+
+        # Authors
+        OPTIONAL {
+            ?source_base xyz:source_authors_iris_local ?source_authors_base . 
+            ?source_authors_base ?author_slot ?source_author_iri_local .
+        }
+        # TODO
+
+        # Editors
+        OPTIONAL {
+            ?source_base xyz:source_editors_iris_local ?source_editors_base . 
+            ?source_editors_base ?editor_slot ?source_editor_iri_local .
+        }
 
         # Former owners
         OPTIONAL {

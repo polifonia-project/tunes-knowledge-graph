@@ -85,13 +85,13 @@ WHERE {
         OPTIONAL { ?agent_base xyz:agent_place_of_birth_latitude ?agent_place_of_birth_latitude . }
         OPTIONAL { ?agent_base xyz:agent_place_of_birth_longitude ?agent_place_of_birth_longitude . }
         OPTIONAL {
-            ?agent_base xyz:agent_classes ?agent_classes_base .
+            ?agent_base xyz:agent_classes_iris ?agent_classes_base .
             ?agent_classes_base fx:anySlot ?agent_class_iri_temp .
         }  # list
         OPTIONAL { ?agent_base xyz:agent_place_of_birth_name ?agent_place_of_birth_name . }  # list
         OPTIONAL {
-            ?agent_base xyz:agent_roles ?agent_roles_base . 
-            ?agent_roles_base fx:anySlot ?normalized_agent_role .
+            ?agent_base xyz:agent_roles_iris_local ?agent_roles_base . 
+            ?agent_roles_base fx:anySlot ?agent_role_iri_local .
         }  # list
         OPTIONAL { ?agent_base xyz:agent_VIAF_ID ?agent_VIAF_ID . }
         OPTIONAL { ?agent_base xyz:agent_DNB_ID ?agent_DNB_ID . }
@@ -102,7 +102,7 @@ WHERE {
         BIND (IRI(concat(str(pon-resource:), ?agent_iri_local)) AS ?agent_iri)
         #Agent classes
         BIND(IF(BOUND(?agent_class_iri_temp), IRI(?agent_class_iri_temp), ?nothing) AS ?agent_class)
-        BIND(IF(BOUND(?normalized_agent_role), IRI(CONCAT(str(pon-resource:),"Role/",?normalized_agent_role)), ?nothing) AS ?agent_role_iri)
+        BIND(IF(BOUND(?agent_role_iri_local), IRI(CONCAT(str(pon-resource:), ?agent_role_iri_local)), ?nothing) AS ?agent_role_iri)
 
         #Blank nodes
         # Extract identifier as base for blank note identifiers

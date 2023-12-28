@@ -24,7 +24,7 @@ WHERE {
             ?ft_slot ?ft_base .
 
         ?ft_base 
-            xyz:iri_local ?ft_iri_local ;
+            xyz:iri_local ?ft_iri_local .
 
         BIND(IRI(concat(str(pon-resource:), ?ft_iri_local)) AS ?form_type_iri)
 

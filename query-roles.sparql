@@ -1,6 +1,5 @@
 PREFIX xyz: <http://sparql.xyz/facade-x/data/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX fx: <http://sparql.xyz/facade-x/ns/>
 PREFIX mm:  <http://w3id.org/polifonia/ontology/music-meta/>
 PREFIX core:  <http://w3id.org/polifonia/ontology/core/>
@@ -12,9 +11,8 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
 CONSTRUCT {
     ?role_iri a core:Role ;
-        rdfs:label ?role_name .
+        core:name ?role_name .
 }
-
 
 WHERE {
     SERVICE <x-sparql-anything:> {
@@ -26,10 +24,11 @@ WHERE {
             ?role_slot ?role_base .
 
         ?role_base 
-            rdf:_1 ?role_name ;
-            rdf:_2 ?role_normalized_name .
+            xyz:iri_local ?role_iri_local .
 
-        BIND(IRI(CONCAT(str(pon-resource:), "Role/", ?role_normalized_name)) AS ?role_iri)
+        BIND(IRI(concat(str(pon-resource:), ?role_iri_local)) AS ?role_iri)
+
+        OPTIONAL { ?role_base xyz:name ?role_name . }
 
     }
 }

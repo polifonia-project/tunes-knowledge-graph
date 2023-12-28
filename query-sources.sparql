@@ -32,14 +32,8 @@ CONSTRUCT {
         mm:hasPublicationSituation ?blank_publication_situation ;
         core:hasTimeInterval ?blank_sorting_year ;
         core:hasAgentRole ?blank_scribe_agentrole ;
-        # core:hasAgentRole [
-        #     a core:AgentRole ;
-        #     core:hasRole ?editor_role_iri ;
-        #     core:hasAgent ?source_editor_iri ] ;
-        # core:hasAgentRole [
-        #     a core:AgentRole ;
-        #     core:hasRole ?author_role_iri ;
-        #     core:hasAgent ?source_author_iri ] ;
+        core:hasAgentRole ?blank_editor_agentrole ;
+        core:hasAgentRole ?blank_author_agentrole ;
         # # identifiers can be described using this reification pattern 
         # # in this case, both the ?source_id and the ?source_library_siglum are treated the same way and are disambiguated by the ?source_identifier_type and ?source_id_issuer_iri
         src:hasIdentifier ?blank_identifier_library_siglum ;  # add to ontology
@@ -49,8 +43,16 @@ CONSTRUCT {
     ?collection_iri core:hasMember ?source_iri .
 
     ?blank_scribe_agentrole a core:AgentRole ;
-        core:hasRole ?scribe_role_iri ; #"pon-resource:Role/Scribe" ;
+        core:hasRole ?scribe_role_iri ;
         core:hasAgent ?source_scribe_iri .
+
+    ?blank_editor_agentrole a core:AgentRole ;
+        core:hasRole ?editor_role_iri ;
+        core:hasAgent ?source_editor_iri .
+
+    ?blank_author_agentrole a core:AgentRole ;
+        core:hasRole ?author_role_iri ;
+        core:hasAgent ?source_author_iri .
 
     ?blank_identifier_library_siglum a src:Identifier ;
             src:hasIdentifierType ?library_siglum_identifier_type_iri ;
@@ -207,13 +209,20 @@ WHERE {
             ?source_base xyz:source_authors_iris_local ?source_authors_base . 
             ?source_authors_base ?author_slot ?source_author_iri_local .
         }
-        # TODO
+        BIND(IF(BOUND(?source_author_iri_local), IRI(concat(str(pon-resource:), ?source_author_iri_local)), ?nothing) AS ?source_author_iri)
+        BIND(IF(BOUND(?source_author_iri_local), IRI(concat(str(pon-resource:), "Role/Author")), ?nothing) AS ?author_role_iri)
+        BIND(IF(BOUND(?source_author_iri_local), replace(str(?author_slot), str(rdf:), ""), ?nothing) AS ?author_id)
+        BIND(IF(BOUND(?source_author_iri_local), fx:bnode(concat(str(?source_iri), "auth", ?author_id)), ?nothing) AS ?blank_author_agentrole)
 
         # Editors
         OPTIONAL {
             ?source_base xyz:source_editors_iris_local ?source_editors_base . 
             ?source_editors_base ?editor_slot ?source_editor_iri_local .
         }
+        BIND(IF(BOUND(?source_editor_iri_local), IRI(concat(str(pon-resource:), ?source_editor_iri_local)), ?nothing) AS ?source_editor_iri)
+        BIND(IF(BOUND(?source_editor_iri_local), IRI(concat(str(pon-resource:), "Role/Editor")), ?nothing) AS ?editor_role_iri)
+        BIND(IF(BOUND(?source_editor_iri_local), replace(str(?editor_slot), str(rdf:), ""), ?nothing) AS ?editor_id)
+        BIND(IF(BOUND(?source_editor_iri_local), fx:bnode(concat(str(?source_iri), "ed", ?editor_id)), ?nothing) AS ?blank_editor_agentrole)
 
         # Former owners
         OPTIONAL {

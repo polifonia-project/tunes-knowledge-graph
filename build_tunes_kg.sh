@@ -25,6 +25,7 @@ fx -q query-roles.sparql -values filepath="../tunes-dataset/output/kg/tunes-cre-
 # Agents
 fx -q query-agents.sparql -values filepath="../tunes-dataset/output/kg/tunes-mtc-agents.json" > kg/tunes-mtc-agents.ttl
 fx -q query-agents.sparql -values filepath="../tunes-dataset/output/kg/tunes-rism-agents.json" > kg/tunes-rism-agents.ttl
+fx -q query-agents.sparql -values filepath="../tunes-dataset/output/kg/tunes-cre-agents.json" > kg/tunes-cre-agents.ttl
 
 # Tune Families
 fx -q query-collections.sparql -values filepath="../tunes-dataset/output/kg/tunes-mtc-tunefamilies.json" > kg/tunes-mtc-tunefamilies.ttl
@@ -59,4 +60,3 @@ done
 fx -q query-entities.sparql -values filepath="../tunes-dataset/output/kg/tunes-thesession-entities.json" > kg/tunes-thesession-entities.ttl
 fx -q query-entities.sparql -values filepath="../tunes-dataset/output/kg/tunes-essen-entities.json" > kg/tunes-essen-entities.ttl
 fx -q query-entities.sparql -values filepath="../tunes-dataset/output/kg/tunes-cre-entities.json" > kg/tunes-cre-entities.ttl
-

@@ -16,6 +16,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016459>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016459&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorca7a049348ce521e3e406254c11339ed> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -57,6 +61,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1000717>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1000717&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authord6a7ab0bde60cc0a59974f018680cf6e> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -82,6 +90,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008568>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008568&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorb58fdaf6dbe7758551ea3c74acf09a72> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -102,6 +114,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1006481>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1006481&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authore3edc66262540cc3865a9c7c6e7f40e5> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -126,6 +142,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001682>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001682&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author5f7a915a98d8f1742b2ce6eb75e4cd3b> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -142,6 +162,14 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016012>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016012&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorb52668362dbdd766bff0643af97768ff> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author0e76e002855f5cc622fa973dde5cdc74> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -153,13 +181,13 @@
                                       mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Publisher53d29665b54b2476df111a02b08d1df0>
                                     ] ;
         src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
+                                      src:hasIdentifierValue  "facsimile edition 1979"
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "1016012" ;
                                       src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0>
-                                    ] ;
-        src:hasIdentifier           [ rdf:type                src:Identifier ;
-                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
-                                      src:hasIdentifierValue  "facsimile edition 1979"
                                     ] ;
         src:hasScan                 "http://objects.library.uu.nl/reader/index.php?obj=1874-36348" ;
         src:hasType                 <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
@@ -167,6 +195,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008020>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008020&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author14d218be640387b313051366b40d55f2> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -252,6 +284,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004315>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004315&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authord6a7ab0bde60cc0a59974f018680cf6e> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -303,6 +339,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008019>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008019&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author14d218be640387b313051366b40d55f2> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -322,6 +362,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001575>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001575&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author9000ac8aedee18d7fc5309fb03e14b7d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -346,6 +390,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1015705>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1015705&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorefcb3650d9e588a37818bcb785de05f6> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -362,6 +410,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1000140>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1000140&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author8e1e9ae452aa6d34d369e26e2becfe18> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -387,6 +439,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1017386>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1017386&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorc7589bf10dbf64ad7ea4cb0c6ef1972b> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -411,6 +467,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001985>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001985&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author14d218be640387b313051366b40d55f2> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -430,6 +490,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001732>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001732&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authore6d90658c81cfe854ddcbac00d3959d0> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -450,6 +514,14 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001907>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001907&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorcb679a657da44ba58b9209aed61533f6> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authore4c880f3ce7df0a3afa844b0d6597c4d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -474,6 +546,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004310>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004310&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authore6d90658c81cfe854ddcbac00d3959d0> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -494,6 +570,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001897>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001897&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorca7a049348ce521e3e406254c11339ed> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -574,6 +654,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016241>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016241&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authore93165b3ac28bc381184acfb67efb26d> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -590,6 +674,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1017612>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1017612&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author4143c01fecba1ee29d892eadfe10792e> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -605,6 +693,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004309>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004309&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author388803de263dc5ec1df324d5361dc091> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -644,6 +736,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1011201>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1011201&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author211017402a949988d2fc2850b41ce9bf> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -664,6 +760,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001569>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001569&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorc41d8f859f99eff0e7fa34745c7e992a> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -736,6 +836,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001993>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001993&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorb58fdaf6dbe7758551ea3c74acf09a72> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -756,6 +860,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001740>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001740&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorb58fdaf6dbe7758551ea3c74acf09a72> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -776,6 +884,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016309>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016309&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author07899dcaddb882a5e6253cd1eba1c550> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -801,6 +913,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1003343>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1003343&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author77c9b46398c70c1128fd87aad7edd435> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -825,6 +941,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016456>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016456&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorca7a049348ce521e3e406254c11339ed> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -902,6 +1022,14 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001928>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001928&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author98745418a2e7d52746e78ecacf3508f6> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author5b612fa4c107475f502b64c4375b2d55> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -938,6 +1066,18 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001854>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001854&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author7cbb2c7fad7ff0e6162edab97dd7be1a> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author7f8980e350952c109b36b7e1ab03bff3> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author9d807b0752e5171bb36746de812808ba> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -958,6 +1098,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1005899>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1005899&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author843b3d01150b71be12c1707ac086627b> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -974,6 +1118,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001577>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001577&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author8e3794bc32af0d567d31a7c76a246d19> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -994,6 +1142,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002054>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002054&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorf19b9ba50db366e474e250161c34f313> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -1005,6 +1157,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001545>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001545&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author1b1a6556a5614e13ea75b69009406a46> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -1025,6 +1181,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1000317>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1000317&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorbd81be95101a68f9171b61bfd7355cbc> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -1114,6 +1274,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016815>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016815&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authord3e62081550b052e4086fad0fc9859e2> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -1166,6 +1330,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001867>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001867&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authore9052e708947abf91182e1d8c5c11f1a> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -1201,6 +1369,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1017734>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1017734&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author4143c01fecba1ee29d892eadfe10792e> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -1217,6 +1389,14 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004270>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004270&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author1a4d8dd5589508a426f337a3b693b578> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author17f372c3cb51549884352de886bda7a7> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -1264,6 +1444,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002003>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002003&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authord6a7ab0bde60cc0a59974f018680cf6e> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -1308,6 +1492,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001715>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001715&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author389f406fc9664be2c9534a37e40b7c08> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -1344,6 +1532,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001659>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001659&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorc85e9b867a2f870b13ffa34d1b389256> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -1364,6 +1556,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1010979>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1010979&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author2708bf06a49969532e538a863207b4ef> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -1389,6 +1585,14 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001641>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001641&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorc7a7da781924e54711a9635436efb0f2> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authordefd19c11a010a12ddd89831703a78bc> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -1400,13 +1604,13 @@
                                       mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Publisher777efbdeaa9771e1209151713e670a17>
                                     ] ;
         src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
+                                      src:hasIdentifierValue  "onbekend (Gent of Den Haag)"
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "1001641" ;
                                       src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0>
-                                    ] ;
-        src:hasIdentifier           [ rdf:type                src:Identifier ;
-                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
-                                      src:hasIdentifierValue  "onbekend (Gent of Den Haag)"
                                     ] ;
         src:hasScan                 "https://books.google.nl/books?id=dCBbAAAAQAAJ&hl=nl&pg=PA9#v=onepage&q&f=false" ;
         src:hasType                 <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
@@ -1444,6 +1648,14 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016491>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016491&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author9bf8b483031bb76b32ebd958b7ed376b> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorc7589bf10dbf64ad7ea4cb0c6ef1972b> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -1455,13 +1667,13 @@
                                       mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Publisherc7589bf10dbf64ad7ea4cb0c6ef1972b>
                                     ] ;
         src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
+                                      src:hasIdentifierValue  "Den Haag KB: 8 C 32 [2]"
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "1016491" ;
                                       src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0>
-                                    ] ;
-        src:hasIdentifier           [ rdf:type                src:Identifier ;
-                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
-                                      src:hasIdentifierValue  "Den Haag KB: 8 C 32 [2]"
                                     ] ;
         src:hasScan                 "http://gateway.proquest.com/openurl?url_ver=Z39.88-2004&res_dat=xri:eurobo:&rft_dat=xri:eurobo:thumbnails:ned-kbn-all-00000541-002" ;
         src:hasType                 <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
@@ -1517,6 +1729,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001917>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001917&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author4aed58c0d22f10228daa97754482ad44> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -1557,6 +1773,14 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1010375>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1010375&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author65b3ebf9a6b38cf244b6a5d8e77f589e> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author219b7566c3ba8e23f761b6a5a716cb3e> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -1603,6 +1827,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016458>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016458&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorca7a049348ce521e3e406254c11339ed> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -1637,6 +1865,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001068>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001068&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorf2b2977b491c2f1ce8e0ba3cc1af7cce> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -1666,6 +1898,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001787>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001787&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author791e676722d6efb4da1dd0324e47de48> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -1686,6 +1922,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1011110>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1011110&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author63642a439a4735a56fc7e8a7c8eedfd9> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -1725,6 +1965,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001699>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001699&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author91f7ede5ea757a05891e9c68b3ab4d1f> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -1765,6 +2009,14 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004301>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004301&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorcf37d1212d90151ce1908a49974d850d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authore9052e708947abf91182e1d8c5c11f1a> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -1785,6 +2037,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016306>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016306&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author7d07c4c4f628280d104374baeca219b6> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -1801,6 +2057,14 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1010093>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1010093&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorc41d8f859f99eff0e7fa34745c7e992a> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author9a963975a5a9661afe4312b124351601> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -1821,6 +2085,14 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001681>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001681&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author2519996f8dd7e3208f72e6ee3d7b29b7> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorcf355449ab36f997604d4cc9c633b0eb> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -1840,6 +2112,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004245>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004245&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author134b9e540197529b61171a0196e0fbef> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -1860,6 +2136,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002024>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002024&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorc41d8f859f99eff0e7fa34745c7e992a> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -1930,6 +2210,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008018>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008018&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author14d218be640387b313051366b40d55f2> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -2021,6 +2305,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002005>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002005&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorb433559d266c9d2e99ae540f6dd6ff88> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -2132,6 +2420,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1000240>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1000240&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorc9c38d320a076d2e41698b73f502593d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -2164,6 +2456,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1005901>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1005901&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author843b3d01150b71be12c1707ac086627b> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -2180,6 +2476,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001113>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001113&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author75c6734d65536a37478a34e6eac2e7fa> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -2204,6 +2504,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001555>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001555&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author15a507547dd103774f80b48fb037bfa1> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -2219,6 +2523,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002032>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002032&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authora4e170baed4ab8bb0d9113d08a97f719> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -2230,6 +2538,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002000>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002000&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author3ad5a138eec10bfc0561f3178d28595d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -2255,6 +2567,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001997>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001997&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authore61c3396272a8bc2d99bc7c3e9af0b43> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -2274,6 +2590,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016461>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016461&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorca7a049348ce521e3e406254c11339ed> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -2331,6 +2651,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004308>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004308&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorf1ba95628ec9cda6835f02ffeec63675> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -2351,6 +2675,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1000751>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1000751&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author217f69687765e9e63670331fdfb15ec6> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -2390,6 +2718,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1015509>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1015509&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author5483ee0f404167146b12ecfa531fd570> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -2401,6 +2733,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1000663>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1000663&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author2962f4977f63dee9501b5c0db2b79542> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -2426,6 +2762,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1006058>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1006058&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authora063e27101a23e5fefd42ec8b44b2f90> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -2467,6 +2807,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001992>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001992&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author8e3794bc32af0d567d31a7c76a246d19> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -2503,6 +2847,14 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001872>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001872&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorc41d8f859f99eff0e7fa34745c7e992a> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author9a963975a5a9661afe4312b124351601> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
@@ -2536,6 +2888,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008021>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008021&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author14d218be640387b313051366b40d55f2> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -2688,6 +3044,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001927>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001927&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author0a2a97f99366e8bc33a0a39da41725cc> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -2738,6 +3098,14 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001807>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001807&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authora01296462e5972e3e8b627df9dc0da01> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author1db996bf5461fc7fb16041d19e9e9096> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -2749,6 +3117,14 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002039>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002039&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author6a356f125c847d4d9aaf63489b430b6e> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorb890b6d0e60a4f1983aaec9a2c8b4e23> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -2801,6 +3177,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1000814>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1000814&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author307da90bea864dbc56f1181e00bd91da> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -2898,6 +3278,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001701>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001701&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorc504da8fc8ba366f0ee6494c00bb178f> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -2918,6 +3302,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004311>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004311&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authord76ea42f6155a45cdf1d42f9c1032418> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -2938,6 +3326,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001613>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001613&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authora4addf613a066baba54cc684256fdab3> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -2958,6 +3350,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001115>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001115&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author84686960b294e652d1ecdbf6c594ff93> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -2998,6 +3394,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001571>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001571&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author72ceacd497a3c7d796b236f933ad5860> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -3013,6 +3413,14 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001999>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001999&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author8bab233c439357001413c256c2c98ff7> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author66ec229ddf23adbb1c53eae25a9d01cd> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -3037,6 +3445,14 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001903>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001903&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author27f00f00d7516f13176f63f350e496a3> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authordc09b3d8709ed736770a7dab0edafdac> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -3072,6 +3488,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002047>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002047&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author1b1a6556a5614e13ea75b69009406a46> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -3083,6 +3503,14 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001759>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001759&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author82d030ce43cb89fabc9d61c4a1395695> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authordbb255bbbfd60e2a7c7ce3b35a572321> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -3140,6 +3568,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1000047>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1000047&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorc15cbf2e30d2a02503fde5c191a02de8> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -3219,6 +3651,14 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1010019>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1010019&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author8428fed3829ef12dd29e9f3aedb9c11b> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author32a8b0d62df7c484224f0eecbd7b43c4> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -3238,6 +3678,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1019685>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1019685&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author5a85699b52555fab768a518d6a909d72> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -3254,6 +3698,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008585>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008585&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorb58fdaf6dbe7758551ea3c74acf09a72> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -3277,6 +3725,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001565>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001565&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author9a963975a5a9661afe4312b124351601> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -3301,6 +3753,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016457>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016457&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorca7a049348ce521e3e406254c11339ed> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -3382,6 +3838,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016194>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016194&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorc7589bf10dbf64ad7ea4cb0c6ef1972b> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -3406,6 +3866,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1000968>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1000968&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authoradca81a3ed44299e2c9e228d1abc2992> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -3430,6 +3894,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004300>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004300&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorfe7f6161e22aec2f4d55335eb28a881d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -3473,6 +3941,18 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001809>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001809&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author8c1228154f7844ca0b430934e3875882> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author420eafcd6d688d77a2721c5977185526> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author2ed2f2218c3fc52031a050bf0d89a16b> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -3593,6 +4073,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001781>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001781&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author73d2012d713233439aa1a7d78b0eefe1> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -3617,6 +4101,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001615>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001615&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author5a70ae26d626aa4e3a9a6e5aebaf5f05> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -3637,6 +4125,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001804>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001804&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorf7857a89b5a82b163693cf71c64a2783> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -3648,6 +4140,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016244>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016244&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author8f0fb060f09cb92f26569b8dbea39472> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -3664,6 +4160,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002004>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002004&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorb433559d266c9d2e99ae540f6dd6ff88> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -3683,6 +4183,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001748>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001748&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorfaddd9341268e9d67dd55c5fa8001378> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -3694,6 +4198,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004326>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004326&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author843b3d01150b71be12c1707ac086627b> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -3744,6 +4252,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001421>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001421&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorf33fc864edc7e2732f5cc44555725136> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -3768,6 +4280,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001895>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001895&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorb53fea7e548cd3e06d1915ed2cbedeff> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -3789,6 +4305,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1011204>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1011204&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author211017402a949988d2fc2850b41ce9bf> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -3809,6 +4329,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1005900>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1005900&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author843b3d01150b71be12c1707ac086627b> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -3825,6 +4349,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001610>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001610&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author0377f218a3c18832ac969acb48151a8e> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -3845,6 +4373,30 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002049>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002049&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author3c43d574023e9f4ebc91041783c4e071> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorc0f8c2be9c6c5ea64aff7965580d83e6> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorb58fdaf6dbe7758551ea3c74acf09a72> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorcf7bca88998ae9fb3f4bf3fcadc16522> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author88c429e6fcaa2f235c7311c8c308ad90> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author7fe946f1ee6994881ad2de8056a3fe5d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -3926,6 +4478,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016460>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016460&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorca7a049348ce521e3e406254c11339ed> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -3983,6 +4539,14 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004307>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004307&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author3b1bb8e2923e68323249547dfe777a83> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author2563cde8b8d0740917e097d81fe66609> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -4018,6 +4582,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001434>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001434&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authora27b7cb4d265e4d1c6f624e663022c1d> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -4033,6 +4601,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001609>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001609&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author0377f218a3c18832ac969acb48151a8e> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
@@ -4046,6 +4618,30 @@
         src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "1001609" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0>
+                                    ] ;
+        src:hasType                 <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1010256>
+        rdf:type                    src:Source ;
+        core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1010256&lan=en" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authora92cc899a9c0749a229798e4447cf336> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Amsterdam, Brussel"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1972"
+                                                            ] ;
+                                      mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Publisher21abe5a91c2949aba6ef77033a5f98f3>
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "1010256" ;
                                       src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0>
                                     ] ;
         src:hasType                 <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
@@ -4066,26 +4662,6 @@
         src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4G88.html" ;
         src:hasType        <http://w3id.org/polifonia/resource/tunes/SourceType/manuscript> .
 
-<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1010256>
-        rdf:type                    src:Source ;
-        core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1010256&lan=en" ;
-        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
-        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
-                                      core:hasPlace         [ rdf:type   core:Place ;
-                                                              core:name  "Amsterdam, Brussel"
-                                                            ] ;
-                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
-                                                              core:date  "1972"
-                                                            ] ;
-                                      mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Publisher21abe5a91c2949aba6ef77033a5f98f3>
-                                    ] ;
-        src:hasIdentifier           [ rdf:type                src:Identifier ;
-                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
-                                      src:hasIdentifierValue  "1010256" ;
-                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0>
-                                    ] ;
-        src:hasType                 <http://w3id.org/polifonia/resource/tunes/SourceType/print> .
-
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016238>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016238&lan=en" ;
@@ -4105,6 +4681,10 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016284>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016284&lan=en" ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author8f0fb060f09cb92f26569b8dbea39472> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;

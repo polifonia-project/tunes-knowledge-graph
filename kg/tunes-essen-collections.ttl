@@ -1,0 +1,85 @@
+@prefix core:         <http://w3id.org/polifonia/ontology/core/> .
+@prefix fx:           <http://sparql.xyz/facade-x/ns/> .
+@prefix mm:           <http://w3id.org/polifonia/ontology/music-meta/> .
+@prefix owl:          <http://www.w3.org/2002/07/owl#> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/tunes/> .
+@prefix rdfs:         <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tunes:        <http://w3id.org/polifonia/ontology/tunes/> .
+@prefix xsd:          <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:          <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/Collection/CHINA_0>
+        a                 core:Collection ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/EsACDatabase> .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/Collection/UNKNOWN>
+        a                 core:Collection ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/EsACDatabase> .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/Collection/ALTDEU>
+        a                 core:Collection ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/EsACDatabase> .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/Collection/TEST>
+        a                 core:Collection ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/EsACDatabase> .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/Collection/KINDER>
+        a                 core:Collection ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/EsACDatabase> .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/Collection/BALLADE>
+        a                 core:Collection ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/EsACDatabase> .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/Collection/VARIANT>
+        a                 core:Collection ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/EsACDatabase> .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/Collection/TESTx>
+        a                 core:Collection ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/EsACDatabase> .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/Collection/ERK5>
+        a                 core:Collection ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/EsACDatabase> .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/Collection/FINK>
+        a                 core:Collection ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/EsACDatabase> .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/Collection/CHINA>
+        a                 core:Collection ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/EsACDatabase> .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/Collection/DVA>
+        a                 core:Collection ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/EsACDatabase> .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/Collection/ZUCCAL>
+        a                 core:Collection ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/EsACDatabase> .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/Collection/PELOG1>
+        a                 core:Collection ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/EsACDatabase> .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/Collection/BOEHME>
+        a                 core:Collection ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/EsACDatabase> .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/Collection/ERK3>
+        a                 core:Collection ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/EsACDatabase> .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/Collection/TEST2>
+        a                 core:Collection ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/EsACDatabase> .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/Collection/ERK2>
+        a                 core:Collection ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/EsACDatabase> .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/Collection/ERK1>
+        a                 core:Collection ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/EsACDatabase> .

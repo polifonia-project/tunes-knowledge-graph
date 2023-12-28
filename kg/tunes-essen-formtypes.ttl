@@ -1,0 +1,2937 @@
+@prefix core:         <http://w3id.org/polifonia/ontology/core/> .
+@prefix fx:           <http://sparql.xyz/facade-x/ns/> .
+@prefix mm:           <http://w3id.org/polifonia/ontology/music-meta/> .
+@prefix owl:          <http://www.w3.org/2002/07/owl#> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/tunes/> .
+@prefix rdfs:         <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tunes:        <http://w3id.org/polifonia/ontology/tunes/> .
+@prefix xsd:          <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:          <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Wiegenlied>
+        a          mm:FormType ;
+        core:name  "Wiegenlied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Bauernlied>
+        a          mm:FormType ;
+        core:name  "Bauernlied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Lied_bei_der_Arbeit>
+        a          mm:FormType ;
+        core:name  "Lied bei der Arbeit" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Ballade____>
+        a          mm:FormType ;
+        core:name  "Ballade ???" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/historisches_Lied>
+        a          mm:FormType ;
+        core:name  "historisches Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Trink_Spruch>
+        a          mm:FormType ;
+        core:name  "Trink-Spruch" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Liebes_Lied>
+        a          mm:FormType ;
+        core:name  "Liebes-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Reue>
+        a          mm:FormType ;
+        core:name  "Reue" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/gesellschafts_kritisch>
+        a          mm:FormType ;
+        core:name  "gesellschafts-kritisch" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Selbstmord>
+        a          mm:FormType ;
+        core:name  "Selbstmord" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/biblischer_Stoff>
+        a          mm:FormType ;
+        core:name  "biblischer Stoff" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Invalieden>
+        a          mm:FormType ;
+        core:name  "Invalieden" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/historisch>
+        a          mm:FormType ;
+        core:name  "historisch" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Zucht_Reim>
+        a          mm:FormType ;
+        core:name  "Zucht-Reim" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Winter>
+        a          mm:FormType ;
+        core:name  "Winter" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/nationalistische_Selbstdefinition>
+        a          mm:FormType ;
+        core:name  "nationalistische Selbstdefinition" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Prinz_Eugen__1717_>
+        a          mm:FormType ;
+        core:name  "Prinz Eugen (1717)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Scherz_und_Spott>
+        a          mm:FormType ;
+        core:name  "Scherz und Spott" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Einsamkeit>
+        a          mm:FormType ;
+        core:name  "Einsamkeit" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kirmes>
+        a          mm:FormType ;
+        core:name  "Kirmes" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schein_Tod>
+        a          mm:FormType ;
+        core:name  "Schein-Tod" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Synagogen_Weise>
+        a          mm:FormType ;
+        core:name  "Synagogen-Weise" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kriegs_1815_>
+        a          mm:FormType ;
+        core:name  "Kriegs-1815)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Johannis_Tag>
+        a          mm:FormType ;
+        core:name  "Johannis-Tag" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Sankt_Martin>
+        a          mm:FormType ;
+        core:name  "Sankt Martin" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tanz_Lied>
+        a          mm:FormType ;
+        core:name  "Tanz-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Krieg_gegen_Frankreich__1813_und_1871_>
+        a          mm:FormType ;
+        core:name  "Krieg gegen Frankreich (1813 und 1871)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Ansinge_Lied>
+        a          mm:FormType ;
+        core:name  "Ansinge-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/chauvinistisch>
+        a          mm:FormType ;
+        core:name  "chauvinistisch" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Bergmann>
+        a          mm:FormType ;
+        core:name  "Bergmann" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Allegorie>
+        a          mm:FormType ;
+        core:name  "Allegorie" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/gregorianisches_Antiphon>
+        a          mm:FormType ;
+        core:name  "gregorianisches Antiphon" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schwank>
+        a          mm:FormType ;
+        core:name  "Schwank" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tier>
+        a          mm:FormType ;
+        core:name  "Tier" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Parodie__Latein_>
+        a          mm:FormType ;
+        core:name  "Parodie (Latein)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/abgewiesener_Knabe>
+        a          mm:FormType ;
+        core:name  "abgewiesener Knabe" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Staende_Lied>
+        a          mm:FormType ;
+        core:name  "Staende-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Totentanz>
+        a          mm:FormType ;
+        core:name  "Totentanz" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Geschwister_Liebe>
+        a          mm:FormType ;
+        core:name  "Geschwister-Liebe" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/abgewiesener_Liebhaber>
+        a          mm:FormType ;
+        core:name  "abgewiesener Liebhaber" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tod_Friedrich_II__1786_>
+        a          mm:FormType ;
+        core:name  "Tod Friedrich II (1786)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Siebenjaehriger_Krieg__1756_>
+        a          mm:FormType ;
+        core:name  "Siebenjaehriger Krieg (1756)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Vertreibung>
+        a          mm:FormType ;
+        core:name  "Vertreibung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Wallfahrts_Lied>
+        a          mm:FormType ;
+        core:name  "Wallfahrts-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Heimkehr>
+        a          mm:FormType ;
+        core:name  "Heimkehr" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Frust>
+        a          mm:FormType ;
+        core:name  "Frust" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tanz_Reim>
+        a          mm:FormType ;
+        core:name  "Tanz-Reim" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Ammen_Reim>
+        a          mm:FormType ;
+        core:name  "Ammen-Reim" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Reigen_Tanz>
+        a          mm:FormType ;
+        core:name  "Reigen-Tanz" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Grab>
+        a          mm:FormType ;
+        core:name  "Grab" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Koehler>
+        a          mm:FormType ;
+        core:name  "Koehler" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Siebenjaehriger_Krieg_1807>
+        a          mm:FormType ;
+        core:name  "Siebenjaehriger Krieg 1807" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Als_Tonbeispiel_vorhanden>
+        a          mm:FormType ;
+        core:name  "Als Tonbeispiel vorhanden" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Lehre>
+        a          mm:FormType ;
+        core:name  "Lehre" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Hochzeits_Lied_____Zeilenenden_rhythm__vereinheitlicht___>
+        a          mm:FormType ;
+        core:name  "Hochzeits-Lied +++ Zeilenenden rhythm. vereinheitlicht+++" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Loblied_auf_Kaffee>
+        a          mm:FormType ;
+        core:name  "Loblied auf Kaffee" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Liebes___Lied>
+        a          mm:FormType ;
+        core:name  "Liebes . Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Seemanns_Lied>
+        a          mm:FormType ;
+        core:name  "Seemanns-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/franzoesisches_Soldaten_Lied__1855_>
+        a          mm:FormType ;
+        core:name  "franzoesisches Soldaten-Lied (1855)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Ringelreihen>
+        a          mm:FormType ;
+        core:name  "Ringelreihen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/zu_koennen__>
+        a          mm:FormType ;
+        core:name  "zu koennen.)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Trinklied>
+        a          mm:FormType ;
+        core:name  "Trinklied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Spott_Lied>
+        a          mm:FormType ;
+        core:name  "Spott-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Biblischer_Stoff>
+        a          mm:FormType ;
+        core:name  "Biblischer Stoff" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Zweite>
+        a          mm:FormType ;
+        core:name  "Zweite" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Handwerks_Lied>
+        a          mm:FormType ;
+        core:name  "Handwerks-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Namenstag>
+        a          mm:FormType ;
+        core:name  "Namenstag" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Corrido>
+        a          mm:FormType ;
+        core:name  "Corrido" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Familienereignisse>
+        a          mm:FormType ;
+        core:name  "Familienereignisse" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/nationalistisch>
+        a          mm:FormType ;
+        core:name  "nationalistisch" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Reiter_Lied>
+        a          mm:FormType ;
+        core:name  "Reiter-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Berg>
+        a          mm:FormType ;
+        core:name  "Berg" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/vergebliche_Werbung>
+        a          mm:FormType ;
+        core:name  "vergebliche Werbung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Geist>
+        a          mm:FormType ;
+        core:name  "Geist" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Maerchen>
+        a          mm:FormType ;
+        core:name  "Maerchen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Rocken_Lied>
+        a          mm:FormType ;
+        core:name  "Rocken-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Silvester>
+        a          mm:FormType ;
+        core:name  "Silvester" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kirchen_Fest>
+        a          mm:FormType ;
+        core:name  "Kirchen-Fest" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Freimaurer_Lied>
+        a          mm:FormType ;
+        core:name  "Freimaurer-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/lutherische_Vesper>
+        a          mm:FormType ;
+        core:name  "lutherische Vesper" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schwank_Lied>
+        a          mm:FormType ;
+        core:name  "Schwank-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Gemuetlichkeit>
+        a          mm:FormType ;
+        core:name  "Gemuetlichkeit" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Aberglaube>
+        a          mm:FormType ;
+        core:name  "Aberglaube" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Sommer>
+        a          mm:FormType ;
+        core:name  "Sommer" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Hunger>
+        a          mm:FormType ;
+        core:name  "Hunger" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Scherenschleifer>
+        a          mm:FormType ;
+        core:name  "Scherenschleifer" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Krieg_gegen_Napoleon__1814_>
+        a          mm:FormType ;
+        core:name  "Krieg gegen Napoleon (1814)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Gnade>
+        a          mm:FormType ;
+        core:name  "Gnade" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Echo>
+        a          mm:FormType ;
+        core:name  "Echo" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Fastnahct>
+        a          mm:FormType ;
+        core:name  "Fastnahct" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Zeitungs_Lied>
+        a          mm:FormType ;
+        core:name  "Zeitungs-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tedesca>
+        a          mm:FormType ;
+        core:name  "Tedesca" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Juengling_zieht_in_den_Krieg>
+        a          mm:FormType ;
+        core:name  "Juengling zieht in den Krieg" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Staendchen>
+        a          mm:FormType ;
+        core:name  "Staendchen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Moral_Lied_auf_den_Tabak>
+        a          mm:FormType ;
+        core:name  "Moral-Lied auf den Tabak" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Treue>
+        a          mm:FormType ;
+        core:name  "Treue" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Barbara>
+        a          mm:FormType ;
+        core:name  "Barbara" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Passions_Lied>
+        a          mm:FormType ;
+        core:name  "Passions-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Ballade__Gefangenschaft>
+        a          mm:FormType ;
+        core:name  "Ballade? Gefangenschaft" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Zaubermaerchen>
+        a          mm:FormType ;
+        core:name  "Zaubermaerchen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Ballade__>
+        a          mm:FormType ;
+        core:name  "Ballade ?" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Wilderer>
+        a          mm:FormType ;
+        core:name  "Wilderer" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Familie>
+        a          mm:FormType ;
+        core:name  "Familie" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Ostern>
+        a          mm:FormType ;
+        core:name  "Ostern" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Preis_Lied>
+        a          mm:FormType ;
+        core:name  "Preis-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Hirsejaeten>
+        a          mm:FormType ;
+        core:name  "Hirsejaeten" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kinder>
+        a          mm:FormType ;
+        core:name  "Kinder" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tabak>
+        a          mm:FormType ;
+        core:name  "Tabak" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Liebes_Klage>
+        a          mm:FormType ;
+        core:name  "Liebes-Klage" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Weihnachten>
+        a          mm:FormType ;
+        core:name  "Weihnachten" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Lob_des_Tabaks>
+        a          mm:FormType ;
+        core:name  "Lob des Tabaks" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Mord_aus_Eifersucht>
+        a          mm:FormType ;
+        core:name  "Mord aus Eifersucht" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Bundes_Lied>
+        a          mm:FormType ;
+        core:name  "Bundes-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schelmen_Lied>
+        a          mm:FormType ;
+        core:name  "Schelmen-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Zauber_Lied>
+        a          mm:FormType ;
+        core:name  "Zauber-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/und_Taufe_Jesu>
+        a          mm:FormType ;
+        core:name  "und Taufe Jesu" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kinder_Lied>
+        a          mm:FormType ;
+        core:name  "Kinder-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Pilger_Reise>
+        a          mm:FormType ;
+        core:name  "Pilger-Reise" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Ruf>
+        a          mm:FormType ;
+        core:name  "Ruf" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Festung_Lille__1708_>
+        a          mm:FormType ;
+        core:name  "Festung Lille (1708)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/mythisch>
+        a          mm:FormType ;
+        core:name  "mythisch" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Legende>
+        a          mm:FormType ;
+        core:name  "Legende" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Luegen_Maerchen>
+        a          mm:FormType ;
+        core:name  "Luegen-Maerchen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Soldaten>
+        a          mm:FormType ;
+        core:name  "Soldaten" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/religioeses_Lied>
+        a          mm:FormType ;
+        core:name  "religioeses Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/geistlich>
+        a          mm:FormType ;
+        core:name  "geistlich" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Laendler>
+        a          mm:FormType ;
+        core:name  "Laendler" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Entfuehrung>
+        a          mm:FormType ;
+        core:name  "Entfuehrung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Odinwald_Sage>
+        a          mm:FormType ;
+        core:name  "Odinwald-Sage" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Advent>
+        a          mm:FormType ;
+        core:name  "Advent" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tageszeiten_Lied>
+        a          mm:FormType ;
+        core:name  "Tageszeiten-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Lyrik>
+        a          mm:FormType ;
+        core:name  "Lyrik" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Nuclear_Melody>
+        a          mm:FormType ;
+        core:name  "Nuclear Melody" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Familien_Geschichte>
+        a          mm:FormType ;
+        core:name  "Familien-Geschichte" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Spott_Lied_auf_die_Leineweber>
+        a          mm:FormType ;
+        core:name  "Spott-Lied auf die Leineweber" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Passion>
+        a          mm:FormType ;
+        core:name  "Passion" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Abschied>
+        a          mm:FormType ;
+        core:name  "Abschied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Bettler_Lied>
+        a          mm:FormType ;
+        core:name  "Bettler-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kiltlied>
+        a          mm:FormType ;
+        core:name  "Kiltlied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Ritter_Sage>
+        a          mm:FormType ;
+        core:name  "Ritter-Sage" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schalks_Lied>
+        a          mm:FormType ;
+        core:name  "Schalks-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schorsteinfeger_Lied>
+        a          mm:FormType ;
+        core:name  "Schorsteinfeger-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Shanty>
+        a          mm:FormType ;
+        core:name  "Shanty" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Verlassen_des_Elternhauses>
+        a          mm:FormType ;
+        core:name  "Verlassen des Elternhauses" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Wett_Lied>
+        a          mm:FormType ;
+        core:name  "Wett-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Handwerk>
+        a          mm:FormType ;
+        core:name  "Handwerk" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Nacht>
+        a          mm:FormType ;
+        core:name  "Nacht" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Reigen_Lied>
+        a          mm:FormType ;
+        core:name  "Reigen-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Geburtstag>
+        a          mm:FormType ;
+        core:name  "Geburtstag" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schlaf_Lied>
+        a          mm:FormType ;
+        core:name  "Schlaf-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Napoleons_russischer_Feldzug__1812_>
+        a          mm:FormType ;
+        core:name  "Napoleons russischer Feldzug (1812)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Verleumdung>
+        a          mm:FormType ;
+        core:name  "Verleumdung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Betrug>
+        a          mm:FormType ;
+        core:name  "Betrug" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Spott_Lied_auf_Wallfahrt>
+        a          mm:FormType ;
+        core:name  "Spott-Lied auf Wallfahrt" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Ehebruch>
+        a          mm:FormType ;
+        core:name  "Ehebruch" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/boese_Schwiegermutter>
+        a          mm:FormType ;
+        core:name  "boese Schwiegermutter" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Messe>
+        a          mm:FormType ;
+        core:name  "Messe" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Faust_Sage>
+        a          mm:FormType ;
+        core:name  "Faust-Sage" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Bettel_Moench>
+        a          mm:FormType ;
+        core:name  "Bettel-Moench" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Taten_und_Verbrechen>
+        a          mm:FormType ;
+        core:name  "Taten und Verbrechen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Befreiung>
+        a          mm:FormType ;
+        core:name  "Befreiung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tageszeiten>
+        a          mm:FormType ;
+        core:name  "Tageszeiten" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tod>
+        a          mm:FormType ;
+        core:name  "Tod" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Leid>
+        a          mm:FormType ;
+        core:name  "Leid" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Krieg_gegen_Franzosen__1799_>
+        a          mm:FormType ;
+        core:name  "Krieg gegen Franzosen (1799)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Krieg__1815_>
+        a          mm:FormType ;
+        core:name  "Krieg (1815)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Vierte_Zeile___refrainartig_auf_Wortwiederholungen_>
+        a          mm:FormType ;
+        core:name  "Vierte Zeile = refrainartig auf Wortwiederholungen." .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kinds_Mord>
+        a          mm:FormType ;
+        core:name  "Kinds-Mord" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Volks_Hymne>
+        a          mm:FormType ;
+        core:name  "Volks-Hymne" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Raeuber_Sage>
+        a          mm:FormType ;
+        core:name  "Raeuber-Sage" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/tragisch>
+        a          mm:FormType ;
+        core:name  "tragisch" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Wiegen_Lied__>
+        a          mm:FormType ;
+        core:name  "Wiegen-Lied ?" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/betrogene_Liebe>
+        a          mm:FormType ;
+        core:name  "betrogene Liebe" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schuster_Lied>
+        a          mm:FormType ;
+        core:name  "Schuster-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/310Romanze>
+        a          mm:FormType ;
+        core:name  "310Romanze" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Vertrauen>
+        a          mm:FormType ;
+        core:name  "Vertrauen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tier_Geschichte>
+        a          mm:FormType ;
+        core:name  "Tier-Geschichte" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Unfall>
+        a          mm:FormType ;
+        core:name  "Unfall" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Lyrisches_Lied>
+        a          mm:FormType ;
+        core:name  "Lyrisches Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Anmache>
+        a          mm:FormType ;
+        core:name  "Anmache" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Neck_Lied>
+        a          mm:FormType ;
+        core:name  "Neck-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Nachtwaechter>
+        a          mm:FormType ;
+        core:name  "Nachtwaechter" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Handwerks_Burschen>
+        a          mm:FormType ;
+        core:name  "Handwerks-Burschen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Scherz>
+        a          mm:FormType ;
+        core:name  "Scherz" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Hirten_Lied>
+        a          mm:FormType ;
+        core:name  "Hirten-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/verlassene_Liebe>
+        a          mm:FormType ;
+        core:name  "verlassene Liebe" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Rettung>
+        a          mm:FormType ;
+        core:name  "Rettung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Gebet>
+        a          mm:FormType ;
+        core:name  "Gebet" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Burschenschafts_Lied>
+        a          mm:FormType ;
+        core:name  "Burschenschafts-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Auszaehl_Reim>
+        a          mm:FormType ;
+        core:name  "Auszaehl-Reim" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Enttaeuschung>
+        a          mm:FormType ;
+        core:name  "Enttaeuschung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Landleben>
+        a          mm:FormType ;
+        core:name  "Landleben" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Pflanzen_Maerchen>
+        a          mm:FormType ;
+        core:name  "Pflanzen-Maerchen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schlacht_bei_Lowositz__1756_>
+        a          mm:FormType ;
+        core:name  "Schlacht bei Lowositz (1756)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Heimat_Lied>
+        a          mm:FormType ;
+        core:name  "Heimat-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Verzeihung>
+        a          mm:FormType ;
+        core:name  "Verzeihung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/enttaeuschte_Liebe>
+        a          mm:FormType ;
+        core:name  "enttaeuschte Liebe" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Trink_Lied__>
+        a          mm:FormType ;
+        core:name  "Trink-Lied ?" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/gesungene_Zeitung>
+        a          mm:FormType ;
+        core:name  "gesungene Zeitung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Pflanzen>
+        a          mm:FormType ;
+        core:name  "Pflanzen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Zank>
+        a          mm:FormType ;
+        core:name  "Zank" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Jahreszeiten>
+        a          mm:FormType ;
+        core:name  "Jahreszeiten" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Andacht>
+        a          mm:FormType ;
+        core:name  "Andacht" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Minderjaehrige>
+        a          mm:FormType ;
+        core:name  "Minderjaehrige" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Mutter_Lied>
+        a          mm:FormType ;
+        core:name  "Mutter-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Zaehl_Spiel>
+        a          mm:FormType ;
+        core:name  "Zaehl-Spiel" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Gefangenschaft>
+        a          mm:FormType ;
+        core:name  "Gefangenschaft" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/erzaehlendes_Volks_Lied>
+        a          mm:FormType ;
+        core:name  "erzaehlendes Volks-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tier_Maerchen>
+        a          mm:FormType ;
+        core:name  "Tier-Maerchen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Sankt_Nikolaus>
+        a          mm:FormType ;
+        core:name  "Sankt Nikolaus" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Scherzlied_auf_einen_Hausstand>
+        a          mm:FormType ;
+        core:name  "Scherzlied auf einen Hausstand" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Vertroestung>
+        a          mm:FormType ;
+        core:name  "Vertroestung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Wunsch_Lied>
+        a          mm:FormType ;
+        core:name  "Wunsch-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Dank_Lied>
+        a          mm:FormType ;
+        core:name  "Dank-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Liebeslied>
+        a          mm:FormType ;
+        core:name  "Liebeslied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Magie>
+        a          mm:FormType ;
+        core:name  "Magie" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Krieg__1799_>
+        a          mm:FormType ;
+        core:name  "Krieg (1799)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Soldaten__1813_und_1870_>
+        a          mm:FormType ;
+        core:name  "Soldaten (1813 und 1870)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Bruecken_Spiel>
+        a          mm:FormType ;
+        core:name  "Bruecken-Spiel" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Verlobung>
+        a          mm:FormType ;
+        core:name  "Verlobung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Klage______TAKTART_2_4_ergaenzt____>
+        a          mm:FormType ;
+        core:name  "Klage. +++ TAKTART 2/4 ergaenzt +++" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tannhaeuser>
+        a          mm:FormType ;
+        core:name  "Tannhaeuser" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Heimat>
+        a          mm:FormType ;
+        core:name  "Heimat" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Romanze>
+        a          mm:FormType ;
+        core:name  "Romanze" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Fastnacht>
+        a          mm:FormType ;
+        core:name  "Fastnacht" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Hopfenpfluecken>
+        a          mm:FormType ;
+        core:name  "Hopfenpfluecken" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Galopp_Walzer>
+        a          mm:FormType ;
+        core:name  "Galopp-Walzer" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Familienereignis>
+        a          mm:FormType ;
+        core:name  "Familienereignis" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/anti_klerikal>
+        a          mm:FormType ;
+        core:name  "anti-klerikal" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Mai>
+        a          mm:FormType ;
+        core:name  "Mai" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Legenden_Lied>
+        a          mm:FormType ;
+        core:name  "Legenden-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Brunhilde_Sage>
+        a          mm:FormType ;
+        core:name  "Brunhilde-Sage" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Musikantenspiel>
+        a          mm:FormType ;
+        core:name  "Musikantenspiel" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Ehestands_Lied>
+        a          mm:FormType ;
+        core:name  "Ehestands-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Krieg_gegen_Franzosen__1792_>
+        a          mm:FormType ;
+        core:name  "Krieg gegen Franzosen (1792)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kinder_Lied__>
+        a          mm:FormType ;
+        core:name  "Kinder-Lied ?" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Vergaenglichkeit>
+        a          mm:FormType ;
+        core:name  "Vergaenglichkeit" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schinderhannes>
+        a          mm:FormType ;
+        core:name  "Schinderhannes" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Heil_Spruch>
+        a          mm:FormType ;
+        core:name  "Heil-Spruch" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Verrat>
+        a          mm:FormType ;
+        core:name  "Verrat" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Bergmannslied>
+        a          mm:FormType ;
+        core:name  "Bergmannslied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Rundgesang>
+        a          mm:FormType ;
+        core:name  "Rundgesang" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Arbeitslied>
+        a          mm:FormType ;
+        core:name  "Arbeitslied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Sommer_Lied>
+        a          mm:FormType ;
+        core:name  "Sommer-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schiffbruch>
+        a          mm:FormType ;
+        core:name  "Schiffbruch" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Krti>
+        a          mm:FormType ;
+        core:name  "Krti" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Hildebrand_Lied>
+        a          mm:FormType ;
+        core:name  "Hildebrand-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Klage_Lied____>
+        a          mm:FormType ;
+        core:name  "Klage-Lied ???" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Siebenjaehriger_Krieg__1757_>
+        a          mm:FormType ;
+        core:name  "Siebenjaehriger Krieg (1757)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kilt_Lied>
+        a          mm:FormType ;
+        core:name  "Kilt-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Moral>
+        a          mm:FormType ;
+        core:name  "Moral" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Mahn_Lied>
+        a          mm:FormType ;
+        core:name  "Mahn-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Guckkasten_Lied>
+        a          mm:FormType ;
+        core:name  "Guckkasten-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/sozial_kritisch>
+        a          mm:FormType ;
+        core:name  "sozial-kritisch" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Volks_Lied>
+        a          mm:FormType ;
+        core:name  "Volks-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Dreissigjaehriger_Krieg>
+        a          mm:FormType ;
+        core:name  "Dreissigjaehriger Krieg" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Studenten_Lied>
+        a          mm:FormType ;
+        core:name  "Studenten-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Waise>
+        a          mm:FormType ;
+        core:name  "Waise" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Auswanderung>
+        a          mm:FormType ;
+        core:name  "Auswanderung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Handwerksburschen_Lied>
+        a          mm:FormType ;
+        core:name  "Handwerksburschen-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Wallfahrt>
+        a          mm:FormType ;
+        core:name  "Wallfahrt" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Treue_Geloebnis>
+        a          mm:FormType ;
+        core:name  "Treue-Geloebnis" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Dreher>
+        a          mm:FormType ;
+        core:name  "Dreher" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Klage_Lied>
+        a          mm:FormType ;
+        core:name  "Klage-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Lumpenmann>
+        a          mm:FormType ;
+        core:name  "Lumpenmann" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/____Phrasen_geaendert__2_7_89_>
+        a          mm:FormType ;
+        core:name  "+++ Phrasen geaendert (2.7.89)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Pfaenderspiel>
+        a          mm:FormType ;
+        core:name  "Pfaenderspiel" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Liebes_Ballade>
+        a          mm:FormType ;
+        core:name  "Liebes-Ballade" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/anti_Ehe>
+        a          mm:FormType ;
+        core:name  "anti-Ehe" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Drehorgel_Lied>
+        a          mm:FormType ;
+        core:name  "Drehorgel-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Liebes_Werbung>
+        a          mm:FormType ;
+        core:name  "Liebes-Werbung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Spott_Lied_auf_Bauern>
+        a          mm:FormType ;
+        core:name  "Spott-Lied auf Bauern" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Hoffnung>
+        a          mm:FormType ;
+        core:name  "Hoffnung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/National_Hymne>
+        a          mm:FormType ;
+        core:name  "National-Hymne" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Ehe>
+        a          mm:FormType ;
+        core:name  "Ehe" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Freibitte_fuer_den_Geliebten>
+        a          mm:FormType ;
+        core:name  "Freibitte fuer den Geliebten" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Sage__getreuer_Eckart_>
+        a          mm:FormType ;
+        core:name  "Sage (getreuer Eckart)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Krieg_gegen_die_Tuerken__1789_>
+        a          mm:FormType ;
+        core:name  "Krieg gegen die Tuerken (1789)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Krieg_gegen_Napoleon__1815_>
+        a          mm:FormType ;
+        core:name  "Krieg gegen Napoleon (1815)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Bettel_Hochzeit>
+        a          mm:FormType ;
+        core:name  "Bettel-Hochzeit" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Ehestands_Lied_____Zeilenenden_rhythm__vereinheitlicht___>
+        a          mm:FormType ;
+        core:name  "Ehestands-Lied +++ Zeilenenden rhythm. vereinheitlicht+++" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kunstmusik_fur_Guqin>
+        a          mm:FormType ;
+        core:name  "Kunstmusik für Guqin" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/religioes>
+        a          mm:FormType ;
+        core:name  "religioes" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Liebe_____Taktwechsel_nachtraeglich_____>
+        a          mm:FormType ;
+        core:name  "Liebe +++ Taktwechsel nachtraeglich ++++" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Wiegen_Lied>
+        a          mm:FormType ;
+        core:name  "Wiegen-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Verwechslung>
+        a          mm:FormType ;
+        core:name  "Verwechslung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Mord___Unfall>
+        a          mm:FormType ;
+        core:name  "Mord / Unfall" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Vokalform_in_der_Kunstmusik>
+        a          mm:FormType ;
+        core:name  "Vokalform in der Kunstmusik" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/mythologisch>
+        a          mm:FormType ;
+        core:name  "mythologisch" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Ernst_Sage>
+        a          mm:FormType ;
+        core:name  "Ernst-Sage" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Todes_Ahnung>
+        a          mm:FormType ;
+        core:name  "Todes-Ahnung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Wiederfinden_von_Familienangehoerigen>
+        a          mm:FormType ;
+        core:name  "Wiederfinden von Familienangehoerigen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Abholung_der_Kerb_________>
+        a          mm:FormType ;
+        core:name  "Abholung der Kerb'   (???)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Religion>
+        a          mm:FormType ;
+        core:name  "Religion" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Fest>
+        a          mm:FormType ;
+        core:name  "Fest" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Erzaehlung>
+        a          mm:FormType ;
+        core:name  "Erzaehlung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Vereins_Lied>
+        a          mm:FormType ;
+        core:name  "Vereins-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kriegslied>
+        a          mm:FormType ;
+        core:name  "Kriegslied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Versagen>
+        a          mm:FormType ;
+        core:name  "Versagen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Vaterlands_Lied>
+        a          mm:FormType ;
+        core:name  "Vaterlands-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tod__Prinz_Ludwig_von_Preussen_>
+        a          mm:FormType ;
+        core:name  "Tod (Prinz Ludwig von Preussen)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Scherz_Lied>
+        a          mm:FormType ;
+        core:name  "Scherz-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/um_Jaeger_werden>
+        a          mm:FormType ;
+        core:name  "um Jaeger werden" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Marlborough__1709_>
+        a          mm:FormType ;
+        core:name  "Marlborough (1709)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schlacht_bei_Leipzig__1813_>
+        a          mm:FormType ;
+        core:name  "Schlacht bei Leipzig (1813)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Textgebundene_Musik>
+        a          mm:FormType ;
+        core:name  "Textgebundene Musik" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Sage__Hl__Ursula_>
+        a          mm:FormType ;
+        core:name  "Sage (Hl. Ursula)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Wanderschaft>
+        a          mm:FormType ;
+        core:name  "Wanderschaft" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Mordversuch_bzw__Rache>
+        a          mm:FormType ;
+        core:name  "Mordversuch bzw. Rache" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Gesellen_Lied>
+        a          mm:FormType ;
+        core:name  "Gesellen-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/geistliches_Volks_Lied>
+        a          mm:FormType ;
+        core:name  "geistliches Volks-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Jaeger_Lied>
+        a          mm:FormType ;
+        core:name  "Jaeger-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Pfingsten>
+        a          mm:FormType ;
+        core:name  "Pfingsten" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Rate_Spiel>
+        a          mm:FormType ;
+        core:name  "Rate-Spiel" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Vexier_Lied>
+        a          mm:FormType ;
+        core:name  "Vexier-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Geselligkeits_Lied>
+        a          mm:FormType ;
+        core:name  "Geselligkeits-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Beischlaf>
+        a          mm:FormType ;
+        core:name  "Beischlaf" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Helden_Sage>
+        a          mm:FormType ;
+        core:name  "Helden-Sage" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Frankfurter_Sage>
+        a          mm:FormType ;
+        core:name  "Frankfurter Sage" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Ehestands_Klage____>
+        a          mm:FormType ;
+        core:name  "Ehestands-Klage ???" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Lauf_Spiel>
+        a          mm:FormType ;
+        core:name  "Lauf-Spiel" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/_Purengesanck_>
+        a          mm:FormType ;
+        core:name  "\"Purengesanck\"" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Freundschaft>
+        a          mm:FormType ;
+        core:name  "Freundschaft" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Herr_und_Magd>
+        a          mm:FormType ;
+        core:name  "Herr und Magd" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Abschieds_Lied__Liebe>
+        a          mm:FormType ;
+        core:name  "Abschieds-Lied. Liebe" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tiere>
+        a          mm:FormType ;
+        core:name  "Tiere" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Grabesstimme>
+        a          mm:FormType ;
+        core:name  "Grabesstimme" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Braut_Werbung>
+        a          mm:FormType ;
+        core:name  "Braut-Werbung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Untreue>
+        a          mm:FormType ;
+        core:name  "Untreue" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Frauenraub>
+        a          mm:FormType ;
+        core:name  "Frauenraub" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Spott_Lied_auf_die_Schwaben>
+        a          mm:FormType ;
+        core:name  "Spott-Lied auf die Schwaben" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Heirat>
+        a          mm:FormType ;
+        core:name  "Heirat" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tafel_Lied>
+        a          mm:FormType ;
+        core:name  "Tafel-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Verwuenschung>
+        a          mm:FormType ;
+        core:name  "Verwuenschung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Volkslied>
+        a          mm:FormType ;
+        core:name  "Volkslied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Liebes_Lust>
+        a          mm:FormType ;
+        core:name  "Liebes-Lust" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Krankheit>
+        a          mm:FormType ;
+        core:name  "Krankheit" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schwell_Lied>
+        a          mm:FormType ;
+        core:name  "Schwell-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Respekt_vor_dem_Alter>
+        a          mm:FormType ;
+        core:name  "Respekt vor dem Alter" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Jugend>
+        a          mm:FormType ;
+        core:name  "Jugend" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/betrogener_Ehemann>
+        a          mm:FormType ;
+        core:name  "betrogener Ehemann" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Liebes_Handel>
+        a          mm:FormType ;
+        core:name  "Liebes-Handel" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Neck_Maerchen>
+        a          mm:FormType ;
+        core:name  "Neck-Maerchen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Blaubart_Sage>
+        a          mm:FormType ;
+        core:name  "Blaubart-Sage" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Rueckkehr>
+        a          mm:FormType ;
+        core:name  "Rueckkehr" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Klage_am_Grab>
+        a          mm:FormType ;
+        core:name  "Klage am Grab" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Luoer_diao>
+        a          mm:FormType ;
+        core:name  "Luoer diao" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Choral>
+        a          mm:FormType ;
+        core:name  "Choral" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Abend>
+        a          mm:FormType ;
+        core:name  "Abend" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/264_5_muss_ueberprueft_werden____>
+        a          mm:FormType ;
+        core:name  "264-5 muss ueberprueft werden! ++" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Beschwoerung__Nebel_>
+        a          mm:FormType ;
+        core:name  "Beschwoerung (Nebel)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Moral_Lied>
+        a          mm:FormType ;
+        core:name  "Moral-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Mord>
+        a          mm:FormType ;
+        core:name  "Mord" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Raub>
+        a          mm:FormType ;
+        core:name  "Raub" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/vierte_und_fuenfte_Zeile___Refrain_>
+        a          mm:FormType ;
+        core:name  "vierte und fuenfte Zeile = Refrain." .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Lebens_Philosophie>
+        a          mm:FormType ;
+        core:name  "Lebens-Philosophie" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kirchweih_Lied>
+        a          mm:FormType ;
+        core:name  "Kirchweih-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/__>
+        a          mm:FormType ;
+        core:name  "??" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Geburt>
+        a          mm:FormType ;
+        core:name  "Geburt" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Landsknechts_Tanz>
+        a          mm:FormType ;
+        core:name  "Landsknechts-Tanz" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Streit_zwischen_Wasser_und_Wein>
+        a          mm:FormType ;
+        core:name  "Streit zwischen Wasser und Wein" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kaiser_Lied>
+        a          mm:FormType ;
+        core:name  "Kaiser-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Unsinns_Verse>
+        a          mm:FormType ;
+        core:name  "Unsinns-Verse" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Jesus_Lied>
+        a          mm:FormType ;
+        core:name  "Jesus-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/erzaehlend>
+        a          mm:FormType ;
+        core:name  "erzaehlend" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Such_Spiel>
+        a          mm:FormType ;
+        core:name  "Such-Spiel" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/preussisches_Kriegs_Lied__1813_>
+        a          mm:FormType ;
+        core:name  "preussisches Kriegs-Lied (1813)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Regen_Lied>
+        a          mm:FormType ;
+        core:name  "Regen-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Personenlied>
+        a          mm:FormType ;
+        core:name  "Personenlied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Trauer>
+        a          mm:FormType ;
+        core:name  "Trauer" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/xiao_diao>
+        a          mm:FormType ;
+        core:name  "xiao diao" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Spott_Lied_auf_betruegerische_Schneider>
+        a          mm:FormType ;
+        core:name  "Spott-Lied auf betruegerische Schneider" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Heilige_drei_Koenige>
+        a          mm:FormType ;
+        core:name  "Heilige drei Koenige" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Liebe_mit_gluecklichem_Ausgang>
+        a          mm:FormType ;
+        core:name  "Liebe mit gluecklichem Ausgang" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Jodel_Lied>
+        a          mm:FormType ;
+        core:name  "Jodel-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kirmes_Lied>
+        a          mm:FormType ;
+        core:name  "Kirmes-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Abzaehl_Reim>
+        a          mm:FormType ;
+        core:name  "Abzaehl-Reim" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schneider>
+        a          mm:FormType ;
+        core:name  "Schneider" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Salzsieder_Lied>
+        a          mm:FormType ;
+        core:name  "Salzsieder-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Krieg_v__Franzosen_und_Bayern_gegen_Preussen_1806>
+        a          mm:FormType ;
+        core:name  "Krieg v. Franzosen und Bayern gegen Preussen 1806" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Abschieds_Lied>
+        a          mm:FormType ;
+        core:name  "Abschieds-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Toten_Klage>
+        a          mm:FormType ;
+        core:name  "Toten-Klage" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Genoveva_Sage>
+        a          mm:FormType ;
+        core:name  "Genoveva-Sage" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Raeuber>
+        a          mm:FormType ;
+        core:name  "Raeuber" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Phrasen_geaendert__2_7_89_>
+        a          mm:FormType ;
+        core:name  "Phrasen geaendert (2.7.89)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Brauchtums_Lied>
+        a          mm:FormType ;
+        core:name  "Brauchtums-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Todesahnung>
+        a          mm:FormType ;
+        core:name  "Todesahnung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/verlorene_Ehre>
+        a          mm:FormType ;
+        core:name  "verlorene Ehre" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Musiker_Zunft>
+        a          mm:FormType ;
+        core:name  "Musiker-Zunft" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Fuhrmanns_Lied>
+        a          mm:FormType ;
+        core:name  "Fuhrmanns-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Spiel_Lied>
+        a          mm:FormType ;
+        core:name  "Spiel-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kanon>
+        a          mm:FormType ;
+        core:name  "Kanon" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Lob>
+        a          mm:FormType ;
+        core:name  "Lob" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Morgen>
+        a          mm:FormType ;
+        core:name  "Morgen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Maerchen_Lied>
+        a          mm:FormType ;
+        core:name  "Maerchen-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Scherz__>
+        a          mm:FormType ;
+        core:name  "Scherz -" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Misstrauen_gegen_Frauen>
+        a          mm:FormType ;
+        core:name  "Misstrauen gegen Frauen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Hinrichtung>
+        a          mm:FormType ;
+        core:name  "Hinrichtung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Attentat>
+        a          mm:FormType ;
+        core:name  "Attentat" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Bregraebnis_Lied>
+        a          mm:FormType ;
+        core:name  "Bregraebnis-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Sage__Nonnen_Werber_>
+        a          mm:FormType ;
+        core:name  "Sage (Nonnen-Werber)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Freude>
+        a          mm:FormType ;
+        core:name  "Freude" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Krieg__1706_>
+        a          mm:FormType ;
+        core:name  "Krieg (1706)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Landsknechts_Marsch>
+        a          mm:FormType ;
+        core:name  "Landsknechts-Marsch" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/siebenjaehriger_Krieg>
+        a          mm:FormType ;
+        core:name  "siebenjaehriger Krieg" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Fischer>
+        a          mm:FormType ;
+        core:name  "Fischer" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Fest_Lied>
+        a          mm:FormType ;
+        core:name  "Fest-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Waechter_Lied>
+        a          mm:FormType ;
+        core:name  "Waechter-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Geselligkeit>
+        a          mm:FormType ;
+        core:name  "Geselligkeit" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Optimismus>
+        a          mm:FormType ;
+        core:name  "Optimismus" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Wiederfinden>
+        a          mm:FormType ;
+        core:name  "Wiederfinden" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Jahreswende>
+        a          mm:FormType ;
+        core:name  "Jahreswende" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Gebirgs_Lied>
+        a          mm:FormType ;
+        core:name  "Gebirgs-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Scherz_Lied_auf_den_Tabak>
+        a          mm:FormType ;
+        core:name  "Scherz-Lied auf den Tabak" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kinderlied>
+        a          mm:FormType ;
+        core:name  "Kinderlied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Habgier>
+        a          mm:FormType ;
+        core:name  "Habgier" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Spiel>
+        a          mm:FormType ;
+        core:name  "Spiel" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schwank___>
+        a          mm:FormType ;
+        core:name  "Schwank ??" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Alm_Lied>
+        a          mm:FormType ;
+        core:name  "Alm-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Weglaufen>
+        a          mm:FormType ;
+        core:name  "Weglaufen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schaefer_Lied>
+        a          mm:FormType ;
+        core:name  "Schaefer-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Glueck>
+        a          mm:FormType ;
+        core:name  "Glueck" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Auferstehung>
+        a          mm:FormType ;
+        core:name  "Auferstehung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Bauern_Lied>
+        a          mm:FormType ;
+        core:name  "Bauern-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Hochzeits_Lied>
+        a          mm:FormType ;
+        core:name  "Hochzeits-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Spott_Lied_auf_verschiedene_Handwerker>
+        a          mm:FormType ;
+        core:name  "Spott-Lied auf verschiedene Handwerker" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Bei_der_Arbeit>
+        a          mm:FormType ;
+        core:name  "Bei der Arbeit" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Jaegerlied>
+        a          mm:FormType ;
+        core:name  "Jaegerlied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/magisch>
+        a          mm:FormType ;
+        core:name  "magisch" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Zweikampf>
+        a          mm:FormType ;
+        core:name  "Zweikampf" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Jahreszeiten_Lied>
+        a          mm:FormType ;
+        core:name  "Jahreszeiten-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Reimspiel>
+        a          mm:FormType ;
+        core:name  "Reimspiel" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Versoehnung>
+        a          mm:FormType ;
+        core:name  "Versoehnung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/patriotisch>
+        a          mm:FormType ;
+        core:name  "patriotisch" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/parodistisch>
+        a          mm:FormType ;
+        core:name  "parodistisch" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tier_Lied>
+        a          mm:FormType ;
+        core:name  "Tier-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Pfaender_Spiel>
+        a          mm:FormType ;
+        core:name  "Pfaender-Spiel" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tisch_Gebet>
+        a          mm:FormType ;
+        core:name  "Tisch-Gebet" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Cut_Nr___17>
+        a          mm:FormType ;
+        core:name  "Cut Nr.: 17" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Indiskretion>
+        a          mm:FormType ;
+        core:name  "Indiskretion" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Dank>
+        a          mm:FormType ;
+        core:name  "Dank" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/lyrisches_Lied>
+        a          mm:FormType ;
+        core:name  "lyrisches Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Vexierspiel>
+        a          mm:FormType ;
+        core:name  "Vexierspiel" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/verlorene_Unschuld>
+        a          mm:FormType ;
+        core:name  "verlorene Unschuld" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/verweigerter_Beischlaf>
+        a          mm:FormType ;
+        core:name  "verweigerter Beischlaf" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/falsche_Liebe>
+        a          mm:FormType ;
+        core:name  "falsche Liebe" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Toten_Tanz>
+        a          mm:FormType ;
+        core:name  "Toten-Tanz" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Menschenhandel>
+        a          mm:FormType ;
+        core:name  "Menschenhandel" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tauer>
+        a          mm:FormType ;
+        core:name  "Tauer" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Sehnsucht>
+        a          mm:FormType ;
+        core:name  "Sehnsucht" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/lyrisch____>
+        a          mm:FormType ;
+        core:name  "lyrisch (?)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Rabenmutter>
+        a          mm:FormType ;
+        core:name  "Rabenmutter" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Invaliden>
+        a          mm:FormType ;
+        core:name  "Invaliden" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Gefangenen_Lied>
+        a          mm:FormType ;
+        core:name  "Gefangenen-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/erzaehlendes_Lied>
+        a          mm:FormType ;
+        core:name  "erzaehlendes Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Spinnen>
+        a          mm:FormType ;
+        core:name  "Spinnen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tannhaeuser_Sage>
+        a          mm:FormType ;
+        core:name  "Tannhaeuser-Sage" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/lustige_Romanze>
+        a          mm:FormType ;
+        core:name  "lustige Romanze" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/verwundete_Dame>
+        a          mm:FormType ;
+        core:name  "verwundete Dame" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Frau_in_Maennerkleidung>
+        a          mm:FormType ;
+        core:name  "Frau in Maennerkleidung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Bauern_Klage>
+        a          mm:FormType ;
+        core:name  "Bauern-Klage" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Johannis_Fest>
+        a          mm:FormType ;
+        core:name  "Johannis-Fest" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Hofe_Lied>
+        a          mm:FormType ;
+        core:name  "Hofe-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Jugend_Lied>
+        a          mm:FormType ;
+        core:name  "Jugend-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Postillon>
+        a          mm:FormType ;
+        core:name  "Postillon" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Scherenschleifer_Lied>
+        a          mm:FormType ;
+        core:name  "Scherenschleifer-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Melusina_Sage>
+        a          mm:FormType ;
+        core:name  "Melusina-Sage" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Liebesschmerz>
+        a          mm:FormType ;
+        core:name  "Liebesschmerz" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Curiosa_geistlicher_Lieder_des_Mittelalters>
+        a          mm:FormType ;
+        core:name  "Curiosa geistlicher Lieder des Mittelalters" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Freiheits_Lied>
+        a          mm:FormType ;
+        core:name  "Freiheits-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Totenwacht_Lied>
+        a          mm:FormType ;
+        core:name  "Totenwacht-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Bruder_Mord>
+        a          mm:FormType ;
+        core:name  "Bruder-Mord" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Maurer_Lied>
+        a          mm:FormType ;
+        core:name  "Maurer-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Knierreiter_Lied>
+        a          mm:FormType ;
+        core:name  "Knierreiter-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/nationalsozialistisches_Lied>
+        a          mm:FormType ;
+        core:name  "nationalsozialistisches Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Sterne>
+        a          mm:FormType ;
+        core:name  "Sterne" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Raetsel_Lied>
+        a          mm:FormType ;
+        core:name  "Raetsel-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kose_Lied>
+        a          mm:FormType ;
+        core:name  "Kose-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Grundton_liegt_in_der_zweigestrichenen_Oktave>
+        a          mm:FormType ;
+        core:name  "Grundton liegt in der zweigestrichenen Oktave" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Brautwerbung>
+        a          mm:FormType ;
+        core:name  "Brautwerbung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Ritter_Lied>
+        a          mm:FormType ;
+        core:name  "Ritter-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kampf>
+        a          mm:FormType ;
+        core:name  "Kampf" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tod_Kaiser_Joseph_II__1790_>
+        a          mm:FormType ;
+        core:name  "Tod Kaiser Joseph II (1790)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/national>
+        a          mm:FormType ;
+        core:name  "national" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Hirlanda_Sage>
+        a          mm:FormType ;
+        core:name  "Hirlanda-Sage" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Ehe_Geloebnis>
+        a          mm:FormType ;
+        core:name  "Ehe-Geloebnis" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Seemannslied>
+        a          mm:FormType ;
+        core:name  "Seemannslied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Reigen>
+        a          mm:FormType ;
+        core:name  "Reigen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Wiedervereinigung_der_Liebenden>
+        a          mm:FormType ;
+        core:name  "Wiedervereinigung der Liebenden" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kleinere_Melodievarianten_aus_anderen_Quellen_abgedruckt_>
+        a          mm:FormType ;
+        core:name  "Kleinere Melodievarianten aus anderen Quellen abgedruckt." .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tage_Lied>
+        a          mm:FormType ;
+        core:name  "Tage-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Nachahmungs_Spiel>
+        a          mm:FormType ;
+        core:name  "Nachahmungs-Spiel" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Deutsch_Franzoesischer_Krieg__1870_>
+        a          mm:FormType ;
+        core:name  "Deutsch-Franzoesischer Krieg (1870)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Marsch_Lied>
+        a          mm:FormType ;
+        core:name  "Marsch-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Napoleon>
+        a          mm:FormType ;
+        core:name  "Napoleon" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schlaraffenland>
+        a          mm:FormType ;
+        core:name  "Schlaraffenland" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Reservisten>
+        a          mm:FormType ;
+        core:name  "Reservisten" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Marien_Ruf>
+        a          mm:FormType ;
+        core:name  "Marien-Ruf" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Verzierung>
+        a          mm:FormType ;
+        core:name  "Verzierung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Wald>
+        a          mm:FormType ;
+        core:name  "Wald" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Reiter>
+        a          mm:FormType ;
+        core:name  "Reiter" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Spass_Lied>
+        a          mm:FormType ;
+        core:name  "Spass-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/____265_nach_Gehor_geandert_____>
+        a          mm:FormType ;
+        core:name  "+++ 265 nach Gehör geändert. +++" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/___>
+        a          mm:FormType ;
+        core:name  "???" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Brauchtum>
+        a          mm:FormType ;
+        core:name  "Brauchtum" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schaukel_Lied>
+        a          mm:FormType ;
+        core:name  "Schaukel-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Zigeuner>
+        a          mm:FormType ;
+        core:name  "Zigeuner" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Trinkspruch>
+        a          mm:FormType ;
+        core:name  "Trinkspruch" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Handwerker_Lied>
+        a          mm:FormType ;
+        core:name  "Handwerker-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Niederlage>
+        a          mm:FormType ;
+        core:name  "Niederlage" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kniereiter_Lied>
+        a          mm:FormType ;
+        core:name  "Kniereiter-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Bettel_Reim>
+        a          mm:FormType ;
+        core:name  "Bettel-Reim" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/dreissigjaehriger_Krieg>
+        a          mm:FormType ;
+        core:name  "dreissigjaehriger Krieg" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/religioeses_Erzaehl_Lied>
+        a          mm:FormType ;
+        core:name  "religioeses Erzaehl-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Plumpsack_Spiel>
+        a          mm:FormType ;
+        core:name  "Plumpsack-Spiel" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Trauer__um_die_Eltern_>
+        a          mm:FormType ;
+        core:name  "Trauer (um die Eltern)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Koenigskinder>
+        a          mm:FormType ;
+        core:name  "Koenigskinder" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Einweihung>
+        a          mm:FormType ;
+        core:name  "Einweihung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Maria>
+        a          mm:FormType ;
+        core:name  "Maria" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Geiz>
+        a          mm:FormType ;
+        core:name  "Geiz" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kriegs_Lied>
+        a          mm:FormType ;
+        core:name  "Kriegs-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Sage__Hl__Lazarus_>
+        a          mm:FormType ;
+        core:name  "Sage (Hl. Lazarus)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Verfuehrung>
+        a          mm:FormType ;
+        core:name  "Verfuehrung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Begraebnis_Gesang>
+        a          mm:FormType ;
+        core:name  "Begraebnis-Gesang" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tanz>
+        a          mm:FormType ;
+        core:name  "Tanz" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Neujahr>
+        a          mm:FormType ;
+        core:name  "Neujahr" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Wasser>
+        a          mm:FormType ;
+        core:name  "Wasser" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Gesellschafts_Spiel>
+        a          mm:FormType ;
+        core:name  "Gesellschafts-Spiel" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Ausschweifung>
+        a          mm:FormType ;
+        core:name  "Ausschweifung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Adelige_als_Dienstmagd>
+        a          mm:FormType ;
+        core:name  "Adelige als Dienstmagd" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Sachsen_Lied>
+        a          mm:FormType ;
+        core:name  "Sachsen-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schnadahuepfel>
+        a          mm:FormType ;
+        core:name  "Schnadahuepfel" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Plumpsack>
+        a          mm:FormType ;
+        core:name  "Plumpsack" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Rund_Gesang>
+        a          mm:FormType ;
+        core:name  "Rund-Gesang" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Fuhrmann>
+        a          mm:FormType ;
+        core:name  "Fuhrmann" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Spott_Lied_auf_Bauern______Z__263_dem_Metrum_angepasst_____>
+        a          mm:FormType ;
+        core:name  "Spott-Lied auf Bauern. +++ Z. 263 dem Metrum angepasst! +++" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Liebeslust>
+        a          mm:FormType ;
+        core:name  "Liebeslust" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Sonnwend_Lied>
+        a          mm:FormType ;
+        core:name  "Sonnwend-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kinder_Lied_beim_Anziehen>
+        a          mm:FormType ;
+        core:name  "Kinder-Lied beim Anziehen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/abgewiesener_Freier>
+        a          mm:FormType ;
+        core:name  "abgewiesener Freier" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Nonnen_Klage>
+        a          mm:FormType ;
+        core:name  "Nonnen-Klage" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Begraebnis_Lied>
+        a          mm:FormType ;
+        core:name  "Begraebnis-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Erzaehl_Lied>
+        a          mm:FormType ;
+        core:name  "Erzaehl-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Brechhaus_Lied>
+        a          mm:FormType ;
+        core:name  "Brechhaus-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Satire>
+        a          mm:FormType ;
+        core:name  "Satire" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Trost>
+        a          mm:FormType ;
+        core:name  "Trost" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Matrosen_Lied>
+        a          mm:FormType ;
+        core:name  "Matrosen-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Erpressung>
+        a          mm:FormType ;
+        core:name  "Erpressung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/episch>
+        a          mm:FormType ;
+        core:name  "episch" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Reiter_Spiel>
+        a          mm:FormType ;
+        core:name  "Reiter-Spiel" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Lob_Lied>
+        a          mm:FormType ;
+        core:name  "Lob-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Abend_Lied>
+        a          mm:FormType ;
+        core:name  "Abend-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schleswig_Holsteinscher_Krieg__1849_>
+        a          mm:FormType ;
+        core:name  "Schleswig Holsteinscher Krieg (1849)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Sieges_Lied>
+        a          mm:FormType ;
+        core:name  "Sieges-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Stimmungs_Lied>
+        a          mm:FormType ;
+        core:name  "Stimmungs-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Besenbinder_Lied>
+        a          mm:FormType ;
+        core:name  "Besenbinder-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/anti_Lied>
+        a          mm:FormType ;
+        core:name  "anti-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Gesellschafts_Lied>
+        a          mm:FormType ;
+        core:name  "Gesellschafts-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tanzlied>
+        a          mm:FormType ;
+        core:name  "Tanzlied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Heiligen_Lied>
+        a          mm:FormType ;
+        core:name  "Heiligen-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schwestern_Liebe>
+        a          mm:FormType ;
+        core:name  "Schwestern-Liebe" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Rund_Tanz>
+        a          mm:FormType ;
+        core:name  "Rund-Tanz" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Qingge>
+        a          mm:FormType ;
+        core:name  "Qingge" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Eifersucht>
+        a          mm:FormType ;
+        core:name  "Eifersucht" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Soldat>
+        a          mm:FormType ;
+        core:name  "Soldat" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Lenora_Sage>
+        a          mm:FormType ;
+        core:name  "Lenora-Sage" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Lebenslauf>
+        a          mm:FormType ;
+        core:name  "Lebenslauf" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Heimweh>
+        a          mm:FormType ;
+        core:name  "Heimweh" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Spott_auf_den_Klerus>
+        a          mm:FormType ;
+        core:name  "Spott auf den Klerus" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/boese_Stiefmutter>
+        a          mm:FormType ;
+        core:name  "boese Stiefmutter" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Faschings_Lied>
+        a          mm:FormType ;
+        core:name  "Faschings-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Liebe>
+        a          mm:FormType ;
+        core:name  "Liebe" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Soldaten_1815_>
+        a          mm:FormType ;
+        core:name  "Soldaten-1815)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tageslauf>
+        a          mm:FormType ;
+        core:name  "Tageslauf" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Rache>
+        a          mm:FormType ;
+        core:name  "Rache" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Hochzeit>
+        a          mm:FormType ;
+        core:name  "Hochzeit" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Siebensprung>
+        a          mm:FormType ;
+        core:name  "Siebensprung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schmerz>
+        a          mm:FormType ;
+        core:name  "Schmerz" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Herr_und_Knecht>
+        a          mm:FormType ;
+        core:name  "Herr und Knecht" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Nachahmung_des_Posthorn_Signals>
+        a          mm:FormType ;
+        core:name  "Nachahmung des Posthorn-Signals" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Deserteur>
+        a          mm:FormType ;
+        core:name  "Deserteur" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/bei_der_Arbeit__Flachsbrechen_>
+        a          mm:FormType ;
+        core:name  "bei der Arbeit (Flachsbrechen)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Sage__vom_Kaiser_Friedrich_>
+        a          mm:FormType ;
+        core:name  "Sage (vom Kaiser Friedrich)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Troubadour_Lied>
+        a          mm:FormType ;
+        core:name  "Troubadour-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Anti_Pfaeffisch>
+        a          mm:FormType ;
+        core:name  "Anti-Pfaeffisch" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/politisch>
+        a          mm:FormType ;
+        core:name  "politisch" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Bettelhochzeit>
+        a          mm:FormType ;
+        core:name  "Bettelhochzeit" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Scherz_Lied__Echo_>
+        a          mm:FormType ;
+        core:name  "Scherz-Lied (Echo)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Klage>
+        a          mm:FormType ;
+        core:name  "Klage" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Land_Leben>
+        a          mm:FormType ;
+        core:name  "Land-Leben" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Spinnstuben_Lied>
+        a          mm:FormType ;
+        core:name  "Spinnstuben-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Trink_Lied>
+        a          mm:FormType ;
+        core:name  "Trink-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Vergewaltigung>
+        a          mm:FormType ;
+        core:name  "Vergewaltigung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/burlesk>
+        a          mm:FormType ;
+        core:name  "burlesk" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/menschliche_Grausamkeit>
+        a          mm:FormType ;
+        core:name  "menschliche Grausamkeit" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Gesang_mit_Pantomime>
+        a          mm:FormType ;
+        core:name  "Gesang mit Pantomime" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Pantomime>
+        a          mm:FormType ;
+        core:name  "Pantomime" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Dornroeschen>
+        a          mm:FormType ;
+        core:name  "Dornroeschen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Trauer_Lied>
+        a          mm:FormType ;
+        core:name  "Trauer-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Unglueck>
+        a          mm:FormType ;
+        core:name  "Unglueck" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Gesang>
+        a          mm:FormType ;
+        core:name  "Gesang" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Prager_Schlacht__1757_>
+        a          mm:FormType ;
+        core:name  "Prager Schlacht (1757)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Herbst>
+        a          mm:FormType ;
+        core:name  "Herbst" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Breslau__1760_>
+        a          mm:FormType ;
+        core:name  "Breslau (1760)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kunstmusik>
+        a          mm:FormType ;
+        core:name  "Kunstmusik" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Luegen_Lied>
+        a          mm:FormType ;
+        core:name  "Luegen-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Zauber>
+        a          mm:FormType ;
+        core:name  "Zauber" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schiffer_Lied>
+        a          mm:FormType ;
+        core:name  "Schiffer-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schwangerschaft>
+        a          mm:FormType ;
+        core:name  "Schwangerschaft" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Verlassenheit>
+        a          mm:FormType ;
+        core:name  "Verlassenheit" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schalk_Lied>
+        a          mm:FormType ;
+        core:name  "Schalk-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Maurer>
+        a          mm:FormType ;
+        core:name  "Maurer" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tod_eines_Geliebten>
+        a          mm:FormType ;
+        core:name  "Tod eines Geliebten" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Jodler>
+        a          mm:FormType ;
+        core:name  "Jodler" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Vierte_Zeile___Refrain_>
+        a          mm:FormType ;
+        core:name  "Vierte Zeile = Refrain." .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Toten_Sage>
+        a          mm:FormType ;
+        core:name  "Toten-Sage" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Morgen_Lied>
+        a          mm:FormType ;
+        core:name  "Morgen-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kinder_Spiel>
+        a          mm:FormType ;
+        core:name  "Kinder-Spiel" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Gaertner_Lied>
+        a          mm:FormType ;
+        core:name  "Gaertner-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Sterbe_Lied>
+        a          mm:FormType ;
+        core:name  "Sterbe-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Weihnachts_Lied>
+        a          mm:FormType ;
+        core:name  "Weihnachts-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Geissler_Lied>
+        a          mm:FormType ;
+        core:name  "Geissler-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Fenstergang_Lied>
+        a          mm:FormType ;
+        core:name  "Fenstergang-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kuhreihen>
+        a          mm:FormType ;
+        core:name  "Kuhreihen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/geistlich__>
+        a          mm:FormType ;
+        core:name  "geistlich ?" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schreiner>
+        a          mm:FormType ;
+        core:name  "Schreiner" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Bergmanns_Lied>
+        a          mm:FormType ;
+        core:name  "Bergmanns-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/historisch_Dreissigjaehriger_Krieg_>
+        a          mm:FormType ;
+        core:name  "historisch Dreissigjaehriger Krieg)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Shange>
+        a          mm:FormType ;
+        core:name  "Shange" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/NN>
+        a          mm:FormType ;
+        core:name  "NN" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Lied>
+        a          mm:FormType ;
+        core:name  "Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Krieg__1809_>
+        a          mm:FormType ;
+        core:name  "Krieg (1809)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schlaf>
+        a          mm:FormType ;
+        core:name  "Schlaf" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Alpen_Lied>
+        a          mm:FormType ;
+        core:name  "Alpen-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Hopps_Walzer>
+        a          mm:FormType ;
+        core:name  "Hopps-Walzer" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Vaterland_und_Wehr>
+        a          mm:FormType ;
+        core:name  "Vaterland und Wehr" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/geistliches_Scherz_Lied>
+        a          mm:FormType ;
+        core:name  "geistliches Scherz-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Ausrede>
+        a          mm:FormType ;
+        core:name  "Ausrede" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Gedaechtnis_Lied>
+        a          mm:FormType ;
+        core:name  "Gedaechtnis-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Krieg>
+        a          mm:FormType ;
+        core:name  "Krieg" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Marien_Lied>
+        a          mm:FormType ;
+        core:name  "Marien-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Braut_Lied>
+        a          mm:FormType ;
+        core:name  "Braut-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Fenster_Lied>
+        a          mm:FormType ;
+        core:name  "Fenster-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/____letzte_Phrase_korrigiert______>
+        a          mm:FormType ;
+        core:name  "+++ letzte Phrase korrigiert. ++++" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/historisch__1435_>
+        a          mm:FormType ;
+        core:name  "historisch (1435)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Signatur__00151>
+        a          mm:FormType ;
+        core:name  "Signatur: 00151" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Lorelei>
+        a          mm:FormType ;
+        core:name  "Lorelei" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Noetigung>
+        a          mm:FormType ;
+        core:name  "Noetigung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Spiellied>
+        a          mm:FormType ;
+        core:name  "Spiellied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Pilger>
+        a          mm:FormType ;
+        core:name  "Pilger" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Strafe>
+        a          mm:FormType ;
+        core:name  "Strafe" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Turner_Lied>
+        a          mm:FormType ;
+        core:name  "Turner-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Bauern>
+        a          mm:FormType ;
+        core:name  "Bauern" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Stande_Lied>
+        a          mm:FormType ;
+        core:name  "Stande-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Vergeltung>
+        a          mm:FormType ;
+        core:name  "Vergeltung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Arbeit>
+        a          mm:FormType ;
+        core:name  "Arbeit" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/gute_Stiefmutter>
+        a          mm:FormType ;
+        core:name  "gute Stiefmutter" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Soldaten_Lied>
+        a          mm:FormType ;
+        core:name  "Soldaten-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Trost_Lied>
+        a          mm:FormType ;
+        core:name  "Trost-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Natur_und_Welt>
+        a          mm:FormType ;
+        core:name  "Natur und Welt" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/napoleonischer_Krieg>
+        a          mm:FormType ;
+        core:name  "napoleonischer Krieg" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Erotik>
+        a          mm:FormType ;
+        core:name  "Erotik" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Lob_Lied_auf_den_Tabak>
+        a          mm:FormType ;
+        core:name  "Lob-Lied auf den Tabak" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/verbotene_Liebe>
+        a          mm:FormType ;
+        core:name  "verbotene Liebe" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Wander_Lied>
+        a          mm:FormType ;
+        core:name  "Wander-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/geistliches_Lied>
+        a          mm:FormType ;
+        core:name  "geistliches Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Freimaurer_Gesang>
+        a          mm:FormType ;
+        core:name  "Freimaurer-Gesang" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Mai_Tanz>
+        a          mm:FormType ;
+        core:name  "Mai-Tanz" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Leiden>
+        a          mm:FormType ;
+        core:name  "Leiden" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Fruehling>
+        a          mm:FormType ;
+        core:name  "Fruehling" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Kerker_Lied>
+        a          mm:FormType ;
+        core:name  "Kerker-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Schleifer>
+        a          mm:FormType ;
+        core:name  "Schleifer" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Landsturm>
+        a          mm:FormType ;
+        core:name  "Landsturm" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Auferstehen>
+        a          mm:FormType ;
+        core:name  "Auferstehen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Floesserlied>
+        a          mm:FormType ;
+        core:name  "Floesserlied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Pastorelle>
+        a          mm:FormType ;
+        core:name  "Pastorelle" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Spinnstuben_Lied____>
+        a          mm:FormType ;
+        core:name  "Spinnstuben-Lied (?)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Walzer>
+        a          mm:FormType ;
+        core:name  "Walzer" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Wandervogel_Lied>
+        a          mm:FormType ;
+        core:name  "Wandervogel-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Zufriedenheit>
+        a          mm:FormType ;
+        core:name  "Zufriedenheit" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Zaehl_Geschichte>
+        a          mm:FormType ;
+        core:name  "Zaehl-Geschichte" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Flucht>
+        a          mm:FormType ;
+        core:name  "Flucht" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Wander_Spiel>
+        a          mm:FormType ;
+        core:name  "Wander-Spiel" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Erbauungs_Lied>
+        a          mm:FormType ;
+        core:name  "Erbauungs-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Jahreslauf>
+        a          mm:FormType ;
+        core:name  "Jahreslauf" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Helden_Lied>
+        a          mm:FormType ;
+        core:name  "Helden-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Jaeger_Lied__Maedchen_will_als_Knabe_geboren_sein>
+        a          mm:FormType ;
+        core:name  "Jaeger-Lied (Maedchen will als Knabe geboren sein" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Krieg__1814_>
+        a          mm:FormType ;
+        core:name  "Krieg (1814)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Runen_Weise>
+        a          mm:FormType ;
+        core:name  "Runen-Weise" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Flachsbrechen>
+        a          mm:FormType ;
+        core:name  "Flachsbrechen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Opfer>
+        a          mm:FormType ;
+        core:name  "Opfer" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Jagd>
+        a          mm:FormType ;
+        core:name  "Jagd" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Blumen>
+        a          mm:FormType ;
+        core:name  "Blumen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Natur>
+        a          mm:FormType ;
+        core:name  "Natur" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/antiphonal>
+        a          mm:FormType ;
+        core:name  "antiphonal" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Natur_Lied>
+        a          mm:FormType ;
+        core:name  "Natur-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Babenberger_Sage>
+        a          mm:FormType ;
+        core:name  "Babenberger Sage" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Baenkel_Lied>
+        a          mm:FormType ;
+        core:name  "Baenkel-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Hymne>
+        a          mm:FormType ;
+        core:name  "Hymne" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Neujahrs_Lied>
+        a          mm:FormType ;
+        core:name  "Neujahrs-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Sage>
+        a          mm:FormType ;
+        core:name  "Sage" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tod_Koenigin_Louise__1810_>
+        a          mm:FormType ;
+        core:name  "Tod Koenigin Louise (1810)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Ruebezahl>
+        a          mm:FormType ;
+        core:name  "Ruebezahl" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Jahreszeit>
+        a          mm:FormType ;
+        core:name  "Jahreszeit" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Karfreitags_Lied>
+        a          mm:FormType ;
+        core:name  "Karfreitags-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Verlassen>
+        a          mm:FormType ;
+        core:name  "Verlassen" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Ritter>
+        a          mm:FormType ;
+        core:name  "Ritter" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Trennung>
+        a          mm:FormType ;
+        core:name  "Trennung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Curiosum>
+        a          mm:FormType ;
+        core:name  "Curiosum" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Sagen_Lied>
+        a          mm:FormType ;
+        core:name  "Sagen-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/bei_der_Arbeit>
+        a          mm:FormType ;
+        core:name  "bei der Arbeit" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Triller>
+        a          mm:FormType ;
+        core:name  "Triller" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Belehrung>
+        a          mm:FormType ;
+        core:name  "Belehrung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Tanz_Spiel>
+        a          mm:FormType ;
+        core:name  "Tanz-Spiel" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Dirne>
+        a          mm:FormType ;
+        core:name  "Dirne" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Zech_Lied>
+        a          mm:FormType ;
+        core:name  "Zech-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Frage_Lied>
+        a          mm:FormType ;
+        core:name  "Frage-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Krieg_gegen_die_Franzosen__1813_und_1871_>
+        a          mm:FormType ;
+        core:name  "Krieg gegen die Franzosen (1813 und 1871)" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Streik>
+        a          mm:FormType ;
+        core:name  "Streik" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Standesunterschied>
+        a          mm:FormType ;
+        core:name  "Standesunterschied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/bayrische_Erbfolgekriege>
+        a          mm:FormType ;
+        core:name  "bayrische Erbfolgekriege" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Dreikoenigs_Lied>
+        a          mm:FormType ;
+        core:name  "Dreikoenigs-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Spott>
+        a          mm:FormType ;
+        core:name  "Spott" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Streit_zwischen_Sommer_und_Winter>
+        a          mm:FormType ;
+        core:name  "Streit zwischen Sommer und Winter" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Ballade>
+        a          mm:FormType ;
+        core:name  "Ballade" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Klage_____262__Laenge_angepasst_____>
+        a          mm:FormType ;
+        core:name  "Klage +++ 262: Laenge angepasst. +++" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Ehren_Lied>
+        a          mm:FormType ;
+        core:name  "Ehren-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Winzerin>
+        a          mm:FormType ;
+        core:name  "Winzerin" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Werbung>
+        a          mm:FormType ;
+        core:name  "Werbung" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Nachtwaechter_Lied>
+        a          mm:FormType ;
+        core:name  "Nachtwaechter-Lied" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Strassen_Raeuber>
+        a          mm:FormType ;
+        core:name  "Strassen-Raeuber" .
+
+<http://w3id.org/polifonia/resource/tunes/essenccarh_corrected/FormType/Bayrischer_Erbfolgekrieg__1778_>
+        a          mm:FormType ;
+        core:name  "Bayrischer Erbfolgekrieg (1778)" .

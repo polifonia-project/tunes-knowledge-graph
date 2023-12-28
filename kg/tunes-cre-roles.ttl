@@ -8,22 +8,10 @@
 @prefix xsd:          <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:          <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Role/Composer>
-        a          core:Role ;
-        core:name  "Composer" .
-
-<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Role/Author>
-        a          core:Role ;
-        core:name  "Author" .
-
-<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Role/Singer>
-        a          core:Role ;
-        core:name  "Singer" .
-
-<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Role/Editor>
-        a          core:Role ;
-        core:name  "Editor" .
-
-<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Role/Publisher>
+<http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Role/Publiser>
         a          core:Role ;
         core:name  "Publisher" .
+
+<http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Role/Editor>
+        a          core:Role ;
+        core:name  "Editor" .

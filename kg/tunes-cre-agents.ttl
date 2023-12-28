@@ -1,0 +1,38 @@
+@prefix core:         <http://w3id.org/polifonia/ontology/core/> .
+@prefix fx:           <http://sparql.xyz/facade-x/ns/> .
+@prefix mm:           <http://w3id.org/polifonia/ontology/music-meta/> .
+@prefix mp:           <http://w3id.org/polifonia/ontology/music-projection/> .
+@prefix mr:           <http://w3id.org/polifonia/ontology/music-representation/> .
+@prefix owl:          <http://www.w3.org/2002/07/owl#> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/tunes/> .
+@prefix prov:         <http://www.w3.org/ns/prov#> .
+@prefix rdf:          <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:         <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix src:          <http://w3id.org/polifonia/ontology/source/> .
+@prefix tunes:        <http://w3id.org/polifonia/ontology/tunes/> .
+@prefix xsd:          <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:          <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Agent/PublisherOifig_an_tSolathair>
+        rdf:type           core:Agent ;
+        rdfs:label         "Oifig an tSoláthair" ;
+        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Role/Publisher> ;
+        core:name          "Oifig an tSoláthair" .
+
+<http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Agent/PublisherAn_Gum>
+        rdf:type           core:Agent ;
+        rdfs:label         "An Gúm" ;
+        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Role/Publisher> ;
+        core:name          "An Gúm" .
+
+<http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Agent/Jackie_Small>
+        rdf:type           core:Agent ;
+        rdfs:label         "Jackie Small" ;
+        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Role/Editor> ;
+        core:name          "Jackie Small" .
+
+<http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Agent/Breandan_Breathnach>
+        rdf:type           core:Agent ;
+        rdfs:label         "Breandán Breathnach" ;
+        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Role/Editor> ;
+        core:name          "Breandán Breathnach" .

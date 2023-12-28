@@ -116,7 +116,8 @@ WHERE {
         OPTIONAL { ?source_base xyz:source_title_id ?source_uniform_title_id . } #uniform title
         OPTIONAL { ?source_base xyz:source_scan_url ?source_scan_url . } 
         OPTIONAL { ?source_base xyz:source_type ?source_type . } 
-        
+        OPTIONAL { ?source_base xyz:source_formatted_reference ?source_formatted_reference .}
+
         # type
         BIND(IF(BOUND(?source_type), IRI(concat(str(pon-resource:), "SourceType/", ?source_type)), ?nothing) AS ?source_type_iri)
 

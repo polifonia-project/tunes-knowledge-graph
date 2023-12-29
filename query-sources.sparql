@@ -23,17 +23,13 @@ CONSTRUCT {
         # what with uniform title id?
         core:description ?source_description_url ;  # add to ontology
         src:hasScan ?source_scan_url ;  # add to ontology
-        # owners (past and present) can be modelled this way. In this case, in ther WHERE clause (or directly in the JSON), it has to be specified the owner state (e.g. current, former)
-        # src:hasOwner [  # add to ontology <------------ could also be donw with agentrole
-        #     a core:Agent ;
-        #     src:ownershipState ?source_ownership ; # <----------- not a property of the owner, but of the source
-        #     core:id ?source_current_owner_id ;  # add to ontology
-        #     core:name ?source_current_owner_name ] ;  # add to ontology
         mm:hasPublicationSituation ?blank_publication_situation ;
         core:hasTimeInterval ?blank_sorting_year ;
         core:hasAgentRole ?blank_scribe_agentrole ;
         core:hasAgentRole ?blank_editor_agentrole ;
         core:hasAgentRole ?blank_author_agentrole ;
+        core:hasAgentRole ?blank_owner_agentrole ;
+        core:hasAgentRole ?blank_former_owner_agentrole ;
         # # identifiers can be described using this reification pattern 
         # # in this case, both the ?source_id and the ?source_library_siglum are treated the same way and are disambiguated by the ?source_identifier_type and ?source_id_issuer_iri
         src:hasIdentifier ?blank_identifier_library_siglum ;  # add to ontology
@@ -53,6 +49,14 @@ CONSTRUCT {
     ?blank_author_agentrole a core:AgentRole ;
         core:hasRole ?author_role_iri ;
         core:hasAgent ?source_author_iri .
+
+    ?blank_owner_agentrole a core:AgentRole ;
+        core:hasRole ?owner_role_iri ;
+        core:hasAgent ?source_owner_iri .
+
+    ?blank_former_owner_agentrole a core:AgentRole ;
+        core:hasRole ?former_owner_role_iri ;
+        core:hasAgent ?source_former_owner_iri .
 
     ?blank_identifier_library_siglum a src:Identifier ;
             src:hasIdentifierType ?library_siglum_identifier_type_iri ;
@@ -202,7 +206,19 @@ WHERE {
 
         # Current owner
         OPTIONAL { ?source_base xyz:source_current_owner_iri_local ?source_current_owner_iri_local . } 
-        # TODO
+        BIND(IF(BOUND(?source_current_owner_iri_local), IRI(concat(str(pon-resource:), ?source_current_owner_iri_local)), ?nothing) AS ?source_owner_iri)
+        BIND(IF(BOUND(?source_current_owner_iri_local), IRI(concat(str(pon-resource:), "Role/Owner")), ?nothing) AS ?owner_role_iri)
+        BIND(IF(BOUND(?source_current_owner_iri_local), fx:bnode(concat(str(?source_iri), "owner")), ?nothing) AS ?blank_owner_agentrole)
+
+        # Former owners
+        OPTIONAL {
+            ?source_base xyz:source_former_owners_iris_local ?source_former_owners_base .
+            ?source_former_owners_base ?fowner_slot ?source_former_owner_iri_local .
+        }
+        BIND(IF(BOUND(?source_former_owner_iri_local), IRI(concat(str(pon-resource:), ?source_former_owner_iri_local)), ?nothing) AS ?source_former_owner_iri)
+        BIND(IF(BOUND(?source_former_owner_iri_local), IRI(concat(str(pon-resource:), "Role/FormerOwner")), ?nothing) AS ?former_owner_role_iri)
+        BIND(IF(BOUND(?source_former_owner_iri_local), replace(str(?fowner_slot), str(rdf:), ""), ?nothing) AS ?fowner_id)
+        BIND(IF(BOUND(?source_former_owner_iri_local), fx:bnode(concat(str(?source_iri), "fmo", ?fowner_id)), ?nothing) AS ?blank_former_owner_agentrole)
 
         # Authors
         OPTIONAL {
@@ -223,13 +239,6 @@ WHERE {
         BIND(IF(BOUND(?source_editor_iri_local), IRI(concat(str(pon-resource:), "Role/Editor")), ?nothing) AS ?editor_role_iri)
         BIND(IF(BOUND(?source_editor_iri_local), replace(str(?editor_slot), str(rdf:), ""), ?nothing) AS ?editor_id)
         BIND(IF(BOUND(?source_editor_iri_local), fx:bnode(concat(str(?source_iri), "ed", ?editor_id)), ?nothing) AS ?blank_editor_agentrole)
-
-        # Former owners
-        OPTIONAL {
-            ?source_base xyz:source_former_owners_iris_local ?source_former_owners_base .
-            ?source_former_owners_base fx:anySlot ?source_former_owner_iri_local .
-        }
-        # TODO
 
         #siglum
         OPTIONAL { ?source_base xyz:source_library_siglum ?source_library_siglum . } 

@@ -11,10 +11,10 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
 CONSTRUCT {
     ?individual_iri a ?class_iri ;
-        rdfs:label ?individual_label .
-        # core:name ?individual_name ;
-        # core:description ?individual_url ;
-        # core:comment ?individual_comment .
+        rdfs:label ?individual_label ;
+        core:name ?individual_name ;
+        core:description ?individual_url ;
+        core:comment ?individual_comment .
 }
 
 WHERE {

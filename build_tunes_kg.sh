@@ -17,15 +17,23 @@ fx -query query-formtypes.sparql -values filepath="../tunes-dataset/output/kg/tu
 fx -query query-formtypes.sparql -values filepath="../tunes-dataset/output/kg/tunes-essen-formtypes.json" > kg/tunes-essen-formtypes.ttl
 fx -query query-formtypes.sparql -values filepath="../tunes-dataset/output/kg/tunes-cre-formtypes.json" > kg/tunes-cre-formtypes.ttl
 
+# SourceTypes
+fx -query query-individuals.sparql -values filepath="../tunes-dataset/output/kg/tunes-mtc-sourcetypes.json" > kg/tunes-mtc-sourcetypes.ttl
+fx -query query-individuals.sparql -values filepath="../tunes-dataset/output/kg/tunes-rism-sourcetypes.json" > kg/tunes-rism-sourcetypes.ttl
+fx -query query-individuals.sparql -values filepath="../tunes-dataset/output/kg/tunes-cre-sourcetypes.json" > kg/tunes-cre-sourcetypes.ttl
+fx -query query-individuals.sparql -values filepath="../tunes-dataset/output/kg/tunes-easmes-sourcetypes.json" > kg/tunes-easmes-sourcetypes.ttl
+
 # Roles
 fx -q query-roles.sparql -values filepath="../tunes-dataset/output/kg/tunes-mtc-agentroles.json" > kg/tunes-mtc-roles.ttl
 fx -q query-roles.sparql -values filepath="../tunes-dataset/output/kg/tunes-rism-agentroles.json" > kg/tunes-rism-roles.ttl
 fx -q query-roles.sparql -values filepath="../tunes-dataset/output/kg/tunes-cre-agentroles.json" > kg/tunes-cre-roles.ttl
+fx -q query-roles.sparql -values filepath="../tunes-dataset/output/kg/tunes-easmes-agentroles.json" > kg/tunes-easmes-roles.ttl
 
 # Agents
 fx -q query-agents.sparql -values filepath="../tunes-dataset/output/kg/tunes-mtc-agents.json" > kg/tunes-mtc-agents.ttl
 fx -q query-agents.sparql -values filepath="../tunes-dataset/output/kg/tunes-rism-agents.json" > kg/tunes-rism-agents.ttl
 fx -q query-agents.sparql -values filepath="../tunes-dataset/output/kg/tunes-cre-agents.json" > kg/tunes-cre-agents.ttl
+fx -q query-agents.sparql -values filepath="../tunes-dataset/output/kg/tunes-easmes-agents.json" > kg/tunes-easmes-agents.ttl
 
 # Tune Families
 fx -q query-collections.sparql -values filepath="../tunes-dataset/output/kg/tunes-mtc-tunefamilies.json" > kg/tunes-mtc-tunefamilies.ttl
@@ -47,6 +55,7 @@ do
 done
 fx -q query-sources.sparql -values filepath="../tunes-dataset/output/kg/tunes-essen-sources.json" > kg/tunes-essen-sources.ttl
 fx -q query-sources.sparql -values filepath="../tunes-dataset/output/kg/tunes-cre-sources.json" > kg/tunes-cre-sources.ttl
+fx -q query-sources.sparql -values filepath="../tunes-dataset/output/kg/tunes-easmes-sources.json" > kg/tunes-easmes-sources.ttl
 
 # Musical Entities
 fx -q query-entities.sparql -values filepath="../tunes-dataset/output/kg/tunes-mtc-entities.json" > kg/tunes-mtc-entities.ttl
@@ -60,3 +69,10 @@ done
 fx -q query-entities.sparql -values filepath="../tunes-dataset/output/kg/tunes-thesession-entities.json" > kg/tunes-thesession-entities.ttl
 fx -q query-entities.sparql -values filepath="../tunes-dataset/output/kg/tunes-essen-entities.json" > kg/tunes-essen-entities.ttl
 fx -q query-entities.sparql -values filepath="../tunes-dataset/output/kg/tunes-cre-entities.json" > kg/tunes-cre-entities.ttl
+# EASMES goes in portions
+for source in ../tunes-dataset/output/kg/tunes-easmes-entities*.json
+do
+    basename=`echo $source:t | sed -e 's/.json//'`
+    echo $basename
+    fx -q query-entities.sparql -values filepath=$source > kg/$basename.ttl
+done

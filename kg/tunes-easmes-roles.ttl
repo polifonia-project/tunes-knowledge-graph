@@ -1,0 +1,41 @@
+@prefix core:         <http://w3id.org/polifonia/ontology/core/> .
+@prefix fx:           <http://sparql.xyz/facade-x/ns/> .
+@prefix mm:           <http://w3id.org/polifonia/ontology/music-meta/> .
+@prefix owl:          <http://www.w3.org/2002/07/owl#> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/tunes/> .
+@prefix rdfs:         <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tunes:        <http://w3id.org/polifonia/ontology/tunes/> .
+@prefix xsd:          <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:          <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/resource/tunes/easmes/Role/m>
+        a          core:Role ;
+        core:name  "Composer" .
+
+<http://w3id.org/polifonia/resource/tunes/easmes/Role/ed>
+        a          core:Role ;
+        core:name  "Editor" .
+
+<http://w3id.org/polifonia/resource/tunes/easmes/Role/a>
+        a          core:Role ;
+        core:name  "Author" .
+
+<http://w3id.org/polifonia/resource/tunes/easmes/Role/d>
+        a          core:Role ;
+        core:name  "Choreographer" .
+
+<http://w3id.org/polifonia/resource/tunes/easmes/Role/publisher>
+        a          core:Role ;
+        core:name  "Publisher" .
+
+<http://w3id.org/polifonia/resource/tunes/easmes/Role/o>
+        a          core:Role ;
+        core:name  "Former Owner" .
+
+<http://w3id.org/polifonia/resource/tunes/easmes/Role/t>
+        a          core:Role ;
+        core:name  "Lyricist" .
+
+<http://w3id.org/polifonia/resource/tunes/easmes/Role/c>
+        a          core:Role ;
+        core:name  "Collector" .

@@ -8,6 +8,14 @@
 @prefix xsd:          <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:          <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/FormType/>
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/FormType/Songs>
         a          mm:FormType ;
-        core:name  "Songs" , "instrumental" , "vocal" .
+        core:name  "Songs" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/FormType/vocal>
+        a          mm:FormType ;
+        core:name  "vocal" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/FormType/instrumental>
+        a          mm:FormType ;
+        core:name  "instrumental" .

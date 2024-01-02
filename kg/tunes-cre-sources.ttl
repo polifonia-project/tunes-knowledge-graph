@@ -13,113 +13,118 @@
 @prefix xsd:          <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:          <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Source/cre5>
+<http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Source/cre5>
         rdf:type                    src:Source ;
         core:hasAgentRole           [ rdf:type       core:AgentRole ;
-                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Agent/Jackie_Small> ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Agent/Jackie_Small> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Editor>
                                     ] ;
         core:hasAgentRole           [ rdf:type       core:AgentRole ;
-                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Agent/Breandan_Breathnach> ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Agent/Breandan_Breathnach> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Editor>
                                     ] ;
-        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev> ;
+        core:isMemberOf             pon-resource:cre-0.7.0.1-dev ;
         core:title                  "Ceol Rince na hEireann 5" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
                                                               core:date  "1999"
                                                             ] ;
-                                      mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Agent/PublisherAn_Gum>
+                                      mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Agent/PublisherAn_Gum>
                                     ] ;
         src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "cre5" ;
-                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev>
-                                    ] .
+                                      src:identifierIssuedBy  pon-resource:cre-0.7.0.1-dev
+                                    ] ;
+        src:hasType                 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/SourceType/print> .
 
-<http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Source/cre4>
+<http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Source/cre4>
         rdf:type                    src:Source ;
         core:hasAgentRole           [ rdf:type       core:AgentRole ;
-                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Agent/Jackie_Small> ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Agent/Jackie_Small> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Editor>
                                     ] ;
         core:hasAgentRole           [ rdf:type       core:AgentRole ;
-                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Agent/Breandan_Breathnach> ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Agent/Breandan_Breathnach> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Editor>
                                     ] ;
-        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev> ;
+        core:isMemberOf             pon-resource:cre-0.7.0.1-dev ;
         core:title                  "Ceol Rince na hEireann 4" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
                                                               core:date  "1996"
                                                             ] ;
-                                      mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Agent/PublisherAn_Gum>
+                                      mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Agent/PublisherAn_Gum>
                                     ] ;
         src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "cre4" ;
-                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev>
-                                    ] .
+                                      src:identifierIssuedBy  pon-resource:cre-0.7.0.1-dev
+                                    ] ;
+        src:hasType                 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/SourceType/print> .
 
-<http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Source/cre3>
+<http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Source/cre3>
         rdf:type                    src:Source ;
         core:hasAgentRole           [ rdf:type       core:AgentRole ;
-                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Agent/Breandan_Breathnach> ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Agent/Breandan_Breathnach> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Editor>
                                     ] ;
-        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev> ;
+        core:isMemberOf             pon-resource:cre-0.7.0.1-dev ;
         core:title                  "Ceol Rince na hEireann 3" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
                                                               core:date  "1985"
                                                             ] ;
-                                      mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Agent/PublisherAn_Gum>
+                                      mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Agent/PublisherAn_Gum>
                                     ] ;
         src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "cre3" ;
-                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev>
-                                    ] .
+                                      src:identifierIssuedBy  pon-resource:cre-0.7.0.1-dev
+                                    ] ;
+        src:hasType                 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/SourceType/print> .
 
-<http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev>
-        core:hasMember  <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Source/cre5> , <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Source/cre4> , <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Source/cre3> , <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Source/cre2> , <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Source/cre1> .
+pon-resource:cre-0.7.0.1-dev
+        core:hasMember  <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Source/cre5> , <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Source/cre4> , <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Source/cre3> , <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Source/cre2> , <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Source/cre1> .
 
-<http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Source/cre2>
+<http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Source/cre2>
         rdf:type                    src:Source ;
         core:hasAgentRole           [ rdf:type       core:AgentRole ;
-                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Agent/Breandan_Breathnach> ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Agent/Breandan_Breathnach> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Editor>
                                     ] ;
-        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev> ;
+        core:isMemberOf             pon-resource:cre-0.7.0.1-dev ;
         core:title                  "Ceol Rince na hEireann 2" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
                                                               core:date  "1976"
                                                             ] ;
-                                      mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Agent/PublisherAn_Gum>
+                                      mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Agent/PublisherAn_Gum>
                                     ] ;
         src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "cre2" ;
-                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev>
-                                    ] .
+                                      src:identifierIssuedBy  pon-resource:cre-0.7.0.1-dev
+                                    ] ;
+        src:hasType                 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/SourceType/print> .
 
-<http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Source/cre1>
+<http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Source/cre1>
         rdf:type                    src:Source ;
         core:hasAgentRole           [ rdf:type       core:AgentRole ;
-                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Agent/Breandan_Breathnach> ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Agent/Breandan_Breathnach> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Editor>
                                     ] ;
-        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev> ;
+        core:isMemberOf             pon-resource:cre-0.7.0.1-dev ;
         core:title                  "Ceol Rince na hEireann 1" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
                                                               core:date  "1963"
                                                             ] ;
-                                      mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev/Agent/PublisherOifig_an_tSolathair>
+                                      mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Agent/PublisherOifig_an_tSolathair>
                                     ] ;
         src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "cre1" ;
-                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev>
-                                    ] .
+                                      src:identifierIssuedBy  pon-resource:cre-0.7.0.1-dev
+                                    ] ;
+        src:hasType                 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/SourceType/print> .

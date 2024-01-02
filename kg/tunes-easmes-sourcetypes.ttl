@@ -1,0 +1,49 @@
+@prefix core:         <http://w3id.org/polifonia/ontology/core/> .
+@prefix fx:           <http://sparql.xyz/facade-x/ns/> .
+@prefix mm:           <http://w3id.org/polifonia/ontology/music-meta/> .
+@prefix owl:          <http://www.w3.org/2002/07/owl#> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/tunes/> .
+@prefix rdfs:         <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tunes:        <http://w3id.org/polifonia/ontology/tunes/> .
+@prefix xsd:          <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:          <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/resource/tunes/easmes/SourceType/SC>
+        a           <https://w3id.org/polifonia/ontology/source/SourceType> ;
+        rdfs:label  "British Song Collections" .
+
+<http://w3id.org/polifonia/resource/tunes/easmes/SourceType/MS>
+        a           <https://w3id.org/polifonia/ontology/source/SourceType> ;
+        rdfs:label  "British and European Manuscripts" .
+
+<http://w3id.org/polifonia/resource/tunes/easmes/SourceType/AI>
+        a           <https://w3id.org/polifonia/ontology/source/SourceType> ;
+        rdfs:label  "American Imprints" .
+
+<http://w3id.org/polifonia/resource/tunes/easmes/SourceType/IC>
+        a           <https://w3id.org/polifonia/ontology/source/SourceType> ;
+        rdfs:label  "British and European Instrumental Music" .
+
+<http://w3id.org/polifonia/resource/tunes/easmes/SourceType/SS>
+        a           <https://w3id.org/polifonia/ontology/source/SourceType> ;
+        rdfs:label  "British Song Sheets" .
+
+<http://w3id.org/polifonia/resource/tunes/easmes/SourceType/BA>
+        a           <https://w3id.org/polifonia/ontology/source/SourceType> ;
+        rdfs:label  "British Ballad Operas" .
+
+<http://w3id.org/polifonia/resource/tunes/easmes/SourceType/DA>
+        a           <https://w3id.org/polifonia/ontology/source/SourceType> ;
+        rdfs:label  "British and European Social Dance sources" .
+
+<http://w3id.org/polifonia/resource/tunes/easmes/SourceType/TW>
+        a           <https://w3id.org/polifonia/ontology/source/SourceType> ;
+        rdfs:label  "British Theater Works" .
+
+<http://w3id.org/polifonia/resource/tunes/easmes/SourceType/AM>
+        a           <https://w3id.org/polifonia/ontology/source/SourceType> ;
+        rdfs:label  "American Manuscripts" .
+
+<http://w3id.org/polifonia/resource/tunes/easmes/SourceType/PL>
+        a           <https://w3id.org/polifonia/ontology/source/SourceType> ;
+        rdfs:label  "The Dancing Master, 1651-1728 (Playford and others)" .

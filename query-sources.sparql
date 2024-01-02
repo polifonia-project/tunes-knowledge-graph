@@ -20,6 +20,7 @@ CONSTRUCT {
         core:isMemberOf ?collection_iri ;
         src:hasReference ?source_formatted_reference ;
         core:title ?source_uniform_title ;  # add to ontology
+        core:title ?source_title_on_source ;
         # what with uniform title id?
         core:description ?source_description_url ;  # add to ontology
         src:hasScan ?source_scan_url ;  # add to ontology
@@ -30,10 +31,12 @@ CONSTRUCT {
         core:hasAgentRole ?blank_author_agentrole ;
         core:hasAgentRole ?blank_owner_agentrole ;
         core:hasAgentRole ?blank_former_owner_agentrole ;
+        core:hasAgentRole ?blank_any_agentrole ;
         # # identifiers can be described using this reification pattern 
         # # in this case, both the ?source_id and the ?source_library_siglum are treated the same way and are disambiguated by the ?source_identifier_type and ?source_id_issuer_iri
         src:hasIdentifier ?blank_identifier_library_siglum ;  # add to ontology
-        src:hasIdentifier ?blank_identifier_in_collection .  # add to ontology
+        src:hasIdentifier ?blank_identifier_in_collection ;  # add to ontology
+        rdfs:comment ?source_comment .
 
     # Collection memberships
     ?collection_iri core:hasMember ?source_iri .
@@ -57,6 +60,10 @@ CONSTRUCT {
     ?blank_former_owner_agentrole a core:AgentRole ;
         core:hasRole ?former_owner_role_iri ;
         core:hasAgent ?source_former_owner_iri .
+
+    ?blank_any_agentrole a core:AgentRole ;
+        core:hasRole ?any_role_iri ;
+        core:hasAgent ?any_agent_iri .
 
     ?blank_identifier_library_siglum a src:Identifier ;
             src:hasIdentifierType ?library_siglum_identifier_type_iri ;
@@ -82,9 +89,6 @@ CONSTRUCT {
     ?blank_publication_time_interval a core:TimeInterval ;
             core:date ?source_publication_dating ;
             core:date ?source_publication_sorting_year .
-
-    ?source_type_iri a src:SourceType ;  # source_type_iri is gonna be something like CONCAT(pon-resource:SourceType, "/", ?source_type)
-        rdfs:label ?source_type .
 
 }
 
@@ -121,11 +125,11 @@ WHERE {
         OPTIONAL { ?source_base xyz:source_title ?source_uniform_title . } #uniform title
         OPTIONAL { ?source_base xyz:source_title_id ?source_uniform_title_id . } #uniform title
         OPTIONAL { ?source_base xyz:source_scan_url ?source_scan_url . } 
-        OPTIONAL { ?source_base xyz:source_type ?source_type . } 
+        OPTIONAL { ?source_base xyz:source_type_iri_local ?source_type_iri_local . } 
         OPTIONAL { ?source_base xyz:source_formatted_reference ?source_formatted_reference .}
 
         # type
-        BIND(IF(BOUND(?source_type), IRI(concat(str(pon-resource:), "SourceType/", ?source_type)), ?nothing) AS ?source_type_iri)
+        BIND(IF(BOUND(?source_type_iri_local), IRI(concat(str(pon-resource:), ?source_type_iri_local)), ?nothing) AS ?source_type_iri)
 
         # Identifier in collection
         OPTIONAL { ?source_base xyz:source_id ?source_id_in_collection . }
@@ -240,10 +244,26 @@ WHERE {
         BIND(IF(BOUND(?source_editor_iri_local), replace(str(?editor_slot), str(rdf:), ""), ?nothing) AS ?editor_id)
         BIND(IF(BOUND(?source_editor_iri_local), fx:bnode(concat(str(?source_iri), "ed", ?editor_id)), ?nothing) AS ?blank_editor_agentrole)
 
+        # Any Agents
+        OPTIONAL {
+            ?source_base xyz:any_agent_roles ?any_agent_roles_base .
+            ?any_agent_roles_base ?any_agent_role_slot ?any_agent_role_base .
+            ?any_agent_role_base
+                xyz:any_agent_iri_local ?any_agent_iri_local ;
+                xyz:any_role_iri_local ?any_role_iri_local
+        }
+        BIND(IF(BOUND(?any_agent_role_slot), IRI(concat(str(pon-resource:), ?any_agent_iri_local)), ?nothing) AS ?any_agent_iri)
+        BIND(IF(BOUND(?any_agent_role_slot), IRI(concat(str(pon-resource:), ?any_role_iri_local)), ?nothing) AS ?any_role_iri)
+        BIND(IF(BOUND(?any_agent_role_slot), replace(str(?any_agent_role_slot), str(rdf:), ""), ?nothing) AS ?any_agent_role_id)
+        BIND(IF(BOUND(?any_agent_role_slot), fx:bnode(concat(str(?source_iri), "anyagent", ?any_agent_role_id)), ?nothing) AS ?blank_any_agentrole)
+
         #siglum
         OPTIONAL { ?source_base xyz:source_library_siglum ?source_library_siglum . } 
         BIND(IF(BOUND(?source_library_siglum), fx:bnode(concat(str(?source_iri), "ls")), ?nothing) AS ?blank_identifier_library_siglum)
         BIND(IF(BOUND(?source_id_in_collection), IRI(concat(str(pon-resource:), "IdentifierType/LibrarySiglum")), ?nothing) AS ?library_siglum_identifier_type_iri)
+
+        #Comment
+        OPTIONAL { ?source_base xyz:source_comment ?source_comment . }
 
     }
 }

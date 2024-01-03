@@ -9114,16 +9114,8 @@
         rdf:type              src:Source ;
         core:description      "https://www.cdss.org/elibrary/Easmes/Biblio/B021065.htm" ;
         core:hasAgentRole     [ rdf:type       core:AgentRole ;
-                                core:hasAgent  <http://w3id.org/polifonia/resource/tunes/easmes/Agent/de9164e8a5284aa740f20fba232cf03d> ;
-                                core:hasRole   <http://w3id.org/polifonia/resource/tunes/easmes/Role/_c>
-                              ] ;
-        core:hasAgentRole     [ rdf:type       core:AgentRole ;
                                 core:hasAgent  <http://w3id.org/polifonia/resource/tunes/easmes/Agent/54a0068a2cf0d31ae92c3a67f70470d7> ;
                                 core:hasRole   <http://w3id.org/polifonia/resource/tunes/easmes/Role/c>
-                              ] ;
-        core:hasAgentRole     [ rdf:type       core:AgentRole ;
-                                core:hasAgent  <http://w3id.org/polifonia/resource/tunes/easmes/Agent/54a0068a2cf0d31ae92c3a67f70470d7> ;
-                                core:hasRole   <http://w3id.org/polifonia/resource/tunes/easmes/Role/1759_1816>
                               ] ;
         core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
                                 core:date  "1801"
@@ -16287,10 +16279,6 @@
 <http://w3id.org/polifonia/resource/tunes/easmes/Source/R131>
         rdf:type                    src:Source ;
         core:description            "https://www.cdss.org/elibrary/Easmes/Biblio/B006304.htm" ;
-        core:hasAgentRole           [ rdf:type       core:AgentRole ;
-                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/easmes/Agent/7d7042907dd20bb803456916d58de5f0> ;
-                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/easmes/Role/altered>
-                                    ] ;
         core:hasTimeInterval        [ rdf:type   core:TimeInterval ;
                                       core:date  "1786"
                                     ] ;
@@ -16693,10 +16681,6 @@
 <http://w3id.org/polifonia/resource/tunes/easmes/Source/B14>
         rdf:type                    src:Source ;
         core:description            "https://www.cdss.org/elibrary/Easmes/Biblio/B008231.htm" ;
-        core:hasAgentRole           [ rdf:type       core:AgentRole ;
-                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/easmes/Agent/871126bd1da590c0a5a6d405b3a7453a> ;
-                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/easmes/Role/dances>
-                                    ] ;
         core:hasTimeInterval        [ rdf:type   core:TimeInterval ;
                                       core:date  "1756"
                                     ] ;
@@ -19315,10 +19299,6 @@
                                 core:hasAgent  <http://w3id.org/polifonia/resource/tunes/easmes/Agent/4917f2edfbca4c5ffc29dc6c76433467> ;
                                 core:hasRole   <http://w3id.org/polifonia/resource/tunes/easmes/Role/c>
                               ] ;
-        core:hasAgentRole     [ rdf:type       core:AgentRole ;
-                                core:hasAgent  <http://w3id.org/polifonia/resource/tunes/easmes/Agent/4917f2edfbca4c5ffc29dc6c76433467> ;
-                                core:hasRole   <http://w3id.org/polifonia/resource/tunes/easmes/Role/b__1772>
-                              ] ;
         core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
                                 core:date  "1795"
                               ] ;
@@ -19856,10 +19836,6 @@
         rdf:type                    src:Source ;
         rdfs:comment                "Translated from the French. Ordered into use April 29, 1840." ;
         core:description            "https://www.cdss.org/elibrary/Easmes/Biblio/B055224.htm" ;
-        core:hasAgentRole           [ rdf:type       core:AgentRole ;
-                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/easmes/Agent/3c8b55b856d09fcb79f0e23e7be992e9> ;
-                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/easmes/Role/translator>
-                                    ] ;
         core:hasTimeInterval        [ rdf:type   core:TimeInterval ;
                                       core:date  "1839"
                                     ] ;
@@ -23845,23 +23821,19 @@
 <http://w3id.org/polifonia/resource/tunes/easmes/Source/D205>
         rdf:type              src:Source ;
         core:description      "https://www.cdss.org/elibrary/Easmes/Biblio/B067261.htm" ;
-        core:hasAgentRole     [ rdf:type       core:AgentRole ;
-                                core:hasAgent  <http://w3id.org/polifonia/resource/tunes/easmes/Agent/b0fa150d7babd6183f85ef9ad5e336b2> ;
-                                core:hasRole   <http://w3id.org/polifonia/resource/tunes/easmes/Role/c_>
-                              ] ;
         core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
                                 core:date  "1826"
                               ] ;
         core:isMemberOf       <http://w3id.org/polifonia/resource/tunes/Collection/easmes> ;
         core:title            "\"Community Dances\" [Copybook with tunes and dance figures]" , "New Harmony MS, 1826" ;
         src:hasIdentifier     [ rdf:type                src:Identifier ;
-                                src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
-                                src:hasIdentifierValue  "University of Illinois, mf"
-                              ] ;
-        src:hasIdentifier     [ rdf:type                src:Identifier ;
                                 src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                 src:hasIdentifierValue  "D205" ;
                                 src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/easmes>
+                              ] ;
+        src:hasIdentifier     [ rdf:type                src:Identifier ;
+                                src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
+                                src:hasIdentifierValue  "University of Illinois, mf"
                               ] ;
         src:hasType           <http://w3id.org/polifonia/resource/tunes/easmes/SourceType/AM> .
 
@@ -24588,10 +24560,6 @@
         rdf:type              src:Source ;
         rdfs:comment          "Most entries are in Hoff's hand, dated 1797-1799. Three, by George K. Reed in the back of the book, date from 1845-1846. Bound with \"New Instructions for the German Flute.\" (K110)" ;
         core:description      "https://www.cdss.org/elibrary/Easmes/Biblio/B058129.htm" ;
-        core:hasAgentRole     [ rdf:type       core:AgentRole ;
-                                core:hasAgent  <http://w3id.org/polifonia/resource/tunes/easmes/Agent/d4fd6c19a82fe45280d67cea13d4acc2> ;
-                                core:hasRole   <http://w3id.org/polifonia/resource/tunes/easmes/Role/1776_1818>
-                              ] ;
         core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
                                 core:date  "1798"
                               ] ;
@@ -28474,15 +28442,11 @@
         rdf:type                    src:Source ;
         core:description            "https://www.cdss.org/elibrary/Easmes/Biblio/B001549.htm" ;
         core:hasAgentRole           [ rdf:type       core:AgentRole ;
-                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/easmes/Agent/a1fc75bb295df5424bf311822d2f25ea> ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/easmes/Agent/dd896d1d5ea2bba907b9f2e46f18b2a2> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/easmes/Role/c>
                                     ] ;
         core:hasAgentRole           [ rdf:type       core:AgentRole ;
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/easmes/Agent/a1fc75bb295df5424bf311822d2f25ea> ;
-                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/easmes/Role/pseud>
-                                    ] ;
-        core:hasAgentRole           [ rdf:type       core:AgentRole ;
-                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/easmes/Agent/dd896d1d5ea2bba907b9f2e46f18b2a2> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/easmes/Role/c>
                                     ] ;
         core:hasTimeInterval        [ rdf:type   core:TimeInterval ;

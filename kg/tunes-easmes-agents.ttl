@@ -3323,11 +3323,6 @@
         core:involvesRole  <http://w3id.org/polifonia/resource/tunes/easmes/Role/Publisher> ;
         core:name          "Harrison & Co" .
 
-<http://w3id.org/polifonia/resource/tunes/easmes/Agent/7d7042907dd20bb803456916d58de5f0>
-        rdfs:label         "Fielding, Henry(altered)" ;
-        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/easmes/Role/altered> ;
-        core:name          "Fielding, Henry(altered)" .
-
 <http://w3id.org/polifonia/resource/tunes/easmes/Agent/dc01408ea87defdc068f532a157e3b36>
         rdfs:label         "Langdon, Rd." ;
         core:involvesRole  <http://w3id.org/polifonia/resource/tunes/easmes/Role/m> ;
@@ -4535,7 +4530,7 @@
 
 <http://w3id.org/polifonia/resource/tunes/easmes/Agent/4917f2edfbca4c5ffc29dc6c76433467>
         rdfs:label         "Joslen, Abel (b. 1772)" ;
-        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/easmes/Role/c> , <http://w3id.org/polifonia/resource/tunes/easmes/Role/b__1772> ;
+        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/easmes/Role/c> ;
         core:name          "Joslen, Abel (b. 1772)" .
 
 <http://w3id.org/polifonia/resource/tunes/easmes/Agent/29e8c7cbb3b6ffde919a3cba7cb2cd82>
@@ -5862,11 +5857,6 @@
         rdfs:label         "Morton, Sara Wentworth(apthorp)(ed)" ;
         core:involvesRole  <http://w3id.org/polifonia/resource/tunes/easmes/Role/t> , <http://w3id.org/polifonia/resource/tunes/easmes/Role/ed> ;
         core:name          "Morton, Sara Wentworth(apthorp)(ed)" .
-
-<http://w3id.org/polifonia/resource/tunes/easmes/Agent/871126bd1da590c0a5a6d405b3a7453a>
-        rdfs:label         "Rose, Mr.(dances)" ;
-        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/easmes/Role/dances> ;
-        core:name          "Rose, Mr.(dances)" .
 
 <http://w3id.org/polifonia/resource/tunes/easmes/Agent/345989331efead94abaa9fdb5c0d9a0e>
         rdfs:label         "Graun, Carl Heinrich" ;
@@ -10185,7 +10175,7 @@
 
 <http://w3id.org/polifonia/resource/tunes/easmes/Agent/a1fc75bb295df5424bf311822d2f25ea>
         rdfs:label         "Aimwell, Absalom(pseud)" ;
-        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/easmes/Role/c> , <http://w3id.org/polifonia/resource/tunes/easmes/Role/pseud> ;
+        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/easmes/Role/c> ;
         core:name          "Aimwell, Absalom(pseud)" .
 
 <http://w3id.org/polifonia/resource/tunes/easmes/Agent/Publishere4a0698217486353c9dc38a872c8f79b>
@@ -10802,11 +10792,6 @@
         rdfs:label         "Pons, C" ;
         core:involvesRole  <http://w3id.org/polifonia/resource/tunes/easmes/Role/a> ;
         core:name          "Pons, C" .
-
-<http://w3id.org/polifonia/resource/tunes/easmes/Agent/3c8b55b856d09fcb79f0e23e7be992e9>
-        rdfs:label         "Anderson, Capt. Robert (translator)" ;
-        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/easmes/Role/translator> ;
-        core:name          "Anderson, Capt. Robert (translator)" .
 
 <http://w3id.org/polifonia/resource/tunes/easmes/Agent/Publisherec17e50feeb137e1edde010ec47dcb6f>
         rdfs:label         "Thompson, S. A. and P." ;
@@ -12463,11 +12448,6 @@
         core:involvesRole  <http://w3id.org/polifonia/resource/tunes/easmes/Role/t> ;
         core:name          "Goldsmith" .
 
-<http://w3id.org/polifonia/resource/tunes/easmes/Agent/d4fd6c19a82fe45280d67cea13d4acc2>
-        rdfs:label         "Hoff, John (1776-1818)" ;
-        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/easmes/Role/1776_1818> ;
-        core:name          "Hoff, John (1776-1818)" .
-
 <http://w3id.org/polifonia/resource/tunes/easmes/Agent/eefb39c4ef70048347afbca89eb34eab>
         rdfs:label         "Carr, J." ;
         core:involvesRole  <http://w3id.org/polifonia/resource/tunes/easmes/Role/m> ;
@@ -14062,11 +14042,6 @@
         rdfs:label         "H., T." ;
         core:involvesRole  <http://w3id.org/polifonia/resource/tunes/easmes/Role/t> ;
         core:name          "H., T." .
-
-<http://w3id.org/polifonia/resource/tunes/easmes/Agent/b0fa150d7babd6183f85ef9ad5e336b2>
-        rdfs:label         "Fauntleroy (c?)" ;
-        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/easmes/Role/c_> ;
-        core:name          "Fauntleroy (c?)" .
 
 <http://w3id.org/polifonia/resource/tunes/easmes/Agent/deec5823a125c4b97f97a61a4a0f970b>
         rdfs:label         "Gunn, Mr." ;
@@ -16620,7 +16595,7 @@
 
 <http://w3id.org/polifonia/resource/tunes/easmes/Agent/54a0068a2cf0d31ae92c3a67f70470d7>
         rdfs:label         "Shattuck, Abel (1759-1816)" ;
-        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/easmes/Role/c> , <http://w3id.org/polifonia/resource/tunes/easmes/Role/1759_1816> ;
+        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/easmes/Role/c> ;
         core:name          "Shattuck, Abel (1759-1816)" .
 
 <http://w3id.org/polifonia/resource/tunes/easmes/Agent/9d3b5a6e29124e51082d0a7bfc39436f>
@@ -17647,11 +17622,6 @@
         rdfs:label         "George, D." ;
         core:involvesRole  <http://w3id.org/polifonia/resource/tunes/easmes/Role/a> ;
         core:name          "George, D." .
-
-<http://w3id.org/polifonia/resource/tunes/easmes/Agent/de9164e8a5284aa740f20fba232cf03d>
-        rdfs:label         "Park Shattuck (?c)" ;
-        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/easmes/Role/_c> ;
-        core:name          "Park Shattuck (?c)" .
 
 <http://w3id.org/polifonia/resource/tunes/easmes/Agent/Publisher81cd2a441c9a720f276b9f39276a1433>
         rdfs:label         "Shuckburg, J.; Gillive" ;
@@ -19308,15 +19278,15 @@
         core:involvesRole  <http://w3id.org/polifonia/resource/tunes/easmes/Role/a> ;
         core:name          "Koster, M" .
 
-<http://w3id.org/polifonia/resource/tunes/easmes/Agent/796f80ffffd93226e6bcce9d12c39266>
-        rdfs:label         "Copp, Jonathan Shipley" ;
-        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/easmes/Role/c> ;
-        core:name          "Copp, Jonathan Shipley" .
-
 <http://w3id.org/polifonia/resource/tunes/easmes/Agent/6930aff53d744567ff40ec5faaae07c4>
         rdfs:label         "Yaniewicz" ;
         core:involvesRole  <http://w3id.org/polifonia/resource/tunes/easmes/Role/a> ;
         core:name          "Yaniewicz" .
+
+<http://w3id.org/polifonia/resource/tunes/easmes/Agent/796f80ffffd93226e6bcce9d12c39266>
+        rdfs:label         "Copp, Jonathan Shipley" ;
+        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/easmes/Role/c> ;
+        core:name          "Copp, Jonathan Shipley" .
 
 <http://w3id.org/polifonia/resource/tunes/easmes/Agent/d55527e2e11102a32840cc640ad40247>
         rdfs:label         "Ditters" ;

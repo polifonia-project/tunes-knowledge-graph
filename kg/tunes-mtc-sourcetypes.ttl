@@ -8,10 +8,10 @@
 @prefix xsd:          <http://www.w3.org/2001/XMLSchema#> .
 @prefix xyz:          <http://sparql.xyz/facade-x/data/> .
 
-<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/FormType/print>
-        a           <https://w3id.org/polifonia/ontology/source/SourceType> ;
-        rdfs:label  "print" .
-
-<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/FormType/manuscript>
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/SourceType/manuscript>
         a           <https://w3id.org/polifonia/ontology/source/SourceType> ;
         rdfs:label  "manuscript" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/SourceType/print>
+        a           <https://w3id.org/polifonia/ontology/source/SourceType> ;
+        rdfs:label  "print" .

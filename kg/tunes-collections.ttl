@@ -26,6 +26,15 @@
         core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/ElectronicCollection> ;
         core:name         "Early American Secular Music and Its European Sources, 1589–1839: An Index" .
 
+<http://w3id.org/polifonia/resource/tunes/Collection/essenccarh_corrected>
+        a                 core:Collection ;
+        core:comment      "Files deut1328 till deut2266 are corrupt in the CCARH distribution. Compared to the original distribution CCARH's deut1329.krn has the contents of original deut1334.krn ... etc ... CCARH's deut2266.krn has the contents of original deut2271.krn. It seems that in some kind of process in creating the CCARH distribution deut1329-deut1333 ended up as 'junk' in deut1328." , "The Essen Folksong Collection is a database of some 6,255 folksong transcriptions.  The collection consists primarily of folksongs from Germany (5,370) and other Germanic regions -- Austria (104), Switzerland (93), Alsace (91), Lothringen (71), the Czech Republic (43), and the Netherlands (85).  The database also includes a handful of folksongs from other regions of the world -- mostly European.  These include folksongs from Belgium (2), Brazil (1), Canada (1), China (10), Denmark (9), Egypt (1), England (5), Finland (1), France (14), Greece (1), Hungary (45), Iceland (2), India (1), Ireland (1), Italy (8), Japan (1), Indonesia (1), Luxemburg (8), Mexico (4), Norway (2), Poland (25), Romanian (28), Russia/USSR (37), Sweden (11), Syria (1), Turkey (1), Ukraine (13), United States of America (7), Yugoslavia (119), plus other miscellaneous works from regions such as Tirol, Steiermark, Emmenthal, etc.  Of special note is a collection of 213 German Kinderlieder (children's songs)." ;
+        core:description  "https://kern.humdrum.org/cgi-bin/browse?l=/essen" ;
+        core:hasVersion   "1995" ;
+        core:id           "essen" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/ElectronicCollection> ;
+        core:name         "THE ESSEN FOLKSONG COLLECTION IN KERN FORMAT" .
+
 <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
         a                 core:Collection ;
         core:comment      "The Répertoire International des Sources Musicales (RISM) - International Inventory of Musical Sources - is an international, non-profit organization that aims to comprehensively document extant musical sources worldwide: manuscripts, printed music editions, writings on music theory, and libretti that are found in libraries, archives, churches, schools, and private collections. RISM’s over 1.4 million records can be searched at no cost through the RISM Catalog and RISM Online. RISM was founded in Paris in 1952 and is the largest and only global organization that documents written musical sources. RISM records what exists and where it can be found." ;
@@ -34,15 +43,6 @@
         core:id           "rism" ;
         core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/ElectronicCollection> ;
         core:name         "Répertoire International des Sources Musicales" .
-
-<http://w3id.org/polifonia/resource/tunes/Collection/essenccarh>
-        a                 core:Collection ;
-        core:comment      "Files deut1328 till deut2266 are corrupt in the CCARH distribution. Compared to the original distribution CCARH's deut1329.krn has the contents of original deut1334.krn ... etc ... CCARH's deut2266.krn has the contents of original deut2271.krn. It seems that in some kind of process in creating the CCARH distribution deut1329-deut1333 ended up as 'junk' in deut1328." , "The Essen Folksong Collection is a database of some 6,255 folksong transcriptions.  The collection consists primarily of folksongs from Germany (5,370) and other Germanic regions -- Austria (104), Switzerland (93), Alsace (91), Lothringen (71), the Czech Republic (43), and the Netherlands (85).  The database also includes a handful of folksongs from other regions of the world -- mostly European.  These include folksongs from Belgium (2), Brazil (1), Canada (1), China (10), Denmark (9), Egypt (1), England (5), Finland (1), France (14), Greece (1), Hungary (45), Iceland (2), India (1), Ireland (1), Italy (8), Japan (1), Indonesia (1), Luxemburg (8), Mexico (4), Norway (2), Poland (25), Romanian (28), Russia/USSR (37), Sweden (11), Syria (1), Turkey (1), Ukraine (13), United States of America (7), Yugoslavia (119), plus other miscellaneous works from regions such as Tirol, Steiermark, Emmenthal, etc.  Of special note is a collection of 213 German Kinderlieder (children's songs)." ;
-        core:description  "https://kern.humdrum.org/cgi-bin/browse?l=/essen" ;
-        core:hasVersion   "1995" ;
-        core:id           "essen" ;
-        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/ElectronicCollection> ;
-        core:name         "THE ESSEN FOLKSONG COLLECTION IN KERN FORMAT" .
 
 <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev>
         a                 core:Collection ;

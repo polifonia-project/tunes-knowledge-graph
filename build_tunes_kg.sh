@@ -11,11 +11,12 @@ fx -q query-collections.sparql -values filepath="../tunes-dataset/output/kg/tune
 fx -q query-collections.sparql -values filepath="../tunes-dataset/output/kg/tunes-essen-collections.json" > kg/tunes-essen-collections.ttl
 
 # FormTypes
-fx -query query-formtypes.sparql -values filepath="../tunes-dataset/output/kg/tunes-mtc-formtypes.json" > kg/tunes-mtc-formtypes.ttl
-fx -query query-formtypes.sparql -values filepath="../tunes-dataset/output/kg/tunes-rism-formtypes.json" > kg/tunes-rism-formtypes.ttl
-fx -query query-formtypes.sparql -values filepath="../tunes-dataset/output/kg/tunes-thesession-formtypes.json" > kg/tunes-thesession-formtypes.ttl
-fx -query query-formtypes.sparql -values filepath="../tunes-dataset/output/kg/tunes-essen-formtypes.json" > kg/tunes-essen-formtypes.ttl
-fx -query query-formtypes.sparql -values filepath="../tunes-dataset/output/kg/tunes-cre-formtypes.json" > kg/tunes-cre-formtypes.ttl
+fx -q query-formtypes.sparql -values filepath="../tunes-dataset/output/kg/tunes-mtc-formtypes.json" > kg/tunes-mtc-formtypes.ttl
+fx -q query-formtypes.sparql -values filepath="../tunes-dataset/output/kg/tunes-rism-formtypes.json" > kg/tunes-rism-formtypes.ttl
+fx -q query-formtypes.sparql -values filepath="../tunes-dataset/output/kg/tunes-thesession-formtypes.json" > kg/tunes-thesession-formtypes.ttl
+fx -q query-formtypes.sparql -values filepath="../tunes-dataset/output/kg/tunes-essen-formtypes.json" > kg/tunes-essen-formtypes.ttl
+fx -q query-formtypes.sparql -values filepath="../tunes-dataset/output/kg/tunes-cre-formtypes.json" > kg/tunes-cre-formtypes.ttl
+fx -q query-formtypes.sparql -values filepath="../tunes-dataset/output/kg/tunes-kolberg-formtypes.json" > kg/tunes-kolberg-formtypes.ttl
 
 # SourceTypes
 fx -query query-individuals.sparql -values filepath="../tunes-dataset/output/kg/tunes-mtc-sourcetypes.json" > kg/tunes-mtc-sourcetypes.ttl
@@ -28,12 +29,14 @@ fx -q query-roles.sparql -values filepath="../tunes-dataset/output/kg/tunes-mtc-
 fx -q query-roles.sparql -values filepath="../tunes-dataset/output/kg/tunes-rism-agentroles.json" > kg/tunes-rism-roles.ttl
 fx -q query-roles.sparql -values filepath="../tunes-dataset/output/kg/tunes-cre-agentroles.json" > kg/tunes-cre-roles.ttl
 fx -q query-roles.sparql -values filepath="../tunes-dataset/output/kg/tunes-easmes-agentroles.json" > kg/tunes-easmes-roles.ttl
+fx -q query-roles.sparql -values filepath="../tunes-dataset/output/kg/tunes-kolberg-agentroles.json" > kg/tunes-kolberg-roles.ttl
 
 # Agents
 fx -q query-agents.sparql -values filepath="../tunes-dataset/output/kg/tunes-mtc-agents.json" > kg/tunes-mtc-agents.ttl
 fx -q query-agents.sparql -values filepath="../tunes-dataset/output/kg/tunes-rism-agents.json" > kg/tunes-rism-agents.ttl
 fx -q query-agents.sparql -values filepath="../tunes-dataset/output/kg/tunes-cre-agents.json" > kg/tunes-cre-agents.ttl
 fx -q query-agents.sparql -values filepath="../tunes-dataset/output/kg/tunes-easmes-agents.json" > kg/tunes-easmes-agents.ttl
+fx -q query-agents.sparql -values filepath="../tunes-dataset/output/kg/tunes-kolberg-agents.json" > kg/tunes-kolberg-agents.ttl
 
 # Tune Families
 fx -q query-collections.sparql -values filepath="../tunes-dataset/output/kg/tunes-mtc-tunefamilies.json" > kg/tunes-mtc-tunefamilies.ttl
@@ -56,6 +59,7 @@ done
 fx -q query-sources.sparql -values filepath="../tunes-dataset/output/kg/tunes-essen-sources.json" > kg/tunes-essen-sources.ttl
 fx -q query-sources.sparql -values filepath="../tunes-dataset/output/kg/tunes-cre-sources.json" > kg/tunes-cre-sources.ttl
 fx -q query-sources.sparql -values filepath="../tunes-dataset/output/kg/tunes-easmes-sources.json" > kg/tunes-easmes-sources.ttl
+fx -q query-sources.sparql -values filepath="../tunes-dataset/output/kg/tunes-kolberg-sources.json" > kg/tunes-kolberg-sources.ttl
 
 # Musical Entities
 fx -q query-entities.sparql -values filepath="../tunes-dataset/output/kg/tunes-mtc-entities.json" > kg/tunes-mtc-entities.ttl
@@ -76,3 +80,4 @@ do
     echo $basename
     fx -q query-entities.sparql -values filepath=$source > kg/$basename.ttl
 done
+fx -q query-entities.sparql -values filepath="../tunes-dataset/output/kg/tunes-kolberg-entities.json" > kg/tunes-kolberg-entities.ttl

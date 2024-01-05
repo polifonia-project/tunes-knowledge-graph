@@ -1,0 +1,1289 @@
+@prefix core:         <http://w3id.org/polifonia/ontology/core/> .
+@prefix fx:           <http://sparql.xyz/facade-x/ns/> .
+@prefix mm:           <http://w3id.org/polifonia/ontology/music-meta/> .
+@prefix mp:           <http://w3id.org/polifonia/ontology/music-projection/> .
+@prefix mr:           <http://w3id.org/polifonia/ontology/music-representation/> .
+@prefix owl:          <http://www.w3.org/2002/07/owl#> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/tunes/> .
+@prefix prov:         <http://www.w3.org/ns/prov#> .
+@prefix rdf:          <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:         <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix src:          <http://w3id.org/polifonia/ontology/source/> .
+@prefix tunes:        <http://w3id.org/polifonia/ontology/tunes/> .
+@prefix xsd:          <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:          <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK81>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/14274660/10/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/000d279977e50952b0572c4d24aca58c> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Pokucie. Suplement do t. 29-32" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "2008"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK81" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/081dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK21>
+        rdf:type                    src:Source ;
+        core:description            "http://www.polona.pl/item/14269726/8/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Radomskie cz. II" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1888"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK21" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/021dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+        core:hasMember  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK44> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK34> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK24> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK26> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK57> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK47> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK39> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK29> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK50> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK40> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK42> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK12> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK14> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK17> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK10> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK83> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK76> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK33> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK23> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK11> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK77/I> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK56> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK46> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK36> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK28> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK49> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK41> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK31> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK21> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK82> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK52> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK54> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK16> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK19> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK09> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK75> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK22> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK77/II> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK55> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK45> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK35> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK25> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK27> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK30> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK20> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK13> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK48> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK81> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK53> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK43> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK84> , <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK18> .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK33>
+        rdf:type                    src:Source ;
+        core:description            "http://www.polona.pl/item/14274564/7/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Chełmskie cz. I" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1890"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK33" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/033dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK75>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/14274652/6/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/000d279977e50952b0572c4d24aca58c> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/867dd68b56a9242a0b7ca8c735ee884a> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Lubelskie. Suplement do t. 16-17" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1998"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK75" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/075dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK45>
+        rdf:type                    src:Source ;
+        core:description            "https://polona.pl/item/gory-i-podgorze-cz-2,MTQyNzQ1ODQ/8/#info:metadata" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/066cddaa5d549a06e2b4421b54a5b672> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Góry i Podgórze cz. II" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Wrocław-Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1968"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK45" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/045dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK57>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/14274613/7/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/c6918a0030ecc45b0da22f5a5ab1f991> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Ruś Czerwona, cz. II" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Wrocław-Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1978-1979"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK57" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/057%201dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK27>
+        rdf:type                    src:Source ;
+        core:description            "http://www.polona.pl/item/14274551/9/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Mazowsze cz. IV" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków\""
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1888"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK27" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/027dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK39>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/14274572/6/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/f479921027638072491df39074595019> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Pomorze" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Wrocław-Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1965"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK39" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/039dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK09>
+        rdf:type                    src:Source ;
+        core:description            "https://polona.pl/item/w-ks-poznanskie-cz-1,MTQyNjk2NzQ/2/#info:metadata" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "W.Ks. Poznańskie, cz.I" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1875"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK09" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/009dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK40>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/14274574/1/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/85866942d73c2a8a4e8bc637e26215e0> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Mazury Pruskie" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Wrocław-Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1966"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK40" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/040dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK10>
+        rdf:type                    src:Source ;
+        core:description            "http://www.polona.pl/item/14269681/2/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "W Ks. Poznańskie cz. II" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1876"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK10" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/010dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK82>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/14274661/1/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/b2acae8cadc36fa2b735a7c7af043a0c> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Chełmskie. Suplement do t. 33-34" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "2004"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK82" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/082dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK52>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/14274603/8/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/000d279977e50952b0572c4d24aca58c> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Białoruś-Polesie" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Wrocław-Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1968"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK52" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/052dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK22>
+        rdf:type                    src:Source ;
+        core:description            "http://www.polona.pl/item/14269729/4/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Łęczyckie. Dzieła wszystkie" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1889"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK22" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/022dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK34>
+        rdf:type                    src:Source ;
+        core:description            "http://www.polona.pl/item/14274566/7/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Chełmskie cz. II" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1891"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK34" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/034dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK76>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/14274654/6/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/34d2dff6c09c7f7331ba6e8f930ff41b> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/0e766d7a2ecf05a87a68a818f2dafdcf> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Kieleckie. Suplement do t. 18-19" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "2011"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK76" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/076dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK46>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/14274585/8/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/000d279977e50952b0572c4d24aca58c> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/85866942d73c2a8a4e8bc637e26215e0> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Kaliskie i Sieradzkie" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Wrocław-Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1967"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK46" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/046dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK16>
+        rdf:type                    src:Source ;
+        core:description            "http://www.polona.pl/item/14887625/6/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Lubelskie, cz. I" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1883"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK16" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/016dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK28>
+        rdf:type                    src:Source ;
+        core:description            "http://www.polona.pl/item/14274554/9/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Mazowsze cz. V" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1890"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK28" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/028dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK41>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/14274577/0/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/c6918a0030ecc45b0da22f5a5ab1f991> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Mazowsze cz. VI" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Wrocław-Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1969"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK41" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/041dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK11>
+        rdf:type                    src:Source ;
+        core:description            "http://www.polona.pl/item/14269688/6/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "W Ks. Poznańskie cz. II" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1877"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK11" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/011dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK83>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/21121183/0/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/b2acae8cadc36fa2b735a7c7af043a0c> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Przemyskie. Suplement do tomu 35" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "2011"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK83" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/083%201dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK53>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/14274606/8/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/c6918a0030ecc45b0da22f5a5ab1f991> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Litwa" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Wrocław-Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1966"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK53" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/053dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK23>
+        rdf:type                    src:Source ;
+        core:description            "http://www.polona.pl/item/14269731/6/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Kaliskie, cz. I" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1890"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK23" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/023dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK35>
+        rdf:type                    src:Source ;
+        core:description            "http://www.polona.pl/item/14274568/7/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Przemyskie" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1891"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK35" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/035dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK47>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/14274587/8/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/576040af81cd5f1a69b6dcc2eaecd218> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Podole" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1994"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK47" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/047dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK17>
+        rdf:type                    src:Source ;
+        core:description            "http://www.polona.pl/item/14887627/6/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Lubelskie, cz. II" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1884"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK17" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/017dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK29>
+        rdf:type                    src:Source ;
+        core:description            "http://www.polona.pl/item/14274558/10/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Pokucie, cz. I" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1882"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK29" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/029dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK30>
+        rdf:type                    src:Source ;
+        core:description            "http://www.polona.pl/item/14274559/5/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Pokucie cz. II" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1883"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK30" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/030dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK77/I>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/21121178" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/dee57c49044b6a8cd23a4e19203bac2e> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/0e766d7a2ecf05a87a68a818f2dafdcf> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Radomskie. Suplement do t. 20-21 cz. I" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "2005"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK77/I" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/077%201dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK42>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/14274579/7/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/c6918a0030ecc45b0da22f5a5ab1f991> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Mazowsze cz. VII" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Wrocław-Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1970"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK42" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/042dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK12>
+        rdf:type                    src:Source ;
+        core:description            "http://www.polona.pl/item/14269693/6/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "W.Ks. Poznańskie, cz. IV" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1879"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK12" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/012dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK84>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/14274667/10/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/000d279977e50952b0572c4d24aca58c> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Wołyń. Suplement do t. 36" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "2002"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK84" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/084dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK54>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/14274607/6/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/c6918a0030ecc45b0da22f5a5ab1f991> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Ruś Karpacka, cz. I" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Wrocław-Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1970"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK54" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/054dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK24>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/14269734/8/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Mazowsze cz. I" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1885"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK24" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/024dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK36>
+        rdf:type                    src:Source ;
+        core:description            "http://www.polona.pl/item/14274570/0/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Wołyń" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1907"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK36" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/036dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK48>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/14274593/8/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/f479921027638072491df39074595019> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Tarnowskie-Rzeszowskie" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Wrocław-Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1967"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK48" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/048dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK18>
+        rdf:type                    src:Source ;
+        core:description            "http://www.polona.pl/item/14269718/6/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Kieleckie cz. I" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1885"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK18" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/018dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK31>
+        rdf:type                    src:Source ;
+        core:description            "http://www.polona.pl/item/14274560/4/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Pokucie cz. III" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1888"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK31" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/031dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK43>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/14274581/5/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/36a13836f5aebcba9b786b9e44c7ff34> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/000d279977e50952b0572c4d24aca58c> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Śląsk" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Wrocław-Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1965"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK43" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/043dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK13>
+        rdf:type                    src:Source ;
+        core:description            "http://www.polona.pl/item/14269698/6/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "W. Ks. Poznańskie cz. V" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1880"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK13" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/013dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK55>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/14274608/8/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/c6918a0030ecc45b0da22f5a5ab1f991> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Ruś Karpacka, cz. II" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Wrocław-Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1971"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK55" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/055dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK25>
+        rdf:type                    src:Source ;
+        core:description            "http://www.polona.pl/item/14269736/11/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Mazowsze cz. II" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1886"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK25" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/025dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK77/II>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/21121180/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/dee57c49044b6a8cd23a4e19203bac2e> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/0e766d7a2ecf05a87a68a818f2dafdcf> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Radomskie. Suplement do t. 20-21 cz. II" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "2006"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK77/II" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/077%202dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK49>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/14274595/7/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/000d279977e50952b0572c4d24aca58c> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Sanockie-Krośnieńskie, cz. I" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Wrocław-Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1974"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK49" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/049dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK19>
+        rdf:type                    src:Source ;
+        core:description            "http://www.polona.pl/item/14269722/6/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Kieleckie cz. II" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1886"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK19" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/019dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK50>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/14274596/9/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/000d279977e50952b0572c4d24aca58c> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Sanockie-Krośnieńskie, cz. II" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Wrocław-Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1972"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK50" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/050dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK20>
+        rdf:type                    src:Source ;
+        core:description            "http://www.polona.pl/item/14269723/8/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Radomskie cz. I" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1887"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK20" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/020dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK44>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/14274583/2/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/066cddaa5d549a06e2b4421b54a5b672> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Góry i Podgórze cz. I" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Wrocław-Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1968"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK44" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/044dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK14>
+        rdf:type                    src:Source ;
+        core:description            "http://www.polona.pl/item/14269700/2/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "W. Ks. Poznańskie, cz. VI" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1881"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK14" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/014dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK56>
+        rdf:type                    src:Source ;
+        core:description            "http://polona.pl/item/14274611/8/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/c6918a0030ecc45b0da22f5a5ab1f991> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Ruś Czerwona, cz. I" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Wrocław-Poznań"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1976"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK56" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/056dwok.pdf" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Source/DWOK26>
+        rdf:type                    src:Source ;
+        core:description            "http://www.polona.pl/item/14274549/6/" ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
+        core:title                  "Mazowsze cz. III" ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Kraków"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1887"
+                                                            ]
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
+                                      src:hasIdentifierValue  "DWOK26" ;
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006>
+                                    ] ;
+        src:hasScan                 "http://www.oskarkolberg.pl/MediaFiles/026dwok.pdf" .

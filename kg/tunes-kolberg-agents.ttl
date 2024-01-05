@@ -1,0 +1,79 @@
+@prefix core:         <http://w3id.org/polifonia/ontology/core/> .
+@prefix fx:           <http://sparql.xyz/facade-x/ns/> .
+@prefix mm:           <http://w3id.org/polifonia/ontology/music-meta/> .
+@prefix mp:           <http://w3id.org/polifonia/ontology/music-projection/> .
+@prefix mr:           <http://w3id.org/polifonia/ontology/music-representation/> .
+@prefix owl:          <http://www.w3.org/2002/07/owl#> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/tunes/> .
+@prefix prov:         <http://www.w3.org/ns/prov#> .
+@prefix rdf:          <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:         <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix src:          <http://w3id.org/polifonia/ontology/source/> .
+@prefix tunes:        <http://w3id.org/polifonia/ontology/tunes/> .
+@prefix xsd:          <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:          <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/0e766d7a2ecf05a87a68a818f2dafdcf>
+        rdfs:label         "Ewa Antyborzec" ;
+        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor> ;
+        core:name          "Ewa Antyborzec" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/34d2dff6c09c7f7331ba6e8f930ff41b>
+        rdfs:label         "Hanna Pawlak." ;
+        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor> ;
+        core:name          "Hanna Pawlak." .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d>
+        rdfs:label         "Oskar Kolberg" ;
+        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor> ;
+        core:name          "Oskar Kolberg" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/36a13836f5aebcba9b786b9e44c7ff34>
+        rdfs:label         "E. Krzyżaniak" ;
+        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor> ;
+        core:name          "E. Krzyżaniak" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/c6918a0030ecc45b0da22f5a5ab1f991>
+        rdfs:label         "M. Tarko" ;
+        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor> ;
+        core:name          "M. Tarko" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/85866942d73c2a8a4e8bc637e26215e0>
+        rdfs:label         "D. Pawlak" ;
+        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor> ;
+        core:name          "D. Pawlak" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/066cddaa5d549a06e2b4421b54a5b672>
+        rdfs:label         "E. Miller" ;
+        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor> ;
+        core:name          "E. Miller" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/576040af81cd5f1a69b6dcc2eaecd218>
+        rdfs:label         "D. Pawlakowa" ;
+        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor> ;
+        core:name          "D. Pawlakowa" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/f479921027638072491df39074595019>
+        rdfs:label         "J. Burszta" ;
+        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor> ;
+        core:name          "J. Burszta" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/dee57c49044b6a8cd23a4e19203bac2e>
+        rdfs:label         "Aleksandra Sawicka" ;
+        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor> ;
+        core:name          "Aleksandra Sawicka" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/b2acae8cadc36fa2b735a7c7af043a0c>
+        rdfs:label         "E. Millerowa" ;
+        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor> ;
+        core:name          "E. Millerowa" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/867dd68b56a9242a0b7ca8c735ee884a>
+        rdfs:label         "B. Linette" ;
+        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor> ;
+        core:name          "B. Linette" .
+
+<http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/000d279977e50952b0572c4d24aca58c>
+        rdfs:label         "A. Skrukwa" ;
+        core:involvesRole  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor> ;
+        core:name          "A. Skrukwa" .

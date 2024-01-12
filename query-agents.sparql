@@ -20,6 +20,12 @@ CONSTRUCT {
         rdfs:label ?agent_name ;
         core:name ?agent_name ;
         core:id ?agent_id ;  # add to ontology
+        core:wikidataID ?agent_WKP_ID ;
+        owl:sameAs ?wkd_iri ;
+        core:viafID ?agent_VIAF_ID ;
+        owl:sameAs ?viaf_iri ;
+        core:dnbID ?agent_DNB_ID ;
+        owl:sameAs ?dnb_iri ;
         # Here something for dating (dating string. e.g. 'fl. 1420')
         core:activityStartDate ?agent_year_of_birth_verbatim ;
         core:activityStartDate ?agent_year_of_birth_approximate ;
@@ -94,9 +100,11 @@ WHERE {
             ?agent_roles_base fx:anySlot ?agent_role_iri_local .
         }  # list
         OPTIONAL { ?agent_base xyz:agent_VIAF_ID ?agent_VIAF_ID . }
+        BIND(IF(BOUND(?agent_VIAF_ID), IRI(concat("http://viaf.org/viaf/", ?agent_VIAF_ID)), ?nothing) AS ?viaf_iri)
         OPTIONAL { ?agent_base xyz:agent_DNB_ID ?agent_DNB_ID . }
-        OPTIONAL { ?agent_base xyz:agent_WPK_ID ?agent_WKP_ID . }
-        #OPTIONAL { ?agent_base xyz:agent_GND_ID ?agent_GND_ID . }
+        BIND(IF(BOUND(?agent_DNB_ID), IRI(concat("http://d-nb.info/gnd/", ?agent_DNB_ID)), ?nothing) AS ?dnb_iri)
+        OPTIONAL { ?agent_base xyz:agent_WKP_ID ?agent_WKP_ID . }
+        BIND(IF(BOUND(?agent_WKP_ID), IRI(concat("http://www.wikidata.org/entity/", ?agent_WKP_ID)), ?nothing) AS ?wkd_iri)
 
         #Agent IRI
         BIND (IRI(concat(str(pon-resource:), ?agent_iri_local)) AS ?agent_iri)

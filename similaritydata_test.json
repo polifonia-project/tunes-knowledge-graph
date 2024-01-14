@@ -1,10 +1,10 @@
 [
     [
-        "http://w3id.org/polifonia/resource/tunes/rism230419/MusicEntity/000101238-1_3_1",
-        "http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/MusicEntity/75674stanza1"
+        "rism230419/MusicEntity/000101238-1_3_1",
+        "MTC-FS-INST-2.0/MusicEntity/75674stanza1"
     ],
     [
-        "http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/MusicEntity/137678stanza1",
-        "http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/MusicEntity/76242stanza1"   
+        "MTC-FS-INST-2.0/MusicEntity/137678stanza1",
+        "MTC-FS-INST-2.0/MusicEntity/76242stanza1"   
     ]
 ]

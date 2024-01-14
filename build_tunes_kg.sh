@@ -81,3 +81,6 @@ do
     fx -q query-entities.sparql -values filepath=$source > kg/$basename.ttl
 done
 fx -q query-entities.sparql -values filepath="../tunes-dataset/output/kg/tunes-kolberg-entities.json" > kg/tunes-kolberg-entities.ttl
+
+# Similarity relations
+fx -q query-similarity.sparql -values filepath="../tunes-dataset/output/kg/tunes-highlysimilarpairs.json" > kg/tunes-highlysimilarpairs.ttl

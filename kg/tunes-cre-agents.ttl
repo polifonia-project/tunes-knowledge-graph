@@ -14,25 +14,25 @@
 @prefix xyz:          <http://sparql.xyz/facade-x/data/> .
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Agent/PublisherAn_Gum>
-        rdf:type           core:Agent ;
+        rdf:type           core:Agent , core:Person ;
         rdfs:label         "An Gúm" ;
         core:involvesRole  <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Role/Publisher> ;
         core:name          "An Gúm" .
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Agent/Jackie_Small>
-        rdf:type           core:Agent ;
+        rdf:type           core:Agent , core:Person ;
         rdfs:label         "Jackie Small" ;
         core:involvesRole  <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Role/Editor> ;
         core:name          "Jackie Small" .
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Agent/PublisherOifig_an_tSolathair>
-        rdf:type           core:Agent ;
+        rdf:type           core:Person , core:Agent ;
         rdfs:label         "Oifig an tSoláthair" ;
         core:involvesRole  <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Role/Publisher> ;
         core:name          "Oifig an tSoláthair" .
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Agent/Breandan_Breathnach>
-        rdf:type           core:Agent ;
+        rdf:type           core:Person , core:Agent ;
         rdfs:label         "Breandán Breathnach" ;
         core:involvesRole  <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Role/Editor> ;
         core:name          "Breandán Breathnach" .

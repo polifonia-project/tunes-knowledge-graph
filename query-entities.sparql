@@ -82,6 +82,8 @@ CONSTRUCT {
     ?score_part_iri a mm:ScorePart ;
         core:id ?melody_voice_id ; # e.g. "NLB123444_02"
         core:description ?entity_description_url ;
+        mm:isRealisedIn ?score_iri ;
+        core:isPartOf ?abstract_score_iri ;
         rdfs:label ?melody_voice_number ; # labels?
         rdfs:label ?part_type . # 'bass', 'melody', 'upper voice'
         # here also mm:isrealisedIn ?score_iri ? Otherwise it is not clear what melody belongs to this part.

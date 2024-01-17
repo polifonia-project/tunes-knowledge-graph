@@ -75,17 +75,16 @@ CONSTRUCT {
     ?stanza_iri a mm:CompositionPart, mm:Stanza ;
         core:id ?melody_stanza_id ; # e.g. "NLB075123_03"
         core:description ?entity_description_url ;
-        rdfs:label ?melody_stanza_number ;
+        rdfs:label ?stanza_label ;
         mm:isRealisedIn ?score_iri ; 
         core:isPartOf ?abstract_score_iri .
 
     ?score_part_iri a mm:ScorePart ;
         core:id ?melody_voice_id ; # e.g. "NLB123444_02"
         core:description ?entity_description_url ;
+        rdfs:label ?voice_label ;
         mm:isRealisedIn ?score_iri ;
-        core:isPartOf ?abstract_score_iri ;
-        rdfs:label ?melody_voice_number ; # labels?
-        rdfs:label ?part_type . # 'bass', 'melody', 'upper voice'
+        core:isPartOf ?abstract_score_iri .
         # here also mm:isrealisedIn ?score_iri ? Otherwise it is not clear what melody belongs to this part.
 
     ?score_excerpt_iri a mm:CompositionPart ;
@@ -93,7 +92,7 @@ CONSTRUCT {
         core:description ?entity_description_url ;
         core:title ?excerpt_title ;
         core:title ?excerpt_title_in_source ;
-        rdfs:label ?excerpt_id ;
+        rdfs:label ?excerpt_title ;
         mm:isRealisedIn ?score_iri ;
         core:isPartOf ?abstract_score_iri .
 
@@ -190,11 +189,13 @@ WHERE {
         OPTIONAL { ?entity_base xyz:melody_voice_number ?melody_voice_number . }
         OPTIONAL { ?entity_base xyz:melody_voice_id ?melody_voice_id . }
         BIND(IF(BOUND(?melody_voice_number), IRI(concat(str(?entity_iri), '/ScorePart/', ?melody_voice_number)), ?nothing) AS ?score_part_iri)
+        BIND(IF(BOUND(?melody_voice_number), concat(?entity_title, ', Part #', ?melody_voice_number), ?nothing) AS ?voice_label)
 
         # Stanza
         OPTIONAL { ?entity_base xyz:melody_stanza_number ?melody_stanza_number . }
         OPTIONAL { ?entity_base xyz:melody_stanza_id ?melody_stanza_id . }
         BIND(IF(BOUND(?melody_stanza_number), IRI(concat(str(?entity_iri), '/Stanza/', ?melody_stanza_number)) , ?nothing) AS ?stanza_iri)
+        BIND(IF(BOUND(?melody_stanza_number), concat(?entity_title, ', Stanza #', ?melody_stanza_number), ?nothing) AS ?stanza_label)
 
         # Excerpt (in RISM terminology)
         OPTIONAL { ?entity_base xyz:excerpt_id ?excerpt_id . }

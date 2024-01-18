@@ -10,1628 +10,2035 @@
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Music_engraver>
         a          core:Role ;
+        core:id    "rism230419/Role/Music_engraver" ;
         core:name  "Music engraver" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Jew_s_harp_player>
         a          core:Role ;
+        core:id    "rism230419/Role/Jew_s_harp_player" ;
         core:name  "Jew's harp player" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Benefactor>
         a          core:Role ;
+        core:id    "rism230419/Role/Benefactor" ;
         core:name  "Benefactor" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Songwriter>
         a          core:Role ;
+        core:id    "rism230419/Role/Songwriter" ;
         core:name  "Songwriter" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Harpsichord_maker>
         a          core:Role ;
+        core:id    "rism230419/Role/Harpsichord_maker" ;
         core:name  "Harpsichord maker" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Senator>
         a          core:Role ;
+        core:id    "rism230419/Role/Senator" ;
         core:name  "Senator" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Archive>
         a          core:Role ;
+        core:id    "rism230419/Role/Archive" ;
         core:name  "Archive" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Viola_player>
         a          core:Role ;
+        core:id    "rism230419/Role/Viola_player" ;
         core:name  "Viola player" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Carillonneur>
         a          core:Role ;
+        core:id    "rism230419/Role/Carillonneur" ;
         core:name  "Carillonneur" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Prefect>
         a          core:Role ;
+        core:id    "rism230419/Role/Prefect" ;
         core:name  "Prefect" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Oboe_teacher>
         a          core:Role ;
+        core:id    "rism230419/Role/Oboe_teacher" ;
         core:name  "Oboe teacher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Philanthropist>
         a          core:Role ;
+        core:id    "rism230419/Role/Philanthropist" ;
         core:name  "Philanthropist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Chansonnier>
         a          core:Role ;
+        core:id    "rism230419/Role/Chansonnier" ;
         core:name  "Chansonnier" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Businessman>
         a          core:Role ;
+        core:id    "rism230419/Role/Businessman" ;
         core:name  "Businessman" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Composer>
         a          core:Role ;
+        core:id    "rism230419/Role/Composer" ;
         core:name  "Composer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Impresario>
         a          core:Role ;
+        core:id    "rism230419/Role/Impresario" ;
         core:name  "Impresario" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Employee>
         a          core:Role ;
+        core:id    "rism230419/Role/Employee" ;
         core:name  "Employee" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Theologian>
         a          core:Role ;
+        core:id    "rism230419/Role/Theologian" ;
         core:name  "Theologian" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Jurist>
         a          core:Role ;
+        core:id    "rism230419/Role/Jurist" ;
         core:name  "Jurist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Collector_of_folksongs>
         a          core:Role ;
+        core:id    "rism230419/Role/Collector_of_folksongs" ;
         core:name  "Collector of folksongs" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Designer>
         a          core:Role ;
+        core:id    "rism230419/Role/Designer" ;
         core:name  "Designer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Librettist>
         a          core:Role ;
+        core:id    "rism230419/Role/Librettist" ;
         core:name  "Librettist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Prompter>
         a          core:Role ;
+        core:id    "rism230419/Role/Prompter" ;
         core:name  "Prompter" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Linguist>
         a          core:Role ;
+        core:id    "rism230419/Role/Linguist" ;
         core:name  "Linguist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Cartoonist>
         a          core:Role ;
+        core:id    "rism230419/Role/Cartoonist" ;
         core:name  "Cartoonist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Autograph_dealer>
         a          core:Role ;
+        core:id    "rism230419/Role/Autograph_dealer" ;
         core:name  "Autograph dealer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Harpsichord_teacher>
         a          core:Role ;
+        core:id    "rism230419/Role/Harpsichord_teacher" ;
         core:name  "Harpsichord teacher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Mezzo_soprano>
         a          core:Role ;
+        core:id    "rism230419/Role/Mezzo_soprano" ;
         core:name  "Mezzo-soprano" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Illustrator>
         a          core:Role ;
+        core:id    "rism230419/Role/Illustrator" ;
         core:name  "Illustrator" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Pedagogue>
         a          core:Role ;
+        core:id    "rism230419/Role/Pedagogue" ;
         core:name  "Pedagogue" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Maitre_de_ballet>
         a          core:Role ;
+        core:id    "rism230419/Role/Maitre_de_ballet" ;
         core:name  "Maître de ballet" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Architect>
         a          core:Role ;
+        core:id    "rism230419/Role/Architect" ;
         core:name  "Architect" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Deacon>
         a          core:Role ;
+        core:id    "rism230419/Role/Deacon" ;
         core:name  "Deacon" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Preacher>
         a          core:Role ;
+        core:id    "rism230419/Role/Preacher" ;
         core:name  "Preacher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Bandmaster>
         a          core:Role ;
+        core:id    "rism230419/Role/Bandmaster" ;
         core:name  "Bandmaster" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Compiler>
         a          core:Role ;
+        core:id    "rism230419/Role/Compiler" ;
         core:name  "Compiler" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Succentor>
         a          core:Role ;
+        core:id    "rism230419/Role/Succentor" ;
         core:name  "Succentor" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Canon>
         a          core:Role ;
+        core:id    "rism230419/Role/Canon" ;
         core:name  "Canon" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Missionary>
         a          core:Role ;
+        core:id    "rism230419/Role/Missionary" ;
         core:name  "Missionary" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Bishop>
         a          core:Role ;
+        core:id    "rism230419/Role/Bishop" ;
         core:name  "Bishop" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Cello_teacher>
         a          core:Role ;
+        core:id    "rism230419/Role/Cello_teacher" ;
         core:name  "Cello teacher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Banker>
         a          core:Role ;
+        core:id    "rism230419/Role/Banker" ;
         core:name  "Banker" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Cooper>
         a          core:Role ;
+        core:id    "rism230419/Role/Cooper" ;
         core:name  "Cooper" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Zither_teacher>
         a          core:Role ;
+        core:id    "rism230419/Role/Zither_teacher" ;
         core:name  "Zither teacher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Maestro_di_cappella>
         a          core:Role ;
+        core:id    "rism230419/Role/Maestro_di_cappella" ;
         core:name  "Maestro di cappella" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Saint>
         a          core:Role ;
+        core:id    "rism230419/Role/Saint" ;
         core:name  "Saint" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Limer>
         a          core:Role ;
+        core:id    "rism230419/Role/Limer" ;
         core:name  "Limer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Dentist>
         a          core:Role ;
+        core:id    "rism230419/Role/Dentist" ;
         core:name  "Dentist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Cellist>
         a          core:Role ;
+        core:id    "rism230419/Role/Cellist" ;
         core:name  "Cellist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Scientist>
         a          core:Role ;
+        core:id    "rism230419/Role/Scientist" ;
         core:name  "Scientist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Wind_instrument_maker>
         a          core:Role ;
+        core:id    "rism230419/Role/Wind_instrument_maker" ;
         core:name  "Wind instrument maker" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Chemist>
         a          core:Role ;
+        core:id    "rism230419/Role/Chemist" ;
         core:name  "Chemist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Custos>
         a          core:Role ;
+        core:id    "rism230419/Role/Custos" ;
         core:name  "Custos" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/FormerOwner>
         a          core:Role ;
+        core:id    "rism230419/Role/FormerOwner" ;
         core:name  "Former owner" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Philologist>
         a          core:Role ;
+        core:id    "rism230419/Role/Philologist" ;
         core:name  "Philologist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Matron>
         a          core:Role ;
+        core:id    "rism230419/Role/Matron" ;
         core:name  "Matron" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Theatre_director>
         a          core:Role ;
+        core:id    "rism230419/Role/Theatre_director" ;
         core:name  "Theatre director" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Court_official>
         a          core:Role ;
+        core:id    "rism230419/Role/Court_official" ;
         core:name  "Court official" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Nurseryman>
         a          core:Role ;
+        core:id    "rism230419/Role/Nurseryman" ;
         core:name  "Nurseryman" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Folklorist>
         a          core:Role ;
+        core:id    "rism230419/Role/Folklorist" ;
         core:name  "Folklorist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Dedicatee>
         a          core:Role ;
+        core:id    "rism230419/Role/Dedicatee" ;
         core:name  "Dedicatee" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Prelate>
         a          core:Role ;
+        core:id    "rism230419/Role/Prelate" ;
         core:name  "Prelate" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Councillor>
         a          core:Role ;
+        core:id    "rism230419/Role/Councillor" ;
         core:name  "Councillor" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Church_reformer>
         a          core:Role ;
+        core:id    "rism230419/Role/Church_reformer" ;
         core:name  "Church reformer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Recorder_player>
         a          core:Role ;
+        core:id    "rism230419/Role/Recorder_player" ;
         core:name  "Recorder player" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Music_theorist>
         a          core:Role ;
+        core:id    "rism230419/Role/Music_theorist" ;
         core:name  "Music theorist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Trombonist>
         a          core:Role ;
+        core:id    "rism230419/Role/Trombonist" ;
         core:name  "Trombonist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Clarinettist>
         a          core:Role ;
+        core:id    "rism230419/Role/Clarinettist" ;
         core:name  "Clarinettist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Valet>
         a          core:Role ;
+        core:id    "rism230419/Role/Valet" ;
         core:name  "Valet" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Priest>
         a          core:Role ;
+        core:id    "rism230419/Role/Priest" ;
         core:name  "Priest" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Music_collector>
         a          core:Role ;
+        core:id    "rism230419/Role/Music_collector" ;
         core:name  "Music collector" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Bagpiper>
         a          core:Role ;
+        core:id    "rism230419/Role/Bagpiper" ;
         core:name  "Bagpiper" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Master_of_ceremonies>
         a          core:Role ;
+        core:id    "rism230419/Role/Master_of_ceremonies" ;
         core:name  "Master of ceremonies" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Politician>
         a          core:Role ;
+        core:id    "rism230419/Role/Politician" ;
         core:name  "Politician" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Business_educator>
         a          core:Role ;
+        core:id    "rism230419/Role/Business_educator" ;
         core:name  "Business educator" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Woodwind_player>
         a          core:Role ;
+        core:id    "rism230419/Role/Woodwind_player" ;
         core:name  "Woodwind player" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Folk_music_collector>
         a          core:Role ;
+        core:id    "rism230419/Role/Folk_music_collector" ;
         core:name  "Folk music collector" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Singing_teacher>
         a          core:Role ;
+        core:id    "rism230419/Role/Singing_teacher" ;
         core:name  "Singing teacher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Painter>
         a          core:Role ;
+        core:id    "rism230419/Role/Painter" ;
         core:name  "Painter" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Promoter>
         a          core:Role ;
+        core:id    "rism230419/Role/Promoter" ;
         core:name  "Promoter" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Theorbo_player>
         a          core:Role ;
+        core:id    "rism230419/Role/Theorbo_player" ;
         core:name  "Theorbo player" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Editor_of_folksongs>
         a          core:Role ;
+        core:id    "rism230419/Role/Editor_of_folksongs" ;
         core:name  "Editor of folksongs" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Anthologist>
         a          core:Role ;
+        core:id    "rism230419/Role/Anthologist" ;
         core:name  "Anthologist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Writer_on_music>
         a          core:Role ;
+        core:id    "rism230419/Role/Writer_on_music" ;
         core:name  "Writer on music" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Harpist>
         a          core:Role ;
+        core:id    "rism230419/Role/Harpist" ;
         core:name  "Harpist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Castrato>
         a          core:Role ;
+        core:id    "rism230419/Role/Castrato" ;
         core:name  "Castrato" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Prior>
         a          core:Role ;
+        core:id    "rism230419/Role/Prior" ;
         core:name  "Prior" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Glass_painter>
         a          core:Role ;
+        core:id    "rism230419/Role/Glass_painter" ;
         core:name  "Glass painter" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Singer>
         a          core:Role ;
+        core:id    "rism230419/Role/Singer" ;
         core:name  "Singer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Ruler>
         a          core:Role ;
+        core:id    "rism230419/Role/Ruler" ;
         core:name  "Ruler" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Botanist>
         a          core:Role ;
+        core:id    "rism230419/Role/Botanist" ;
         core:name  "Botanist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Page>
         a          core:Role ;
+        core:id    "rism230419/Role/Page" ;
         core:name  "Page" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Military_man>
         a          core:Role ;
+        core:id    "rism230419/Role/Military_man" ;
         core:name  "Military man" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Guitarist>
         a          core:Role ;
+        core:id    "rism230419/Role/Guitarist" ;
         core:name  "Guitarist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Music_printer>
         a          core:Role ;
+        core:id    "rism230419/Role/Music_printer" ;
         core:name  "Music printer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Fiddler>
         a          core:Role ;
+        core:id    "rism230419/Role/Fiddler" ;
         core:name  "Fiddler" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Csakan_player>
         a          core:Role ;
+        core:id    "rism230419/Role/Csakan_player" ;
         core:name  "Csakan player" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Astronomer>
         a          core:Role ;
+        core:id    "rism230419/Role/Astronomer" ;
         core:name  "Astronomer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Pope>
         a          core:Role ;
+        core:id    "rism230419/Role/Pope" ;
         core:name  "Pope" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Farmer>
         a          core:Role ;
+        core:id    "rism230419/Role/Farmer" ;
         core:name  "Farmer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Kapelmistrz>
         a          core:Role ;
+        core:id    "rism230419/Role/Kapelmistrz" ;
         core:name  "Kapelmistrz" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Museum>
         a          core:Role ;
+        core:id    "rism230419/Role/Museum" ;
         core:name  "Museum" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Zoologist>
         a          core:Role ;
+        core:id    "rism230419/Role/Zoologist" ;
         core:name  "Zoologist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Instrumentalist>
         a          core:Role ;
+        core:id    "rism230419/Role/Instrumentalist" ;
         core:name  "Instrumentalist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Costume_designer>
         a          core:Role ;
+        core:id    "rism230419/Role/Costume_designer" ;
         core:name  "Costume designer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Repetiteur>
         a          core:Role ;
+        core:id    "rism230419/Role/Repetiteur" ;
         core:name  "Repetiteur" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Biologist>
         a          core:Role ;
+        core:id    "rism230419/Role/Biologist" ;
         core:name  "Biologist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Statesman>
         a          core:Role ;
+        core:id    "rism230419/Role/Statesman" ;
         core:name  "Statesman" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Lyra_viol_player>
         a          core:Role ;
+        core:id    "rism230419/Role/Lyra_viol_player" ;
         core:name  "Lyra viol player" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Court_lady>
         a          core:Role ;
+        core:id    "rism230419/Role/Court_lady" ;
         core:name  "Court lady" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Founder>
         a          core:Role ;
+        core:id    "rism230419/Role/Founder" ;
         core:name  "Founder" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Schoolmaster>
         a          core:Role ;
+        core:id    "rism230419/Role/Schoolmaster" ;
         core:name  "Schoolmaster" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Numismatic>
         a          core:Role ;
+        core:id    "rism230419/Role/Numismatic" ;
         core:name  "Numismatic" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Archdeacon>
         a          core:Role ;
+        core:id    "rism230419/Role/Archdeacon" ;
         core:name  "Archdeacon" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Bassoonist>
         a          core:Role ;
+        core:id    "rism230419/Role/Bassoonist" ;
         core:name  "Bassoonist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Publisher>
         a          core:Role ;
+        core:id    "rism230419/Role/Publisher" ;
         core:name  "Publisher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Printer>
         a          core:Role ;
+        core:id    "rism230419/Role/Printer" ;
         core:name  "Printer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Merchant>
         a          core:Role ;
+        core:id    "rism230419/Role/Merchant" ;
         core:name  "Merchant" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Countertenor>
         a          core:Role ;
+        core:id    "rism230419/Role/Countertenor" ;
         core:name  "Countertenor" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Gleeman>
         a          core:Role ;
+        core:id    "rism230419/Role/Gleeman" ;
         core:name  "Gleeman" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Kapelnik>
         a          core:Role ;
+        core:id    "rism230419/Role/Kapelnik" ;
         core:name  "Kapelník" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Music_pedagogue>
         a          core:Role ;
+        core:id    "rism230419/Role/Music_pedagogue" ;
         core:name  "Music pedagogue" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Jeweler>
         a          core:Role ;
+        core:id    "rism230419/Role/Jeweler" ;
         core:name  "Jeweler" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Music_seller>
         a          core:Role ;
+        core:id    "rism230419/Role/Music_seller" ;
         core:name  "Music seller" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Archbishop>
         a          core:Role ;
+        core:id    "rism230419/Role/Archbishop" ;
         core:name  "Archbishop" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Cinema_bandmaster>
         a          core:Role ;
+        core:id    "rism230419/Role/Cinema_bandmaster" ;
         core:name  "Cinema bandmaster" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Bass>
         a          core:Role ;
+        core:id    "rism230419/Role/Bass" ;
         core:name  "Bass" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Concert_director>
         a          core:Role ;
+        core:id    "rism230419/Role/Concert_director" ;
         core:name  "Concert director" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Troubadour>
         a          core:Role ;
+        core:id    "rism230419/Role/Troubadour" ;
         core:name  "Troubadour" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Veterinary>
         a          core:Role ;
+        core:id    "rism230419/Role/Veterinary" ;
         core:name  "Veterinary" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Historiographer>
         a          core:Role ;
+        core:id    "rism230419/Role/Historiographer" ;
         core:name  "Historiographer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Trumpeter>
         a          core:Role ;
+        core:id    "rism230419/Role/Trumpeter" ;
         core:name  "Trumpeter" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Sackbut_player>
         a          core:Role ;
+        core:id    "rism230419/Role/Sackbut_player" ;
         core:name  "Sackbut player" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Capitular>
         a          core:Role ;
+        core:id    "rism230419/Role/Capitular" ;
         core:name  "Capitular" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Laird>
         a          core:Role ;
+        core:id    "rism230419/Role/Laird" ;
         core:name  "Laird" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Writer>
         a          core:Role ;
+        core:id    "rism230419/Role/Writer" ;
         core:name  "Writer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Miller>
         a          core:Role ;
+        core:id    "rism230419/Role/Miller" ;
         core:name  "Miller" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Viol_player>
         a          core:Role ;
+        core:id    "rism230419/Role/Viol_player" ;
         core:name  "Viol player" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Confectioner>
         a          core:Role ;
+        core:id    "rism230419/Role/Confectioner" ;
         core:name  "Confectioner" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Harpsichordist>
         a          core:Role ;
+        core:id    "rism230419/Role/Harpsichordist" ;
         core:name  "Harpsichordist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Ethnologist>
         a          core:Role ;
+        core:id    "rism230419/Role/Ethnologist" ;
         core:name  "Ethnologist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Organ_builder>
         a          core:Role ;
+        core:id    "rism230419/Role/Organ_builder" ;
         core:name  "Organ builder" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Clerk>
         a          core:Role ;
+        core:id    "rism230419/Role/Clerk" ;
         core:name  "Clerk" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Literary_historian>
         a          core:Role ;
+        core:id    "rism230419/Role/Literary_historian" ;
         core:name  "Literary historian" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Conductor>
         a          core:Role ;
+        core:id    "rism230419/Role/Conductor" ;
         core:name  "Conductor" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Soprano>
         a          core:Role ;
+        core:id    "rism230419/Role/Soprano" ;
         core:name  "Soprano" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Artistic_director>
         a          core:Role ;
+        core:id    "rism230419/Role/Artistic_director" ;
         core:name  "Artistic director" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Saxophonist>
         a          core:Role ;
+        core:id    "rism230419/Role/Saxophonist" ;
         core:name  "Saxophonist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Servant>
         a          core:Role ;
+        core:id    "rism230419/Role/Servant" ;
         core:name  "Servant" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Editio_Medicea>
         a          core:Role ;
+        core:id    "rism230419/Role/Editio_Medicea" ;
         core:name  "Editio Medicea" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Viol_teacher>
         a          core:Role ;
+        core:id    "rism230419/Role/Viol_teacher" ;
         core:name  "Viol teacher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Violinist>
         a          core:Role ;
+        core:id    "rism230419/Role/Violinist" ;
         core:name  "Violinist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Respondent>
         a          core:Role ;
+        core:id    "rism230419/Role/Respondent" ;
         core:name  "Respondent" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Church_warden>
         a          core:Role ;
+        core:id    "rism230419/Role/Church_warden" ;
         core:name  "Church warden" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Kapelmeester>
         a          core:Role ;
+        core:id    "rism230419/Role/Kapelmeester" ;
         core:name  "Kapelmeester" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Dramaturge>
         a          core:Role ;
+        core:id    "rism230419/Role/Dramaturge" ;
         core:name  "Dramaturge" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Horn_player>
         a          core:Role ;
+        core:id    "rism230419/Role/Horn_player" ;
         core:name  "Horn player" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Abbot>
         a          core:Role ;
+        core:id    "rism230419/Role/Abbot" ;
         core:name  "Abbot" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Cartographer>
         a          core:Role ;
+        core:id    "rism230419/Role/Cartographer" ;
         core:name  "Cartographer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Music_teacher>
         a          core:Role ;
+        core:id    "rism230419/Role/Music_teacher" ;
         core:name  "Music teacher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Wind_player>
         a          core:Role ;
+        core:id    "rism230419/Role/Wind_player" ;
         core:name  "Wind player" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Dean>
         a          core:Role ;
+        core:id    "rism230419/Role/Dean" ;
         core:name  "Dean" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Mandolin_player>
         a          core:Role ;
+        core:id    "rism230419/Role/Mandolin_player" ;
         core:name  "Mandolin player" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Tenor>
         a          core:Role ;
+        core:id    "rism230419/Role/Tenor" ;
         core:name  "Tenor" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Cardinal>
         a          core:Role ;
+        core:id    "rism230419/Role/Cardinal" ;
         core:name  "Cardinal" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Optician>
         a          core:Role ;
+        core:id    "rism230419/Role/Optician" ;
         core:name  "Optician" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Flageolet_teacher>
         a          core:Role ;
+        core:id    "rism230419/Role/Flageolet_teacher" ;
         core:name  "Flageolet teacher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Horn_teacher>
         a          core:Role ;
+        core:id    "rism230419/Role/Horn_teacher" ;
         core:name  "Horn teacher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Freemason>
         a          core:Role ;
+        core:id    "rism230419/Role/Freemason" ;
         core:name  "Freemason" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Calligrapher>
         a          core:Role ;
+        core:id    "rism230419/Role/Calligrapher" ;
         core:name  "Calligrapher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Lexicographer>
         a          core:Role ;
+        core:id    "rism230419/Role/Lexicographer" ;
         core:name  "Lexicographer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Bibliographer>
         a          core:Role ;
+        core:id    "rism230419/Role/Bibliographer" ;
         core:name  "Bibliographer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Possessor>
         a          core:Role ;
+        core:id    "rism230419/Role/Possessor" ;
         core:name  "Possessor" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Research_institute>
         a          core:Role ;
+        core:id    "rism230419/Role/Research_institute" ;
         core:name  "Research institute" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Notary>
         a          core:Role ;
+        core:id    "rism230419/Role/Notary" ;
         core:name  "Notary" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Governor>
         a          core:Role ;
+        core:id    "rism230419/Role/Governor" ;
         core:name  "Governor" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Harp_maker>
         a          core:Role ;
+        core:id    "rism230419/Role/Harp_maker" ;
         core:name  "Harp maker" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Guitar_teacher>
         a          core:Role ;
+        core:id    "rism230419/Role/Guitar_teacher" ;
         core:name  "Guitar teacher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Beekeeper>
         a          core:Role ;
+        core:id    "rism230419/Role/Beekeeper" ;
         core:name  "Beekeeper" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Actor>
         a          core:Role ;
+        core:id    "rism230419/Role/Actor" ;
         core:name  "Actor" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Warder>
         a          core:Role ;
+        core:id    "rism230419/Role/Warder" ;
         core:name  "Warder" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Humanist>
         a          core:Role ;
+        core:id    "rism230419/Role/Humanist" ;
         core:name  "Humanist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Sangspruchdichter>
         a          core:Role ;
+        core:id    "rism230419/Role/Sangspruchdichter" ;
         core:name  "Sangspruchdichter" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Keyboard_maker>
         a          core:Role ;
+        core:id    "rism230419/Role/Keyboard_maker" ;
         core:name  "Keyboard maker" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Stage_director>
         a          core:Role ;
+        core:id    "rism230419/Role/Stage_director" ;
         core:name  "Stage director" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Butler>
         a          core:Role ;
+        core:id    "rism230419/Role/Butler" ;
         core:name  "Butler" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Palaeontologist>
         a          core:Role ;
+        core:id    "rism230419/Role/Palaeontologist" ;
         core:name  "Palaeontologist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Orientalist>
         a          core:Role ;
+        core:id    "rism230419/Role/Orientalist" ;
         core:name  "Orientalist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Gallery_owner>
         a          core:Role ;
+        core:id    "rism230419/Role/Gallery_owner" ;
         core:name  "Gallery owner" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Spinet_player>
         a          core:Role ;
+        core:id    "rism230419/Role/Spinet_player" ;
         core:name  "Spinet player" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Critic>
         a          core:Role ;
+        core:id    "rism230419/Role/Critic" ;
         core:name  "Critic" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Zangmeester>
         a          core:Role ;
+        core:id    "rism230419/Role/Zangmeester" ;
         core:name  "Zangmeester" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Entomologist>
         a          core:Role ;
+        core:id    "rism230419/Role/Entomologist" ;
         core:name  "Entomologist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Postmaster>
         a          core:Role ;
+        core:id    "rism230419/Role/Postmaster" ;
         core:name  "Postmaster" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Music_scholar>
         a          core:Role ;
+        core:id    "rism230419/Role/Music_scholar" ;
         core:name  "Music scholar" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Organ_teacher>
         a          core:Role ;
+        core:id    "rism230419/Role/Organ_teacher" ;
         core:name  "Organ teacher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Theatre_manager>
         a          core:Role ;
+        core:id    "rism230419/Role/Theatre_manager" ;
         core:name  "Theatre manager" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Organist>
         a          core:Role ;
+        core:id    "rism230419/Role/Organist" ;
         core:name  "Organist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Geologist>
         a          core:Role ;
+        core:id    "rism230419/Role/Geologist" ;
         core:name  "Geologist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Author>
         a          core:Role ;
+        core:id    "rism230419/Role/Author" ;
         core:name  "Author" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Music_critic>
         a          core:Role ;
+        core:id    "rism230419/Role/Music_critic" ;
         core:name  "Music critic" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Kapellmeister>
         a          core:Role ;
+        core:id    "rism230419/Role/Kapellmeister" ;
         core:name  "Kapellmeister" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Judge>
         a          core:Role ;
+        core:id    "rism230419/Role/Judge" ;
         core:name  "Judge" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Violin_teacher>
         a          core:Role ;
+        core:id    "rism230419/Role/Violin_teacher" ;
         core:name  "Violin teacher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Industrialist>
         a          core:Role ;
+        core:id    "rism230419/Role/Industrialist" ;
         core:name  "Industrialist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Preceptor>
         a          core:Role ;
+        core:id    "rism230419/Role/Preceptor" ;
         core:name  "Preceptor" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Bass_viol_player>
         a          core:Role ;
+        core:id    "rism230419/Role/Bass_viol_player" ;
         core:name  "Bass viol player" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Geographer>
         a          core:Role ;
+        core:id    "rism230419/Role/Geographer" ;
         core:name  "Geographer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Barkeeper>
         a          core:Role ;
+        core:id    "rism230419/Role/Barkeeper" ;
         core:name  "Barkeeper" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Pater_Ecclesiae>
         a          core:Role ;
+        core:id    "rism230419/Role/Pater_Ecclesiae" ;
         core:name  "Pater Ecclesiae" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Writing_master>
         a          core:Role ;
+        core:id    "rism230419/Role/Writing_master" ;
         core:name  "Writing master" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Violist>
         a          core:Role ;
+        core:id    "rism230419/Role/Violist" ;
         core:name  "Violist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Performer>
         a          core:Role ;
+        core:id    "rism230419/Role/Performer" ;
         core:name  "Performer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Guitar_maker>
         a          core:Role ;
+        core:id    "rism230419/Role/Guitar_maker" ;
         core:name  "Guitar maker" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Choral_conductor>
         a          core:Role ;
+        core:id    "rism230419/Role/Choral_conductor" ;
         core:name  "Choral conductor" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Flute_teacher>
         a          core:Role ;
+        core:id    "rism230419/Role/Flute_teacher" ;
         core:name  "Flute teacher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Provost>
         a          core:Role ;
+        core:id    "rism230419/Role/Provost" ;
         core:name  "Provost" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Ethnomusicologist>
         a          core:Role ;
+        core:id    "rism230419/Role/Ethnomusicologist" ;
         core:name  "Ethnomusicologist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Library>
         a          core:Role ;
+        core:id    "rism230419/Role/Library" ;
         core:name  "Library" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Vicar>
         a          core:Role ;
+        core:id    "rism230419/Role/Vicar" ;
         core:name  "Vicar" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Lecturer>
         a          core:Role ;
+        core:id    "rism230419/Role/Lecturer" ;
         core:name  "Lecturer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Subprior>
         a          core:Role ;
+        core:id    "rism230419/Role/Subprior" ;
         core:name  "Subprior" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Uhlan>
         a          core:Role ;
+        core:id    "rism230419/Role/Uhlan" ;
         core:name  "Uhlan" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Sacristan>
         a          core:Role ;
+        core:id    "rism230419/Role/Sacristan" ;
         core:name  "Sacristan" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Translator>
         a          core:Role ;
+        core:id    "rism230419/Role/Translator" ;
         core:name  "Translator" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Builder>
         a          core:Role ;
+        core:id    "rism230419/Role/Builder" ;
         core:name  "Builder" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Double_bass_player>
         a          core:Role ;
+        core:id    "rism230419/Role/Double_bass_player" ;
         core:name  "Double bass player" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Traveller>
         a          core:Role ;
+        core:id    "rism230419/Role/Traveller" ;
         core:name  "Traveller" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Music_publisher>
         a          core:Role ;
+        core:id    "rism230419/Role/Music_publisher" ;
         core:name  "Music publisher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Maitre_de_chapelle>
         a          core:Role ;
+        core:id    "rism230419/Role/Maitre_de_chapelle" ;
         core:name  "Maître de chapelle" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Director>
         a          core:Role ;
+        core:id    "rism230419/Role/Director" ;
         core:name  "Director" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Biographer>
         a          core:Role ;
+        core:id    "rism230419/Role/Biographer" ;
         core:name  "Biographer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Dramatist>
         a          core:Role ;
+        core:id    "rism230419/Role/Dramatist" ;
         core:name  "Dramatist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Forest_superintendent>
         a          core:Role ;
+        core:id    "rism230419/Role/Forest_superintendent" ;
         core:name  "Forest superintendent" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Patron>
         a          core:Role ;
+        core:id    "rism230419/Role/Patron" ;
         core:name  "Patron" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Courtier>
         a          core:Role ;
+        core:id    "rism230419/Role/Courtier" ;
         core:name  "Courtier" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Monk>
         a          core:Role ;
+        core:id    "rism230419/Role/Monk" ;
         core:name  "Monk" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Hofpfeifer>
         a          core:Role ;
+        core:id    "rism230419/Role/Hofpfeifer" ;
         core:name  "Hofpfeifer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Baker>
         a          core:Role ;
+        core:id    "rism230419/Role/Baker" ;
         core:name  "Baker" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Peer>
         a          core:Role ;
+        core:id    "rism230419/Role/Peer" ;
         core:name  "Peer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Unionist>
         a          core:Role ;
+        core:id    "rism230419/Role/Unionist" ;
         core:name  "Unionist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Wine_dealer>
         a          core:Role ;
+        core:id    "rism230419/Role/Wine_dealer" ;
         core:name  "Wine dealer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Secretary>
         a          core:Role ;
+        core:id    "rism230419/Role/Secretary" ;
         core:name  "Secretary" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Oboist>
         a          core:Role ;
+        core:id    "rism230419/Role/Oboist" ;
         core:name  "Oboist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Proofreader>
         a          core:Role ;
+        core:id    "rism230419/Role/Proofreader" ;
         core:name  "Proofreader" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Hymn_writer>
         a          core:Role ;
+        core:id    "rism230419/Role/Hymn_writer" ;
         core:name  "Hymn writer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Geometer>
         a          core:Role ;
+        core:id    "rism230419/Role/Geometer" ;
         core:name  "Geometer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Cornett_player>
         a          core:Role ;
+        core:id    "rism230419/Role/Cornett_player" ;
         core:name  "Cornett player" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Stadtpfeifer>
         a          core:Role ;
+        core:id    "rism230419/Role/Stadtpfeifer" ;
         core:name  "Stadtpfeifer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Civil_servant>
         a          core:Role ;
+        core:id    "rism230419/Role/Civil_servant" ;
         core:name  "Civil servant" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Tailor>
         a          core:Role ;
+        core:id    "rism230419/Role/Tailor" ;
         core:name  "Tailor" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Lutenist>
         a          core:Role ;
+        core:id    "rism230419/Role/Lutenist" ;
         core:name  "Lutenist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Flageolet_player>
         a          core:Role ;
+        core:id    "rism230419/Role/Flageolet_player" ;
         core:name  "Flageolet player" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Actuary>
         a          core:Role ;
+        core:id    "rism230419/Role/Actuary" ;
         core:name  "Actuary" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Bookbinder>
         a          core:Role ;
+        core:id    "rism230419/Role/Bookbinder" ;
         core:name  "Bookbinder" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Administrator>
         a          core:Role ;
+        core:id    "rism230419/Role/Administrator" ;
         core:name  "Administrator" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/String_player>
         a          core:Role ;
+        core:id    "rism230419/Role/String_player" ;
         core:name  "String player" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Soprano_castrato>
         a          core:Role ;
+        core:id    "rism230419/Role/Soprano_castrato" ;
         core:name  "Soprano castrato" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Genealogist>
         a          core:Role ;
+        core:id    "rism230419/Role/Genealogist" ;
         core:name  "Genealogist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Conductor_of_military_band>
         a          core:Role ;
+        core:id    "rism230419/Role/Conductor_of_military_band" ;
         core:name  "Conductor of military band" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Regens_chori>
         a          core:Role ;
+        core:id    "rism230419/Role/Regens_chori" ;
         core:name  "Regens chori" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Timpanist>
         a          core:Role ;
+        core:id    "rism230419/Role/Timpanist" ;
         core:name  "Timpanist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Lawyer>
         a          core:Role ;
+        core:id    "rism230419/Role/Lawyer" ;
         core:name  "Lawyer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Pastor>
         a          core:Role ;
+        core:id    "rism230419/Role/Pastor" ;
         core:name  "Pastor" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Singing_master>
         a          core:Role ;
+        core:id    "rism230419/Role/Singing_master" ;
         core:name  "Singing master" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Lute_teacher>
         a          core:Role ;
+        core:id    "rism230419/Role/Lute_teacher" ;
         core:name  "Lute teacher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Maestro_de_capilla>
         a          core:Role ;
+        core:id    "rism230419/Role/Maestro_de_capilla" ;
         core:name  "Maestro de capilla" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Anatomist>
         a          core:Role ;
+        core:id    "rism230419/Role/Anatomist" ;
         core:name  "Anatomist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Archaeologist>
         a          core:Role ;
+        core:id    "rism230419/Role/Archaeologist" ;
         core:name  "Archaeologist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Horticulturist>
         a          core:Role ;
+        core:id    "rism230419/Role/Horticulturist" ;
         core:name  "Horticulturist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Clarinet_maker>
         a          core:Role ;
+        core:id    "rism230419/Role/Clarinet_maker" ;
         core:name  "Clarinet maker" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Scribe>
         a          core:Role ;
+        core:id    "rism230419/Role/Scribe" ;
         core:name  "Scribe" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Naturalist>
         a          core:Role ;
+        core:id    "rism230419/Role/Naturalist" ;
         core:name  "Naturalist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Historian>
         a          core:Role ;
+        core:id    "rism230419/Role/Historian" ;
         core:name  "Historian" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Biochemist>
         a          core:Role ;
+        core:id    "rism230419/Role/Biochemist" ;
         core:name  "Biochemist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Teacher>
         a          core:Role ;
+        core:id    "rism230419/Role/Teacher" ;
         core:name  "Teacher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Chaplain>
         a          core:Role ;
+        core:id    "rism230419/Role/Chaplain" ;
         core:name  "Chaplain" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Opera_director>
         a          core:Role ;
+        core:id    "rism230419/Role/Opera_director" ;
         core:name  "Opera director" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Mathematician>
         a          core:Role ;
+        core:id    "rism230419/Role/Mathematician" ;
         core:name  "Mathematician" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Art_historian>
         a          core:Role ;
+        core:id    "rism230419/Role/Art_historian" ;
         core:name  "Art historian" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Tune_book_compiler>
         a          core:Role ;
+        core:id    "rism230419/Role/Tune_book_compiler" ;
         core:name  "Tune book compiler" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Classical_scholar>
         a          core:Role ;
+        core:id    "rism230419/Role/Classical_scholar" ;
         core:name  "Classical scholar" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Chamberlain>
         a          core:Role ;
+        core:id    "rism230419/Role/Chamberlain" ;
         core:name  "Chamberlain" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Kapellmastare>
         a          core:Role ;
+        core:id    "rism230419/Role/Kapellmastare" ;
         core:name  "Kapellmästare" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Poet>
         a          core:Role ;
+        core:id    "rism230419/Role/Poet" ;
         core:name  "Poet" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Owner>
         a          core:Role ;
+        core:id    "rism230419/Role/Owner" ;
         core:name  "Owner" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Lay_clerk>
         a          core:Role ;
+        core:id    "rism230419/Role/Lay_clerk" ;
         core:name  "Lay clerk" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Pianist>
         a          core:Role ;
+        core:id    "rism230419/Role/Pianist" ;
         core:name  "Pianist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Headmaster>
         a          core:Role ;
+        core:id    "rism230419/Role/Headmaster" ;
         core:name  "Headmaster" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Music_prefect>
         a          core:Role ;
+        core:id    "rism230419/Role/Music_prefect" ;
         core:name  "Music prefect" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Philosopher>
         a          core:Role ;
+        core:id    "rism230419/Role/Philosopher" ;
         core:name  "Philosopher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Policeman>
         a          core:Role ;
+        core:id    "rism230419/Role/Policeman" ;
         core:name  "Policeman" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Sakristan>
         a          core:Role ;
+        core:id    "rism230419/Role/Sakristan" ;
         core:name  "Sakristan" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Photographer>
         a          core:Role ;
+        core:id    "rism230419/Role/Photographer" ;
         core:name  "Photographer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Dancing_teacher>
         a          core:Role ;
+        core:id    "rism230419/Role/Dancing_teacher" ;
         core:name  "Dancing teacher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Magister_puerorum>
         a          core:Role ;
+        core:id    "rism230419/Role/Magister_puerorum" ;
         core:name  "Magister puerorum" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Squire>
         a          core:Role ;
+        core:id    "rism230419/Role/Squire" ;
         core:name  "Squire" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Literary_academic>
         a          core:Role ;
+        core:id    "rism230419/Role/Literary_academic" ;
         core:name  "Literary academic" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Trouvere>
         a          core:Role ;
+        core:id    "rism230419/Role/Trouvere" ;
         core:name  "Trouvère" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Kantor>
         a          core:Role ;
+        core:id    "rism230419/Role/Kantor" ;
         core:name  "Kantor" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Alto_castrato>
         a          core:Role ;
+        core:id    "rism230419/Role/Alto_castrato" ;
         core:name  "Alto castrato" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Official>
         a          core:Role ;
+        core:id    "rism230419/Role/Official" ;
         core:name  "Official" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Keyboard_player>
         a          core:Role ;
+        core:id    "rism230419/Role/Keyboard_player" ;
         core:name  "Keyboard player" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Aesthetician>
         a          core:Role ;
+        core:id    "rism230419/Role/Aesthetician" ;
         core:name  "Aesthetician" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Essayist>
         a          core:Role ;
+        core:id    "rism230419/Role/Essayist" ;
         core:name  "Essayist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Pharmacist>
         a          core:Role ;
+        core:id    "rism230419/Role/Pharmacist" ;
         core:name  "Pharmacist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Piano_tuner>
         a          core:Role ;
+        core:id    "rism230419/Role/Piano_tuner" ;
         core:name  "Piano tuner" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Literary_critic>
         a          core:Role ;
+        core:id    "rism230419/Role/Literary_critic" ;
         core:name  "Literary critic" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Bookseller>
         a          core:Role ;
+        core:id    "rism230419/Role/Bookseller" ;
         core:name  "Bookseller" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Virginalist>
         a          core:Role ;
+        core:id    "rism230419/Role/Virginalist" ;
         core:name  "Virginalist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Documentation_center>
         a          core:Role ;
+        core:id    "rism230419/Role/Documentation_center" ;
         core:name  "Documentation center" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Music_director>
         a          core:Role ;
+        core:id    "rism230419/Role/Music_director" ;
         core:name  "Music director" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Alto>
         a          core:Role ;
+        core:id    "rism230419/Role/Alto" ;
         core:name  "Alto" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Librarian>
         a          core:Role ;
+        core:id    "rism230419/Role/Librarian" ;
         core:name  "Librarian" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Paper_maker>
         a          core:Role ;
+        core:id    "rism230419/Role/Paper_maker" ;
         core:name  "Paper maker" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Artist>
         a          core:Role ;
+        core:id    "rism230419/Role/Artist" ;
         core:name  "Artist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Explorer>
         a          core:Role ;
+        core:id    "rism230419/Role/Explorer" ;
         core:name  "Explorer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Inventor>
         a          core:Role ;
+        core:id    "rism230419/Role/Inventor" ;
         core:name  "Inventor" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Scholar>
         a          core:Role ;
+        core:id    "rism230419/Role/Scholar" ;
         core:name  "Scholar" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Surveyor>
         a          core:Role ;
+        core:id    "rism230419/Role/Surveyor" ;
         core:name  "Surveyor" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Engraver>
         a          core:Role ;
+        core:id    "rism230419/Role/Engraver" ;
         core:name  "Engraver" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Mason>
         a          core:Role ;
+        core:id    "rism230419/Role/Mason" ;
         core:name  "Mason" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Plainchant_scribe>
         a          core:Role ;
+        core:id    "rism230419/Role/Plainchant_scribe" ;
         core:name  "Plainchant scribe" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Physician>
         a          core:Role ;
+        core:id    "rism230419/Role/Physician" ;
         core:name  "Physician" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Military_bandsman>
         a          core:Role ;
+        core:id    "rism230419/Role/Military_bandsman" ;
         core:name  "Military bandsman" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Collector_of_musical_instruments>
         a          core:Role ;
+        core:id    "rism230419/Role/Collector_of_musical_instruments" ;
         core:name  "Collector of musical instruments" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Mineralogist>
         a          core:Role ;
+        core:id    "rism230419/Role/Mineralogist" ;
         core:name  "Mineralogist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Piano_teacher>
         a          core:Role ;
+        core:id    "rism230419/Role/Piano_teacher" ;
         core:name  "Piano teacher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Brass_instrument_maker>
         a          core:Role ;
+        core:id    "rism230419/Role/Brass_instrument_maker" ;
         core:name  "Brass instrument maker" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Mestre_de_capela>
         a          core:Role ;
+        core:id    "rism230419/Role/Mestre_de_capela" ;
         core:name  "Mestre de capela" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Diplomat>
         a          core:Role ;
+        core:id    "rism230419/Role/Diplomat" ;
         core:name  "Diplomat" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Landlord>
         a          core:Role ;
+        core:id    "rism230419/Role/Landlord" ;
         core:name  "Landlord" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Other>
         a          core:Role ;
+        core:id    "rism230419/Role/Other" ;
         core:name  "Other" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Dancing_master>
         a          core:Role ;
+        core:id    "rism230419/Role/Dancing_master" ;
         core:name  "Dancing-master" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Weaver>
         a          core:Role ;
+        core:id    "rism230419/Role/Weaver" ;
         core:name  "Weaver" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Art_dealer>
         a          core:Role ;
+        core:id    "rism230419/Role/Art_dealer" ;
         core:name  "Art dealer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Concertmaster>
         a          core:Role ;
+        core:id    "rism230419/Role/Concertmaster" ;
         core:name  "Concertmaster" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Flute_maker>
         a          core:Role ;
+        core:id    "rism230419/Role/Flute_maker" ;
         core:name  "Flute maker" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Nun>
         a          core:Role ;
+        core:id    "rism230419/Role/Nun" ;
         core:name  "Nun" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Institution>
         a          core:Role ;
+        core:id    "rism230419/Role/Institution" ;
         core:name  "Institution" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Psalmodist>
         a          core:Role ;
+        core:id    "rism230419/Role/Psalmodist" ;
         core:name  "Psalmodist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Dictator>
         a          core:Role ;
+        core:id    "rism230419/Role/Dictator" ;
         core:name  "Dictator" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Novelist>
         a          core:Role ;
+        core:id    "rism230419/Role/Novelist" ;
         core:name  "Novelist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Potter>
         a          core:Role ;
+        core:id    "rism230419/Role/Potter" ;
         core:name  "Potter" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Forger>
         a          core:Role ;
+        core:id    "rism230419/Role/Forger" ;
         core:name  "Forger" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Copyist>
         a          core:Role ;
+        core:id    "rism230419/Role/Copyist" ;
         core:name  "Copyist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Editor>
         a          core:Role ;
+        core:id    "rism230419/Role/Editor" ;
         core:name  "Editor" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Physicist>
         a          core:Role ;
+        core:id    "rism230419/Role/Physicist" ;
         core:name  "Physicist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Choreographer>
         a          core:Role ;
+        core:id    "rism230419/Role/Choreographer" ;
         core:name  "Choreographer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Arranger>
         a          core:Role ;
+        core:id    "rism230419/Role/Arranger" ;
         core:name  "Arranger" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Music_editor>
         a          core:Role ;
+        core:id    "rism230419/Role/Music_editor" ;
         core:name  "Music editor" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Curator>
         a          core:Role ;
+        core:id    "rism230419/Role/Curator" ;
         core:name  "Curator" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Clarinet_teacher>
         a          core:Role ;
+        core:id    "rism230419/Role/Clarinet_teacher" ;
         core:name  "Clarinet teacher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Bassist>
         a          core:Role ;
+        core:id    "rism230419/Role/Bassist" ;
         core:name  "Bassist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Music_educator>
         a          core:Role ;
+        core:id    "rism230419/Role/Music_educator" ;
         core:name  "Music educator" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Glass_harmonica_player>
         a          core:Role ;
+        core:id    "rism230419/Role/Glass_harmonica_player" ;
         core:name  "Glass harmonica player" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Tinsmith>
         a          core:Role ;
+        core:id    "rism230419/Role/Tinsmith" ;
         core:name  "Tinsmith" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Lithographer>
         a          core:Role ;
+        core:id    "rism230419/Role/Lithographer" ;
         core:name  "Lithographer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Forester>
         a          core:Role ;
+        core:id    "rism230419/Role/Forester" ;
         core:name  "Forester" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Chronicler>
         a          core:Role ;
+        core:id    "rism230419/Role/Chronicler" ;
         core:name  "Chronicler" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Basset_horn_player>
         a          core:Role ;
+        core:id    "rism230419/Role/Basset_horn_player" ;
         core:name  "Basset-horn player" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Drummer>
         a          core:Role ;
+        core:id    "rism230419/Role/Drummer" ;
         core:name  "Drummer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Physharmonika_player>
         a          core:Role ;
+        core:id    "rism230419/Role/Physharmonika_player" ;
         core:name  "Physharmonika player" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Accountant>
         a          core:Role ;
+        core:id    "rism230419/Role/Accountant" ;
         core:name  "Accountant" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Sexton>
         a          core:Role ;
+        core:id    "rism230419/Role/Sexton" ;
         core:name  "Sexton" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Musicologist>
         a          core:Role ;
+        core:id    "rism230419/Role/Musicologist" ;
         core:name  "Musicologist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Dancer>
         a          core:Role ;
+        core:id    "rism230419/Role/Dancer" ;
         core:name  "Dancer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Archivist>
         a          core:Role ;
+        core:id    "rism230419/Role/Archivist" ;
         core:name  "Archivist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Lay_vicar>
         a          core:Role ;
+        core:id    "rism230419/Role/Lay_vicar" ;
         core:name  "Lay-vicar" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Hymnologist>
         a          core:Role ;
+        core:id    "rism230419/Role/Hymnologist" ;
         core:name  "Hymnologist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Barrister>
         a          core:Role ;
+        core:id    "rism230419/Role/Barrister" ;
         core:name  "Barrister" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Journalist>
         a          core:Role ;
+        core:id    "rism230419/Role/Journalist" ;
         core:name  "Journalist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Musician>
         a          core:Role ;
+        core:id    "rism230419/Role/Musician" ;
         core:name  "Musician" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Playwright>
         a          core:Role ;
+        core:id    "rism230419/Role/Playwright" ;
         core:name  "Playwright" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Minnesanger>
         a          core:Role ;
+        core:id    "rism230419/Role/Minnesanger" ;
         core:name  "Minnesänger" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Adventurer>
         a          core:Role ;
+        core:id    "rism230419/Role/Adventurer" ;
         core:name  "Adventurer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Flautist>
         a          core:Role ;
+        core:id    "rism230419/Role/Flautist" ;
         core:name  "Flautist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Shoemaker>
         a          core:Role ;
+        core:id    "rism230419/Role/Shoemaker" ;
         core:name  "Shoemaker" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Baritone>
         a          core:Role ;
+        core:id    "rism230419/Role/Baritone" ;
         core:name  "Baritone" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Violin_maker>
         a          core:Role ;
+        core:id    "rism230419/Role/Violin_maker" ;
         core:name  "Violin maker" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Butcher>
         a          core:Role ;
+        core:id    "rism230419/Role/Butcher" ;
         core:name  "Butcher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Piano_maker>
         a          core:Role ;
+        core:id    "rism230419/Role/Piano_maker" ;
         core:name  "Piano maker" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Zither_player>
         a          core:Role ;
+        core:id    "rism230419/Role/Zither_player" ;
         core:name  "Zither player" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Ophthalmologist>
         a          core:Role ;
+        core:id    "rism230419/Role/Ophthalmologist" ;
         core:name  "Ophthalmologist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Harp_teacher>
         a          core:Role ;
+        core:id    "rism230419/Role/Harp_teacher" ;
         core:name  "Harp teacher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Music_historian>
         a          core:Role ;
+        core:id    "rism230419/Role/Music_historian" ;
         core:name  "Music historian" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Fabricant>
         a          core:Role ;
+        core:id    "rism230419/Role/Fabricant" ;
         core:name  "Fabricant" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Engineer>
         a          core:Role ;
+        core:id    "rism230419/Role/Engineer" ;
         core:name  "Engineer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Stage_designer>
         a          core:Role ;
+        core:id    "rism230419/Role/Stage_designer" ;
         core:name  "Stage designer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Collector>
         a          core:Role ;
+        core:id    "rism230419/Role/Collector" ;
         core:name  "Collector" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Instrument_maker>
         a          core:Role ;
+        core:id    "rism230419/Role/Instrument_maker" ;
         core:name  "Instrument maker" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Presbyter>
         a          core:Role ;
+        core:id    "rism230419/Role/Presbyter" ;
         core:name  "Presbyter" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Carpenter>
         a          core:Role ;
+        core:id    "rism230419/Role/Carpenter" ;
         core:name  "Carpenter" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Antiquarian>
         a          core:Role ;
+        core:id    "rism230419/Role/Antiquarian" ;
         core:name  "Antiquarian" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Bass_Baritone>
         a          core:Role ;
+        core:id    "rism230419/Role/Bass_Baritone" ;
         core:name  "Bass-Baritone" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Clockmaker>
         a          core:Role ;
+        core:id    "rism230419/Role/Clockmaker" ;
         core:name  "Clockmaker" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Brewer>
         a          core:Role ;
+        core:id    "rism230419/Role/Brewer" ;
         core:name  "Brewer" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Sculptor>
         a          core:Role ;
+        core:id    "rism230419/Role/Sculptor" ;
         core:name  "Sculptor" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Clergyman>
         a          core:Role ;
+        core:id    "rism230419/Role/Clergyman" ;
         core:name  "Clergyman" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Art_collector>
         a          core:Role ;
+        core:id    "rism230419/Role/Art_collector" ;
         core:name  "Art collector" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Vihuelist>
         a          core:Role ;
+        core:id    "rism230419/Role/Vihuelist" ;
         core:name  "Vihuelist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Cabaret_artist>
         a          core:Role ;
+        core:id    "rism230419/Role/Cabaret_artist" ;
         core:name  "Cabaret artist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Mayor>
         a          core:Role ;
+        core:id    "rism230419/Role/Mayor" ;
         core:name  "Mayor" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Bassoon_teacher>
         a          core:Role ;
+        core:id    "rism230419/Role/Bassoon_teacher" ;
         core:name  "Bassoon teacher" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Smith>
         a          core:Role ;
+        core:id    "rism230419/Role/Smith" ;
         core:name  "Smith" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Cimbalist>
         a          core:Role ;
+        core:id    "rism230419/Role/Cimbalist" ;
         core:name  "Cimbalist" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/Role/Choirmaster>
         a          core:Role ;
+        core:id    "rism230419/Role/Choirmaster" ;
         core:name  "Choirmaster" .

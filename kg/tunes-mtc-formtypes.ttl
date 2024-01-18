@@ -10,12 +10,15 @@
 
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/FormType/Songs>
         a          mm:FormType ;
+        core:id    "MTC-FS-INST-2.0/FormType/Songs" ;
         core:name  "Songs" .
 
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/FormType/vocal>
         a          mm:FormType ;
+        core:id    "MTC-FS-INST-2.0/FormType/vocal" ;
         core:name  "vocal" .
 
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/FormType/instrumental>
         a          mm:FormType ;
+        core:id    "MTC-FS-INST-2.0/FormType/instrumental" ;
         core:name  "instrumental" .

@@ -23,6 +23,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Agent/Breandan_Breathnach> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Editor>
                                     ] ;
+        core:id                     "cre-0.7.0.1-dev/Source/cre5" ;
         core:isMemberOf             pon-resource:cre-0.7.0.1-dev ;
         core:title                  "Ceol Rince na hEireann 5" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -48,6 +49,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Agent/Breandan_Breathnach> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Editor>
                                     ] ;
+        core:id                     "cre-0.7.0.1-dev/Source/cre4" ;
         core:isMemberOf             pon-resource:cre-0.7.0.1-dev ;
         core:title                  "Ceol Rince na hEireann 4" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -69,6 +71,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Agent/Breandan_Breathnach> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Editor>
                                     ] ;
+        core:id                     "cre-0.7.0.1-dev/Source/cre3" ;
         core:isMemberOf             pon-resource:cre-0.7.0.1-dev ;
         core:title                  "Ceol Rince na hEireann 3" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -93,6 +96,7 @@ pon-resource:cre-0.7.0.1-dev
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Agent/Breandan_Breathnach> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Editor>
                                     ] ;
+        core:id                     "cre-0.7.0.1-dev/Source/cre2" ;
         core:isMemberOf             pon-resource:cre-0.7.0.1-dev ;
         core:title                  "Ceol Rince na hEireann 2" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -114,6 +118,7 @@ pon-resource:cre-0.7.0.1-dev
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Agent/Breandan_Breathnach> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Editor>
                                     ] ;
+        core:id                     "cre-0.7.0.1-dev/Source/cre1" ;
         core:isMemberOf             pon-resource:cre-0.7.0.1-dev ;
         core:title                  "Ceol Rince na hEireann 1" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;

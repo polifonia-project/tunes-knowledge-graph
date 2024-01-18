@@ -10,48 +10,60 @@
 
 <http://w3id.org/polifonia/resource/tunes/thesession20211212/FormType/march>
         a          mm:FormType ;
+        core:id    "thesession20211212/FormType/march" ;
         core:name  "march" .
 
 <http://w3id.org/polifonia/resource/tunes/thesession20211212/FormType/strathspey>
         a          mm:FormType ;
+        core:id    "thesession20211212/FormType/strathspey" ;
         core:name  "strathspey" .
 
 <http://w3id.org/polifonia/resource/tunes/thesession20211212/FormType/mazurka>
         a          mm:FormType ;
+        core:id    "thesession20211212/FormType/mazurka" ;
         core:name  "mazurka" .
 
 <http://w3id.org/polifonia/resource/tunes/thesession20211212/FormType/three_two>
         a          mm:FormType ;
+        core:id    "thesession20211212/FormType/three_two" ;
         core:name  "three-two" .
 
 <http://w3id.org/polifonia/resource/tunes/thesession20211212/FormType/jig>
         a          mm:FormType ;
+        core:id    "thesession20211212/FormType/jig" ;
         core:name  "jig" .
 
 <http://w3id.org/polifonia/resource/tunes/thesession20211212/FormType/waltz>
         a          mm:FormType ;
+        core:id    "thesession20211212/FormType/waltz" ;
         core:name  "waltz" .
 
 <http://w3id.org/polifonia/resource/tunes/thesession20211212/FormType/hornpipe>
         a          mm:FormType ;
+        core:id    "thesession20211212/FormType/hornpipe" ;
         core:name  "hornpipe" .
 
 <http://w3id.org/polifonia/resource/tunes/thesession20211212/FormType/barndance>
         a          mm:FormType ;
+        core:id    "thesession20211212/FormType/barndance" ;
         core:name  "barndance" .
 
 <http://w3id.org/polifonia/resource/tunes/thesession20211212/FormType/reel>
         a          mm:FormType ;
+        core:id    "thesession20211212/FormType/reel" ;
         core:name  "reel" .
 
 <http://w3id.org/polifonia/resource/tunes/thesession20211212/FormType/slide>
         a          mm:FormType ;
+        core:id    "thesession20211212/FormType/slide" ;
         core:name  "slide" .
 
 <http://w3id.org/polifonia/resource/tunes/thesession20211212/FormType/polka>
         a          mm:FormType ;
+        core:id    "thesession20211212/FormType/polka" ;
         core:name  "polka" .
 
 <http://w3id.org/polifonia/resource/tunes/thesession20211212/FormType/slip_jig>
         a          mm:FormType ;
+        core:id    "thesession20211212/FormType/slip_jig" ;
         core:name  "slip jig" .

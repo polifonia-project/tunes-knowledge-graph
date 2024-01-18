@@ -10,20 +10,25 @@
 
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Role/Composer>
         a          core:Role ;
+        core:id    "MTC-FS-INST-2.0/Role/Composer" ;
         core:name  "Composer" .
 
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Role/Author>
         a          core:Role ;
+        core:id    "MTC-FS-INST-2.0/Role/Author" ;
         core:name  "Author" .
 
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Role/Singer>
         a          core:Role ;
+        core:id    "MTC-FS-INST-2.0/Role/Singer" ;
         core:name  "Singer" .
 
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Role/Editor>
         a          core:Role ;
+        core:id    "MTC-FS-INST-2.0/Role/Editor" ;
         core:name  "Editor" .
 
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Role/Publisher>
         a          core:Role ;
+        core:id    "MTC-FS-INST-2.0/Role/Publisher" ;
         core:name  "Publisher" .

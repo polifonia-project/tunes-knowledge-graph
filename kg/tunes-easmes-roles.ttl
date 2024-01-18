@@ -10,40 +10,50 @@
 
 <http://w3id.org/polifonia/resource/tunes/easmes/Role/m>
         a          core:Role ;
+        core:id    "easmes/Role/m" ;
         core:name  "Composer" .
 
 <http://w3id.org/polifonia/resource/tunes/easmes/Role/ed>
         a          core:Role ;
+        core:id    "easmes/Role/ed" ;
         core:name  "Editor" .
 
 <http://w3id.org/polifonia/resource/tunes/easmes/Role/pf>
         a          core:Role ;
+        core:id    "easmes/Role/pf" ;
         core:name  "Performer" .
 
 <http://w3id.org/polifonia/resource/tunes/easmes/Role/a>
         a          core:Role ;
+        core:id    "easmes/Role/a" ;
         core:name  "Author" .
 
 <http://w3id.org/polifonia/resource/tunes/easmes/Role/Publisher>
         a          core:Role ;
+        core:id    "easmes/Role/Publisher" ;
         core:name  "Publisher" .
 
 <http://w3id.org/polifonia/resource/tunes/easmes/Role/d>
         a          core:Role ;
+        core:id    "easmes/Role/d" ;
         core:name  "Choreographer" .
 
 <http://w3id.org/polifonia/resource/tunes/easmes/Role/o>
         a          core:Role ;
+        core:id    "easmes/Role/o" ;
         core:name  "Former Owner" .
 
 <http://w3id.org/polifonia/resource/tunes/easmes/Role/t>
         a          core:Role ;
+        core:id    "easmes/Role/t" ;
         core:name  "Lyricist" .
 
 <http://w3id.org/polifonia/resource/tunes/easmes/Role/c>
         a          core:Role ;
+        core:id    "easmes/Role/c" ;
         core:name  "Collector" .
 
 <http://w3id.org/polifonia/resource/tunes/easmes/Role/arr>
         a          core:Role ;
+        core:id    "easmes/Role/arr" ;
         core:name  "Arranger" .

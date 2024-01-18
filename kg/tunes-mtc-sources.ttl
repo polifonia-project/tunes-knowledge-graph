@@ -20,6 +20,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorca7a049348ce521e3e406254c11339ed> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1016459" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Hollantsche schouburgh en plugge dansen vermengelt met sangh airen [] T' Vyfde deel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -58,6 +59,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authord6a7ab0bde60cc0a59974f018680cf6e> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1000717" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Der FLUYTEN LUST-HOF, Vol Psalmen, Paduanen, Allemanden, Couranten, balletten, Airs, &c. Konstigh en lieflyk gefigureert, met veel veranderingen. Door den Ed. Jr. Jacob van Eyk, Musicijn en Directeur vande Klok-werken tot Uitrecht, &c. EERSTE DEEL" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -88,6 +90,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorb58fdaf6dbe7758551ea3c74acf09a72> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1008568" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Terschellinger volksleven. Gebruiken, feesten, liederen, dansen Met 27 illustraties naar fotografieën ruim 120 melodieën en een kaartje Door Jaap Kunst" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -113,6 +116,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authore3edc66262540cc3865a9c7c6e7f40e5> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1006481" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "LIEVELINGS-POTPOURRI" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -125,13 +129,13 @@
                                       mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Publisheread4b4c6577b273b1e30d52b9e31bc95>
                                     ] ;
         src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
+                                      src:hasIdentifierValue  "Den Haag KB: Lbl KB Wouters 25012"
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "1006481" ;
                                       src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0>
-                                    ] ;
-        src:hasIdentifier           [ rdf:type                src:Identifier ;
-                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
-                                      src:hasIdentifierValue  "Den Haag KB: Lbl KB Wouters 25012"
                                     ] ;
         src:hasType                 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/SourceType/print> .
 
@@ -142,6 +146,7 @@
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author5f7a915a98d8f1742b2ce6eb75e4cd3b> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1001682" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "[De Gruijtters beiaardboek] Andanten, marchen, gavotte, ariaen, giúen, corenten, contre-dansen, allegros, preludies, menuetten, trion, & & voor den beyaert ofte klok-spil bij een vergaedert ende opgestelt " ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -167,6 +172,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author0e76e002855f5cc622fa973dde5cdc74> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1016012" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "MAENDELYKS Musikaels Tydverdryf; Bestaende in Nieuwe Hollandsche Canzonetten of Zang-Liederen [...]." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -197,6 +203,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author14d218be640387b313051366b40d55f2> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1008020" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "De Vlaamsche Zanger. Verzameld door … Dl. 1-6 ... Deel 4" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -217,6 +224,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016454>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016454&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1016454" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "De Nieuwe Hollandsche schouwburg, zynde een verzameling van verscheyden vrolyke en serieuse dansen, nevens enige van de nieuwste zang-airen.] Vyfde deel." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -243,6 +251,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008416>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008416&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1008416" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Oude en nieuwe Hollantse Boeren Lietjes en Contredansen SESde deel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -269,6 +278,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1015668>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1015668&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1015668" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Speelmansboek met eenstemmige en meerstemmige melodieën en \"psalmloopen\"" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -290,6 +300,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authord6a7ab0bde60cc0a59974f018680cf6e> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1004315" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Der FLUYTEN LUST-HOF .. EERSTE DEEL" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -311,6 +322,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1006020>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1006020&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1006020" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "[Speelmanshandschrift] \"Kethel by Schiedam\"" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -328,6 +340,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001617>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001617&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1001617" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Handschrift met (klavier?) muziek \"Für Maaghdalena Darrest\"" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -348,6 +361,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author14d218be640387b313051366b40d55f2> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1008019" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "De Vlaamsche Zanger. Verzameld door … Dl. 1-6.... Deel 3" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -372,6 +386,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author9000ac8aedee18d7fc5309fb03e14b7d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001575" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Honderd oude Vlaamsche liederen met woorden en zangwijzen verzameld en voor de eerste maal aan het licht gebracht door Jan Bols, Pastoor van Alsemberg, Lid der Koninklijke Vlaamsche Academie" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -401,6 +416,7 @@
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorefcb3650d9e588a37818bcb785de05f6> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1015705" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Handschrift voor 1 instrument [fluit of viool]" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -422,6 +438,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author8e1e9ae452aa6d34d369e26e2becfe18> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1000140" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Ecclesiasticus Oft de wijse sproken Jesu des soons Syrach: Nu eerstmael deurdeelt ende ghestelt in Liedekens, op bequame en ghemeyne voisen, naer uutwijsen der musijck-noten daer by ghevoecht, deur Jan Fruytiers. Niet alleen seer stichtelijck, nut ende profitelyck voor allen Christen menschen, die na wysheyt ende deucht staen: Maer oock seer plaisant ende ghenoechlijck om de diversiteyten der materien. Met een Tafel, inhoudende d'beghinsel van elck Liedt, wijse, ende de materie daer inne begrepen. Insghelycx een register vande slot-reden ende voornaemste oft principaelste sententien des gheheelen boecks" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -452,6 +469,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorc7589bf10dbf64ad7ea4cb0c6ef1972b> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1017386" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "NIEUWE Boertige en Ernstige MINNE-ZANGEN" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -481,6 +499,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author14d218be640387b313051366b40d55f2> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001985" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "De Vlaamsche Zanger Eerste deel. 110 liederen verzameld door M. C. Priester uit het land van Loon. Met medewerking van den Limburgschen Studentenbond" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -505,6 +524,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authore6d90658c81cfe854ddcbac00d3959d0> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001732" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Kinderspelen en liedjes uit het land van Dendermonde. (Uitgave van den Bond van Oost-Vlaamsche Folkloristen)." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -534,6 +554,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authore4c880f3ce7df0a3afa844b0d6597c4d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001907" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Oude en nieuwe liedjes, bijeen verzameld door F.A. Snellaert. Tweede vermeerderde Uitgave, met begeleiding voor piano door L. Hemelsoet.  " ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -563,6 +584,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authore6d90658c81cfe854ddcbac00d3959d0> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1004310" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Zing mee! Een keuze van 500 Vlaamsche Folkloristische Liederen, spelen, ronden en reidansen  met zangwijzen en uitleg der dansstappen ten behoeve onzer jeugd in 4 deelen" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -588,6 +610,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorca7a049348ce521e3e406254c11339ed> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001897" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Hollantsche schouburgh en plugge dansen vermengelt met sangh airen" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -622,6 +645,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001588>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001588&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1001588" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Bundel met boerenliedjes" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -638,6 +662,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016273>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016273&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1016273" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Muziekboek van A. van der Grient 1819" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -655,6 +680,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016020>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016020&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1016020" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Verzameling van populaire airs, voornamelijk uit opera's, operettes en zangspelen, gezet voor zang en klavier met teksten in Frans, Duits en Nederlands" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -676,16 +702,17 @@
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authore93165b3ac28bc381184acfb67efb26d> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1016241" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Verzameling van dansen, marsen en volkswijzen, gezet voor viool / [handschrift Bolhuis]" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
+                             src:hasIdentifierValue  "Den Haag NMI: 21 K 17"
+                           ] ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                              src:hasIdentifierValue  "1016241" ;
                              src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0>
-                           ] ;
-        src:hasIdentifier  [ rdf:type                src:Identifier ;
-                             src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
-                             src:hasIdentifierValue  "Den Haag NMI: 21 K 17"
                            ] ;
         src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/div/21K17.html " ;
         src:hasType        <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/SourceType/manuscript> .
@@ -697,6 +724,7 @@
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author4143c01fecba1ee29d892eadfe10792e> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1017612" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "[Collectie melodieën, waaronder selecties uit 8 opera's van J.-B. Lully, en stukken voor solo-instrumenten van onbekende componisten]" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -717,6 +745,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author388803de263dc5ec1df324d5361dc091> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1004309" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Zing! 135 liederen en canons verzameld en bewerkt door L. van Gemert" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -741,6 +770,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016019>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016019&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1016019" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "[Verzameling populaire melodieën voor melodie-instrument]" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -762,6 +792,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author211017402a949988d2fc2850b41ce9bf> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1011201" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Smartlappen  en levensliederen, deel 1" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -787,6 +818,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorc41d8f859f99eff0e7fa34745c7e992a> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001569" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Bonte vlucht. Eerste bundel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -808,6 +840,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1011177>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1011177&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1011177" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Versameling van eenige Boere Danssen met een Bas Continuo vermeedert en onder malkander gedruckt om voor de Clavi-Cembalo, Viool, Dwars fluit, en andere Instrumenten te gebruiken. Eerste Deel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -833,6 +866,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016222>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016222&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1016222" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "[Viool handschrift]" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -846,6 +880,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1017348>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1017348&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1017348" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Handschrift Ferwerda\t" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -867,6 +902,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorb58fdaf6dbe7758551ea3c74acf09a72> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001993" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Terschellinger volksleven. Gebruiken, feesten, liederen, dansen Met 27 illustraties naar fotografieën ruim 120 melodieën en een kaartje Door Jaap Kunst" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -892,6 +928,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorb58fdaf6dbe7758551ea3c74acf09a72> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001740" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Het levende lied van Nederland uit den volksmond opgeteekend en bewerkt voor zang (blokfluit) en piano." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -917,6 +954,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author07899dcaddb882a5e6253cd1eba1c550> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1016309" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "MENGELZANGEN. TWEEDE DRUK, Op de helft vermeerdert. Met Muzyk van voornaame Meesteren" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -947,6 +985,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author77c9b46398c70c1128fd87aad7edd435> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1003343" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Moord te Raamsdonk]" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -976,6 +1015,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorca7a049348ce521e3e406254c11339ed> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1016456" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Hollantsche schouburgh en plugge dansen vermengelt met sangh airen 'T Tweede Deel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1010,6 +1050,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008418>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008418&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1008418" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Oude en nieuwe Hollantse Boeren Lietjes en Contredansen AGSTe deel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1036,6 +1077,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1010119>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1010119&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1010119" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "De kleine meijerij: tijdschrift van de heemkundige studiekring" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1064,6 +1106,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author98745418a2e7d52746e78ecacf3508f6> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001928" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Het straatlied. Een bundel schoone historie-, liefde- en oubollige liederen verzameld en ingeleid door D. Wouters en Dr. J. Moorman" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1086,6 +1129,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1019665>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1019665&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1019665" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Musyk Voor De Fluijt" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -1114,6 +1158,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author9d807b0752e5171bb36746de812808ba> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001854" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Padvinders-liederenbundel. 159 liederen, waarvan 68 canons, verzameld door schipper L. Haasnoot, akela N.E. Lind, stuurman J. Seyffert Jzn. Derde herziene oplage" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1139,16 +1184,17 @@
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author843b3d01150b71be12c1707ac086627b> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1005899" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Collectie hs. dansmuziek van de Andijker speelman Jan Klok (1864-1947) [deel 2]" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
+                             src:hasIdentifierValue  "Den Haag NMI: 4 N 48 (2)"
+                           ] ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                              src:hasIdentifierValue  "1005899" ;
                              src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0>
-                           ] ;
-        src:hasIdentifier  [ rdf:type                src:Identifier ;
-                             src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
-                             src:hasIdentifierValue  "Den Haag NMI: 4 N 48 (2)"
                            ] ;
         src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4N48-2.html" ;
         src:hasType        <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/SourceType/manuscript> .
@@ -1160,6 +1206,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author8e3794bc32af0d567d31a7c76a246d19> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001577" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Wereldlijke volksliederen met de melodieën. Verzameld uit het nagelaten werk van E. H. Dr. Jan Bols. Eerste bundel: 1. Verhalende liederen. 2. Minneliederen" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1185,6 +1232,7 @@
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorf19b9ba50db366e474e250161c34f313> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1002054" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "De Friese Tjalk" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -1201,6 +1249,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author1b1a6556a5614e13ea75b69009406a46> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001545" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Adelijn, bruin maagdelijn ... een doos vol van velerhande oude en nieuwe dansen - liederen - spelen met tekst en melodie uit de volksmond opgetekend verzameld en beschreven door B.W.E. Veurman" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1226,6 +1275,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorbd81be95101a68f9171b61bfd7355cbc> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1000317" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Souterliedekens III. Het seste musyck boexken mit dry parthien, waerinne begrepen syn die ierste Xl,  psalmen van Dauid, gecomponeert bij Iacobus Clement non papa, den tenor altijt houdende die voise van gemeijne bekende liedekens. Seer lustich om singen ter eeren Gods" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1251,6 +1301,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1000861>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1000861&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1000861" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Handschrift Petronella de la Court" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -1267,6 +1318,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016451>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016451&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1016451" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "De Nieuwe Hollandsche schouwburg, zynde een verzameling van verscheyden vrolyke en serieuse dansen, nevens enige van de nieuwste zang-airen.] Tweede deel." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1293,6 +1345,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008413>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008413&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1008413" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Oude en nieuwe Hollantse Boeren Lietjes en Contredansen Derde deel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1305,13 +1358,13 @@
                                       mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Publisher6923dbcc234831c8989ea7711f39bcac>
                                     ] ;
         src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
+                                      src:hasIdentifierValue  "Facsimile (Amsterdam Toonkunst: 212 D 22)"
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "1008413" ;
                                       src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0>
-                                    ] ;
-        src:hasIdentifier           [ rdf:type                src:Identifier ;
-                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
-                                      src:hasIdentifierValue  "Facsimile (Amsterdam Toonkunst: 212 D 22)"
                                     ] ;
         src:hasScan                 "http://books.google.nl/books?id=FhtZAAAAcAAJ&pg=PA4#v=onepage&q&f=false" ;
         src:hasType                 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/SourceType/print> .
@@ -1323,6 +1376,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authord3e62081550b052e4086fad0fc9859e2> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1016815" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "OPWEKKELYKE ZEDEZANGEN. Eenige verrykt met TWEE VIOOLEN. EERSTE DEEL [Het Tweede Deel]" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1380,6 +1434,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authore9052e708947abf91182e1d8c5c11f1a> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001867" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Jan Pierewiet. 'n Bundel liedjes, samengesteld door Boy Wolsey" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1401,6 +1456,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1011001>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1011001&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1011001" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Handschrift Balmer 1801" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -1421,6 +1477,7 @@
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author4143c01fecba1ee29d892eadfe10792e> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1017734" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Sammlung von Tänzen und Liedern für Flauto solo" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -1446,6 +1503,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author17f372c3cb51549884352de886bda7a7> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1004270" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Liederen en dansen uit West-Friesland. Melodieën en teksten, verzameld en van een inleiding voorzien door […]" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1467,6 +1525,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016022>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016022&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1016022" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "[Hollandsche Dansen]" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -1484,6 +1543,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1012128>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1012128&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1012128" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Calmpthoutania: orgaan van de oudheidkundige kring van Kalmthout" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -1500,6 +1560,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authord6a7ab0bde60cc0a59974f018680cf6e> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1002003" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Der FLUYTEN LUST-HOF .. TWEEDE DEEL" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1526,6 +1587,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1010159>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1010159&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1010159" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Groningen : geïllustreerd maandblad voor geschiedenis, volkstaal, kunst, industrie en landbouw van Stad en Lande" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1550,6 +1612,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author389f406fc9664be2c9534a37e40b7c08> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001715" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Huilen op de kermis inhoudende honderd en vijf \"Straatmadelieven\" bijeenvergaard en waar nodig of nuttig van toelichtingen voorzien door …" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1571,6 +1634,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004325>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004325&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1004325" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Andries Kiers zijn muzijk boek, gekregen den 20 Novb. 1864." ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -1592,6 +1656,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorc85e9b867a2f870b13ffa34d1b389256> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001659" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Überlieferung und Persönlichkeit. Die  Erzählungen und Lieder des Egbert Gerrits" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1617,6 +1682,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author2708bf06a49969532e538a863207b4ef> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1010979" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "ZINGZANG" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1651,6 +1717,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authordefd19c11a010a12ddd89831703a78bc> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001641" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "GEZANGEN, OF HET VROLYK GEZELSCHAP DER NEGEN ZANGGODINNEN, Kweelende en speelende, op zeer aangenaame uitgezochte muzicaale toonen, verscheide Zangstoffen: tot verversinge en verkwikkinge der hedendaagsche zangminnende Herten. Alle op de G sleutel gestelt" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1677,6 +1744,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016533>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016533&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1016533" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Contredances A [Kasteel Amerongen]" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -1693,6 +1761,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1011179>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1011179&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1011179" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Onder de Groene Linde: opnamebestand" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -1717,6 +1786,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorc7589bf10dbf64ad7ea4cb0c6ef1972b> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1016491" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Tweede Deel der Mengelzangen van Kornelis Sweerts; Bestaande in cantus en bassus continuus, mede om op de Viool, Fluit, en andere Instrumenten te konnen speelen. Op Muzyk gesteld door F. Le Grand, Zangmeester t'Amsterdam" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1743,6 +1813,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1000048>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1000048&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1000048" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Souter Liedekens Ghemaect ter eeren Gods, op alle die Psalmen van David: tot stichtinghe, ende een gheestelike vermakinghe van allen Christen menschen." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1768,6 +1839,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008421>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008421&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1008421" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Oude en nieuwe Hollantse Boeren Lietjes en Contredansen ELFDe deel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1797,6 +1869,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author4aed58c0d22f10228daa97754482ad44> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001917" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Het nieuwe Hollands speel-huys, Waar in alle Soorten van dans en speel-stukjes, na de hedendaagse Gusto, voor de Viool, Fluit, Hoboïs en Cimbalo, die geappropieert Zyn tot Ligte Solós om tot Zwaarder op te Leiden, en die men met Bas of Clavecimbaal kan Speelen, Door Domingo S: del Croebelis, Muziek en Dansmeester. Libro I, II en III" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1823,6 +1896,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1017364>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1017364&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1017364" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Brussel KB, I 19561 [Speelmansboekje]" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -1840,13 +1914,14 @@
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1010375&lan=en" ;
         core:hasAgentRole           [ rdf:type       core:AgentRole ;
-                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author65b3ebf9a6b38cf244b6a5d8e77f589e> ;
-                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
-                                    ] ;
-        core:hasAgentRole           [ rdf:type       core:AgentRole ;
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author219b7566c3ba8e23f761b6a5a716cb3e> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author65b3ebf9a6b38cf244b6a5d8e77f589e> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1010375" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Een mandje vol amandelen: een bundel liedjes voor kleuters en jonge kinderen" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1867,6 +1942,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002029>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002029&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1002029" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Diverse bronnen, overgenomen op afschriftjes in NVA-archief" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -1879,6 +1955,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016283>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016283&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1016283" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "[Muziekboek met aria's, dansen en marschen gezet voor klavier]" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -1900,6 +1977,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorca7a049348ce521e3e406254c11339ed> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1016458" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Hollantsche schouburgh en plugge dansen vermengelt met sangh airen [] T' Vierde Deel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1939,17 +2017,9 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorf2b2977b491c2f1ce8e0ba3cc1af7cce> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001068" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Het oude Nederlandsche lied: wereldlijke en geestelijke liederen uit vroegeren tijd: teksten en melodieen/ verz. en toegelicht door Fl. van Duyse. 4 dln." ;
-        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
-                                      core:hasPlace         [ rdf:type   core:Place ;
-                                                              core:name  "Antwerpen"
-                                                            ] ;
-                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
-                                                              core:date  "1903" , "1903-1908"
-                                                            ] ;
-                                      mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Publisher3d0a091bb2aea5058a903d2bb0594b71>
-                                    ] ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasPlace         [ rdf:type   core:Place ;
                                                               core:name  "'s-Gravenhage"
@@ -1958,6 +2028,15 @@
                                                               core:date  "1903" , "1903-1908"
                                                             ] ;
                                       mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Publisher77377b45852c4e9cdb1979b6300f900d>
+                                    ] ;
+        mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
+                                      core:hasPlace         [ rdf:type   core:Place ;
+                                                              core:name  "Antwerpen"
+                                                            ] ;
+                                      core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
+                                                              core:date  "1903" , "1903-1908"
+                                                            ] ;
+                                      mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Publisher3d0a091bb2aea5058a903d2bb0594b71>
                                     ] ;
         src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
@@ -1973,6 +2052,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author791e676722d6efb4da1dd0324e47de48> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001787" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Zestiende- eeuwse Dietsche volksliedjes. De oorspronkelijke teksten met de in de souterliedekens van 1540 bewaarde melodieën. Bijeengebracht en van aanteekeningen voorzien door …" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1998,6 +2078,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author63642a439a4735a56fc7e8a7c8eedfd9> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1011110" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Volkslieder aus der Badischen Pfalz, gesammelt von E.M. Marriage" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2018,6 +2099,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001723>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001723&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001723" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Jahrbuch für Volksliedforschung" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2043,6 +2125,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author91f7ede5ea757a05891e9c68b3ab4d1f> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001699" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Nederlandsche liederen. Woorden van J.P. Heye. Zangwijzen van Wilhelmus Smits, Joh. J.H. Verhulst, J.J. Viotta, enz. Eerste bundel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2055,19 +2138,20 @@
                                       mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Publisher580598f7739720a5d78286729ab3ed26>
                                     ] ;
         src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
+                                      src:hasIdentifierValue  "Amsterdam MI: 3978 1 c 19e Heije"
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "1001699" ;
                                       src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0>
-                                    ] ;
-        src:hasIdentifier           [ rdf:type                src:Identifier ;
-                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
-                                      src:hasIdentifierValue  "Amsterdam MI: 3978 1 c 19e Heije"
                                     ] ;
         src:hasType                 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/SourceType/print> .
 
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016338>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016338&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1016338" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "[Liedboekje, bevattende Duitse en Franse pastorale minneliederen en danswijzen.]" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -2086,13 +2170,14 @@
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004301&lan=en" ;
         core:hasAgentRole           [ rdf:type       core:AgentRole ;
-                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorcf37d1212d90151ce1908a49974d850d> ;
-                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
-                                    ] ;
-        core:hasAgentRole           [ rdf:type       core:AgentRole ;
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authore9052e708947abf91182e1d8c5c11f1a> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorcf37d1212d90151ce1908a49974d850d> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1004301" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Zangzaad voor kampeerders. Een bundel liedjes verzameld door Boy Wolsey en Jan Waldorp. Geïllustreerd door Wim van Vliet. Eerste deel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2118,16 +2203,17 @@
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author7d07c4c4f628280d104374baeca219b6> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1016306" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Handschrift Spriet" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
+                             src:hasIdentifierValue  "Utrecht UB: Hs. 20 A 9"
+                           ] ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                              src:hasIdentifierValue  "1016306" ;
                              src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0>
-                           ] ;
-        src:hasIdentifier  [ rdf:type                src:Identifier ;
-                             src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
-                             src:hasIdentifierValue  "Utrecht UB: Hs. 20 A 9"
                            ] ;
         src:hasScan        "http://objects.library.uu.nl/reader/index.php?obj=1874-44869" ;
         src:hasType        <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/SourceType/manuscript> .
@@ -2143,6 +2229,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author9a963975a5a9661afe4312b124351601> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1010093" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Nederland's volkslied. Liederen en canons verzameld door ..." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2165,13 +2252,14 @@
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001681&lan=en" ;
         core:hasAgentRole           [ rdf:type       core:AgentRole ;
-                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author2519996f8dd7e3208f72e6ee3d7b29b7> ;
-                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
-                                    ] ;
-        core:hasAgentRole           [ rdf:type       core:AgentRole ;
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorcf355449ab36f997604d4cc9c633b0eb> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author2519996f8dd7e3208f72e6ee3d7b29b7> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001681" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Studentenliederen]" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2196,6 +2284,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author134b9e540197529b61171a0196e0fbef> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1004245" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Suid-Afrikaanse volkspoësie. (Bydrae tot die Suidafrikaanse volkskunde)" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2221,6 +2310,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorc41d8f859f99eff0e7fa34745c7e992a> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1002024" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Bonte vlucht. Tweede bundel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2242,6 +2332,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016453>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016453&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1016453" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "De Nieuwe Hollandsche schouwburg, zynde een verzameling van verscheyden vrolyke en serieuse dansen, nevens enige van de nieuwste zang-airen.] Vierde deel." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2254,13 +2345,13 @@
                                       mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Publisher158659c8f37525ffe3480edd469d0cc1>
                                     ] ;
         src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
+                                      src:hasIdentifierValue  "Amsterdam UB: Toonkunst 206-E-16"
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "1016453" ;
                                       src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0>
-                                    ] ;
-        src:hasIdentifier           [ rdf:type                src:Identifier ;
-                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
-                                      src:hasIdentifierValue  "Amsterdam UB: Toonkunst 206-E-16"
                                     ] ;
         src:hasScan                 "http://speelmuziek.nederlandsmuziekinstituut.nl/div/IIF11.html" ;
         src:hasType                 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/SourceType/print> .
@@ -2268,6 +2359,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008415>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008415&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1008415" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Oude en nieuwe Hollantse Boeren Lietjes en Contredansen VYfde deel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2298,6 +2390,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author14d218be640387b313051366b40d55f2> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1008018" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "De Vlaamsche Zanger TwEede deel. 120 liederen verzameld door M. C. Priester uit het land van Loon" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2318,6 +2411,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001883>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001883&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001883" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Rheinisch-Westfälische zeitschrift für Volkskunde" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2348,6 +2442,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1004272>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004272&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1004272" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Wieger Michiels Visser, Handschrift met vioolmuziek, afkomstig uit Oosterzee (Friesland)" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -2365,6 +2460,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016277>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016277&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1016277" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "[Boek met diverse melodieën gezet voor viool]" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -2382,6 +2478,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001851>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001851&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1001851" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Jaarboekje voor geschiedenis en oudheidkunde van Leiden en omstreken. Gedrukt voor de vereninging Oud-Leiden. (Titel omslag: Leids(ch) Jaarboekje.)" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -2398,6 +2495,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorb433559d266c9d2e99ae540f6dd6ff88> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1002005" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Oud-Kempische volksliederen en dansen, verzameld en van begeleiding voorzien door ... . Derde bundel." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2418,6 +2516,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001574>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001574&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001574" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Oude en nieuwe Hollantse Boeren Lietjes en Contredansen Eerste deel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2430,13 +2529,13 @@
                                       mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Publisher6923dbcc234831c8989ea7711f39bcac>
                                     ] ;
         src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
+                                      src:hasIdentifierValue  "Facsimile (Amsterdam Toonkunst: 212 D 22)"
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "1001574" ;
                                       src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0>
-                                    ] ;
-        src:hasIdentifier           [ rdf:type                src:Identifier ;
-                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
-                                      src:hasIdentifierValue  "Facsimile (Amsterdam Toonkunst: 212 D 22)"
                                     ] ;
         src:hasScan                 "http://books.google.nl/books?id=CBtZAAAAcAAJ&pg=PT1#v=onepage&q&f=false" ;
         src:hasType                 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/SourceType/print> .
@@ -2444,6 +2543,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008428>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008428&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1008428" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Oude en nieuwe Hollantse Boeren Lietjes en Contredansen  Op Nieuws geheel verbetert en Doorgaans vermeerdert. Voor de Hand-Viool. De Fluydt. En Haubois. V. deel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2456,13 +2556,13 @@
                                       mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Publisherff24cc87e380922efd3020d8595dd9e3>
                                     ] ;
         src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
+                                      src:hasIdentifierValue  "Facsimile (Den Haag KB: 10 G 30)"
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "1008428" ;
                                       src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0>
-                                    ] ;
-        src:hasIdentifier           [ rdf:type                src:Identifier ;
-                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
-                                      src:hasIdentifierValue  "Facsimile (Den Haag KB: 10 G 30)"
                                     ] ;
         src:hasScan                 "http://books.google.nl/books?id=QNlWAAAAcAAJ&pg=PT4#v=onepage&q&f=false" ;
         src:hasType                 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/SourceType/print> .
@@ -2470,6 +2570,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001795>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001795&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1001795" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Hs. Musicq boek, begonnen den 8sten october anno 1740" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -2486,6 +2587,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1006018>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1006018&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1006018" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Trompetboek I en II" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -2503,6 +2605,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001984>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001984&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1001984" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Verzameling Boekenoogen V" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -2519,6 +2622,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorc9c38d320a076d2e41698b73f502593d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1000240" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "De Psalmen Davids, Ende Ander Lofsanghen, Wt Den Francoyschen dichte in Nederlandschen ouerghesett, Doer Petrvm Dathenvm. Metgaeders den Christelicken Catechismo, Ceremonien ende Ghebeden" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2556,16 +2660,17 @@
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author843b3d01150b71be12c1707ac086627b> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1005901" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Collectie hs. dansmuziek van de Andijker speelman Jan Klok (1864-1947) [deel 4]" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
+                             src:hasIdentifierValue  "Den Haag NMI: 4 N 48 (4)"
+                           ] ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                              src:hasIdentifierValue  "1005901" ;
                              src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0>
-                           ] ;
-        src:hasIdentifier  [ rdf:type                src:Identifier ;
-                             src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
-                             src:hasIdentifierValue  "Den Haag NMI: 4 N 48 (4)"
                            ] ;
         src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4N48-4.html" ;
         src:hasType        <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/SourceType/manuscript> .
@@ -2577,6 +2682,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author75c6734d65536a37478a34e6eac2e7fa> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001113" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Gezelschapsliederen Oud en Nieuw" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2589,13 +2695,13 @@
                                       mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Publisherb538746f4725181131775f8ab3aad63f>
                                     ] ;
         src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
+                                      src:hasIdentifierValue  "Amsterdam MI: 3978 Gesloten Kast: A 44 "
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "1001113" ;
                                       src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0>
-                                    ] ;
-        src:hasIdentifier           [ rdf:type                src:Identifier ;
-                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
-                                      src:hasIdentifierValue  "Amsterdam MI: 3978 Gesloten Kast: A 44 "
                                     ] ;
         src:hasType                 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/SourceType/print> .
 
@@ -2606,6 +2712,7 @@
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author15a507547dd103774f80b48fb037bfa1> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1001555" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Collectie Dr. C. Bakker, Broek in Waterland" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -2626,6 +2733,7 @@
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authora4e170baed4ab8bb0d9113d08a97f719> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1002032" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Twents Volksleven. Liederen en dansen. In: Neerlands volksleven, XVII, nr. 3" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -2642,6 +2750,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author3ad5a138eec10bfc0561f3178d28595d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1002000" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Oude Vlaemsche liederen ten deele met de melodieën, uitgegeven door [...]" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2672,6 +2781,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authore61c3396272a8bc2d99bc7c3e9af0b43> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001997" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Hs. (cahier) kinderliederen van D. Huygen." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2696,6 +2806,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorca7a049348ce521e3e406254c11339ed> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1016461" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Hollantsche schouburgh en plugge dansen vermengelt met sangh airen [] T' Sevende Deel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2730,6 +2841,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008423>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008423&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1008423" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Oude en nieuwe Hollantse Boeren Lietjes en Contredansen DERTIENDe deel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2759,6 +2871,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorf1ba95628ec9cda6835f02ffeec63675> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1004308" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Zingen dat willen wij. Samengesteld door Carla Kohnstamm. Uitgegeven in samenwerking met de Arbeiders Jeugd Centrale" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2784,6 +2897,7 @@
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author217f69687765e9e63670331fdfb15ec6> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1000751" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Snikken & Smartlapjes" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -2800,6 +2914,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001901>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001901&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001901" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Versameling van eenige serieuse danssen met een bas continuo vermeerdert en onder malkander gedrukt, om voor de clavi-cembalo, viool, dwars-fluyt, en andere instrumenten te gebruiken. Eerste deel." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2829,6 +2944,7 @@
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author5483ee0f404167146b12ecfa531fd570> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1015509" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Gemeinschaft und Volkslied" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -2845,6 +2961,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author2962f4977f63dee9501b5c0db2b79542> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1000663" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "STICHTELYCKE RYMEN. Om te Lezen of te zingen " ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2875,6 +2992,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authora063e27101a23e5fefd42ec8b44b2f90> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1006058" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Vaderlandsch Liedeboek" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2901,6 +3019,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016119>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016119&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1016119" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "[(Viool) muziekhandschrift]" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -2922,6 +3041,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author8e3794bc32af0d567d31a7c76a246d19> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001992" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Wereldlijke volksliederen met de melodieën. Verzameld uit het nagelaten werk van E. H. Dr. Jan Bols. Tweede bundel: 3. Verhuisliederen. 4. Feest-, drink-, spot- en kluchtliederen. 5. Liederen op dieren. 6. Kinderliederen" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2943,6 +3063,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1000013>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1000013&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1000013" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Deuchdelijcke Solutien, gesolveert by vele ingenieuse Componisten van diversche Cameren van Rethorijcken. Duysent guldens, zilveren coppen en schalen, Met my te coopen meucht ghy winnen: U ghelt coemt inde Lothery' sonder falen, Goede stichtinghe vindy hier binnen. Dit is u prose ende Nombre net, Wilt dit bewaren in plaetse van u billet." ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -2961,13 +3082,14 @@
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001872&lan=en" ;
         core:hasAgentRole           [ rdf:type       core:AgentRole ;
-                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorc41d8f859f99eff0e7fa34745c7e992a> ;
-                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
-                                    ] ;
-        core:hasAgentRole           [ rdf:type       core:AgentRole ;
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author9a963975a5a9661afe4312b124351601> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorc41d8f859f99eff0e7fa34745c7e992a> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001872" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Nederland's volkslied. Liederen en canons verzameld door ..." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -2986,6 +3108,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016266>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016266&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1016266" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Verzameling van bekende melodieën en eenvoudige oefenstukjes voor de beginnende klavierspeler." ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -3007,6 +3130,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author14d218be640387b313051366b40d55f2> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1008021" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "De Vlaamsche Zanger. Verzameld door … Dl. 1-6 .... Deel 5" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -3027,6 +3151,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016455>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016455&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1016455" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "De Nieuwe Hollandsche schouwburg, zynde een verzameling van verscheyden vrolyke en serieuse dansen, nevens enige van de nieuwste zang-airen.] Zesde deel." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -3052,6 +3177,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008417>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008417&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1008417" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Oude en nieuwe Hollantse Boeren Lietjes en Contredansen SEVENde deel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -3078,6 +3204,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1005355>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1005355&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1005355" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Wieger Visser, Handschrift met vioolmuziek, afkomstig uit Oosterzee (Friesland)" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -3095,6 +3222,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1015946>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1015946&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1015946" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Versameling van eenige contra danssen met een bas continuo vermeerdert en onder malkander gedrukt, om voor de clavi-cembalo, viool, dwars-fluit, en andere instrumenten te gebruiken. Eerste deel." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -3120,6 +3248,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001706>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001706&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001706" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Nieuwe verzaamelinge van Hollandsche contradanssen, menutten [!] en pluggen. Gecomponeerd in den eersten smaak door verscheiden Meesters. I. Deel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -3146,6 +3275,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1010164>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1010164&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1010164" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "D'n Uytbeyndel (tijdschrift)" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -3170,6 +3300,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author0a2a97f99366e8bc33a0a39da41725cc> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001927" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Straatmadelieven. Een bundel met oude en nieuwe voor het merendeel nog niet in boekvorm gepubliceerde volks- en straatliederen. Bijeengebracht en toegelicht door Tj.W.R. de Haan" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -3191,6 +3322,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001720>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001720&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001720" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Jong is ons harte. Liederenbundel uitgegeven door de V.C.J.C. Met teekeningen van Lex Barten" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -3211,6 +3343,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001839>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001839&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1001839" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Nieuwsblad voor Friesland 1933/34, knipsels" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -3231,6 +3364,7 @@
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author1db996bf5461fc7fb16041d19e9e9096> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1001807" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Neerlands Volksleven. Tijdschrift van het Nederlands Genootschap voor Volkskunde" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -3251,6 +3385,7 @@
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorb890b6d0e60a4f1983aaec9a2c8b4e23> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1002039" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Volkskunde. Tijdschrift voor Nederlandsche folklore onder redactie van Pol de Mont & Aug. Gittée " ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -3263,6 +3398,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016072>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016072&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1016072" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "[Verzameling van liederen, dansen en romancen]" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -3280,6 +3416,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001821>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001821&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001821" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "De Nieuwe Hollandsche Schouwburg, Zynde een Verzameling van Verscheyden PLUGGEN EN SERIEUSE DANSSEN, Nevens enige van de Nieuwste ZANG AIREN, die voor de Viool. Dwarsfluijt, en anderen Iustrumenten [!] gebruijkt kunnen worden. Eerste deel." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -3292,13 +3429,13 @@
                                       mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Publisher158659c8f37525ffe3480edd469d0cc1>
                                     ] ;
         src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
+                                      src:hasIdentifierValue  "Amsterdam UB: Toonkunst 206-E-16"
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "1001821" ;
                                       src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0>
-                                    ] ;
-        src:hasIdentifier           [ rdf:type                src:Identifier ;
-                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
-                                      src:hasIdentifierValue  "Amsterdam UB: Toonkunst 206-E-16"
                                     ] ;
         src:hasScan                 "http://speelmuziek.nederlandsmuziekinstituut.nl/div/IIF11.html" ;
         src:hasType                 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/SourceType/print> .
@@ -3310,6 +3447,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author307da90bea864dbc56f1181e00bd91da> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1000814" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "UYT-SPANNINGEN, behelsende Eenige Stigtelyke Liederen en andere Gedigten. Verdeeld in vier Deelen: I. Bybelstoff... II. Aandagten.... III. Stigtelijcke Invallen... IV. Boetdigten ... Ende een Aanhangsel ..." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -3336,6 +3474,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016261>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016261&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1016261" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "[Muziekboekje met liederen en dansen, gezet voor klavier]" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -3353,6 +3492,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002021>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002021&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1002021" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Recueil de Pieces de musique. [Hs. Finspong]" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -3369,6 +3509,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016159>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016159&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1016159" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "[Verzameling van voornamelijk dans- en volksmelodieën, vermoedelijk vioolrepertoire.]" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -3386,6 +3527,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008412>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008412&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1008412" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Oude en nieuwe Hollantse Boeren Lietjes en Contredansen TWEede deel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -3398,13 +3540,13 @@
                                       mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Publisher6923dbcc234831c8989ea7711f39bcac>
                                     ] ;
         src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
+                                      src:hasIdentifierValue  "Facsimile (Amsterdam Toonkunst: 212 D 22)"
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "1008412" ;
                                       src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0>
-                                    ] ;
-        src:hasIdentifier           [ rdf:type                src:Identifier ;
-                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
-                                      src:hasIdentifierValue  "Facsimile (Amsterdam Toonkunst: 212 D 22)"
                                     ] ;
         src:hasScan                 "http://books.google.nl/books?id=CxtZAAAAcAAJ&pg=PA3#v=onepage&q&f=false" ;
         src:hasType                 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/SourceType/print> .
@@ -3416,6 +3558,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorc504da8fc8ba366f0ee6494c00bb178f> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001701" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Volksliederen" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -3441,6 +3584,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authord76ea42f6155a45cdf1d42f9c1032418> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1004311" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Die Bydrae van die Kaapse Maleier tot die Afrikaanse Volkslied" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -3466,6 +3610,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authora4addf613a066baba54cc684256fdab3> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001613" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Chants populaires des Flamands de France. Recueillis et publié avec les mélodies originales,  une traduction française et des notes. Nouvelle édition précédée d'un avant-propos de Monsieur l'Abbé Bayart. (Annales du Comité Flamand de France, deel XXXVII)." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -3491,6 +3636,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author84686960b294e652d1ecdbf6c594ff93> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001115" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Gezelschapsliederen of uitgezochte verzameling van 145 Nederlandsche Zangen en 14 Volksliederen van de voornaamste landen met de in gebruik zijnde Melodieën en Piano-Accompagnement [...] Muziekonderwijzer te Amsterdam." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -3516,6 +3662,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016242>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016242&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1016242" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "[Verzameling dansen voor viool en bas]" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -3537,6 +3684,7 @@
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author72ceacd497a3c7d796b236f933ad5860> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1001571" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Hs. collectie van G.J. Boekenoogen" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -3561,6 +3709,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author66ec229ddf23adbb1c53eae25a9d01cd> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001999" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Nederlandsche Baker- en Kinderrijmen, verzameld door Dr. J. van Vloten. Vierde, veel vermeerderde druk. Met melodieën, bijeengebracht door M.A. Brandts Buys" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -3587,13 +3736,14 @@
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001903&lan=en" ;
         core:hasAgentRole           [ rdf:type       core:AgentRole ;
-                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author27f00f00d7516f13176f63f350e496a3> ;
-                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
-                                    ] ;
-        core:hasAgentRole           [ rdf:type       core:AgentRole ;
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authordc09b3d8709ed736770a7dab0edafdac> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author27f00f00d7516f13176f63f350e496a3> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001903" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "SIMSALABIM Oude en nieuwe liedjes om samen te zingen" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -3615,6 +3765,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1017350>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1017350&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1017350" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Speelmanshandschrift Växjö" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -3635,6 +3786,7 @@
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author1b1a6556a5614e13ea75b69009406a46> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1002047" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Volendam, Leven en Lied" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -3655,6 +3807,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authordbb255bbbfd60e2a7c7ce3b35a572321> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001759" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Chants Populaires flamands avec les airs notés et Poésies Populaires diverses recueillis à Bruges par Adolphe Lootens et J.M.E. Feys" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -3681,6 +3834,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1017349>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1017349&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1017349" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Handschrift Hulkenroy " ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -3698,6 +3852,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1019727>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1019727&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1019727" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Muzyk voor het clavier [muziekhandschrift] " ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -3719,6 +3874,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorc15cbf2e30d2a02503fde5c191a02de8> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1000047" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Souter Liedekens Ghemaect ter eeren Gods, op alle die Psalmen van David [...]: tot stichtinghe, ende een gheestelijcke vermakinghe van allen Chrissten [sic] menschen." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -3731,19 +3887,20 @@
                                       mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Publisher8b2e1b402914edbb1c9800038941d947>
                                     ] ;
         src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
+                                      src:hasIdentifierValue  "Amsterdam UB: Ned. Inc. 478 (in facsimile)"
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "1000047" ;
                                       src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0>
-                                    ] ;
-        src:hasIdentifier           [ rdf:type                src:Identifier ;
-                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
-                                      src:hasIdentifierValue  "Amsterdam UB: Ned. Inc. 478 (in facsimile)"
                                     ] ;
         src:hasType                 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/SourceType/print> .
 
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001994>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001994&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1001994" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Hs. collectie Bureau v.h. Ned. Volkseigen. 1850" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -3760,6 +3917,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008420>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008420&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1008420" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Oude en nieuwe Hollantse Boeren Lietjes en Contredansen TIENDe deel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -3785,6 +3943,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1015658>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1015658&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1015658" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Het musijcqboek van J. Hanekuijk [Hylke Douwes Hanekuijk]" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -3810,6 +3969,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author32a8b0d62df7c484224f0eecbd7b43c4> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1010019" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Iepersch oud-liedboek. Teksten en melodieën uit den volksmond opgeteekend" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -3834,6 +3994,7 @@
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author5a85699b52555fab768a518d6a909d72> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1019685" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "[Oud bundeltje danswijzen]" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -3855,6 +4016,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorb58fdaf6dbe7758551ea3c74acf09a72> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1008585" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "EEN OUD LIED EN ZIJN VERMOEDELIJKE GESCHIEDENIS" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -3883,6 +4045,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author9a963975a5a9661afe4312b124351601> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001565" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "De blijde bongerd, een bundel liederen verzameld en bewerkt door Jop Pollmann" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -3912,6 +4075,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorca7a049348ce521e3e406254c11339ed> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1016457" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Hollantsche schouburgh en plugge dansen vermengelt met sangh airen [] T' Derde deel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -3933,19 +4097,20 @@
                                       mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Publisher314f6934291441665af15cf4aa11cab2>
                                     ] ;
         src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
+                                      src:hasIdentifierValue  "Amsterdam UB: Toonkunst 212-D-15:3"
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "1016457" ;
                                       src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0>
-                                    ] ;
-        src:hasIdentifier           [ rdf:type                src:Identifier ;
-                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
-                                      src:hasIdentifierValue  "Amsterdam UB: Toonkunst 212-D-15:3"
                                     ] ;
         src:hasType                 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/SourceType/print> .
 
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008419>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008419&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1008419" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Oude en nieuwe Hollantse Boeren Lietjes en Contredansen NEGENDe deel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -3971,6 +4136,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008963>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008963&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1008963" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "twee maal zes" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -4000,6 +4166,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorc7589bf10dbf64ad7ea4cb0c6ef1972b> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1016194" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Mengelzangen En Zinne Beelden, Van Cornelis Sweerts. [eerste deel]" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -4012,13 +4179,13 @@
                                       mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Publisher0fcb5363cee66f9bfb4aa9000066da7a>
                                     ] ;
         src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
+                                      src:hasIdentifierValue  "Den Haag KB: 8 C 32"
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "1016194" ;
                                       src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0>
-                                    ] ;
-        src:hasIdentifier           [ rdf:type                src:Identifier ;
-                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
-                                      src:hasIdentifierValue  "Den Haag KB: 8 C 32"
                                     ] ;
         src:hasType                 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/SourceType/print> .
 
@@ -4029,6 +4196,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authoradca81a3ed44299e2c9e228d1abc2992> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1000968" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "NEDER-LANDTSCHE GEDENCK-CLANCK. Kortelick openbarende de voornaemste geschiedenissen van de seventhien Neder-Landsche Provintien, 'tsedert den aenvang der Inlandsche beroerten ende troublen, tot den Jare 1625" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -4058,6 +4226,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorfe7f6161e22aec2f4d55335eb28a881d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1004300" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "De zangvogeltjes. Verzameling van zangstukjes voor een, twee, drie en vier stemmen. Vrij gevolgd naar het Hoogduitsch door W. Wenk. 1e stukje." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -4107,13 +4276,14 @@
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
         core:hasAgentRole  [ rdf:type       core:AgentRole ;
-                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author420eafcd6d688d77a2721c5977185526> ;
-                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
-                           ] ;
-        core:hasAgentRole  [ rdf:type       core:AgentRole ;
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author2ed2f2218c3fc52031a050bf0d89a16b> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:hasAgentRole  [ rdf:type       core:AgentRole ;
+                             core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author420eafcd6d688d77a2721c5977185526> ;
+                             core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                           ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1001809" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Nederlandsch volksliederenboek. Samengesteld door Daniël de Lange, Jhr. Mr. J.C.M. vaN Riemsdijk, Dr. G. Kalff. Eerste bundel. 144 liederen voor zang en piano." ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -4126,6 +4296,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1001680>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1001680&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001680" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Oude en nieuwe Groninger liederen (I) (II). opgeteekend, verzameld en van enkele aanteekeningen voorzien, door P. Groen. Voor piano bewerkt door G.R. Jager. Houtsneden van N.J.B. Bulder. Met een woord ter inleiding van Herman Poort. Uitgegeven in opdracht van het hoofdbestuur van \"Groningen\", Vereeninging tot bevordering van de kennis van het dialect, de geschiedenis en folklore van Groningen." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -4147,6 +4318,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002009>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002009&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1002009" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "\"Zangwijzen van Oud-Nederlandse Volksliederen\" / Handschrift Maatschappij tot bevordering der Toonkunst" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -4163,6 +4335,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016406>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016406&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1016406" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "HOLLANTSCHE SCHOUBURGH en Serieuse Dansen Vermengelt met Sangh Airen Seer beqaam om op alle Instrumenten Gespeelt te kunnen werden ELFDE DEEL" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -4188,6 +4361,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016452>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016452&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1016452" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "De Nieuwe Hollandsche schouwburg, zynde een verzameling van verscheyden vrolyke en serieuse dansen, nevens enige van de nieuwste zang-airen.] Derder deel." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -4214,6 +4388,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008414>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008414&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1008414" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Oude en nieuwe Hollantse Boeren Lietjes en Contredansen VIerde deel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -4244,6 +4419,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author73d2012d713233439aa1a7d78b0eefe1> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001781" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Grötmoeders tied ien word, ien beeld en muziek ien de regio Meerlo-Wanssum door Th. v.d. Voort" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -4256,13 +4432,13 @@
                                       mm:hasPublisher       <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Publishere531431e371fc921cbcbe3f719ff37a9>
                                     ] ;
         src:hasIdentifier           [ rdf:type                src:Identifier ;
+                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
+                                      src:hasIdentifierValue  "Amsterdam MI: 3978 3.1 c11 20e Voort"
+                                    ] ;
+        src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "1001781" ;
                                       src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0>
-                                    ] ;
-        src:hasIdentifier           [ rdf:type                src:Identifier ;
-                                      src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
-                                      src:hasIdentifierValue  "Amsterdam MI: 3978 3.1 c11 20e Voort"
                                     ] ;
         src:hasType                 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/SourceType/print> .
 
@@ -4273,6 +4449,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author5a70ae26d626aa4e3a9a6e5aebaf5f05> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001615" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Wieringer land en leven in de taal. (Publicaties van de Stichting voor het bevolkingsonderzoek in de drooggelegde Zuiderzeepolders, nr. 16)" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -4298,6 +4475,7 @@
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorf7857a89b5a82b163693cf71c64a2783> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1001804" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Nederlandsch liederboek uitgegeven door het Willems-fonds onder het toezicht van Fl. van Duyse. II. Balladen en verhalende liederen, enz." ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -4314,6 +4492,7 @@
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author8f0fb060f09cb92f26569b8dbea39472> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1016244" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Verzameling van dansen, marsen en volkswijzen, gezet voor de viool / [handschrift Bolhuis]" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -4335,6 +4514,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorb433559d266c9d2e99ae540f6dd6ff88> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1002004" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Oud-Kempische volksliederen en dansen, verzameld en van begeleiding voorzien door ... . Tweede bundel." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -4359,6 +4539,7 @@
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorfaddd9341268e9d67dd55c5fa8001378> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1001748" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Limburgsche liederen verzameld door Lambrecht Lambrechts. Gevolgd door: Aanteekeningen bij de Limburgsche liederen verzameld door L. Lambrachts en uitgegeven door de Commissie van het Oude Volkslied" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -4375,16 +4556,17 @@
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author843b3d01150b71be12c1707ac086627b> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1004326" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Collectie hs. dansmuziek van de Andijker speelman Jan Klok (1864-1947) [deel 1]" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
+                             src:hasIdentifierValue  "Den Haag NMI: 4 N 48 (1)"
+                           ] ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                              src:hasIdentifierValue  "1004326" ;
                              src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0>
-                           ] ;
-        src:hasIdentifier  [ rdf:type                src:Identifier ;
-                             src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
-                             src:hasIdentifierValue  "Den Haag NMI: 4 N 48 (1)"
                            ] ;
         src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4N48-1.html" ;
         src:hasType        <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/SourceType/manuscript> .
@@ -4392,6 +4574,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1019730>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1019730&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1019730" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Musyk Voor De Fiool [2]" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -4408,6 +4591,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1017075>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1017075&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1017075" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "[liedhandschrift, stemboekje (superius)]" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -4428,6 +4612,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorf33fc864edc7e2732f5cc44555725136> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001421" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Melodieën-Gids voor bruiloften en andere gezellige bijeenkomsten, bevattende ruim 400 zangwijzen, voor piano of 4-stemmigen Zang. Bewerkt door L.H. Deelman Iz. 2e Druk." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -4457,6 +4642,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorb53fea7e548cd3e06d1915ed2cbedeff> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001895" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Nederlandsche liederen uit vroegeren tijd, uitgegeven door ... ." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -4483,6 +4669,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author211017402a949988d2fc2850b41ce9bf> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1011204" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Waarom niet een Hollands lied?" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -4508,16 +4695,17 @@
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author843b3d01150b71be12c1707ac086627b> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1005900" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Collectie hs. dansmuziek van de Andijker speelman Jan Klok (1864-1947) [deel 3]" ;
+        src:hasIdentifier  [ rdf:type                src:Identifier ;
+                             src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
+                             src:hasIdentifierValue  "Den Haag NMI: 4 N 48 (3)"
+                           ] ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
                              src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                              src:hasIdentifierValue  "1005900" ;
                              src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0>
-                           ] ;
-        src:hasIdentifier  [ rdf:type                src:Identifier ;
-                             src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/LibrarySiglum> ;
-                             src:hasIdentifierValue  "Den Haag NMI: 4 N 48 (3)"
                            ] ;
         src:hasScan        "http://speelmuziek.nederlandsmuziekinstituut.nl/vlam/4N48-3.html" ;
         src:hasType        <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/SourceType/manuscript> .
@@ -4529,6 +4717,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author0377f218a3c18832ac969acb48151a8e> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001610" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Liederboek van Groot-NEderland verzameld door F.R. Coers Frzn. Derde Boek" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -4574,6 +4763,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author7fe946f1ee6994881ad2de8056a3fe5d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1002049" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Volksliederenbundel. In opdracht van de regering samengesteld door […]" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -4595,6 +4785,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016050>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016050&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1016050" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "[Muziekboekje met in hoofdzaak liederen, dansen, marsen en enkele sonaten] voor viool?" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -4612,6 +4803,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016271>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016271&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1016271" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Tiarda van Starkenborgh inv. no. 40" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -4628,6 +4820,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1002031>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1002031&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1002031" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Hs. 758 volksmelodieën of danswijzen. Met register. 2 banden" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -4644,6 +4837,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1019729>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1019729&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1019729" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Musyk Voor De Fiool [1]" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -4664,6 +4858,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authorca7a049348ce521e3e406254c11339ed> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1016460" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Hollantsche schouburgh en plugge dansen vermengelt met sangh airen [] T'Sesde Deel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -4698,6 +4893,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1008422>
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1008422&lan=en" ;
+        core:id                     "MTC-FS-INST-2.0/Source/1008422" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Oude en nieuwe Hollantse Boeren Lietjes en Contredansen TWAELFDe deel" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -4724,13 +4920,14 @@
         rdf:type                    src:Source ;
         core:description            "https://www.liederenbank.nl/bronpresentatie.php?zoek=1004307&lan=en" ;
         core:hasAgentRole           [ rdf:type       core:AgentRole ;
-                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author3b1bb8e2923e68323249547dfe777a83> ;
-                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
-                                    ] ;
-        core:hasAgentRole           [ rdf:type       core:AgentRole ;
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author2563cde8b8d0740917e097d81fe66609> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author3b1bb8e2923e68323249547dfe777a83> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
+                                    ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1004307" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Zingen wij ons eigen lied. Honderd liederen uit Vlaanderens liederenschat." ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -4752,6 +4949,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1017365>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1017365&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1017365" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Brussel KB: 19558. Handschrift met muziek en teksten" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -4772,6 +4970,7 @@
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authora27b7cb4d265e4d1c6f624e663022c1d> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1001434" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Liederen van Groot-Nederland, verzameld door F.R. Coers Frzn .... (in talrijke afleveringen)" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -4792,6 +4991,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author0377f218a3c18832ac969acb48151a8e> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1001609" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Liederboek van Groot-Nederland verzameld door F.R. Coers Frzn. Tweede boek" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -4817,6 +5017,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Authora92cc899a9c0749a229798e4447cf336> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                                     ] ;
+        core:id                     "MTC-FS-INST-2.0/Source/1010256" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title                  "Folklore der lage landen" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -4838,6 +5039,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016017>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016017&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1016017" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Nouvelles Contredanses Francoises, Avec leur Explication" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -4855,6 +5057,7 @@
 <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Source/1016238>
         rdf:type           src:Source ;
         core:description   "https://www.liederenbank.nl/bronpresentatie.php?zoek=1016238&lan=en" ;
+        core:id            "MTC-FS-INST-2.0/Source/1016238" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "Dans-Boekje H. C. Kooy" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;
@@ -4876,6 +5079,7 @@
                              core:hasAgent  <http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/Agent/Author8f0fb060f09cb92f26569b8dbea39472> ;
                              core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Author>
                            ] ;
+        core:id            "MTC-FS-INST-2.0/Source/1016284" ;
         core:isMemberOf    <http://w3id.org/polifonia/resource/tunes/Collection/MTC-FS-INST-2.0> ;
         core:title         "RECEUIL DE PLUSIEURS PIECES DE MUSIQUE Constistans EN MARCHES, MENUETS, GIGUES, CONTREDANCES, BOURÉES, GAVOTTES, AIRS, &c" ;
         src:hasIdentifier  [ rdf:type                src:Identifier ;

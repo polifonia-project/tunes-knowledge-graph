@@ -20,6 +20,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/000d279977e50952b0572c4d24aca58c> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK81" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Pokucie. Suplement do t. 29-32" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -44,6 +45,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK21" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Radomskie cz. II" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -71,6 +73,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK33" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Chełmskie cz. I" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -99,6 +102,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/867dd68b56a9242a0b7ca8c735ee884a> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK75" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Lubelskie. Suplement do t. 16-17" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -123,6 +127,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/066cddaa5d549a06e2b4421b54a5b672> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK45" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Góry i Podgórze cz. II" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -147,6 +152,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/c6918a0030ecc45b0da22f5a5ab1f991> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK57" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Ruś Czerwona, cz. II" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -171,6 +177,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK27" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Mazowsze cz. IV" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -195,6 +202,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/f479921027638072491df39074595019> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK39" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Pomorze" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -219,6 +227,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK09" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "W.Ks. Poznańskie, cz.I" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -243,6 +252,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/85866942d73c2a8a4e8bc637e26215e0> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK40" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Mazury Pruskie" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -267,6 +277,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK10" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "W Ks. Poznańskie cz. II" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -291,6 +302,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/b2acae8cadc36fa2b735a7c7af043a0c> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK82" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Chełmskie. Suplement do t. 33-34" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -315,6 +327,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/000d279977e50952b0572c4d24aca58c> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK52" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Białoruś-Polesie" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -339,6 +352,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK22" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Łęczyckie. Dzieła wszystkie" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -363,6 +377,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK34" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Chełmskie cz. II" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -391,6 +406,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/0e766d7a2ecf05a87a68a818f2dafdcf> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK76" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Kieleckie. Suplement do t. 18-19" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -419,6 +435,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/85866942d73c2a8a4e8bc637e26215e0> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK46" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Kaliskie i Sieradzkie" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -443,6 +460,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK16" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Lubelskie, cz. I" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -467,6 +485,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK28" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Mazowsze cz. V" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -491,6 +510,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/c6918a0030ecc45b0da22f5a5ab1f991> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK41" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Mazowsze cz. VI" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -515,6 +535,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK11" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "W Ks. Poznańskie cz. II" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -539,6 +560,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/b2acae8cadc36fa2b735a7c7af043a0c> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK83" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Przemyskie. Suplement do tomu 35" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -563,6 +585,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/c6918a0030ecc45b0da22f5a5ab1f991> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK53" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Litwa" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -587,6 +610,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK23" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Kaliskie, cz. I" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -611,6 +635,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK35" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Przemyskie" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -635,6 +660,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/576040af81cd5f1a69b6dcc2eaecd218> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK47" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Podole" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -659,6 +685,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK17" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Lubelskie, cz. II" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -683,6 +710,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK29" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Pokucie, cz. I" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -707,6 +735,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK30" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Pokucie cz. II" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -735,6 +764,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/0e766d7a2ecf05a87a68a818f2dafdcf> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK77/I" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Radomskie. Suplement do t. 20-21 cz. I" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -759,6 +789,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/c6918a0030ecc45b0da22f5a5ab1f991> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK42" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Mazowsze cz. VII" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -783,6 +814,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK12" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "W.Ks. Poznańskie, cz. IV" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -807,6 +839,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/000d279977e50952b0572c4d24aca58c> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK84" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Wołyń. Suplement do t. 36" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -831,6 +864,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/c6918a0030ecc45b0da22f5a5ab1f991> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK54" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Ruś Karpacka, cz. I" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -855,6 +889,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK24" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Mazowsze cz. I" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -879,6 +914,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK36" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Wołyń" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -903,6 +939,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/f479921027638072491df39074595019> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK48" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Tarnowskie-Rzeszowskie" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -927,6 +964,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK18" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Kieleckie cz. I" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -951,6 +989,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK31" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Pokucie cz. III" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -979,6 +1018,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/000d279977e50952b0572c4d24aca58c> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK43" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Śląsk" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1003,6 +1043,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK13" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "W. Ks. Poznańskie cz. V" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1027,6 +1068,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/c6918a0030ecc45b0da22f5a5ab1f991> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK55" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Ruś Karpacka, cz. II" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1051,6 +1093,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK25" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Mazowsze cz. II" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1072,13 +1115,14 @@
         rdf:type                    src:Source ;
         core:description            "http://polona.pl/item/21121180/" ;
         core:hasAgentRole           [ rdf:type       core:AgentRole ;
-                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/dee57c49044b6a8cd23a4e19203bac2e> ;
-                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
-                                    ] ;
-        core:hasAgentRole           [ rdf:type       core:AgentRole ;
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/0e766d7a2ecf05a87a68a818f2dafdcf> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:hasAgentRole           [ rdf:type       core:AgentRole ;
+                                      core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/dee57c49044b6a8cd23a4e19203bac2e> ;
+                                      core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
+                                    ] ;
+        core:id                     "kolberg20231006/Source/DWOK77/II" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Radomskie. Suplement do t. 20-21 cz. II" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1103,6 +1147,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/000d279977e50952b0572c4d24aca58c> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK49" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Sanockie-Krośnieńskie, cz. I" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1127,6 +1172,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK19" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Kieleckie cz. II" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1151,6 +1197,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/000d279977e50952b0572c4d24aca58c> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK50" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Sanockie-Krośnieńskie, cz. II" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1175,6 +1222,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK20" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Radomskie cz. I" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1199,6 +1247,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/066cddaa5d549a06e2b4421b54a5b672> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK44" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Góry i Podgórze cz. I" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1223,6 +1272,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK14" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "W. Ks. Poznańskie, cz. VI" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1247,6 +1297,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/c6918a0030ecc45b0da22f5a5ab1f991> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK56" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Ruś Czerwona, cz. I" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
@@ -1271,6 +1322,7 @@
                                       core:hasAgent  <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Agent/3ce5896ff2b4afe02b314819eee7a69d> ;
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
                                     ] ;
+        core:id                     "kolberg20231006/Source/DWOK26" ;
         core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/kolberg20231006> ;
         core:title                  "Mazowsze cz. III" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;

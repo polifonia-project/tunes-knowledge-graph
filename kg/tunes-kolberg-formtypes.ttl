@@ -10,68 +10,85 @@
 
 <http://w3id.org/polifonia/resource/tunes/kolberg20231006/FormType/Popielec>
         a          mm:FormType ;
+        core:id    "kolberg20231006/FormType/Popielec" ;
         core:name  "Popielec" .
 
 <http://w3id.org/polifonia/resource/tunes/kolberg20231006/FormType/Koleda>
         a          mm:FormType ;
+        core:id    "kolberg20231006/FormType/Koleda" ;
         core:name  "Kolęda" .
 
 <http://w3id.org/polifonia/resource/tunes/kolberg20231006/FormType/Obraczka>
         a          mm:FormType ;
+        core:id    "kolberg20231006/FormType/Obraczka" ;
         core:name  "Obrączka" .
 
 <http://w3id.org/polifonia/resource/tunes/kolberg20231006/FormType/Gaski_albo_slepa_babka>
         a          mm:FormType ;
+        core:id    "kolberg20231006/FormType/Gaski_albo_slepa_babka" ;
         core:name  "Gąski albo ślepa babka" .
 
 <http://w3id.org/polifonia/resource/tunes/kolberg20231006/FormType/Wesele_VI>
         a          mm:FormType ;
+        core:id    "kolberg20231006/FormType/Wesele_VI" ;
         core:name  "Wesele VI" .
 
 <http://w3id.org/polifonia/resource/tunes/kolberg20231006/FormType/Wesele_V>
         a          mm:FormType ;
+        core:id    "kolberg20231006/FormType/Wesele_V" ;
         core:name  "Wesele V" .
 
 <http://w3id.org/polifonia/resource/tunes/kolberg20231006/FormType/Wilk>
         a          mm:FormType ;
+        core:id    "kolberg20231006/FormType/Wilk" ;
         core:name  "Wilk" .
 
 <http://w3id.org/polifonia/resource/tunes/kolberg20231006/FormType/Wesele_VII>
         a          mm:FormType ;
+        core:id    "kolberg20231006/FormType/Wesele_VII" ;
         core:name  "Wesele VII" .
 
 <http://w3id.org/polifonia/resource/tunes/kolberg20231006/FormType/Wesele_VIII>
         a          mm:FormType ;
+        core:id    "kolberg20231006/FormType/Wesele_VIII" ;
         core:name  "Wesele VIII" .
 
 <http://w3id.org/polifonia/resource/tunes/kolberg20231006/FormType/Wieniec>
         a          mm:FormType ;
+        core:id    "kolberg20231006/FormType/Wieniec" ;
         core:name  "Wieniec" .
 
 <http://w3id.org/polifonia/resource/tunes/kolberg20231006/FormType/Trzej_krole>
         a          mm:FormType ;
+        core:id    "kolberg20231006/FormType/Trzej_krole" ;
         core:name  "Trzej króle" .
 
 <http://w3id.org/polifonia/resource/tunes/kolberg20231006/FormType/Obrzedy>
         a          mm:FormType ;
+        core:id    "kolberg20231006/FormType/Obrzedy" ;
         core:name  "Obrzędy" .
 
 <http://w3id.org/polifonia/resource/tunes/kolberg20231006/FormType/Nowy_Rok>
         a          mm:FormType ;
+        core:id    "kolberg20231006/FormType/Nowy_Rok" ;
         core:name  "Nowy Rok" .
 
 <http://w3id.org/polifonia/resource/tunes/kolberg20231006/FormType/Kulig>
         a          mm:FormType ;
+        core:id    "kolberg20231006/FormType/Kulig" ;
         core:name  "Kulig" .
 
 <http://w3id.org/polifonia/resource/tunes/kolberg20231006/FormType/Gry_i_zabawy>
         a          mm:FormType ;
+        core:id    "kolberg20231006/FormType/Gry_i_zabawy" ;
         core:name  "Gry i zabawy" .
 
 <http://w3id.org/polifonia/resource/tunes/kolberg20231006/FormType/Pepek>
         a          mm:FormType ;
+        core:id    "kolberg20231006/FormType/Pepek" ;
         core:name  "Pępek" .
 
 <http://w3id.org/polifonia/resource/tunes/kolberg20231006/FormType/Jaselka>
         a          mm:FormType ;
+        core:id    "kolberg20231006/FormType/Jaselka" ;
         core:name  "Jasełka" .

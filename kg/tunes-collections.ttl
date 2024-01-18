@@ -13,7 +13,7 @@
         core:comment      "The Session is a community website dedicated to Irish traditional music." ;
         core:description  "https://github.com/adactio/TheSession-data/tree/4fdaaf16f921669ce3c7a0a60248176c4e774582" ;
         core:hasVersion   "20211212" ;
-        core:id           "thesession" ;
+        core:id           "Collection/thesession20211212" ;
         core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/ElectronicCollection> ;
         core:name         "The Session" .
 
@@ -22,7 +22,7 @@
         core:comment      "Compiled by Robert M. Keller, Raoul F. Camus, Kate Van Winkle Keller, and Susan Cifaldi" , "This is a series of indexes derived from a data base of musical information compiled from primary sources covering the 250 years of the initial exploration and settlement of the United States. It consists of over 75,000 entries that are sorted by text (titles, first lines, recitatives, chorus and burden), by music incipits (represented in scale degrees, stressed notes and interval sequences), with additional indexes of names and theater works. Now in electronic format, the data can be fully searched, not only for initial strings, but also for internal words and melody sections." ;
         core:description  "https://www.cdss.org/elibrary/Easmes/index.html" ;
         core:hasVersion   "" ;
-        core:id           "easmes" ;
+        core:id           "Collection/easmes" ;
         core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/ElectronicCollection> ;
         core:name         "Early American Secular Music and Its European Sources, 1589–1839: An Index" .
 
@@ -31,7 +31,7 @@
         core:comment      "Files deut1328 till deut2266 are corrupt in the CCARH distribution. Compared to the original distribution CCARH's deut1329.krn has the contents of original deut1334.krn ... etc ... CCARH's deut2266.krn has the contents of original deut2271.krn. It seems that in some kind of process in creating the CCARH distribution deut1329-deut1333 ended up as 'junk' in deut1328." , "The Essen Folksong Collection is a database of some 6,255 folksong transcriptions.  The collection consists primarily of folksongs from Germany (5,370) and other Germanic regions -- Austria (104), Switzerland (93), Alsace (91), Lothringen (71), the Czech Republic (43), and the Netherlands (85).  The database also includes a handful of folksongs from other regions of the world -- mostly European.  These include folksongs from Belgium (2), Brazil (1), Canada (1), China (10), Denmark (9), Egypt (1), England (5), Finland (1), France (14), Greece (1), Hungary (45), Iceland (2), India (1), Ireland (1), Italy (8), Japan (1), Indonesia (1), Luxemburg (8), Mexico (4), Norway (2), Poland (25), Romanian (28), Russia/USSR (37), Sweden (11), Syria (1), Turkey (1), Ukraine (13), United States of America (7), Yugoslavia (119), plus other miscellaneous works from regions such as Tirol, Steiermark, Emmenthal, etc.  Of special note is a collection of 213 German Kinderlieder (children's songs)." ;
         core:description  "https://kern.humdrum.org/cgi-bin/browse?l=/essen" ;
         core:hasVersion   "1995" ;
-        core:id           "essen" ;
+        core:id           "Collection/essenccarh_corrected" ;
         core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/ElectronicCollection> ;
         core:name         "THE ESSEN FOLKSONG COLLECTION IN KERN FORMAT" .
 
@@ -40,7 +40,7 @@
         core:comment      "The Répertoire International des Sources Musicales (RISM) - International Inventory of Musical Sources - is an international, non-profit organization that aims to comprehensively document extant musical sources worldwide: manuscripts, printed music editions, writings on music theory, and libretti that are found in libraries, archives, churches, schools, and private collections. RISM’s over 1.4 million records can be searched at no cost through the RISM Catalog and RISM Online. RISM was founded in Paris in 1952 and is the largest and only global organization that documents written musical sources. RISM records what exists and where it can be found." ;
         core:description  "https://rism.info" ;
         core:hasVersion   "230419" ;
-        core:id           "rism" ;
+        core:id           "Collection/rism230419" ;
         core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/ElectronicCollection> ;
         core:name         "Répertoire International des Sources Musicales" .
 
@@ -49,7 +49,7 @@
         core:comment      "Between 1963 and 1999, Irish State publishing companies Oifig an tSolatáthair and An Gúm issued five printed volumes of tunes from the collections of Breadán Breathnach (1912-1985) under the series title Ceol Rince na hÉireann (Dance Music of Ireland, hereafter CRÉ). The five volumes of CRÉ contain 1,208 traditional tunes, a subset of Breathnach's more extensive personal collection of 5,000+ melodies. The collection has been transcribed into ABC notation by American traditional music researcher Bill Black, and made freely available online via his personal website. Addition of alternative tune versions and variation in numbering of unique melodies has resulted in a total of 1,224 tunes in the Bill Black ABC corpus. This resource has been used in previous research work, for example it makes up part of a larger aggregated corpus used in the Tunepal Music Information Retrieval app. We have created a new cleaned and annotated version of the corpus, from which feature sequence data can be extracted and analysed via Polifonia's FONN music pattern analysis toolkit." ;
         core:description  "https://github.com/polifonia-project/folk_ngram_analysis/tree/master/cre_corpus" ;
         core:hasVersion   "v0.7.0.1-dev" ;
-        core:id           "cre" ;
+        core:id           "Collection/cre-0.7.0.1-dev" ;
         core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/ElectronicCollection> ;
         core:name         "Ceol Rince na hÉireann" .
 
@@ -58,7 +58,7 @@
         core:comment      "With the Meertens Tune Collections (MTC) the Meertens Instituut provides a rich set of collections of musical data for research purposes, such as musicological investigations or music information retrieval tasks. Over the past decades, these data have been collected in the Database of Dutch Songs. The online interface of the Database of Dutch songs provides access at the level of individual records through extensive search and browse functionality. With the MTC, several collections are provided as a whole." ;
         core:description  "https://www.liederenbank.nl/mtc/" ;
         core:hasVersion   "2.0" ;
-        core:id           "MTC-FS-INST-2.0" ;
+        core:id           "Collection/MTC-FS-INST-2.0" ;
         core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/ElectronicCollection> ;
         core:name         "Meertens Tune Collections: MTC-FS-INST 2.0" .
 
@@ -67,6 +67,6 @@
         core:comment      "Based on the esac files, downloaded on 6 October 2023." , "A monumental digital collection of musical recordings (instrumental songs and melodies) from Oskar Kolberg's Works of All, covering over 20,000 records. The database of works is equipped with IT tools supporting musicological analysis." ;
         core:description  "https://kolberg.ispan.pl" ;
         core:hasVersion   "20231006" ;
-        core:id           "kolberg" ;
+        core:id           "Collection/kolberg20231006" ;
         core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/ElectronicCollection> ;
         core:name         "Zapisy muzyczne z Dzieł Wszystkich Oskara Kolberga w trybie Music Information Retrieval" .

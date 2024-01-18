@@ -10,4 +10,5 @@
 
 <http://w3id.org/polifonia/resource/tunes/kolberg20231006/Role/Editor>
         a          core:Role ;
+        core:id    "kolberg20231006/Role/Editor" ;
         core:name  "Editor" .

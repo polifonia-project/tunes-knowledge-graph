@@ -10,76 +10,95 @@
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/FormType/hornpipe>
         a          mm:FormType ;
+        core:id    "cre-0.7.0.1-dev/FormType/hornpipe" ;
         core:name  "hornpipe" .
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/FormType/slipjig>
         a          mm:FormType ;
+        core:id    "cre-0.7.0.1-dev/FormType/slipjig" ;
         core:name  "slipjig" .
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/FormType/jig___A_B_A>
         a          mm:FormType ;
+        core:id    "cre-0.7.0.1-dev/FormType/jig___A_B_A" ;
         core:name  "jig % A-B-A" .
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/FormType/hornpipe___set_dance>
         a          mm:FormType ;
+        core:id    "cre-0.7.0.1-dev/FormType/hornpipe___set_dance" ;
         core:name  "hornpipe % set dance" .
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/FormType/reel___A_B_C_D_A>
         a          mm:FormType ;
+        core:id    "cre-0.7.0.1-dev/FormType/reel___A_B_C_D_A" ;
         core:name  "reel % A-B-C-D-A" .
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/FormType/reel__A_B_A>
         a          mm:FormType ;
+        core:id    "cre-0.7.0.1-dev/FormType/reel__A_B_A" ;
         core:name  "reel %A-B-A" .
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/FormType/single_jig>
         a          mm:FormType ;
+        core:id    "cre-0.7.0.1-dev/FormType/single_jig" ;
         core:name  "single jig" .
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/FormType/polka___A_B_A>
         a          mm:FormType ;
+        core:id    "cre-0.7.0.1-dev/FormType/polka___A_B_A" ;
         core:name  "polka % A-B-A" .
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/FormType/Hornpipe>
         a          mm:FormType ;
+        core:id    "cre-0.7.0.1-dev/FormType/Hornpipe" ;
         core:name  "Hornpipe" .
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/FormType/reel___A_B_A>
         a          mm:FormType ;
+        core:id    "cre-0.7.0.1-dev/FormType/reel___A_B_A" ;
         core:name  "reel % A-B-A" .
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/FormType/polka>
         a          mm:FormType ;
+        core:id    "cre-0.7.0.1-dev/FormType/polka" ;
         core:name  "polka" .
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/FormType/hornpipe___A_B_A>
         a          mm:FormType ;
+        core:id    "cre-0.7.0.1-dev/FormType/hornpipe___A_B_A" ;
         core:name  "hornpipe % A-B-A" .
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/FormType/slide__Rogha_an_TY_illi_ra_>
         a          mm:FormType ;
+        core:id    "cre-0.7.0.1-dev/FormType/slide__Rogha_an_TY_illi_ra_" ;
         core:name  "slide (Rogha an T¥illi_ra)" .
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/FormType/slip_jig>
         a          mm:FormType ;
+        core:id    "cre-0.7.0.1-dev/FormType/slip_jig" ;
         core:name  "slip jig" .
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/FormType/jig>
         a          mm:FormType ;
+        core:id    "cre-0.7.0.1-dev/FormType/jig" ;
         core:name  "jig" .
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/FormType/reel>
         a          mm:FormType ;
+        core:id    "cre-0.7.0.1-dev/FormType/reel" ;
         core:name  "reel" .
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/FormType/reel___A_B_C_A>
         a          mm:FormType ;
+        core:id    "cre-0.7.0.1-dev/FormType/reel___A_B_C_A" ;
         core:name  "reel % A-B-C-A" .
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/FormType/slide>
         a          mm:FormType ;
+        core:id    "cre-0.7.0.1-dev/FormType/slide" ;
         core:name  "slide" .
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/FormType/slide___A_B_A>
         a          mm:FormType ;
+        core:id    "cre-0.7.0.1-dev/FormType/slide___A_B_A" ;
         core:name  "slide % A-B-A" .

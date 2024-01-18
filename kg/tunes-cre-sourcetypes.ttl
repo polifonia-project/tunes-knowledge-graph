@@ -10,4 +10,5 @@
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/SourceType/print>
         a           <https://w3id.org/polifonia/ontology/source/SourceType> ;
-        rdfs:label  "print" .
+        rdfs:label  "print" ;
+        core:id     "cre-0.7.0.1-dev/SourceType/print" .

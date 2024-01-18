@@ -10,12 +10,15 @@
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/SourceType/manuscript>
         a           <https://w3id.org/polifonia/ontology/source/SourceType> ;
-        rdfs:label  "manuscript" .
+        rdfs:label  "manuscript" ;
+        core:id     "rism230419/SourceType/manuscript" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/SourceType/print>
         a           <https://w3id.org/polifonia/ontology/source/SourceType> ;
-        rdfs:label  "print" .
+        rdfs:label  "print" ;
+        core:id     "rism230419/SourceType/print" .
 
 <http://w3id.org/polifonia/resource/tunes/rism230419/SourceType/mixed>
         a           <https://w3id.org/polifonia/ontology/source/SourceType> ;
-        rdfs:label  "mixed" .
+        rdfs:label  "mixed" ;
+        core:id     "rism230419/SourceType/mixed" .

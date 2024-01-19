@@ -1,0 +1,15 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX core:  <http://w3id.org/polifonia/ontology/core/>
+PREFIX mm:  <http://w3id.org/polifonia/ontology/music-meta/>
+
+SELECT DISTINCT ?entity_iri ?entity_label
+WHERE {
+
+  VALUES(?uri_query) {
+    (<http://w3id.org/polifonia/resource/tunes/rism230419/Agent/Person30000416>)
+  }
+  
+  ?entity_iri mm:hasComposer ?uri_query .
+  ?entity_iri rdfs:label ?entity_label .
+
+}

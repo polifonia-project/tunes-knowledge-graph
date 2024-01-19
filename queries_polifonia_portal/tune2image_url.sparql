@@ -1,0 +1,17 @@
+PREFIX ma: <https://w3id.org/polifonia/ontology/music-algorithm/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX core:  <http://w3id.org/polifonia/ontology/core/>
+PREFIX mm:  <http://w3id.org/polifonia/ontology/music-meta/>
+
+SELECT DISTINCT ?image_url
+WHERE {
+
+  # Not possible to include more than one query here. Why? 
+  VALUES(?uri_query) {
+    #(<http://w3id.org/polifonia/resource/tunes/thesession20211212/MusicEntity/3353>)
+    (<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/MusicEntity/196529/ScorePart/NLB196529_01>)
+  }
+  
+  ?uri_query core:image ?image_url .
+
+}

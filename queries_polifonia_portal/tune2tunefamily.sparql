@@ -1,0 +1,45 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX core:  <http://w3id.org/polifonia/ontology/core/>
+PREFIX mm:  <http://w3id.org/polifonia/ontology/music-meta/>
+
+SELECT DISTINCT ?tunefamily_iri ?tf_label
+WHERE {
+
+  VALUES(?uri_query) {
+    (<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/MusicEntity/72288/Stanza/NLB072288_01>)
+  }
+  
+  #Figure out the MusicEntity and retrieve entity_type_iri
+  {
+    #For MusicEntities
+    ?uri_query a mm:MusicEntity .
+    ?uri_query core:id ?entity_id .
+    ?entity_iri core:id ?entity_id .
+  }
+  UNION
+  {
+    #For Stanzas
+    ?abstract_score_iri core:hasPart ?uri_query .
+    ?entity_iri core:hasPart ?abstract_score_iri .
+  }
+  UNION
+  {
+    #For ScoreParts
+    ?score_iri mm:hasScorePart ?uri_query . 
+    ?abstract_score_iri mm:isRealisedIn ?score_iri .
+    ?entity_iri core:hasPart ?abstract_score_iri .
+  }
+  UNION
+  {
+    #For Excerpts (RISM)
+    ?uri_query core:isPartOf ?abstract_score_iri .
+    ?entity_iri core:hasPart ?abstract_score_iri .
+  }
+  
+  ?entity_iri core:isInvolvedIn [
+    core:hasMember ?tunefamily_iri ;
+  ] .
+
+  ?tunefamily_iri core:name ?tf_label .
+  
+}

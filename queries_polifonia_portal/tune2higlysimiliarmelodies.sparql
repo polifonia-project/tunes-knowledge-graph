@@ -1,0 +1,21 @@
+PREFIX ma: <https://w3id.org/polifonia/ontology/music-algorithm/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX core:  <http://w3id.org/polifonia/ontology/core/>
+PREFIX mm:  <http://w3id.org/polifonia/ontology/music-meta/>
+
+SELECT DISTINCT ?uri_b ?label_b
+WHERE {
+  
+  VALUES(?uri_query) {
+    (<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/MusicEntity/72288/Stanza/NLB072288_01>)
+  }
+  
+  ?task a ma:Task ;
+    ma:requiresInput ?uri_query ;
+    ma:requiresInput ?uri_b .
+  
+  ?uri_b rdfs:label ?label_b .
+  
+  FILTER(?uri_query != ?uri_b)
+  
+}

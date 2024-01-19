@@ -1,0 +1,47 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX core:  <http://w3id.org/polifonia/ontology/core/>
+PREFIX mm:  <http://w3id.org/polifonia/ontology/music-meta/>
+
+SELECT DISTINCT ?entity_iri ?entity_label
+WHERE {
+
+  VALUES(?uri_query) {
+    (<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/MusicEntity/196529/ScorePart/NLB196529_01>)
+    (<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/MusicEntity/72288/Stanza/NLB072288_01>)
+    (<http://w3id.org/polifonia/resource/tunes/thesession20211212/MusicEntity/13438>)
+    (<http://w3id.org/polifonia/resource/tunes/rism230419/MusicEntity/400109375/CompositionPart/00000400109375-1_1_1>)
+    (<http://w3id.org/polifonia/resource/tunes/kolberg20231006/MusicEntity/KB0907100011>)
+    (<http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/MusicEntity/cre.3_014bonny_a>)
+    (<http://w3id.org/polifonia/resource/tunes/easmes/MusicEntity/A20.257>)
+  }
+
+  #Figure out the MusicEntity and retrieve entity_type_iri
+  {
+    #For MusicEntities
+    ?uri_query a mm:MusicEntity .
+    ?uri_query core:id ?entity_id .
+    ?entity_iri core:id ?entity_id .
+  }
+  UNION
+  {
+    #For Stanzas
+    ?abstract_score_iri core:hasPart ?uri_query .
+    ?entity_iri core:hasPart ?abstract_score_iri .
+  }
+  UNION
+  {
+    #For ScoreParts
+    ?score_iri mm:hasScorePart ?uri_query . 
+    ?abstract_score_iri mm:isRealisedIn ?score_iri .
+    ?entity_iri core:hasPart ?abstract_score_iri .
+  }
+  UNION
+  {
+    #For Excerpts (RISM)
+    ?uri_query core:isPartOf ?abstract_score_iri .
+    ?entity_iri core:hasPart ?abstract_score_iri .
+  }
+
+  ?entity_iri rdfs:label ?entity_label .
+
+}

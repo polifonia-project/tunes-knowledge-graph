@@ -1,0 +1,10 @@
+PREFIX ma: <https://w3id.org/polifonia/ontology/music-algorithm/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX core:  <http://w3id.org/polifonia/ontology/core/>
+PREFIX mm:  <http://w3id.org/polifonia/ontology/music-meta/>
+
+SELECT DISTINCT ?uri ?label
+WHERE {
+    ?uri a mm:MusicEntity ;
+    	rdfs:label ?label .
+}

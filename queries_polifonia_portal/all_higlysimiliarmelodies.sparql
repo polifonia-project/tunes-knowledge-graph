@@ -1,0 +1,16 @@
+PREFIX ma: <https://w3id.org/polifonia/ontology/music-algorithm/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX core:  <http://w3id.org/polifonia/ontology/core/>
+PREFIX mm:  <http://w3id.org/polifonia/ontology/music-meta/>
+
+SELECT DISTINCT ?uri_a ?label_a ?uri_b ?label_b
+WHERE {
+  ?similarity_task a ma:Task ;
+    ma:requiresInput ?uri_a ;
+    ma:requiresInput ?uri_b .
+   
+   ?uri_a rdfs:label ?label_a .
+   ?uri_b rdfs:label ?label_b .
+  
+  FILTER (STR(?uri_a) < STR(?uri_b)).
+}

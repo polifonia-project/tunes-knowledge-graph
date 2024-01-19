@@ -15,10 +15,11 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
 CONSTRUCT {
     ?entity_iri a mm:MusicEntity ;
-        core:id ?entity_id ;  # add to ontology PVK: This is the ID of the song _in the collection_.
+        core:id ?entity_iri_local ;  # add to ontology PVK: This is the ID of the song _in the collection_.
         rdfs:label ?entity_title ; #this needs a better solution.
         core:title ?entity_title ; #this needs a better solution.
         core:title ?entity_title_in_source ; #this needs a better solution.
+        core:image ?entity_image_url ;
         mm:hasComposer ?composer_iri ;
         core:hasAgentRole ?blank_any_agentrole ;
         core:description ?entity_description_url ; 
@@ -28,7 +29,7 @@ CONSTRUCT {
         core:hasPart ?abstract_score_iri ; #one for each 'work'
         #core:hasPart ?lyrics_iri ; #why is this both here and at abstract score?
         mm:isRealisedBy ?musical_performance_iri ;
-        mm:isRecordedBy ?blank_recording_process ;
+        #mm:isRecordedBy ?blank_recording_process ; #moved to MusicalPerformance
         src:hasSource ?source_iri ;
         # new blank node SourceSituation (reification)
         tunes:hasSourceIdentifiers ?blank_source_identifier ;
@@ -60,12 +61,13 @@ CONSTRUCT {
 
     # 
     ?abstract_score_iri a mm:AbstractScore ;
+        core:id ?abstract_score_iri_local ;
         mm:hasText ?lyrics_iri ; #We only have lyrics information for the entire song, and for the first stanza
         core:hasPart ?stanza_iri ;
         mm:isRealisedIn ?score_iri .
 
     ?score_iri a mm:Score ; 
-        core:id ?score_id ;  # add to ontology
+        core:id ?score_iri_local ;  # add to ontology
         core:title ?score_title ;  # add to ontology
         core:title ?score_title_in_source ;
         core:description ?score_description_url ;  # add to ontology
@@ -73,14 +75,16 @@ CONSTRUCT {
         # mm:hasPublicationSituation ?publication_iri . # this now is in the source objct. Why also include it here?
 
     ?stanza_iri a mm:CompositionPart, mm:Stanza ;
-        core:id ?melody_stanza_id ; # e.g. "NLB075123_03"
+        core:id ?stanza_iri_local ; # e.g. "NLB075123_03"
+        core:image ?stanza_image_url ;
         core:description ?entity_description_url ;
         rdfs:label ?stanza_label ;
         mm:isRealisedIn ?score_iri ; 
         core:isPartOf ?abstract_score_iri .
 
     ?score_part_iri a mm:ScorePart ;
-        core:id ?melody_voice_id ; # e.g. "NLB123444_02"
+        core:id ?score_part_iri_local ; # e.g. "NLB123444_02"
+        core:image ?score_part_image_url ;
         core:description ?entity_description_url ;
         rdfs:label ?voice_label ;
         mm:isRealisedIn ?score_iri ;
@@ -88,19 +92,17 @@ CONSTRUCT {
         # here also mm:isrealisedIn ?score_iri ? Otherwise it is not clear what melody belongs to this part.
 
     ?score_excerpt_iri a mm:CompositionPart ;
-        core:id ?excerpt_id ; # E.g '0000234442-1_3_2'
+        core:id ?score_excerpt_iri_local ; # E.g '0000234442-1_3_2'
         core:description ?entity_description_url ;
+        core:image ?excerpt_image_url ;
         core:title ?excerpt_title ;
         core:title ?excerpt_title_in_source ;
         rdfs:label ?excerpt_title ;
         mm:isRealisedIn ?score_iri ;
         core:isPartOf ?abstract_score_iri .
 
-    ?source_current_owner_iri a core:Agent ;
-        core:id ?source_current_owner_id ;  # add to ontology
-        core:name ?source_current_owner_name .
-
     ?lyrics_iri a mm:Text, mm:Lyrics ;
+        core:id ?lyrics_iri_local ;
         core:hasText ?blank_text_fragment ;
         core:isMemberOf ?textfamily_iri .  
 
@@ -108,6 +110,8 @@ CONSTRUCT {
         core:text ?entity_lyrics_first_line .
 
     ?musical_performance_iri a mm:MusicalPerformance, core:InformationRealization ;
+        mm:isRecordedBy ?blank_recording_process ;
+        core:id ?musical_performance_iri_local ;
         mm:isPerformedBy ?entity_singer_iri .
 
     ?blank_recording_process a mm:RecordingProcess ;
@@ -116,15 +120,16 @@ CONSTRUCT {
         core:hasTimeInterval ?blank_recording_timeinterval .
 
     ?blank_recording_place a core:Place ;
-            core:name ?entity_place_of_recording_name ;
-            core:latitude ?entity_place_of_recording_latitude ;
-            core:longitude ?entity_place_of_recording_longitude .
+        core:name ?entity_place_of_recording_name ;
+        core:latitude ?entity_place_of_recording_latitude ;
+        core:longitude ?entity_place_of_recording_longitude .
 
     ?blank_recording_timeinterval a core:TimeInterval ;
-            core:date ?entity_date_of_recording .
+        core:date ?entity_date_of_recording .
 
-    ?recording_iri a mm:Recording ;
-        core:url ?entity_audio_url . #currently not present in data
+    ?recording_iri a mm:Recording ; 
+        core:id ?recording_iri_local ;
+        core:url ?entity_audio_url . 
 
 }
 
@@ -155,6 +160,9 @@ WHERE {
         # Entity IRI
         BIND(IRI(concat(str(pon-resource:), ?entity_iri_local)) AS ?entity_iri)
 
+        # Image for Entity
+        OPTIONAL { ?entity_base xyz:entity_image_url ?entity_image_url . }
+
         # collection iri
         OPTIONAL { ?entity_base xyz:collection_iri_local ?collection_iri_local . }
         BIND(IF(BOUND(?collection_iri_local), IRI(concat(str(pon-resource:), ?collection_iri_local)), ?nothing) AS ?collection_iri)
@@ -169,40 +177,54 @@ WHERE {
         BIND(
             IF(
                 !BOUND(?melody_work_number),
-                IRI(concat(str(?entity_iri), "/AbstractScore")),
-                IRI(concat(str(?entity_iri), "/AbstractScore/", ?melody_work_number))
+                concat(?entity_iri_local, "/AbstractScore"),
+                concat(?entity_iri_local, "/AbstractScore/", ?melody_work_number)
             )
-            AS ?abstract_score_iri
+            AS ?abstract_score_iri_local
         )
+        BIND(IRI(concat(str(pon-resource:), ?abstract_score_iri_local)) AS ?abstract_score_iri)
 
         # score
         BIND(
             IF(
                 !BOUND(?melody_work_number),
-                IRI(concat(str(?entity_iri), "/Score")),
-                IRI(concat(str(?entity_iri), "/Score/", ?melody_work_number))
+                concat(?entity_iri_local, "/Score"),
+                concat(?entity_iri_local, "/Score/", ?melody_work_number)
             )
-            AS ?score_iri
+            AS ?score_iri_local
         )
+        BIND(IRI(concat(str(pon-resource:), ?score_iri_local)) AS ?score_iri)
 
         # Voice
         OPTIONAL { ?entity_base xyz:melody_voice_number ?melody_voice_number . }
         OPTIONAL { ?entity_base xyz:melody_voice_id ?melody_voice_id . }
-        BIND(IF(BOUND(?melody_voice_number), IRI(concat(str(?entity_iri), '/ScorePart/', ?melody_voice_number)), ?nothing) AS ?score_part_iri)
+        BIND(IF(BOUND(?melody_voice_number), concat(?entity_iri_local, '/ScorePart/', ?melody_voice_id), ?nothing) AS ?score_part_iri_local)
+        BIND(IF(BOUND(?melody_voice_number), IRI(concat(str(?entity_iri), '/ScorePart/', ?melody_voice_id)), ?nothing) AS ?score_part_iri)
         BIND(IF(BOUND(?melody_voice_number), concat(?entity_title, ', Part #', ?melody_voice_number), ?nothing) AS ?voice_label)
+
+        # Image for voice
+        OPTIONAL { ?entity_base xyz:voice_image_url ?score_part_image_url . }
 
         # Stanza
         OPTIONAL { ?entity_base xyz:melody_stanza_number ?melody_stanza_number . }
         OPTIONAL { ?entity_base xyz:melody_stanza_id ?melody_stanza_id . }
-        BIND(IF(BOUND(?melody_stanza_number), IRI(concat(str(?entity_iri), '/Stanza/', ?melody_stanza_number)) , ?nothing) AS ?stanza_iri)
+        BIND(IF(BOUND(?melody_stanza_number), concat(?entity_iri_local, '/Stanza/', ?melody_stanza_id) , ?nothing) AS ?stanza_iri_local)
+        BIND(IF(BOUND(?melody_stanza_number), IRI(concat(str(?entity_iri), '/Stanza/', ?melody_stanza_id)) , ?nothing) AS ?stanza_iri)
         BIND(IF(BOUND(?melody_stanza_number), concat(?entity_title, ', Stanza #', ?melody_stanza_number), ?nothing) AS ?stanza_label)
+
+        # Image for stanza
+        OPTIONAL { ?entity_base xyz:stanza_image_url ?stanza_image_url . }
 
         # Excerpt (in RISM terminology)
         OPTIONAL { ?entity_base xyz:excerpt_id ?excerpt_id . }
+        BIND(IF(BOUND(?excerpt_id), concat(?entity_iri_local, "/CompositionPart/", ?excerpt_id) , ?nothing) AS ?score_excerpt_iri_local)
         BIND(IF(BOUND(?excerpt_id), IRI(concat(str(?entity_iri), "/CompositionPart/", ?excerpt_id)) , ?nothing) AS ?score_excerpt_iri)
 
         OPTIONAL { ?entity_base xyz:excerpt_title ?excerpt_title . }
         OPTIONAL { ?entity_base xyz:excerpt_title_in_source ?excerpt_title_in_source . }
+
+        # Image for excerpt
+        OPTIONAL { ?entity_base xyz:excerpt_image_url ?excerpt_image_url . }
 
         # Weblink
         OPTIONAL { ?entity_base xyz:entity_description_url ?entity_description_url . }
@@ -254,8 +276,9 @@ WHERE {
         BIND(IF(BOUND(?entity_related_to_tunefamily_iri_local), "weak", ?nothing) AS ?tunefamily_variation_confidence)
     
         # Lyrics and Text Family
-        OPTIONAL { ?entity_base xyz:entity_lyrics_first_line ?entity_lyrics_first_line . }
+        OPTIONAL { ?entity_base xyz:entity_lyrics_first_line ?entity_lyrics_first_line . } 
         OPTIONAL { ?entity_base xyz:textfamily_iri_local ?textfamily_iri_local . }
+        BIND(IF(BOUND(?entity_lyrics_first_line), concat(?entity_iri_local, "/Lyrics"), ?nothing) AS ?lyrics_iri_local) #first line of first stanza
         BIND(IF(BOUND(?entity_lyrics_first_line), IRI(concat(str(?entity_iri), "/Lyrics")), ?nothing) AS ?lyrics_iri) #first line of first stanza
         BIND(IF(BOUND(?entity_lyrics_first_line), fx:bnode(concat(str(?entity_iri), "/TextFragment")), ?nothing) AS ?blank_text_fragment) #first line of first stanza
         BIND(IF(BOUND(?textfamily_iri_local), IRI(concat(str(pon-resource:), ?textfamily_iri_local)), ?nothing) AS ?textfamily_iri)
@@ -264,7 +287,6 @@ WHERE {
         OPTIONAL { ?entity_base xyz:source_iri_local ?source_iri_local . }
         BIND(IF(BOUND(?source_iri_local), IRI(concat(str(pon-resource:), ?source_iri_local)), ?nothing) AS ?source_iri)
 
-        OPTIONAL { ?entity_base xyz:source_id ?source_id . } #ignore. this is id in collection
         OPTIONAL { ?entity_base xyz:entity_serial_number_in_source ?entity_serial_number_in_source . }
         OPTIONAL { ?entity_base xyz:entity_page_number_in_source ?entity_page_number_in_source . }
         BIND (
@@ -276,12 +298,15 @@ WHERE {
         )
         BIND(IF(BOUND(?source_identifier_present), fx:bnode(concat(str(?entity_iri), "si")), ?nothing) AS ?blank_source_identifier)
 
-        # Audio Recording and Singer(s)
+        # Performance, Audio Recording and Singer(s)
         OPTIONAL {
             ?entity_base xyz:entity_singers_iris_local ?entity_singers_iris_local_base .
             ?entity_singers_iris_local_base ?singer_slot ?entity_singer_iri_local .
         }
         BIND(IF(BOUND(?entity_singer_iri_local), IRI(concat(str(pon-resource:), ?entity_singer_iri_local)), ?nothing) AS ?entity_singer_iri)
+        BIND(IF(BOUND(?entity_singer_iri_local), concat(?entity_iri_local, "/MusicalPerformance"), ?nothing) AS ?musical_performance_iri_local)
+        BIND(IF(BOUND(?entity_singer_iri_local), IRI(concat(str(?entity_iri), "/MusicalPerformance")), ?nothing) AS ?musical_performance_iri)
+
         OPTIONAL { ?entity_base xyz:entity_year_of_recording ?entity_year_of_recording . }
         OPTIONAL { ?entity_base xyz:entity_month_of_recording ?entity_month_of_recording . }
         OPTIONAL { ?entity_base xyz:entity_day_of_recording ?entity_day_of_recording . }
@@ -310,7 +335,8 @@ WHERE {
             ) AS ?recording_process_present
         )
         BIND(IF(BOUND(?recording_process_present), fx:bnode(concat(str(?entity_iri), "recprocess")), ?nothing) as ?blank_recording_process)
-        BIND(IF(BOUND(?recording_process_present), IRI(concat(str(?entity_iri), "performance")), ?nothing) AS ?musical_performance_iri)
+        BIND(IF(BOUND(?recording_process_present), concat(?entity_iri_local, "/Recording"), ?nothing) as ?recording_iri_local)
+        BIND(IF(BOUND(?recording_process_present), IRI(concat(str(?entity_iri), "/Recording")), ?nothing) as ?recording_iri)
 
         # Comment
         OPTIONAL { ?entity_base xyz:entity_comment ?entity_comment . }

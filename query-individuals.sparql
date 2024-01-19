@@ -11,6 +11,7 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
 CONSTRUCT {
     ?individual_iri a ?class_iri ;
+        core:id ?individual_iri_local ;
         rdfs:label ?individual_label ;
         core:name ?individual_name ;
         core:description ?individual_url ;

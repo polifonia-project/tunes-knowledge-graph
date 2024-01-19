@@ -19,7 +19,7 @@ CONSTRUCT {
     ?agent_iri a ?agent_class ;
         rdfs:label ?agent_name ;
         core:name ?agent_name ;
-        core:id ?agent_id ;  # add to ontology
+        core:id ?agent_iri_local ;  # add to ontology
         core:wikidataID ?agent_WKP_ID ;
         owl:sameAs ?wkd_iri ;
         core:viafID ?agent_VIAF_ID ;

@@ -16,6 +16,7 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 CONSTRUCT {
 
     ?source_iri a src:Source ; 
+        core:id ?source_iri_local ;
         src:hasType ?source_type_iri ;
         core:isMemberOf ?collection_iri ;
         src:hasReference ?source_formatted_reference ;

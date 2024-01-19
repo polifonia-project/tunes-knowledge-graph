@@ -11,6 +11,7 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
 CONSTRUCT {
     ?role_iri a core:Role ;
+        core:id ?role_iri_local ;
         core:name ?role_name .
 }
 

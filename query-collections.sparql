@@ -13,7 +13,7 @@ CONSTRUCT {
     ?collection_iri a core:Collection ;
         core:isDefinedBy ?collection_concept_iri ;
         core:name ?collection_name ;
-        core:id ?collection_id ;
+        core:id ?collection_iri_local ;
         core:description ?collection_url ;
         core:comment ?collection_description ;
         core:comment ?collection_comment ;

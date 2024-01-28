@@ -3,6 +3,7 @@
 # Collection concepts
 fx -q query-collectionconcepts.sparql -values filepath="../tunes-dataset/output/kg/tunes-collectionconcepts.json" > kg/tunes-collectionconcepts.ttl
 fx -q query-collectionconcepts.sparql -values filepath="../tunes-dataset/output/kg/tunes-mtc-collectionconcepts.json" > kg/tunes-mtc-collectionconcepts.ttl
+fx -q query-collectionconcepts.sparql -values filepath="../tunes-dataset/output/kg/tunes-mtcann-collectionconcepts.json" > kg/tunes-mtcann-collectionconcepts.ttl
 fx -q query-collectionconcepts.sparql -values filepath="../tunes-dataset/output/kg/tunes-thesession-collectionconcepts.json" > kg/tunes-thesession-collectionconcepts.ttl
 fx -q query-collectionconcepts.sparql -values filepath="../tunes-dataset/output/kg/tunes-essen-collectionconcepts.json" > kg/tunes-essen-collectionconcepts.ttl
 
@@ -40,6 +41,7 @@ fx -q query-agents.sparql -values filepath="../tunes-dataset/output/kg/tunes-kol
 
 # Tune Families
 fx -q query-collections.sparql -values filepath="../tunes-dataset/output/kg/tunes-mtc-tunefamilies.json" > kg/tunes-mtc-tunefamilies.ttl
+fx -q query-collections.sparql -values filepath="../tunes-dataset/output/kg/tunes-mtcann-tunefamilies.json" > kg/tunes-mtcann-tunefamilies.ttl
 
 # Tunes (The Session)
 fx -q query-collections.sparql -values filepath="../tunes-dataset/output/kg/tunes-thesession-tunes.json" > kg/tunes-thesession-tunes.ttl
@@ -63,6 +65,7 @@ fx -q query-sources.sparql -values filepath="../tunes-dataset/output/kg/tunes-ko
 
 # Musical Entities
 fx -q query-entities.sparql -values filepath="../tunes-dataset/output/kg/tunes-mtc-entities.json" > kg/tunes-mtc-entities.ttl
+fx -q query-entities.sparql -values filepath="../tunes-dataset/output/kg/tunes-mtcann-entities.json" > kg/tunes-mtcann-entities.ttl
 # RISM goes in portions
 for source in ../tunes-dataset/output/kg/tunes-rism-entities*.json
 do

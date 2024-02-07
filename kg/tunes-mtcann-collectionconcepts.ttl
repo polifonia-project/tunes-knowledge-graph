@@ -1,0 +1,12 @@
+@prefix core:          <http://w3id.org/polifonia/ontology/core/> .
+@prefix fx:            <http://sparql.xyz/facade-x/ns/> .
+@prefix owl:           <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:          <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tunes:         <http://w3id.org/polifonia/ontology/tunes/> .
+@prefix tunesresource: <http://w3id.org/polifonia/resource/tunes/> .
+@prefix xsd:           <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:           <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily>
+        a           core:CollectionConcept ;
+        rdfs:label  "Melodies that belong to the same tune family." .

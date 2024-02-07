@@ -1,0 +1,165 @@
+@prefix core:         <http://w3id.org/polifonia/ontology/core/> .
+@prefix fx:           <http://sparql.xyz/facade-x/ns/> .
+@prefix mm:           <http://w3id.org/polifonia/ontology/music-meta/> .
+@prefix owl:          <http://www.w3.org/2002/07/owl#> .
+@prefix pon-resource: <http://w3id.org/polifonia/resource/tunes/> .
+@prefix rdfs:         <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tunes:        <http://w3id.org/polifonia/ontology/tunes/> .
+@prefix xsd:          <http://www.w3.org/2001/XMLSchema#> .
+@prefix xyz:          <http://sparql.xyz/facade-x/data/> .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/Daar_was_laatstmaal_een_ruiter_2>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/Daar_was_laatstmaal_een_ruiter_2" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "Daar_was_laatstmaal_een_ruiter_2" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/Er_was_een_meisje_van_zestien_jaren_1>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/Er_was_een_meisje_van_zestien_jaren_1" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "Er_was_een_meisje_van_zestien_jaren_1" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/En_er_waren_eens_twee_zoeteliefjes>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/En_er_waren_eens_twee_zoeteliefjes" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "En_er_waren_eens_twee_zoeteliefjes" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/Daar_ging_een_heer_1>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/Daar_ging_een_heer_1" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "Daar_ging_een_heer_1" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/Een_lindeboom_stond_in_het_dal_1>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/Een_lindeboom_stond_in_het_dal_1" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "Een_lindeboom_stond_in_het_dal_1" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/Zolang_de_boom_zal_bloeien_1>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/Zolang_de_boom_zal_bloeien_1" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "Zolang_de_boom_zal_bloeien_1" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/Heer_Halewijn_2>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/Heer_Halewijn_2" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "Heer_Halewijn_2" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/Wat_zag_ik_daar_van_verre_1>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/Wat_zag_ik_daar_van_verre_1" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "Wat_zag_ik_daar_van_verre_1" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/Er_reed_er_eens_een_ruiter_1>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/Er_reed_er_eens_een_ruiter_1" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "Er_reed_er_eens_een_ruiter_1" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/Soldaat_kwam_uit_de_oorlog>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/Soldaat_kwam_uit_de_oorlog" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "Soldaat_kwam_uit_de_oorlog" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/Femmes_voulez_vous_eprouver>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/Femmes_voulez_vous_eprouver" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "Femmes_voulez_vous_eprouver" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/Er_woonde_een_vrouwtje_al_over_het_bos>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/Er_woonde_een_vrouwtje_al_over_het_bos" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "Er_woonde_een_vrouwtje_al_over_het_bos" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/Het_was_laatst_op_een_zomerdag>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/Het_was_laatst_op_een_zomerdag" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "Het_was_laatst_op_een_zomerdag" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/Lieve_schipper_vaar_me_over_1>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/Lieve_schipper_vaar_me_over_1" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "Lieve_schipper_vaar_me_over_1" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/Een_Soudaan_had_een_dochtertje_1>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/Een_Soudaan_had_een_dochtertje_1" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "Een_Soudaan_had_een_dochtertje_1" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/O_God_ik_leef_in_nood>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/O_God_ik_leef_in_nood" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "O_God_ik_leef_in_nood" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/Er_was_een_koopman_rijk_en_machtig>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/Er_was_een_koopman_rijk_en_machtig" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "Er_was_een_koopman_rijk_en_machtig" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/Daar_reed_een_jonkheer_1>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/Daar_reed_een_jonkheer_1" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "Daar_reed_een_jonkheer_1" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/Kom_laat_ons_nu_zo_stil_niet_zijn_1>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/Kom_laat_ons_nu_zo_stil_niet_zijn_1" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "Kom_laat_ons_nu_zo_stil_niet_zijn_1" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/Daar_zou_er_een_maagdje_vroeg_opstaan_2>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/Daar_zou_er_een_maagdje_vroeg_opstaan_2" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "Daar_zou_er_een_maagdje_vroeg_opstaan_2" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/Vaarwel_bruidje_schoon>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/Vaarwel_bruidje_schoon" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "Vaarwel_bruidje_schoon" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/Er_was_een_herderinnetje_1>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/Er_was_een_herderinnetje_1" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "Er_was_een_herderinnetje_1" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/Het_was_op_een_driekoningenavond_1>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/Het_was_op_een_driekoningenavond_1" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "Het_was_op_een_driekoningenavond_1" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/Heer_Halewijn_4>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/Heer_Halewijn_4" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "Heer_Halewijn_4" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/Ik_kwam_laatst_eens_in_de_stad>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/Ik_kwam_laatst_eens_in_de_stad" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "Ik_kwam_laatst_eens_in_de_stad" .
+
+<http://w3id.org/polifonia/resource/tunes/MTC-ANN-2.0.1/TuneFamily/Het_vrouwtje_van_Stavoren_1>
+        a                 core:Collection ;
+        core:id           "MTC-ANN-2.0.1/TuneFamily/Het_vrouwtje_van_Stavoren_1" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/TuneFamily> ;
+        core:name         "Het_vrouwtje_van_Stavoren_1" .

@@ -35,6 +35,15 @@
         core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/ElectronicCollection> ;
         core:name         "THE ESSEN FOLKSONG COLLECTION IN KERN FORMAT" .
 
+<http://w3id.org/polifonia/resource/tunes/Collection/MTC-ANN-2.0.1>
+        a                 core:Collection ;
+        core:comment      "The Annotated Corpus is a relatively small set of 360 folk song strophes in 26 tune families. The corpus comes with a rich set of manual annotations concerning various aspects of the melodies and lyrics." ;
+        core:description  "https://www.liederenbank.nl/mtc/" ;
+        core:hasVersion   "2.0.1" ;
+        core:id           "Collection/MTC-ANN-2.0.1" ;
+        core:isDefinedBy  <http://w3id.org/polifonia/resource/tunes/CollectionConcept/ElectronicCollection> ;
+        core:name         "Meertens Tune Collections: MTC-ANN-2.0.1" .
+
 <http://w3id.org/polifonia/resource/tunes/Collection/rism230419>
         a                 core:Collection ;
         core:comment      "The Répertoire International des Sources Musicales (RISM) - International Inventory of Musical Sources - is an international, non-profit organization that aims to comprehensively document extant musical sources worldwide: manuscripts, printed music editions, writings on music theory, and libretti that are found in libraries, archives, churches, schools, and private collections. RISM’s over 1.4 million records can be searched at no cost through the RISM Catalog and RISM Online. RISM was founded in Paris in 1952 and is the largest and only global organization that documents written musical sources. RISM records what exists and where it can be found." ;

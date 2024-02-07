@@ -24,7 +24,7 @@
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Editor>
                                     ] ;
         core:id                     "cre-0.7.0.1-dev/Source/cre5" ;
-        core:isMemberOf             pon-resource:cre-0.7.0.1-dev ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev> ;
         core:title                  "Ceol Rince na hEireann 5" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
@@ -35,7 +35,7 @@
         src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "cre5" ;
-                                      src:identifierIssuedBy  pon-resource:cre-0.7.0.1-dev
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev>
                                     ] ;
         src:hasType                 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/SourceType/print> .
 
@@ -50,7 +50,7 @@
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Editor>
                                     ] ;
         core:id                     "cre-0.7.0.1-dev/Source/cre4" ;
-        core:isMemberOf             pon-resource:cre-0.7.0.1-dev ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev> ;
         core:title                  "Ceol Rince na hEireann 4" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
@@ -61,9 +61,12 @@
         src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "cre4" ;
-                                      src:identifierIssuedBy  pon-resource:cre-0.7.0.1-dev
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev>
                                     ] ;
         src:hasType                 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/SourceType/print> .
+
+<http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev>
+        core:hasMember  <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Source/cre5> , <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Source/cre4> , <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Source/cre3> , <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Source/cre2> , <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Source/cre1> .
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Source/cre3>
         rdf:type                    src:Source ;
@@ -72,7 +75,7 @@
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Editor>
                                     ] ;
         core:id                     "cre-0.7.0.1-dev/Source/cre3" ;
-        core:isMemberOf             pon-resource:cre-0.7.0.1-dev ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev> ;
         core:title                  "Ceol Rince na hEireann 3" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
@@ -83,12 +86,9 @@
         src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "cre3" ;
-                                      src:identifierIssuedBy  pon-resource:cre-0.7.0.1-dev
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev>
                                     ] ;
         src:hasType                 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/SourceType/print> .
-
-pon-resource:cre-0.7.0.1-dev
-        core:hasMember  <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Source/cre5> , <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Source/cre4> , <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Source/cre3> , <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Source/cre2> , <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Source/cre1> .
 
 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/Source/cre2>
         rdf:type                    src:Source ;
@@ -97,7 +97,7 @@ pon-resource:cre-0.7.0.1-dev
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Editor>
                                     ] ;
         core:id                     "cre-0.7.0.1-dev/Source/cre2" ;
-        core:isMemberOf             pon-resource:cre-0.7.0.1-dev ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev> ;
         core:title                  "Ceol Rince na hEireann 2" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
@@ -108,7 +108,7 @@ pon-resource:cre-0.7.0.1-dev
         src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "cre2" ;
-                                      src:identifierIssuedBy  pon-resource:cre-0.7.0.1-dev
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev>
                                     ] ;
         src:hasType                 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/SourceType/print> .
 
@@ -119,7 +119,7 @@ pon-resource:cre-0.7.0.1-dev
                                       core:hasRole   <http://w3id.org/polifonia/resource/tunes/Role/Editor>
                                     ] ;
         core:id                     "cre-0.7.0.1-dev/Source/cre1" ;
-        core:isMemberOf             pon-resource:cre-0.7.0.1-dev ;
+        core:isMemberOf             <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev> ;
         core:title                  "Ceol Rince na hEireann 1" ;
         mm:hasPublicationSituation  [ rdf:type              mm:PublicationSituation ;
                                       core:hasTimeInterval  [ rdf:type   core:TimeInterval ;
@@ -130,6 +130,6 @@ pon-resource:cre-0.7.0.1-dev
         src:hasIdentifier           [ rdf:type                src:Identifier ;
                                       src:hasIdentifierType   <http://w3id.org/polifonia/resource/tunes/IdentifierType/IDInCollection> ;
                                       src:hasIdentifierValue  "cre1" ;
-                                      src:identifierIssuedBy  pon-resource:cre-0.7.0.1-dev
+                                      src:identifierIssuedBy  <http://w3id.org/polifonia/resource/tunes/Collection/cre-0.7.0.1-dev>
                                     ] ;
         src:hasType                 <http://w3id.org/polifonia/resource/tunes/cre-0.7.0.1-dev/SourceType/print> .

@@ -19,10 +19,10 @@ fx -q query-formtypes.sparql -values filepath="../tunes-dataset/output/kg/tunes-
 fx -q query-formtypes.sparql -values filepath="../tunes-dataset/output/kg/tunes-kolberg-formtypes.json" > kg/tunes-kolberg-formtypes.ttl
 
 # SourceTypes
-fx -query query-individuals.sparql -values filepath="../tunes-dataset/output/kg/tunes-mtc-sourcetypes.json" > kg/tunes-mtc-sourcetypes.ttl
-fx -query query-individuals.sparql -values filepath="../tunes-dataset/output/kg/tunes-rism-sourcetypes.json" > kg/tunes-rism-sourcetypes.ttl
-fx -query query-individuals.sparql -values filepath="../tunes-dataset/output/kg/tunes-cre-sourcetypes.json" > kg/tunes-cre-sourcetypes.ttl
-fx -query query-individuals.sparql -values filepath="../tunes-dataset/output/kg/tunes-easmes-sourcetypes.json" > kg/tunes-easmes-sourcetypes.ttl
+fx -q query-individuals.sparql -values filepath="../tunes-dataset/output/kg/tunes-mtc-sourcetypes.json" > kg/tunes-mtc-sourcetypes.ttl
+fx -q query-individuals.sparql -values filepath="../tunes-dataset/output/kg/tunes-rism-sourcetypes.json" > kg/tunes-rism-sourcetypes.ttl
+fx -q query-individuals.sparql -values filepath="../tunes-dataset/output/kg/tunes-cre-sourcetypes.json" > kg/tunes-cre-sourcetypes.ttl
+fx -q query-individuals.sparql -values filepath="../tunes-dataset/output/kg/tunes-easmes-sourcetypes.json" > kg/tunes-easmes-sourcetypes.ttl
 
 # Roles
 fx -q query-roles.sparql -values filepath="../tunes-dataset/output/kg/tunes-mtc-agentroles.json" > kg/tunes-mtc-roles.ttl

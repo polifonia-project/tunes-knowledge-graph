@@ -38,8 +38,8 @@ CONSTRUCT {
         rdfs:comment ?entity_comment .
 
     ?blank_source_identifier a tunes:SourceIdentifier ;
-            tunes:hasSourceId ?entity_serial_number_in_source ;
-            tunes:pageInSource ?entity_page_number_in_source .
+        tunes:hasSourceId ?entity_serial_number_in_source ;
+        tunes:pageInSource ?entity_page_number_in_source .
 
     ?blank_tf_membership a tunes:CollectionMembership ;
         core:hasMembershipStrength ?tunefamily_confidence ; #neutral, weak, strong
@@ -79,6 +79,7 @@ CONSTRUCT {
         core:image ?stanza_image_url ;
         core:description ?entity_description_url ;
         rdfs:label ?stanza_label ;
+        core:title ?stanza_label ;
         mm:isRealisedIn ?score_iri ; 
         core:isPartOf ?abstract_score_iri .
 
@@ -87,6 +88,7 @@ CONSTRUCT {
         core:image ?score_part_image_url ;
         core:description ?entity_description_url ;
         rdfs:label ?voice_label ;
+        core:title ?voice_label ;
         mm:isRealisedIn ?score_iri ;
         core:isPartOf ?abstract_score_iri .
         # here also mm:isrealisedIn ?score_iri ? Otherwise it is not clear what melody belongs to this part.

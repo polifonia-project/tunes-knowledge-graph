@@ -64,14 +64,16 @@ CONSTRUCT {
         core:id ?abstract_score_iri_local ;
         mm:hasText ?lyrics_iri ; #We only have lyrics information for the entire song, and for the first stanza
         core:hasPart ?stanza_iri ;
-        mm:isRealisedIn ?score_iri .
+        mm:isRealisedIn ?score_iri ;
+        core:isPartOf ?entity_iri .
 
     ?score_iri a mm:Score ; 
         core:id ?score_iri_local ;  # add to ontology
         core:title ?score_title ;  # add to ontology
         core:title ?score_title_in_source ;
         core:description ?score_description_url ;  # add to ontology
-        mm:hasScorePart ?score_part_iri .
+        mm:hasScorePart ?score_part_iri ;
+        core:isPartOf ?entity_iri .
         # mm:hasPublicationSituation ?publication_iri . # this now is in the source objct. Why also include it here?
 
     ?stanza_iri a mm:CompositionPart, mm:Stanza ;
@@ -81,7 +83,8 @@ CONSTRUCT {
         rdfs:label ?stanza_label ;
         core:title ?stanza_label ;
         mm:isRealisedIn ?score_iri ; 
-        core:isPartOf ?abstract_score_iri .
+        core:isPartOf ?abstract_score_iri ;
+        core:isPartOf ?entity_iri .
 
     ?score_part_iri a mm:ScorePart ;
         core:id ?score_part_iri_local ; # e.g. "NLB123444_02"
@@ -90,7 +93,8 @@ CONSTRUCT {
         rdfs:label ?voice_label ;
         core:title ?voice_label ;
         mm:isRealisedIn ?score_iri ;
-        core:isPartOf ?abstract_score_iri .
+        core:isPartOf ?abstract_score_iri ;
+        core:isPartOf ?entity_iri .
         # here also mm:isrealisedIn ?score_iri ? Otherwise it is not clear what melody belongs to this part.
 
     ?score_excerpt_iri a mm:CompositionPart ;
@@ -101,7 +105,8 @@ CONSTRUCT {
         core:title ?excerpt_title_in_source ;
         rdfs:label ?excerpt_title ;
         mm:isRealisedIn ?score_iri ;
-        core:isPartOf ?abstract_score_iri .
+        core:isPartOf ?abstract_score_iri ;
+        core:isPartOf ?entity_iri .
 
     ?lyrics_iri a mm:Text, mm:Lyrics ;
         core:id ?lyrics_iri_local ;

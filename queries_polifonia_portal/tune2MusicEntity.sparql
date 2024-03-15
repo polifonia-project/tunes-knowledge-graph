@@ -19,27 +19,14 @@ WHERE {
   {
     #For MusicEntities
     ?uri_query a mm:MusicEntity .
-    ?uri_query core:id ?entity_id .
+    ?uri_query core:id ?entity_id . #How else to bind ?entity_iri with the value of ?uri_query ?
     ?entity_iri core:id ?entity_id .
   }
   UNION
   {
-    #For Stanzas
-    ?abstract_score_iri core:hasPart ?uri_query .
-    ?entity_iri core:hasPart ?abstract_score_iri .
-  }
-  UNION
-  {
-    #For ScoreParts
-    ?score_iri mm:hasScorePart ?uri_query . 
-    ?abstract_score_iri mm:isRealisedIn ?score_iri .
-    ?entity_iri core:hasPart ?abstract_score_iri .
-  }
-  UNION
-  {
-    #For Excerpts (RISM)
-    ?uri_query core:isPartOf ?abstract_score_iri .
-    ?entity_iri core:hasPart ?abstract_score_iri .
+    #For Parts
+    ?uri_query core:isPartOf ?entity_iri .
+    ?entity_iri a mm:MusicEntity .
   }
 
   ?entity_iri rdfs:label ?entity_label .

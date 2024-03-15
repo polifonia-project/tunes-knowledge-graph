@@ -2,7 +2,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX core:  <http://w3id.org/polifonia/ontology/core/>
 PREFIX mm:  <http://w3id.org/polifonia/ontology/music-meta/>
 
-SELECT DISTINCT ?entity_type_iri ?entity_type_label
+SELECT DISTINCT ?uri_query ?entity_type_iri ?entity_type_label
 WHERE {
 
   VALUES(?uri_query) {
@@ -19,27 +19,14 @@ WHERE {
   {
     #For MusicEntities
     ?uri_query a mm:MusicEntity .
-    ?uri_query core:id ?entity_id .
+    ?uri_query core:id ?entity_id . #How else to bind ?entity_iri with the value of ?uri_query ?
     ?entity_iri core:id ?entity_id .
   }
   UNION
   {
-    #For Stanzas
-    ?abstract_score_iri core:hasPart ?uri_query .
-    ?entity_iri core:hasPart ?abstract_score_iri .
-  }
-  UNION
-  {
-    #For ScoreParts
-    ?score_iri mm:hasScorePart ?uri_query . 
-    ?abstract_score_iri mm:isRealisedIn ?score_iri .
-    ?entity_iri core:hasPart ?abstract_score_iri .
-  }
-  UNION
-  {
-    #For Excerpts (RISM)
-    ?uri_query core:isPartOf ?abstract_score_iri .
-    ?entity_iri core:hasPart ?abstract_score_iri .
+    #For Parts
+    ?uri_query core:isPartOf ?entity_iri .
+    ?entity_iri a mm:MusicEntity .
   }
   
   ?entity_iri mm:hasFormType ?entity_type_iri .

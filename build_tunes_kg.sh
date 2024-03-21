@@ -87,3 +87,6 @@ fx -q query-entities.sparql -values filepath="../tunes-dataset/output/kg/tunes-k
 
 # Similarity relations
 fx -q query-similarity.sparql -values filepath="../tunes-dataset/output/kg/tunes-highlysimilarpairs.json" > kg/tunes-highlysimilarpairs.ttl
+fx -q query-similarity.sparql -values filepath="../tunes-dataset/output/kg/tunes-highlysimilarpairs_rism.json" > kg/tunes-highlysimilarpairs_rism.ttl
+fx -q query-similarity.sparql -values filepath="../tunes-dataset/output/kg/tunes-highlysimilarpairs_rism_mtc.json" > kg/tunes-highlysimilarpairs_rism_mtc.ttl
+

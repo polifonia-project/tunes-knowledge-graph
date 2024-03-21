@@ -54,8 +54,8 @@ WHERE {
         BIND(IRI(concat(str(pon-resource:), ?melodyb_iri_local)) AS ?melodyb_iri)
         BIND("Algorithm/AffineAlignment_ExactPitch40_IMA_0.6_0.2_min" as ?algorithm_iri_local)
         BIND(IRI(concat(str(pon-resource:), "Algorithm/AffineAlignment_ExactPitch40_IMA_0.6_0.2_min")) as ?algorithm_iri)
-        BIND(concat("Task/MelodicSimilarity", str(?pair_id)) as ?similarity_task_iri_local)
-        BIND(IRI(concat(str(pon-resource:), "Task/MelodicSimilarity", str(?pair_id))) as ?similarity_task_iri)
+        BIND(concat("Task/MelodicSimilarity_", MD5(?_filepath), (?pair_id)) as ?similarity_task_iri_local)
+        BIND(IRI(concat(str(pon-resource:), "Task/MelodicSimilarity_", MD5(?_filepath), str(?pair_id))) as ?similarity_task_iri)
 
     }
 }

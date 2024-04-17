@@ -15,7 +15,7 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
 CONSTRUCT {
     ?entity_iri a mm:MusicEntity ;
-        core:id ?entity_iri_local ;  # add to ontology PVK: This is the ID of the song _in the collection_.
+        core:id ?entity_iri_local ;  # add to ontology 
         rdfs:label ?entity_title ; #this needs a better solution.
         core:title ?entity_title ; #this needs a better solution.
         core:title ?entity_title_in_source ; #this needs a better solution.

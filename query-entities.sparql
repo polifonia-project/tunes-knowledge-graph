@@ -77,7 +77,7 @@ CONSTRUCT {
         # mm:hasPublicationSituation ?publication_iri . # this now is in the source objct. Why also include it here?
 
     ?stanza_iri a mm:CompositionPart, mm:Stanza ;
-        core:id ?stanza_iri_local ; # e.g. "NLB075123_03"
+        core:id ?stanza_iri_local ; 
         core:image ?stanza_image_url ;
         core:description ?entity_description_url ;
         rdfs:label ?stanza_label ;
@@ -87,7 +87,7 @@ CONSTRUCT {
         core:isPartOf ?entity_iri .
 
     ?score_part_iri a mm:ScorePart ;
-        core:id ?score_part_iri_local ; # e.g. "NLB123444_02"
+        core:id ?score_part_iri_local ; 
         core:image ?score_part_image_url ;
         core:description ?entity_description_url ;
         rdfs:label ?voice_label ;
@@ -98,7 +98,7 @@ CONSTRUCT {
         # here also mm:isrealisedIn ?score_iri ? Otherwise it is not clear what melody belongs to this part.
 
     ?score_excerpt_iri a mm:CompositionPart ;
-        core:id ?score_excerpt_iri_local ; # E.g '0000234442-1_3_2'
+        core:id ?score_excerpt_iri_local ; 
         core:description ?entity_description_url ;
         core:image ?excerpt_image_url ;
         core:title ?excerpt_title ;

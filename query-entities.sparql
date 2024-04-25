@@ -19,12 +19,13 @@ CONSTRUCT {
         rdfs:label ?entity_title ; #this needs a better solution.
         core:title ?entity_title ; #this needs a better solution.
         core:title ?entity_title_in_source ; #this needs a better solution.
+        src:hasIdentifier ?identifier_id_in_collection ;
         core:image ?entity_image_url ;
         mm:hasComposer ?composer_iri ;
         core:hasAgentRole ?blank_any_agentrole ;
         core:description ?entity_description_url ; 
         core:isMemberOf ?collection_iri ; # rism/MTC/session etc.
-        core:isMemberOf ?entity_collection_membership_iri ;
+        core:isMemberOf ?entity_collection_membership_iri ; #Any collection
         mm:hasFormType ?entity_type_iri ;
         core:hasPart ?abstract_score_iri ; #one for each 'work'
         #core:hasPart ?lyrics_iri ; #why is this both here and at abstract score?
@@ -36,6 +37,11 @@ CONSTRUCT {
         core:isInvolvedIn ?blank_tf_membership ;
         core:isInvolvedIn ?blank_tf_var_membership ;
         rdfs:comment ?entity_comment .
+
+    ?identifier_id_in_collection a src:Identifier ;
+         src:hasIdentifierType ?id_in_collection_identifier_type_iri ;
+         src:hasIdentifierValue ?entity_id ;
+         src:identifierIssuedBy ?source_id_issuer_iri .  #colection
 
     ?blank_source_identifier a tunes:SourceIdentifier ;
         tunes:hasSourceId ?entity_serial_number_in_source ;
@@ -156,9 +162,16 @@ WHERE {
 
         BIND(?entity_title AS ?score_title)
 
-        # entity identifer
-        OPTIONAL { ?entity_base xyz:entity_id ?entity_id . }
-        BIND(IF(BOUND(?entity_id), ?entity_id, ?nothing) AS ?score_id)
+        # collection iri
+        OPTIONAL { ?entity_base xyz:collection_iri_local ?collection_iri_local . }
+        BIND(IF(BOUND(?collection_iri_local), IRI(concat(str(pon-resource:), ?collection_iri_local)), ?nothing) AS ?collection_iri)
+
+        # entity identifer - not optional
+        ?entity_base xyz:entity_id ?entity_id .
+        BIND(IRI(concat(str(pon-resource:), "IdentifierType/IDInCollection")) AS ?id_in_collection_identifier_type_iri)
+
+        BIND(IF(BOUND(?collection_iri), ?collection_iri, ?nothing) AS ?source_id_issuer_iri)
+        BIND(fx:bnode(concat(str(pon-resource::), (?entity_iri_local), "IDinCollection")) AS ?identifier_id_in_collection)
 
         # title in score
         OPTIONAL { ?entity_base xyz:entity_title_in_source ?entity_title_in_source . }
@@ -169,10 +182,6 @@ WHERE {
 
         # Image for Entity
         OPTIONAL { ?entity_base xyz:entity_image_url ?entity_image_url . }
-
-        # collection iri
-        OPTIONAL { ?entity_base xyz:collection_iri_local ?collection_iri_local . }
-        BIND(IF(BOUND(?collection_iri_local), IRI(concat(str(pon-resource:), ?collection_iri_local)), ?nothing) AS ?collection_iri)
 
         # Composition Part (RISM)
         OPTIONAL { ?entity_base xyz:melody_work_number ?melody_work_number . }

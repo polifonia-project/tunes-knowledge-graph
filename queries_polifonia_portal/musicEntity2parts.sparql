@@ -1,0 +1,34 @@
+PREFIX ma: <https://w3id.org/polifonia/ontology/music-algorithm/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX core:  <http://w3id.org/polifonia/ontology/core/>
+PREFIX mm:  <http://w3id.org/polifonia/ontology/music-meta/>
+
+SELECT DISTINCT ?label ?image_url ?external_url
+WHERE {
+
+  {
+    ?item a mm:ScorePart ;
+      rdfs:label ?label ;
+      core:isPartOf ?entity_iri ;
+      core:image ?image_url .
+      OPTIONAL { ?item core:description ?external_url . }
+  } UNION {
+    ?item a mm:Stanza ;
+      rdfs:label ?label ;
+      core:isPartOf ?entity_iri ;
+      core:image ?image_url .
+      OPTIONAL { ?item core:description ?external_url . }
+  } UNION {
+    ?item a mm:CompositionPart ;
+      rdfs:label ?label ;
+      core:isPartOf ?entity_iri ;
+      core:image ?image_url .
+      OPTIONAL { ?item core:description ?external_url . }
+  }
+
+  VALUES(?entity_iri) {
+    (<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/MusicEntity/196529>)
+  }
+  
+
+}

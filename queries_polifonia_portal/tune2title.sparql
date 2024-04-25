@@ -8,14 +8,14 @@ PREFIX pon-resource: <http://w3id.org/polifonia/resource/tunes/>
 SELECT DISTINCT ?uniq_title
 WHERE {
 
-  # Not possible to include more than one query here. Why? 
   VALUES(?uri_query) {
-    #(<http://w3id.org/polifonia/resource/tunes/rism230419/MusicEntity/500000675>)
+    (<http://w3id.org/polifonia/resource/tunes/rism230419/MusicEntity/500000675>)
     (<http://w3id.org/polifonia/resource/tunes/MTC-FS-INST-2.0/MusicEntity/72288/Stanza/NLB072288_01>)
+    (<http://w3id.org/polifonia/resource/tunes/rism230419/MusicEntity/500239909/CompositionPart/500239909-1_2_1>)
+    (<http://w3id.org/polifonia/resource/tunes/thesession20211212/MusicEntity/29700>)
   }
   
-  ?uri_query a mm:MusicEntity ;
-    core:title ?title .
+  ?uri_query core:title ?title .
 
   OPTIONAL { #Find ID of the entity in collection
     #Figure out the MusicEntity and retrieve id in collection

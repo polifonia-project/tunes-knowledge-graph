@@ -30,12 +30,12 @@ credits: "This project has received funding from the European Union’s Horizon 
 
 # TUNES Knowledge Graph
 TUNES Knowledge Graph stores information on musical compositions and tunes collected from oral tradition. It contains metadata from several digitized collections including
-- Répertoire International des Sources Musicales (RISM)
+- Répertoire International des Sources Musicales:
 - Ceol Rince na hÉireann corpus
-- Meertens Tune Collections (Dutch)
+- Meertens Tune Collections
 - The Session
 - Oscar Koberg Collection
-- ESAC (Essen) Folksong Databases (mostly German)
+- ESAC (Essen) Folksong Databases
 - Early American Secular Music and Its European Sources, 1589–1839: An Index
 
 The TUNES Knowledge Graph can be queried from: https://polifonia.disi.unibo.it/tunes/sparql.
